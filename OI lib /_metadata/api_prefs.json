@@ -1,0 +1,20 @@
+{
+	"pattrstorage" : 	{
+		"name" : "api_prefs",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"concert_container::concert_data" : [ -1 ],
+					"keys::addinstr" : [ 117 ],
+					"keys::addpce" : [ 107 ],
+					"print" : [ 0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

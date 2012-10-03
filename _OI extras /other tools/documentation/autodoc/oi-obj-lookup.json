@@ -1,0 +1,8 @@
+{
+	"oi.print" : 	{
+		"digest" : "Open Instruments print object",
+		"module" : "max",
+		"category" : "System"
+	}
+
+}

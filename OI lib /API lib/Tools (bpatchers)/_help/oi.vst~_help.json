@@ -1,0 +1,23 @@
+{
+	"pattrstorage" : 	{
+		"name" : "oi.vst~_help",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"oi.vst2~::module_name" : [ "oi.vst2~" ],
+					"oi.vst2~::plugin" : [ "API-550A (s).auinfo" ],
+					"oi.vst2~::bypass" : [ 0 ],
+					"oi.vst2~::state" : [ 1 ],
+					"oi.vst2~::params" : [ 1, 0.0, 2, 0.0, 3, 0.0, 4, 4.0, 5, 7.0, 6, 0.0, 7, 0.0, 8, 0.0, 9, 1.0, 10, 0.0, 11, 0.0, 12, 1.0, 13, 500.0 ],
+					"oi.vst2~::in" : [ 1.0 ],
+					"oi.vst2~::out" : [ 1.0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
