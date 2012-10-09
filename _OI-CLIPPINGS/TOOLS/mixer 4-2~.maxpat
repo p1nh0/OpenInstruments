@@ -35,7 +35,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 10.0, 10.0, 195.0, 75.0 ],
+					"patching_rect" : [ 0.0, 0.0, 195.0, 70.0 ],
 					"varname" : "mix4-2~"
 				}
 
@@ -44,15 +44,15 @@
 		"lines" : [  ],
 		"dependency_cache" : [ 			{
 				"name" : "oi.mixer4-2~.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OpenInstruments_v0.4.1/API/building blocks /signals",
-				"patcherrelativepath" : "../../../../../../Applications/Max6/patches/OpenInstruments_v0.4.1/API/building blocks /signals",
+				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Tools (bpatchers)/signals",
+				"patcherrelativepath" : "../../../OI lib /API lib/Tools (bpatchers)/signals",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oi.cppan~.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OpenInstruments_v0.4.1/API/building blocks /signals",
-				"patcherrelativepath" : "../../../../../../Applications/Max6/patches/OpenInstruments_v0.4.1/API/building blocks /signals",
+				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Tools (bpatchers)/signals",
+				"patcherrelativepath" : "../../../OI lib /API lib/Tools (bpatchers)/signals",
 				"type" : "JSON",
 				"implicit" : 1
 			}

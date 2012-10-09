@@ -31,10 +31,10 @@
 					"id" : "obj-2",
 					"maxclass" : "bpatcher",
 					"name" : "oi.parameterhub.maxpat",
-					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 5.0, 5.0, 295.0, 40.0 ],
+					"numinlets" : 3,
+					"numoutlets" : 5,
+					"outlettype" : [ "", "", "", "", "" ],
+					"patching_rect" : [ 0.0, 0.0, 120.0, 90.0 ],
 					"varname" : "oi.parameterhub"
 				}
 
@@ -43,51 +43,79 @@
 		"lines" : [  ],
 		"dependency_cache" : [ 			{
 				"name" : "oi.parameterhub.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OpenInstruments_v0.4.1/API/building blocks ",
-				"patcherrelativepath" : "../../../OpenInstruments_v0.4.1/API/building blocks ",
+				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Tools (bpatchers)/data/communication",
+				"patcherrelativepath" : "../../../OI lib /API lib/Tools (bpatchers)/data/communication",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "oi.autovarname.js",
+				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Utilities (objects)/Communication /pattr objects",
+				"patcherrelativepath" : "../../../OI lib /API lib/Utilities (objects)/Communication /pattr objects",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "oi.modulecom.maxpat",
+				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Utilities (objects)/Communication /pattr objects",
+				"patcherrelativepath" : "../../../OI lib /API lib/Utilities (objects)/Communication /pattr objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "o.symbolchange.maxpat",
+				"bootpath" : "/Applications/Max6/patches/OI lib /Utilities (objects)/Symbols",
+				"patcherrelativepath" : "../../../OI lib /Utilities (objects)/Symbols",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oi.hub.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OpenInstruments_v0.4.1/API/pattr_extensions",
-				"patcherrelativepath" : "../../../OpenInstruments_v0.4.1/API/pattr_extensions",
+				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Utilities (objects)/Communication /pattr objects",
+				"patcherrelativepath" : "../../../OI lib /API lib/Utilities (objects)/Communication /pattr objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "o.holdmessage.maxpat",
+				"bootpath" : "/Applications/Max6/patches/OI lib /Utilities (objects)/Lists",
+				"patcherrelativepath" : "../../../OI lib /Utilities (objects)/Lists",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oi.gate.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OpenInstruments_v0.4.1/API/API system",
-				"patcherrelativepath" : "../../../OpenInstruments_v0.4.1/API/API system",
+				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Utilities (objects)/System/data flow",
+				"patcherrelativepath" : "../../../OI lib /API lib/Utilities (objects)/System/data flow",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "pattrstorageupwards.js",
-				"bootpath" : "/Applications/Max6/patches/OpenInstruments_v0.4.1/API/pattr_extensions",
-				"patcherrelativepath" : "../../../OpenInstruments_v0.4.1/API/pattr_extensions",
+				"name" : "oi.pattrstorageupwards.js",
+				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Utilities (objects)/Communication /pattr objects",
+				"patcherrelativepath" : "../../../OI lib /API lib/Utilities (objects)/Communication /pattr objects",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "oi.symbolchange.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OpenInstruments_v0.4.1/API/data/symbols",
-				"patcherrelativepath" : "../../../OpenInstruments_v0.4.1/API/data/symbols",
+				"name" : "oi.pattrutils.js",
+				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Utilities (objects)/Communication /pattr objects",
+				"patcherrelativepath" : "../../../OI lib /API lib/Utilities (objects)/Communication /pattr objects",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "o.listutils.js",
+				"bootpath" : "/Applications/Max6/patches/OI lib /Utilities (objects)/Lists",
+				"patcherrelativepath" : "../../../OI lib /Utilities (objects)/Lists",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "o.checkumenuitem.maxpat",
+				"bootpath" : "/Applications/Max6/patches/OI lib /Utilities (objects)/other",
+				"patcherrelativepath" : "../../../OI lib /Utilities (objects)/other",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "pattrutils.js",
-				"bootpath" : "/Applications/Max6/patches/OpenInstruments_v0.4.1/API/pattr_extensions",
-				"patcherrelativepath" : "../../../OpenInstruments_v0.4.1/API/pattr_extensions",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "listutils.js",
-				"bootpath" : "/Applications/Max6/patches/OpenInstruments_v0.4.1/API/data/lists",
-				"patcherrelativepath" : "../../../OpenInstruments_v0.4.1/API/data/lists",
-				"type" : "TEXT",
 				"implicit" : 1
 			}
  ]

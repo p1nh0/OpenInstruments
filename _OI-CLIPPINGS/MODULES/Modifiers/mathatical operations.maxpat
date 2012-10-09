@@ -7,7 +7,7 @@
 			"revision" : 5
 		}
 ,
-		"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
+		"rect" : [ 25.0, 69.0, 174.0, 121.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -31,10 +31,10 @@
 					"id" : "obj-3",
 					"maxclass" : "bpatcher",
 					"name" : "oi.mod.op.maxpat",
-					"numinlets" : 2,
+					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 5.0, 5.0, 170.0, 115.0 ],
+					"patching_rect" : [ 0.0, 0.0, 170.0, 120.0 ],
 					"varname" : "oi.mod.op"
 				}
 
@@ -43,22 +43,57 @@
 		"lines" : [  ],
 		"dependency_cache" : [ 			{
 				"name" : "oi.mod.op.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OpenInstruments_v0.4.1/Modules/Modifiers",
-				"patcherrelativepath" : "../../../OpenInstruments_v0.4.1/Modules/Modifiers",
+				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Modules (bpatchers)/Modifiers",
+				"patcherrelativepath" : "../../../../OI lib /API lib/Modules (bpatchers)/Modifiers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "oi.listaccum.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OpenInstruments_v0.4.1/API/data/lists",
-				"patcherrelativepath" : "../../../OpenInstruments_v0.4.1/API/data/lists",
+				"name" : "o.listaccum.maxpat",
+				"bootpath" : "/Applications/Max6/patches/OI lib /Utilities (objects)/Lists",
+				"patcherrelativepath" : "../../../../OI lib /Utilities (objects)/Lists",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "oi.print.maxpat",
+				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Utilities (objects)/System/other",
+				"patcherrelativepath" : "../../../../OI lib /API lib/Utilities (objects)/System/other",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "oi.autovarname.js",
+				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Utilities (objects)/Communication /pattr objects",
+				"patcherrelativepath" : "../../../../OI lib /API lib/Utilities (objects)/Communication /pattr objects",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "oi.speedlim.maxpat",
+				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Utilities (objects)/System/data flow",
+				"patcherrelativepath" : "../../../../OI lib /API lib/Utilities (objects)/System/data flow",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "oi.modulecom.maxpat",
+				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Utilities (objects)/Communication /pattr objects",
+				"patcherrelativepath" : "../../../../OI lib /API lib/Utilities (objects)/Communication /pattr objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "oi.modulegate.maxpat",
+				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Utilities (objects)/System/data flow",
+				"patcherrelativepath" : "../../../../OI lib /API lib/Utilities (objects)/System/data flow",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oi.vfgate.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OpenInstruments_v0.4.1/API/API system",
-				"patcherrelativepath" : "../../../OpenInstruments_v0.4.1/API/API system",
+				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Utilities (objects)/System/data flow",
+				"patcherrelativepath" : "../../../../OI lib /API lib/Utilities (objects)/System/data flow",
 				"type" : "JSON",
 				"implicit" : 1
 			}

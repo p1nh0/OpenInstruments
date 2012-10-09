@@ -31,10 +31,10 @@
 					"id" : "obj-1",
 					"maxclass" : "bpatcher",
 					"name" : "oi.stereotrack~.maxpat",
-					"numinlets" : 2,
+					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 10.0, 5.0, 180.0, 50.0 ],
+					"patching_rect" : [ 0.0, 0.0, 180.0, 55.0 ],
 					"varname" : "oi.stereotrack~"
 				}
 
@@ -43,23 +43,37 @@
 		"lines" : [  ],
 		"dependency_cache" : [ 			{
 				"name" : "oi.stereotrack~.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OpenInstruments_v0.4.1/API/building blocks /signals",
-				"patcherrelativepath" : "../../../../../../Applications/Max6/patches/OpenInstruments_v0.4.1/API/building blocks /signals",
+				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Tools (bpatchers)/signals",
+				"patcherrelativepath" : "../../../OI lib /API lib/Tools (bpatchers)/signals",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "oi.autovarname.js",
+				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Utilities (objects)/Communication /pattr objects",
+				"patcherrelativepath" : "../../../OI lib /API lib/Utilities (objects)/Communication /pattr objects",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "oi.modulecom.maxpat",
+				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Utilities (objects)/Communication /pattr objects",
+				"patcherrelativepath" : "../../../OI lib /API lib/Utilities (objects)/Communication /pattr objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oi.cppan~.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OpenInstruments_v0.4.1/API/building blocks /signals",
-				"patcherrelativepath" : "../../../../../../Applications/Max6/patches/OpenInstruments_v0.4.1/API/building blocks /signals",
+				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Tools (bpatchers)/signals",
+				"patcherrelativepath" : "../../../OI lib /API lib/Tools (bpatchers)/signals",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "autovarname.js",
-				"bootpath" : "/Applications/Max6/patches/OpenInstruments_v0.4.1/API/patcher",
-				"patcherrelativepath" : "../../../../../../Applications/Max6/patches/OpenInstruments_v0.4.1/API/patcher",
-				"type" : "TEXT",
+				"name" : "o.bypass~.maxpat",
+				"bootpath" : "/Applications/Max6/patches/OI lib /Utilities (objects)/Signals",
+				"patcherrelativepath" : "../../../OI lib /Utilities (objects)/Signals",
+				"type" : "JSON",
 				"implicit" : 1
 			}
  ]

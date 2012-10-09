@@ -34,7 +34,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 5.0, 5.0, 125.0, 55.0 ],
+					"patching_rect" : [ 5.0, 5.0, 125.0, 60.0 ],
 					"varname" : "oi.idv.key"
 				}
 
@@ -43,29 +43,29 @@
 		"lines" : [  ],
 		"dependency_cache" : [ 			{
 				"name" : "oi.idv.key.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OpenInstruments_v0.4.1/Modules/Devices/Input ",
-				"patcherrelativepath" : "../../../OpenInstruments_v0.4.1/Modules/Devices/Input ",
+				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Modules (bpatchers)/Devices",
+				"patcherrelativepath" : "../../../../OI lib /API lib/Modules (bpatchers)/Devices",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "autovarname.js",
-				"bootpath" : "/Applications/Max6/patches/OpenInstruments_v0.4.1/API/patcher",
-				"patcherrelativepath" : "../../../OpenInstruments_v0.4.1/API/patcher",
+				"name" : "oi.autovarname.js",
+				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Utilities (objects)/Communication /pattr objects",
+				"patcherrelativepath" : "../../../../OI lib /API lib/Utilities (objects)/Communication /pattr objects",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oi.modulecom.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OpenInstruments_v0.4.1/API/pattr_extensions",
-				"patcherrelativepath" : "../../../OpenInstruments_v0.4.1/API/pattr_extensions",
+				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Utilities (objects)/Communication /pattr objects",
+				"patcherrelativepath" : "../../../../OI lib /API lib/Utilities (objects)/Communication /pattr objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oi.modulegate.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OpenInstruments_v0.4.1/API/API system",
-				"patcherrelativepath" : "../../../OpenInstruments_v0.4.1/API/API system",
+				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Utilities (objects)/System/data flow",
+				"patcherrelativepath" : "../../../../OI lib /API lib/Utilities (objects)/System/data flow",
 				"type" : "JSON",
 				"implicit" : 1
 			}

@@ -28,26 +28,13 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"id" : "obj-4",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 160.0, 10.0, 150.0, 18.0 ],
-					"text" : "…under development…"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-2",
 					"maxclass" : "bpatcher",
 					"name" : "oi.vst~.maxpat",
-					"numinlets" : 3,
-					"numoutlets" : 3,
-					"outlettype" : [ "signal", "signal", "" ],
-					"patching_rect" : [ 15.0, 10.0, 145.0, 70.0 ],
+					"numinlets" : 4,
+					"numoutlets" : 4,
+					"outlettype" : [ "signal", "signal", "int", "" ],
+					"patching_rect" : [ 0.0, 0.0, 170.0, 100.0 ],
 					"varname" : "oi.vst~"
 				}
 
@@ -56,23 +43,44 @@
 		"lines" : [  ],
 		"dependency_cache" : [ 			{
 				"name" : "oi.vst~.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OpenInstruments_v0.4.1/API/building blocks /signals",
-				"patcherrelativepath" : "../../../../../../Applications/Max6/patches/OpenInstruments_v0.4.1/API/building blocks /signals",
+				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Tools (bpatchers)/signals",
+				"patcherrelativepath" : "../../../OI lib /API lib/Tools (bpatchers)/signals",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "oi.print.maxpat",
+				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Utilities (objects)/System/other",
+				"patcherrelativepath" : "../../../OI lib /API lib/Utilities (objects)/System/other",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "oi.autovarname.js",
+				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Utilities (objects)/Communication /pattr objects",
+				"patcherrelativepath" : "../../../OI lib /API lib/Utilities (objects)/Communication /pattr objects",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "oi.modulecom.maxpat",
+				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Utilities (objects)/Communication /pattr objects",
+				"patcherrelativepath" : "../../../OI lib /API lib/Utilities (objects)/Communication /pattr objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "get_plugs.js",
 				"bootpath" : "/Applications/Max6/Cycling '74/msp-help",
-				"patcherrelativepath" : "../../../../../../Applications/Max6/Cycling '74/msp-help",
+				"patcherrelativepath" : "../../../../Cycling '74/msp-help",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "autovarname.js",
-				"bootpath" : "/Applications/Max6/patches/OpenInstruments_v0.4.1/API/patcher",
-				"patcherrelativepath" : "../../../../../../Applications/Max6/patches/OpenInstruments_v0.4.1/API/patcher",
-				"type" : "TEXT",
+				"name" : "oi.gate~.maxpat",
+				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Utilities (objects)/System/data flow",
+				"patcherrelativepath" : "../../../OI lib /API lib/Utilities (objects)/System/data flow",
+				"type" : "JSON",
 				"implicit" : 1
 			}
  ]

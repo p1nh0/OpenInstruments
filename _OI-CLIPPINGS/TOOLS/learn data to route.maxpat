@@ -31,9 +31,10 @@
 					"id" : "obj-3",
 					"maxclass" : "bpatcher",
 					"name" : "oi.autoroute.maxpat",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 5.0, 180.0, 30.0 ],
+					"numinlets" : 2,
+					"numoutlets" : 16,
+					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "" ],
+					"patching_rect" : [ 0.0, 0.0, 180.0, 50.0 ],
 					"varname" : "oi.autoroute"
 				}
 
@@ -42,22 +43,43 @@
 		"lines" : [  ],
 		"dependency_cache" : [ 			{
 				"name" : "oi.autoroute.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OpenInstruments_v0.4.1/API/_build versions",
-				"patcherrelativepath" : "../../../OpenInstruments_v0.4.1/API/_build versions",
+				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Tools (bpatchers)/data/communication",
+				"patcherrelativepath" : "../../../OI lib /API lib/Tools (bpatchers)/data/communication",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "listlearn.js",
-				"bootpath" : "/Applications/Max6/patches/OpenInstruments_v0.4.1/API/data/lists",
-				"patcherrelativepath" : "../../../OpenInstruments_v0.4.1/API/data/lists",
+				"name" : "oi.autovarname.js",
+				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Utilities (objects)/Communication /pattr objects",
+				"patcherrelativepath" : "../../../OI lib /API lib/Utilities (objects)/Communication /pattr objects",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "oi.listaccum.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OpenInstruments_v0.4.1/API/data/lists",
-				"patcherrelativepath" : "../../../OpenInstruments_v0.4.1/API/data/lists",
+				"name" : "oi.speedlim.maxpat",
+				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Utilities (objects)/System/data flow",
+				"patcherrelativepath" : "../../../OI lib /API lib/Utilities (objects)/System/data flow",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "o.listlearn.js",
+				"bootpath" : "/Applications/Max6/patches/OI lib /Utilities (objects)/Lists",
+				"patcherrelativepath" : "../../../OI lib /Utilities (objects)/Lists",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "o.listaccum.maxpat",
+				"bootpath" : "/Applications/Max6/patches/OI lib /Utilities (objects)/Lists",
+				"patcherrelativepath" : "../../../OI lib /Utilities (objects)/Lists",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "oi.modulecom.maxpat",
+				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Utilities (objects)/Communication /pattr objects",
+				"patcherrelativepath" : "../../../OI lib /API lib/Utilities (objects)/Communication /pattr objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}

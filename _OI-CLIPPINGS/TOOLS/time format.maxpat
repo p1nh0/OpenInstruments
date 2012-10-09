@@ -34,7 +34,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 5.0, 5.0, 112.144569, 19.530111 ],
+					"patching_rect" : [ 5.0, 5.0, 113.144569, 20.530111 ],
 					"varname" : "oi.timeformat"
 				}
 
@@ -43,22 +43,22 @@
 		"lines" : [  ],
 		"dependency_cache" : [ 			{
 				"name" : "oi.timeformat.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OpenInstruments_v0.4.1/API/data/timing",
-				"patcherrelativepath" : "../../../OpenInstruments_v0.4.1/API/data/timing",
+				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Tools (bpatchers)/timing",
+				"patcherrelativepath" : "../../../OI lib /API lib/Tools (bpatchers)/timing",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oi.timeformat_interface.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OpenInstruments_v0.4.1/API/data/timing",
-				"patcherrelativepath" : "../../../OpenInstruments_v0.4.1/API/data/timing",
+				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Tools (bpatchers)/timing",
+				"patcherrelativepath" : "../../../OI lib /API lib/Tools (bpatchers)/timing",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "oi.holdmessage.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OpenInstruments_v0.4.1/API/data/lists",
-				"patcherrelativepath" : "../../../OpenInstruments_v0.4.1/API/data/lists",
+				"name" : "o.holdmessage.maxpat",
+				"bootpath" : "/Applications/Max6/patches/OI lib /Utilities (objects)/Lists",
+				"patcherrelativepath" : "../../../OI lib /Utilities (objects)/Lists",
 				"type" : "JSON",
 				"implicit" : 1
 			}

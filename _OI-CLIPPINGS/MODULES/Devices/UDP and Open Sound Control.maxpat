@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 4
+			"revision" : 5
 		}
 ,
 		"rect" : [ 368.0, 124.0, 640.0, 480.0 ],
@@ -31,10 +31,10 @@
 					"id" : "obj-1",
 					"maxclass" : "bpatcher",
 					"name" : "oi.idv.netudp.maxpat",
-					"numinlets" : 0,
+					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 0.0, 0.0, 105.0, 60.0 ],
+					"patching_rect" : [ 0.0, 0.0, 120.0, 50.0 ],
 					"varname" : "oi.idv.netudp"
 				}
 
@@ -43,15 +43,36 @@
 		"lines" : [  ],
 		"dependency_cache" : [ 			{
 				"name" : "oi.idv.netudp.maxpat",
-				"bootpath" : "/Applications/Max6/patches/Open Instruments_v0.4a/Modules/Devices/Input ",
-				"patcherrelativepath" : "../../../Open Instruments_v0.4a/Modules/Devices/Input ",
+				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Modules (bpatchers)/Devices",
+				"patcherrelativepath" : "../../../../OI lib /API lib/Modules (bpatchers)/Devices",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "oi.gate.maxpat",
-				"bootpath" : "/Applications/Max6/patches/Open Instruments_v0.4a/API/API system",
-				"patcherrelativepath" : "../../../Open Instruments_v0.4a/API/API system",
+				"name" : "oi.print.maxpat",
+				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Utilities (objects)/System/other",
+				"patcherrelativepath" : "../../../../OI lib /API lib/Utilities (objects)/System/other",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "oi.autovarname.js",
+				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Utilities (objects)/Communication /pattr objects",
+				"patcherrelativepath" : "../../../../OI lib /API lib/Utilities (objects)/Communication /pattr objects",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "oi.modulecom.maxpat",
+				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Utilities (objects)/Communication /pattr objects",
+				"patcherrelativepath" : "../../../../OI lib /API lib/Utilities (objects)/Communication /pattr objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "oi.vfgate.maxpat",
+				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Utilities (objects)/System/data flow",
+				"patcherrelativepath" : "../../../../OI lib /API lib/Utilities (objects)/System/data flow",
 				"type" : "JSON",
 				"implicit" : 1
 			}

@@ -30,84 +30,105 @@
 				"box" : 				{
 					"id" : "obj-2",
 					"maxclass" : "bpatcher",
-					"name" : "oi.mod.scalemap.maxpat",
-					"numinlets" : 1,
+					"name" : "oi.mod.notemap.maxpat",
+					"numinlets" : 2,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"patching_rect" : [ 5.0, 5.0, 115.0, 130.0 ],
-					"varname" : "oi.mod.scalemap"
+					"outlettype" : [ "float" ],
+					"patching_rect" : [ 0.0, 0.0, 130.0, 115.0 ],
+					"varname" : "oi.mod.notemap"
 				}
 
 			}
  ],
 		"lines" : [  ],
 		"dependency_cache" : [ 			{
-				"name" : "oi.mod.scalemap.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OpenInstruments_v0.4.1/Modules/Modifiers",
-				"patcherrelativepath" : "../../../OpenInstruments_v0.4.1/Modules/Modifiers",
+				"name" : "oi.mod.notemap.maxpat",
+				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Modules (bpatchers)/Modifiers",
+				"patcherrelativepath" : "../../../../OI lib /API lib/Modules (bpatchers)/Modifiers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "oi.stripvelocity.js",
-				"bootpath" : "/Applications/Max6/patches/OpenInstruments_v0.4.1/API/data/midi",
-				"patcherrelativepath" : "../../../OpenInstruments_v0.4.1/API/data/midi",
+				"name" : "oi.print.maxpat",
+				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Utilities (objects)/System/other",
+				"patcherrelativepath" : "../../../../OI lib /API lib/Utilities (objects)/System/other",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "oi.autovarname.js",
+				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Utilities (objects)/Communication /pattr objects",
+				"patcherrelativepath" : "../../../../OI lib /API lib/Utilities (objects)/Communication /pattr objects",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "autovarname.js",
-				"bootpath" : "/Applications/Max6/patches/OpenInstruments_v0.4.1/API/patcher",
-				"patcherrelativepath" : "../../../OpenInstruments_v0.4.1/API/patcher",
+				"name" : "oi.speedlim.maxpat",
+				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Utilities (objects)/System/data flow",
+				"patcherrelativepath" : "../../../../OI lib /API lib/Utilities (objects)/System/data flow",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "oi.modulecom.maxpat",
+				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Utilities (objects)/Communication /pattr objects",
+				"patcherrelativepath" : "../../../../OI lib /API lib/Utilities (objects)/Communication /pattr objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "oi.modulegate.maxpat",
+				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Utilities (objects)/System/data flow",
+				"patcherrelativepath" : "../../../../OI lib /API lib/Utilities (objects)/System/data flow",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "o.stripvelocity.js",
+				"bootpath" : "/Applications/Max6/patches/OI lib /Utilities (objects)/MIDI",
+				"patcherrelativepath" : "../../../../OI lib /Utilities (objects)/MIDI",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "oi.note2pitchclass.js",
-				"bootpath" : "/Applications/Max6/patches/OpenInstruments_v0.4.1/API/data/midi",
-				"patcherrelativepath" : "../../../OpenInstruments_v0.4.1/API/data/midi",
+				"name" : "o.note2pitchclass.js",
+				"bootpath" : "/Applications/Max6/patches/OI lib /Utilities (objects)/MIDI",
+				"patcherrelativepath" : "../../../../OI lib /Utilities (objects)/MIDI",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "oi.findclosestnote.js",
-				"bootpath" : "/Applications/Max6/patches/OpenInstruments_v0.4.1/API/data/midi",
-				"patcherrelativepath" : "../../../OpenInstruments_v0.4.1/API/data/midi",
+				"name" : "oi.vfgate.maxpat",
+				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Utilities (objects)/System/data flow",
+				"patcherrelativepath" : "../../../../OI lib /API lib/Utilities (objects)/System/data flow",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "o.listaccum.maxpat",
+				"bootpath" : "/Applications/Max6/patches/OI lib /Utilities (objects)/Lists",
+				"patcherrelativepath" : "../../../../OI lib /Utilities (objects)/Lists",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "o.findclosestnote.js",
+				"bootpath" : "/Applications/Max6/patches/OI lib /Utilities (objects)/MIDI",
+				"patcherrelativepath" : "../../../../OI lib /Utilities (objects)/MIDI",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "oi.gate.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OpenInstruments_v0.4.1/API/API system",
-				"patcherrelativepath" : "../../../OpenInstruments_v0.4.1/API/API system",
+				"name" : "o.vpr2note.maxpat",
+				"bootpath" : "/Applications/Max6/patches/OI lib /Utilities (objects)/MIDI",
+				"patcherrelativepath" : "../../../../OI lib /Utilities (objects)/MIDI",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "oi.f2i.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OpenInstruments_v0.4.1/API/data/conversions",
-				"patcherrelativepath" : "../../../OpenInstruments_v0.4.1/API/data/conversions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "oi.vpr2note.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OpenInstruments_v0.4.1/API/data/midi",
-				"patcherrelativepath" : "../../../OpenInstruments_v0.4.1/API/data/midi",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "oi.note2vpr.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OpenInstruments_v0.4.1/API/data/midi",
-				"patcherrelativepath" : "../../../OpenInstruments_v0.4.1/API/data/midi",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "oi.listaccum.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OpenInstruments_v0.4.1/API/data/lists",
-				"patcherrelativepath" : "../../../OpenInstruments_v0.4.1/API/data/lists",
+				"name" : "o.note2vpr.maxpat",
+				"bootpath" : "/Applications/Max6/patches/OI lib /Utilities (objects)/MIDI",
+				"patcherrelativepath" : "../../../../OI lib /Utilities (objects)/MIDI",
 				"type" : "JSON",
 				"implicit" : 1
 			}

@@ -34,7 +34,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 5,
 					"outlettype" : [ "", "", "int", "", "" ],
-					"patching_rect" : [ 10.0, 15.0, 275.0, 497.0 ],
+					"patching_rect" : [ 0.0, 0.0, 270.0, 495.0 ],
 					"varname" : "oi.anl.follower"
 				}
 
@@ -43,148 +43,148 @@
 		"lines" : [  ],
 		"dependency_cache" : [ 			{
 				"name" : "oi.anl.follower.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OpenInstruments_v0.4.1/Modules/Analyzers",
-				"patcherrelativepath" : "../../../OpenInstruments_v0.4.1/Modules/Analyzers",
+				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Modules (bpatchers)/Analyzers",
+				"patcherrelativepath" : "../../../../OI lib /API lib/Modules (bpatchers)/Analyzers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "autovarname.js",
-				"bootpath" : "/Applications/Max6/patches/OpenInstruments_v0.4.1/API/patcher",
-				"patcherrelativepath" : "../../../OpenInstruments_v0.4.1/API/patcher",
+				"name" : "oi.autovarname.js",
+				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Utilities (objects)/Communication /pattr objects",
+				"patcherrelativepath" : "../../../../OI lib /API lib/Utilities (objects)/Communication /pattr objects",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oi.speedlim.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OpenInstruments_v0.4.1/API/API system",
-				"patcherrelativepath" : "../../../OpenInstruments_v0.4.1/API/API system",
+				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Utilities (objects)/System/data flow",
+				"patcherrelativepath" : "../../../../OI lib /API lib/Utilities (objects)/System/data flow",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oi.modulecom.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OpenInstruments_v0.4.1/API/pattr_extensions",
-				"patcherrelativepath" : "../../../OpenInstruments_v0.4.1/API/pattr_extensions",
+				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Utilities (objects)/Communication /pattr objects",
+				"patcherrelativepath" : "../../../../OI lib /API lib/Utilities (objects)/Communication /pattr objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oi.modulegate.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OpenInstruments_v0.4.1/API/API system",
-				"patcherrelativepath" : "../../../OpenInstruments_v0.4.1/API/API system",
+				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Utilities (objects)/System/data flow",
+				"patcherrelativepath" : "../../../../OI lib /API lib/Utilities (objects)/System/data flow",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mnm.follower.hmm.03.maxpat",
 				"bootpath" : "/Applications/Max6/Cycling '74/ftm-and-co/mnm-examples/gesture_follower_v0.3",
-				"patcherrelativepath" : "../../../../Cycling '74/ftm-and-co/mnm-examples/gesture_follower_v0.3",
+				"patcherrelativepath" : "../../../../../Cycling '74/ftm-and-co/mnm-examples/gesture_follower_v0.3",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mnm.L2Rdecoding.03.maxpat",
 				"bootpath" : "/Applications/Max6/Cycling '74/ftm-and-co/mnm-examples/gesture_follower_v0.3",
-				"patcherrelativepath" : "../../../../Cycling '74/ftm-and-co/mnm-examples/gesture_follower_v0.3",
+				"patcherrelativepath" : "../../../../../Cycling '74/ftm-and-co/mnm-examples/gesture_follower_v0.3",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mnm.mv.maxpat",
 				"bootpath" : "/Applications/Max6/Cycling '74/ftm-and-co/mnm-abstractions",
-				"patcherrelativepath" : "../../../../Cycling '74/ftm-and-co/mnm-abstractions",
+				"patcherrelativepath" : "../../../../../Cycling '74/ftm-and-co/mnm-abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mnm.q.maxpat",
 				"bootpath" : "/Applications/Max6/Cycling '74/ftm-and-co/mnm-abstractions",
-				"patcherrelativepath" : "../../../../Cycling '74/ftm-and-co/mnm-abstractions",
+				"patcherrelativepath" : "../../../../../Cycling '74/ftm-and-co/mnm-abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mnm.makeL2R.03.maxpat",
 				"bootpath" : "/Applications/Max6/Cycling '74/ftm-and-co/mnm-examples/gesture_follower_v0.3",
-				"patcherrelativepath" : "../../../../Cycling '74/ftm-and-co/mnm-examples/gesture_follower_v0.3",
+				"patcherrelativepath" : "../../../../../Cycling '74/ftm-and-co/mnm-examples/gesture_follower_v0.3",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mnm.follower.database.03.maxpat",
 				"bootpath" : "/Applications/Max6/Cycling '74/ftm-and-co/mnm-examples/gesture_follower_v0.3",
-				"patcherrelativepath" : "../../../../Cycling '74/ftm-and-co/mnm-examples/gesture_follower_v0.3",
+				"patcherrelativepath" : "../../../../../Cycling '74/ftm-and-co/mnm-examples/gesture_follower_v0.3",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ftm.reschedule.maxpat",
 				"bootpath" : "/Applications/Max6/Cycling '74/ftm-and-co/ftm-abstractions",
-				"patcherrelativepath" : "../../../../Cycling '74/ftm-and-co/ftm-abstractions",
+				"patcherrelativepath" : "../../../../../Cycling '74/ftm-and-co/ftm-abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mnm.follower.init.03.maxpat",
 				"bootpath" : "/Applications/Max6/Cycling '74/ftm-and-co/mnm-examples/gesture_follower_v0.3",
-				"patcherrelativepath" : "../../../../Cycling '74/ftm-and-co/mnm-examples/gesture_follower_v0.3",
+				"patcherrelativepath" : "../../../../../Cycling '74/ftm-and-co/mnm-examples/gesture_follower_v0.3",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mnm.list2row.maxpat",
 				"bootpath" : "/Applications/Max6/Cycling '74/ftm-and-co/mnm-abstractions",
-				"patcherrelativepath" : "../../../../Cycling '74/ftm-and-co/mnm-abstractions",
+				"patcherrelativepath" : "../../../../../Cycling '74/ftm-and-co/mnm-abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mnm.mm.maxpat",
 				"bootpath" : "/Applications/Max6/Cycling '74/ftm-and-co/mnm-abstractions",
-				"patcherrelativepath" : "../../../../Cycling '74/ftm-and-co/mnm-abstractions",
+				"patcherrelativepath" : "../../../../../Cycling '74/ftm-and-co/mnm-abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oi.timeformat.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OpenInstruments_v0.4.1/API/data/timing",
-				"patcherrelativepath" : "../../../OpenInstruments_v0.4.1/API/data/timing",
+				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Tools (bpatchers)/timing",
+				"patcherrelativepath" : "../../../../OI lib /API lib/Tools (bpatchers)/timing",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oi.timeformat_interface.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OpenInstruments_v0.4.1/API/data/timing",
-				"patcherrelativepath" : "../../../OpenInstruments_v0.4.1/API/data/timing",
+				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Tools (bpatchers)/timing",
+				"patcherrelativepath" : "../../../../OI lib /API lib/Tools (bpatchers)/timing",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "oi.holdmessage.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OpenInstruments_v0.4.1/API/data/lists",
-				"patcherrelativepath" : "../../../OpenInstruments_v0.4.1/API/data/lists",
+				"name" : "o.holdmessage.maxpat",
+				"bootpath" : "/Applications/Max6/patches/OI lib /Utilities (objects)/Lists",
+				"patcherrelativepath" : "../../../../OI lib /Utilities (objects)/Lists",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "oi.emptymessagefilter.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OpenInstruments_v0.4.1/API/pattr_extensions",
-				"patcherrelativepath" : "../../../OpenInstruments_v0.4.1/API/pattr_extensions",
+				"name" : "o.emptymessagefilter.maxpat",
+				"bootpath" : "/Applications/Max6/patches/OI lib /Utilities (objects)/other",
+				"patcherrelativepath" : "../../../../OI lib /Utilities (objects)/other",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oi.vfgate.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OpenInstruments_v0.4.1/API/API system",
-				"patcherrelativepath" : "../../../OpenInstruments_v0.4.1/API/API system",
+				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Utilities (objects)/System/data flow",
+				"patcherrelativepath" : "../../../../OI lib /API lib/Utilities (objects)/System/data flow",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oi.print.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OpenInstruments_v0.4.1/API/API system",
-				"patcherrelativepath" : "../../../OpenInstruments_v0.4.1/API/API system",
+				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Utilities (objects)/System/other",
+				"patcherrelativepath" : "../../../../OI lib /API lib/Utilities (objects)/System/other",
 				"type" : "JSON",
 				"implicit" : 1
 			}
