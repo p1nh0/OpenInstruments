@@ -72,7 +72,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 141.0, 127.0, 53.0, 39.0 ],
-									"presentation_rect" : [ 254.0, 169.0, 0.0, 0.0 ],
 									"text" : "0.937255 0.611765 0.258824"
 								}
 
@@ -88,7 +87,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 88.0, 127.0, 53.0, 39.0 ],
-									"presentation_rect" : [ 197.0, 113.0, 0.0, 0.0 ],
 									"text" : "0.635294 0.964706 0.482353"
 								}
 
@@ -169,7 +167,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::tracking @invisible 1 @autorestore 0",
-									"varname" : "u671006681"
+									"varname" : "u362015206"
 								}
 
 							}
@@ -254,16 +252,16 @@
 ,
 					"patching_rect" : [ 270.0, 180.0, 64.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 10.0,
-						"description" : "",
-						"fontname" : "Arial",
-						"tags" : "",
-						"globalpatchername" : "",
 						"fontface" : 0,
+						"globalpatchername" : "",
 						"fontsize" : 10.0,
 						"default_fontface" : 0,
 						"digest" : "",
-						"default_fontname" : "Arial"
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 10.0,
+						"description" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p set_colors",
@@ -522,16 +520,16 @@
 ,
 					"patching_rect" : [ 385.0, 516.5, 35.0, 16.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 10.0,
-						"description" : "",
-						"fontname" : "Arial",
-						"tags" : "",
-						"globalpatchername" : "",
 						"fontface" : 0,
+						"globalpatchername" : "",
 						"fontsize" : 10.0,
 						"default_fontface" : 0,
 						"digest" : "",
-						"default_fontname" : "Arial"
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 10.0,
+						"description" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p print"
@@ -639,16 +637,16 @@
 ,
 					"patching_rect" : [ 99.5, 350.0, 35.0, 16.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 10.0,
-						"description" : "",
-						"fontname" : "Arial",
-						"tags" : "",
-						"globalpatchername" : "",
 						"fontface" : 0,
+						"globalpatchername" : "",
 						"fontsize" : 10.0,
 						"default_fontface" : 0,
 						"digest" : "",
-						"default_fontname" : "Arial"
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 10.0,
+						"description" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p print"
@@ -699,7 +697,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 485.0, 75.0, 97.0, 18.0 ],
-					"text" : "object name \"clear\""
+					"text" : "object name \"reset\""
 				}
 
 			}
@@ -1065,16 +1063,16 @@
 ,
 					"patching_rect" : [ 25.5, 185.0, 54.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 10.0,
-						"description" : "",
-						"fontname" : "Arial",
-						"tags" : "",
-						"globalpatchername" : "",
 						"fontface" : 0,
+						"globalpatchername" : "",
 						"fontsize" : 10.0,
 						"default_fontface" : 0,
 						"digest" : "",
-						"default_fontname" : "Arial"
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 10.0,
+						"description" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p set_hint"
@@ -1191,7 +1189,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::tracking @invisible 1 @autorestore 0",
-									"varname" : "u666006345"
+									"varname" : "u105014794"
 								}
 
 							}
@@ -1221,14 +1219,14 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 271.0, 62.0, 276.0, 18.0 ],
-									"restore" : [ 0 ],
+									"patching_rect" : [ 271.0, 62.0, 277.0, 18.0 ],
+									"restore" : [ -1 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0
 									}
 ,
-									"text" : "pattr @bindto parent::clear @invisible 1 @autorestore 0",
-									"varname" : "u867005518"
+									"text" : "pattr @bindto parent::reset @invisible 1 @autorestore 0",
+									"varname" : "u043014844"
 								}
 
 							}
@@ -1288,13 +1286,13 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 30.0, 425.0, 85.0, 52.0 ],
-									"restore" : [ 0 ],
+									"restore" : [ 1 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0
 									}
 ,
 									"text" : "pattr @bindto parent::clip @invisible 1 @autorestore 0",
-									"varname" : "u748006077"
+									"varname" : "u129014800"
 								}
 
 							}
@@ -1456,7 +1454,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::out_max @invisible 1 @autorestore 0",
-									"varname" : "u321006158"
+									"varname" : "u637014807"
 								}
 
 							}
@@ -1480,7 +1478,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::out_min @invisible 1 @autorestore 0",
-									"varname" : "u023006160"
+									"varname" : "u725014804"
 								}
 
 							}
@@ -1558,7 +1556,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::in_max @invisible 1 @autorestore 0",
-									"varname" : "u508006156"
+									"varname" : "u739014806"
 								}
 
 							}
@@ -1581,7 +1579,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::in_min @invisible 1 @autorestore 0",
-									"varname" : "u723006155"
+									"varname" : "u541014809"
 								}
 
 							}
@@ -2071,16 +2069,16 @@
 ,
 					"patching_rect" : [ 76.0, 410.0, 88.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 10.0,
-						"description" : "",
-						"fontname" : "Arial",
-						"tags" : "",
-						"globalpatchername" : "",
 						"fontface" : 0,
+						"globalpatchername" : "",
 						"fontsize" : 10.0,
 						"default_fontface" : 0,
 						"digest" : "",
-						"default_fontname" : "Arial"
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 10.0,
+						"description" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p normalize",
@@ -2379,7 +2377,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 50.0, 100.0, 58.0, 27.0 ],
-													"text" : "oi.mod.norm2"
+													"text" : "oi.mod.norm"
 												}
 
 											}
@@ -2452,16 +2450,16 @@
 ,
 									"patching_rect" : [ 128.833374, 158.0, 68.0, 18.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontsize" : 10.0,
-										"description" : "",
-										"fontname" : "Arial",
-										"tags" : "",
-										"globalpatchername" : "",
 										"fontface" : 0,
+										"globalpatchername" : "",
 										"fontsize" : 10.0,
 										"default_fontface" : 0,
 										"digest" : "",
-										"default_fontname" : "Arial"
+										"default_fontname" : "Arial",
+										"fontname" : "Arial",
+										"default_fontsize" : 10.0,
+										"description" : "",
+										"tags" : ""
 									}
 ,
 									"text" : "p hold_name"
@@ -2667,16 +2665,16 @@
 ,
 					"patching_rect" : [ 25.5, 160.0, 83.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 10.0,
-						"description" : "",
-						"fontname" : "Arial",
-						"tags" : "",
-						"globalpatchername" : "",
 						"fontface" : 0,
+						"globalpatchername" : "",
 						"fontsize" : 10.0,
 						"default_fontface" : 0,
 						"digest" : "",
-						"default_fontname" : "Arial"
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 10.0,
+						"description" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p invalid_names"
@@ -2732,7 +2730,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 25.5, 105.0, 209.5, 41.0 ],
-					"restore" : [ "oi.mod.norm2" ],
+					"restore" : [ "oi.mod.norm" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
@@ -3023,7 +3021,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::inputrate::speedlim @invisible 1 @autorestore 0 @initial 1",
-									"varname" : "u427006110"
+									"varname" : "u089018329"
 								}
 
 							}
@@ -3162,16 +3160,16 @@
 ,
 					"patching_rect" : [ 779.0, 110.0, 56.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 10.0,
-						"description" : "",
-						"fontname" : "Arial",
-						"tags" : "",
-						"globalpatchername" : "",
 						"fontface" : 0,
+						"globalpatchername" : "",
 						"fontsize" : 10.0,
 						"default_fontface" : 0,
 						"digest" : "",
-						"default_fontname" : "Arial"
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 10.0,
+						"description" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p +",
@@ -3205,7 +3203,7 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"hint" : "varname: oi.mod.norm2",
+					"hint" : "varname: oi.mod.norm",
 					"id" : "obj-1",
 					"maxclass" : "textedit",
 					"numinlets" : 1,
@@ -3216,7 +3214,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 40.049042, 3.0, 98.0, 20.0 ],
 					"rounded" : 0.0,
-					"text" : "oi.mod.norm2",
+					"text" : "oi.mod.norm",
 					"varname" : "textedit"
 				}
 
@@ -3641,8 +3639,8 @@
 			}
 , 			{
 				"name" : "oi.autovarname.js",
-				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Utilities (objects)/Communication ",
-				"patcherrelativepath" : "../../Utilities (objects)/Communication ",
+				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Utilities (objects)/Communication /pattr objects",
+				"patcherrelativepath" : "../../Utilities (objects)/Communication /pattr objects",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
@@ -3655,8 +3653,8 @@
 			}
 , 			{
 				"name" : "oi.modulecom.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Utilities (objects)/Communication ",
-				"patcherrelativepath" : "../../Utilities (objects)/Communication ",
+				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Utilities (objects)/Communication /pattr objects",
+				"patcherrelativepath" : "../../Utilities (objects)/Communication /pattr objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}

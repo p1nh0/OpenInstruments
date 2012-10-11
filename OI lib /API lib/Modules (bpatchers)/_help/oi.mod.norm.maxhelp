@@ -32,6 +32,278 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
+					"id" : "obj-6",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 6,
+							"minor" : 0,
+							"revision" : 5
+						}
+,
+						"rect" : [ 0.0, 26.0, 700.0, 428.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 0,
+						"default_fontsize" : 13.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 0,
+						"gridsize" : [ 5.0, 5.0 ],
+						"gridsnaponopen" : 0,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 1,
+						"boxanimatetime" : 200,
+						"imprint" : 0,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"showontab" : 1,
+						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 11.0,
+									"id" : "obj-17",
+									"linecount" : 4,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 312.0, 273.0, 333.0, 57.0 ],
+									"text" : "Tracking will only take place if your input is not within the 'input min' and 'input max'. So, if your input is already within the range 0.~1. (which are the module's default values) you should increase 'input min' and decrease 'input max', for the tracking to take place. "
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontface" : 1,
+									"fontname" : "Arial",
+									"fontsize" : 19.654963,
+									"frgb" : [ 0.2, 0.8, 0.6, 1.0 ],
+									"id" : "obj-15",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 271.0, 271.0, 42.0, 29.0 ],
+									"text" : "TIP",
+									"textcolor" : [ 0.2, 0.8, 0.6, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 13.0,
+									"id" : "obj-13",
+									"linecount" : 4,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 271.0, 195.0, 403.0, 67.0 ],
+									"text" : "off — normalizes values according to the given input min/max\noffline — track input min/max without outputting any values. To output with tracked min/max select 'off'. \nonline — track input min/max constantly while outputting values."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bubble" : 1,
+									"fontname" : "Arial",
+									"fontsize" : 13.0,
+									"id" : "obj-11",
+									"linecount" : 3,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 190.0, 195.0, 81.0, 56.0 ],
+									"text" : "input \ntracking \nmode"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 13.0,
+									"id" : "obj-9",
+									"maxclass" : "flonum",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "float", "bang" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 70.0, 156.0, 50.0, 21.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-1",
+									"maxclass" : "bpatcher",
+									"name" : "oi.mod.norm.maxpat",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 70.0, 185.0, 143.0, 115.0 ],
+									"varname" : "oi.mod.norm"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 13.0,
+									"id" : "obj-3",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 15.0, 68.0, 130.0, 21.0 ],
+									"prototypename" : "oi.help_digest",
+									"text" : "Input tracking"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 13.0,
+									"frgb" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+									"id" : "obj-7",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 15.0, 89.0, 402.0, 21.0 ],
+									"prototypename" : "oi.help_digest",
+									"text" : "Automatically track minimum and maximum input values",
+									"textcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"angle" : 90.0,
+									"bgcolor" : [ 0.65098, 0.65098, 0.65098, 1.0 ],
+									"grad1" : [ 0.65098, 0.65098, 0.65098, 0.0 ],
+									"grad2" : [ 0.4, 0.411765, 0.654902, 1.0 ],
+									"id" : "obj-5",
+									"ignoreclick" : 1,
+									"maxclass" : "panel",
+									"mode" : 1,
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 0.0, 0.0, 700.0, 80.0 ],
+									"rounded" : 0
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"border" : 0,
+									"filename" : "helpdetails.js",
+									"id" : "obj-2",
+									"jsarguments" : [ "oi.mod.norm" ],
+									"maxclass" : "jsui",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 10.0, 10.0, 365.0, 50.0 ]
+								}
+
+							}
+ ],
+						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-1", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-9", 0 ]
+								}
+
+							}
+ ],
+						"dependency_cache" : [ 							{
+								"name" : "helpdetails.js",
+								"bootpath" : "/Applications/Max6/Cycling '74/help-resources",
+								"type" : "TEXT",
+								"implicit" : 1
+							}
+, 							{
+								"name" : "oi.mod.norm.maxpat",
+								"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Modules (bpatchers)/Modifiers",
+								"type" : "JSON",
+								"implicit" : 1
+							}
+, 							{
+								"name" : "oi.print.maxpat",
+								"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Utilities (objects)/System/other",
+								"type" : "JSON",
+								"implicit" : 1
+							}
+, 							{
+								"name" : "oi.autovarname.js",
+								"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Utilities (objects)/Communication /pattr objects",
+								"type" : "TEXT",
+								"implicit" : 1
+							}
+, 							{
+								"name" : "oi.speedlim.maxpat",
+								"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Utilities (objects)/System/data flow",
+								"type" : "JSON",
+								"implicit" : 1
+							}
+, 							{
+								"name" : "oi.modulecom.maxpat",
+								"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Utilities (objects)/Communication /pattr objects",
+								"type" : "JSON",
+								"implicit" : 1
+							}
+, 							{
+								"name" : "o.autorange.maxpat",
+								"bootpath" : "/Applications/Max6/patches/OI lib /Utilities (objects)/Streams",
+								"type" : "JSON",
+								"implicit" : 1
+							}
+, 							{
+								"name" : "oi.modulegate.maxpat",
+								"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Utilities (objects)/System/data flow",
+								"type" : "JSON",
+								"implicit" : 1
+							}
+, 							{
+								"name" : "oi.vfgate.maxpat",
+								"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Utilities (objects)/System/data flow",
+								"type" : "JSON",
+								"implicit" : 1
+							}
+ ]
+					}
+,
+					"patching_rect" : [ 15.0, 115.0, 62.0, 18.0 ],
+					"presentation_rect" : [ 14.0, 113.0, 0.0, 0.0 ],
+					"saved_object_attributes" : 					{
+						"fontface" : 0,
+						"globalpatchername" : "",
+						"fontsize" : 13.0,
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 13.0,
+						"description" : "",
+						"tags" : ""
+					}
+,
+					"text" : "p advanced",
+					"varname" : "basic_tab[2]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
 					"id" : "obj-3",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -121,18 +393,18 @@
  ]
 					}
 ,
-					"patching_rect" : [ 12.0, 112.0, 58.0, 18.0 ],
+					"patching_rect" : [ 22.0, 147.0, 58.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"tags" : "",
-						"default_fontface" : 0,
+						"fontface" : 0,
 						"globalpatchername" : "",
+						"fontsize" : 13.0,
+						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
-						"fontface" : 0,
-						"fontsize" : 13.0,
+						"fontname" : "Arial",
 						"default_fontsize" : 13.0,
-						"description" : ""
+						"description" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p \"to do…\"",
@@ -149,7 +421,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 20.0, 175.0, 147.0, 18.0 ],
+					"patching_rect" : [ 30.0, 210.0, 147.0, 18.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
@@ -382,7 +654,7 @@
 							}
 , 							{
 								"name" : "oi.autovarname.js",
-								"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Utilities (objects)/Communication ",
+								"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Utilities (objects)/Communication /pattr objects",
 								"type" : "TEXT",
 								"implicit" : 1
 							}
@@ -394,7 +666,7 @@
 							}
 , 							{
 								"name" : "oi.modulecom.maxpat",
-								"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Utilities (objects)/Communication ",
+								"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Utilities (objects)/Communication /pattr objects",
 								"type" : "JSON",
 								"implicit" : 1
 							}
@@ -421,16 +693,16 @@
 ,
 					"patching_rect" : [ 10.0, 85.0, 50.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"tags" : "",
-						"default_fontface" : 0,
+						"fontface" : 0,
 						"globalpatchername" : "",
+						"fontsize" : 13.0,
+						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
-						"fontface" : 0,
-						"fontsize" : 13.0,
+						"fontname" : "Arial",
 						"default_fontsize" : 13.0,
-						"description" : ""
+						"description" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p basic",
@@ -494,18 +766,18 @@
 						"dependency_cache" : [  ]
 					}
 ,
-					"patching_rect" : [ 20.0, 140.0, 50.0, 18.0 ],
+					"patching_rect" : [ 30.0, 175.0, 50.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"tags" : "",
-						"default_fontface" : 0,
+						"fontface" : 0,
 						"globalpatchername" : "",
+						"fontsize" : 10.0,
+						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
-						"fontface" : 0,
-						"fontsize" : 10.0,
+						"fontname" : "Arial",
 						"default_fontsize" : 10.0,
-						"description" : ""
+						"description" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p ?",
@@ -545,8 +817,8 @@
 			}
 , 			{
 				"name" : "oi.autovarname.js",
-				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Utilities (objects)/Communication ",
-				"patcherrelativepath" : "../../Utilities (objects)/Communication ",
+				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Utilities (objects)/Communication /pattr objects",
+				"patcherrelativepath" : "../../Utilities (objects)/Communication /pattr objects",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
@@ -559,8 +831,8 @@
 			}
 , 			{
 				"name" : "oi.modulecom.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Utilities (objects)/Communication ",
-				"patcherrelativepath" : "../../Utilities (objects)/Communication ",
+				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Utilities (objects)/Communication /pattr objects",
+				"patcherrelativepath" : "../../Utilities (objects)/Communication /pattr objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
