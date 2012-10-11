@@ -7,7 +7,7 @@
 			"revision" : 5
 		}
 ,
-		"rect" : [ 1539.0, 18.0, 491.0, 348.0 ],
+		"rect" : [ 2103.0, 5.0, 640.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -31,13 +31,13 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"id" : "obj-16",
+					"id" : "obj-17",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 25.285713, 310.0, 189.0, 18.0 ],
-					"presentation_rect" : [ 24.285713, 311.0, 0.0, 0.0 ],
-					"text" : "—> recover Arduino Lib (from midp)"
+					"patching_rect" : [ 7.0, 198.0, 118.0, 18.0 ],
+					"presentation_rect" : [ 8.0, 197.0, 0.0, 0.0 ],
+					"text" : "+ oi.oscillator.maxhelp"
 				}
 
 			}
@@ -46,27 +46,13 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"id" : "obj-5",
+					"id" : "obj-16",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 25.285713, 285.0, 189.0, 18.0 ],
-					"presentation_rect" : [ 25.285713, 287.0, 0.0, 0.0 ],
-					"text" : "—> add o.tap to oi.gen.transport"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 2,
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"id" : "obj-14",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 162.0, 253.0, 92.0, 18.0 ],
-					"text" : "—> add 'data rate'"
+					"patching_rect" : [ 7.0, 240.0, 145.0, 18.0 ],
+					"presentation_rect" : [ 7.0, 221.0, 0.0, 0.0 ],
+					"text" : "+ oi.gen.oscillator~.maxhelp"
 				}
 
 			}
@@ -79,22 +65,24 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 145.0, 235.0, 58.0, 18.0 ],
-					"text" : "—> add '+'"
+					"patching_rect" : [ 93.0, 222.0, 69.0, 18.0 ],
+					"presentation_rect" : [ 70.0, 208.0, 0.0, 0.0 ],
+					"text" : "New module."
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontface" : 2,
+					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"id" : "obj-12",
+					"id" : "obj-14",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 145.0, 210.0, 75.0, 18.0 ],
-					"text" : "—> add 'print' "
+					"patching_rect" : [ 7.0, 222.0, 87.0, 18.0 ],
+					"presentation_rect" : [ 5.0, 208.0, 0.0, 0.0 ],
+					"text" : "oi.gen.oscillator"
 				}
 
 			}
@@ -107,22 +95,24 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 145.0, 185.0, 203.0, 18.0 ],
-					"text" : "—> remove colls and use umenu::elements"
+					"patching_rect" : [ 72.0, 180.0, 63.0, 18.0 ],
+					"presentation_rect" : [ 64.0, 182.0, 0.0, 0.0 ],
+					"text" : "New object."
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"id" : "obj-10",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 265.0, 155.0, 49.0, 18.0 ],
-					"text" : "zl.slice 1"
+					"id" : "obj-12",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 7.0, 180.0, 64.0, 18.0 ],
+					"presentation_rect" : [ 6.0, 182.0, 0.0, 0.0 ],
+					"text" : "o.oscillator"
 				}
 
 			}
@@ -135,36 +125,24 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 145.0, 155.0, 129.0, 18.0 ],
-					"text" : "—> replace o.listutils by "
+					"patching_rect" : [ 112.0, 150.0, 104.0, 18.0 ],
+					"presentation_rect" : [ 69.0, 148.0, 0.0, 0.0 ],
+					"text" : "Minor update."
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"id" : "obj-8",
-					"maxclass" : "newobj",
+					"id" : "obj-10",
+					"maxclass" : "comment",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 265.0, 130.0, 114.0, 18.0 ],
-					"text" : "tosymbol @separator ::"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"id" : "obj-7",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 265.0, 112.0, 126.0, 18.0 ],
-					"text" : "fromsymbol @separator ::"
+					"numoutlets" : 0,
+					"patching_rect" : [ 7.0, 150.0, 105.0, 18.0 ],
+					"presentation_rect" : [ 11.0, 148.0, 0.0, 0.0 ],
+					"text" : "OI-DEVTEMPLATES"
 				}
 
 			}
@@ -173,12 +151,68 @@
 					"fontface" : 2,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
+					"id" : "obj-7",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 65.0, 120.0, 104.0, 18.0 ],
+					"text" : "Minor update."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 3,
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-8",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 7.0, 120.0, 58.0, 18.0 ],
+					"text" : "oi.presets"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 2,
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-5",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 93.0, 90.0, 165.0, 18.0 ],
+					"text" : "Fixed loading and interface issues."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 3,
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
 					"id" : "obj-6",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 145.0, 118.0, 129.0, 18.0 ],
-					"text" : "—> replace oi.pattrutils by "
+					"patching_rect" : [ 5.0, 90.0, 88.0, 18.0 ],
+					"text" : "oi.mod.varfilter"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 2,
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-1",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 93.0, 60.0, 88.0, 18.0 ],
+					"text" : "Fixed minor bug. "
 				}
 
 			}
@@ -191,22 +225,22 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 25.285713, 100.0, 211.0, 18.0 ],
-					"text" : "—> make new version of oi.parameterhub "
+					"patching_rect" : [ 5.0, 60.0, 88.0, 18.0 ],
+					"text" : "oi.mod.notemap"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontface" : 3,
+					"fontface" : 2,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"id" : "obj-1",
+					"id" : "obj-18",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 25.285713, 70.0, 189.0, 18.0 ],
-					"text" : "—> remake oi.parameterhub.maxhelp"
+					"patching_rect" : [ 57.0, 30.0, 246.0, 18.0 ],
+					"text" : "Fixed bug whenever a name argument was provided."
 				}
 
 			}
@@ -219,55 +253,24 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 25.285713, 45.0, 151.0, 18.0 ],
-					"text" : "—> update oi.api.architecture"
+					"patching_rect" : [ 5.0, 30.0, 52.0, 18.0 ],
+					"text" : "oi.recv~ "
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontface" : 3,
+					"fontface" : 1,
 					"fontname" : "Arial",
-					"fontsize" : 16.0,
+					"fontsize" : 12.0,
+					"frgb" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-2",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 0.0, 0.0, 490.0, 25.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 15.0, 314.0, 25.0 ],
-					"text" : "Open Instruments ToDo list"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"angle" : 270.0,
-					"grad1" : [ 0.65098, 0.65098, 0.65098, 1.0 ],
-					"grad2" : [ 1.0, 0.99828, 0.995128, 1.0 ],
-					"id" : "obj-47",
-					"ignoreclick" : 1,
-					"maxclass" : "panel",
-					"mode" : 1,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 0.0, 0.0, 490.0, 25.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 15.0, 435.0, 300.0 ],
-					"rounded" : 0
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"border" : 2,
-					"id" : "obj-15",
-					"ignoreclick" : 1,
-					"maxclass" : "panel",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 25.285713, 95.0, 375.0, 181.0 ]
+					"patching_rect" : [ 0.0, 0.0, 77.0, 20.0 ],
+					"text" : "change list:",
+					"textcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
