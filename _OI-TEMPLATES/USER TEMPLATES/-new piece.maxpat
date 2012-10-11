@@ -132,15 +132,15 @@
 ,
 					"patching_rect" : [ -650.0, 170.0, 106.0, 41.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"globalpatchername" : "",
-						"fontsize" : 10.0,
 						"default_fontface" : 0,
+						"globalpatchername" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 10.0,
 						"description" : "",
+						"fontface" : 0,
+						"fontsize" : 10.0,
 						"tags" : ""
 					}
 ,
@@ -161,13 +161,13 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ -257.0, 21.5, 157.25, 29.0 ],
-					"restore" : [ 0 ],
+					"restore" : [ 1 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
 ,
 					"text" : "pattr @bindto ::oi.api::print @invisible 1 @autorestore 0",
-					"varname" : "u799012495"
+					"varname" : "u081006670"
 				}
 
 			}
@@ -233,7 +233,7 @@
 					}
 ,
 					"text" : "pattr @bindto end_piece @invisible 1 @autorestore 0",
-					"varname" : "u476012492"
+					"varname" : "u683006668"
 				}
 
 			}
@@ -271,7 +271,7 @@
 					}
 ,
 					"text" : "pattr @bindto begin_piece @invisible 1 @autorestore 0",
-					"varname" : "u897012491"
+					"varname" : "u200006667"
 				}
 
 			}
@@ -431,7 +431,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::piece_state @invisible 1 @autorestore 0 @thru 0",
-									"varname" : "u607012486"
+									"varname" : "u404006661"
 								}
 
 							}
@@ -467,7 +467,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::piece_state @invisible 1 @autorestore 0",
-									"varname" : "u636012484"
+									"varname" : "u370007388"
 								}
 
 							}
@@ -489,7 +489,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::parent::concert_state @invisible 1 @autorestore 0",
-									"varname" : "u570012480"
+									"varname" : "u578007386"
 								}
 
 							}
@@ -590,15 +590,15 @@
 ,
 					"patching_rect" : [ -630.25, 215.0, 190.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"globalpatchername" : "",
-						"fontsize" : 10.0,
 						"default_fontface" : 0,
+						"globalpatchername" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 10.0,
 						"description" : "",
+						"fontface" : 0,
+						"fontsize" : 10.0,
 						"tags" : ""
 					}
 ,
@@ -849,15 +849,15 @@
 ,
 					"patching_rect" : [ -215.0, 256.0, 78.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"globalpatchername" : "",
-						"fontsize" : 10.0,
 						"default_fontface" : 0,
+						"globalpatchername" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 10.0,
 						"description" : "",
+						"fontface" : 0,
+						"fontsize" : 10.0,
 						"tags" : ""
 					}
 ,
@@ -1143,15 +1143,15 @@
 ,
 					"patching_rect" : [ -240.0, 193.0, 44.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"globalpatchername" : "",
-						"fontsize" : 10.0,
 						"default_fontface" : 0,
+						"globalpatchername" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 10.0,
 						"description" : "",
+						"fontface" : 0,
+						"fontsize" : 10.0,
 						"tags" : ""
 					}
 ,
@@ -1307,7 +1307,7 @@
 									}
 ,
 									"text" : "autopattr @autoname 1",
-									"varname" : "u634012219"
+									"varname" : "u708018003"
 								}
 
 							}
@@ -1623,15 +1623,15 @@
 ,
 					"patching_rect" : [ 410.0, 35.0, 169.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"globalpatchername" : "",
-						"fontsize" : 10.0,
 						"default_fontface" : 0,
+						"globalpatchername" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 10.0,
 						"description" : "",
+						"fontface" : 0,
+						"fontsize" : 10.0,
 						"tags" : ""
 					}
 ,
@@ -2012,15 +2012,15 @@
 ,
 					"patching_rect" : [ -330.0, 111.0, 85.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"globalpatchername" : "",
-						"fontsize" : 10.0,
 						"default_fontface" : 0,
+						"globalpatchername" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 10.0,
 						"description" : "",
+						"fontface" : 0,
+						"fontsize" : 10.0,
 						"tags" : ""
 					}
 ,
@@ -2126,15 +2126,15 @@
 ,
 					"patching_rect" : [ -449.5, 81.0, 46.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"globalpatchername" : "",
-						"fontsize" : 10.0,
 						"default_fontface" : 0,
+						"globalpatchername" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 10.0,
 						"description" : "",
+						"fontface" : 0,
+						"fontsize" : 10.0,
 						"tags" : ""
 					}
 ,
@@ -2331,15 +2331,15 @@
 ,
 					"patching_rect" : [ -460.0, 313.0, 63.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"globalpatchername" : "",
-						"fontsize" : 10.0,
 						"default_fontface" : 0,
+						"globalpatchername" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 10.0,
 						"description" : "",
+						"fontface" : 0,
+						"fontsize" : 10.0,
 						"tags" : ""
 					}
 ,
@@ -2569,7 +2569,7 @@
 									}
 ,
 									"text" : "pattr @bindto ::oi.api::add_space @invisible 1",
-									"varname" : "u481012383"
+									"varname" : "u356006560"
 								}
 
 							}
@@ -2728,15 +2728,15 @@
 ,
 					"patching_rect" : [ -650.0, 30.0, 89.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"globalpatchername" : "",
-						"fontsize" : 10.0,
 						"default_fontface" : 0,
+						"globalpatchername" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 10.0,
 						"description" : "",
+						"fontface" : 0,
+						"fontsize" : 10.0,
 						"tags" : ""
 					}
 ,
@@ -2862,15 +2862,15 @@
 ,
 					"patching_rect" : [ 762.0, 35.0, 177.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"globalpatchername" : "oi.visualfeedback",
-						"fontsize" : 10.0,
 						"default_fontface" : 0,
+						"globalpatchername" : "oi.visualfeedback",
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 10.0,
 						"description" : "",
+						"fontface" : 0,
+						"fontsize" : 10.0,
 						"tags" : ""
 					}
 ,
@@ -2980,15 +2980,15 @@
 ,
 					"patching_rect" : [ 585.0, 35.0, 177.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"globalpatchername" : "oi.dataset[1][1]",
-						"fontsize" : 10.0,
 						"default_fontface" : 0,
+						"globalpatchername" : "oi.dataset[1][1]",
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 10.0,
 						"description" : "",
+						"fontface" : 0,
+						"fontsize" : 10.0,
 						"tags" : ""
 					}
 ,
@@ -3317,15 +3317,15 @@
 ,
 					"patching_rect" : [ -401.25, 625.0, 221.25, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"globalpatchername" : "",
-						"fontsize" : 10.0,
 						"default_fontface" : 0,
+						"globalpatchername" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 10.0,
 						"description" : "",
+						"fontface" : 0,
+						"fontsize" : 10.0,
 						"tags" : ""
 					}
 ,
@@ -3698,7 +3698,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u291012213"
+					"varname" : "u823018007"
 				}
 
 			}
@@ -4495,64 +4495,64 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "piece1_data.json",
-				"bootpath" : "/Applications/Max6/examples/OI examples/Concert project examples/OpenInstruments_projectExample#1/_presets",
-				"patcherrelativepath" : "../../../examples/OI examples/Concert project examples/OpenInstruments_projectExample#1/_presets",
+				"bootpath" : "/Applications/Max6/examples/_OI-EXAMPLES/Concert project examples/OpenInstruments_projectExample#1/_presets",
+				"patcherrelativepath" : "../../../../examples/_OI-EXAMPLES/Concert project examples/OpenInstruments_projectExample#1/_presets",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "o.listaccum.maxpat",
 				"bootpath" : "/Applications/Max6/patches/OI lib /Utilities (objects)/Lists",
-				"patcherrelativepath" : "../../OI lib /Utilities (objects)/Lists",
+				"patcherrelativepath" : "../../../OI lib /Utilities (objects)/Lists",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oi.presets.maxpat",
 				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Tools (bpatchers)/data/communication",
-				"patcherrelativepath" : "../../OI lib /API lib/Tools (bpatchers)/data/communication",
+				"patcherrelativepath" : "../../../OI lib /API lib/Tools (bpatchers)/data/communication",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oi.hub.maxpat",
 				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Utilities (objects)/Communication /pattr objects",
-				"patcherrelativepath" : "../../OI lib /API lib/Utilities (objects)/Communication /pattr objects",
+				"patcherrelativepath" : "../../../OI lib /API lib/Utilities (objects)/Communication /pattr objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "o.holdmessage.maxpat",
 				"bootpath" : "/Applications/Max6/patches/OI lib /Utilities (objects)/Lists",
-				"patcherrelativepath" : "../../OI lib /Utilities (objects)/Lists",
+				"patcherrelativepath" : "../../../OI lib /Utilities (objects)/Lists",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oi.autovarname.js",
 				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Utilities (objects)/Communication /pattr objects",
-				"patcherrelativepath" : "../../OI lib /API lib/Utilities (objects)/Communication /pattr objects",
+				"patcherrelativepath" : "../../../OI lib /API lib/Utilities (objects)/Communication /pattr objects",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "o.f2i.maxpat",
 				"bootpath" : "/Applications/Max6/patches/OI lib /Utilities (objects)/Conversions",
-				"patcherrelativepath" : "../../OI lib /Utilities (objects)/Conversions",
+				"patcherrelativepath" : "../../../OI lib /Utilities (objects)/Conversions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oi.modulecom.maxpat",
 				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Utilities (objects)/Communication /pattr objects",
-				"patcherrelativepath" : "../../OI lib /API lib/Utilities (objects)/Communication /pattr objects",
+				"patcherrelativepath" : "../../../OI lib /API lib/Utilities (objects)/Communication /pattr objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oi.print.maxpat",
 				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Utilities (objects)/System/other",
-				"patcherrelativepath" : "../../OI lib /API lib/Utilities (objects)/System/other",
+				"patcherrelativepath" : "../../../OI lib /API lib/Utilities (objects)/System/other",
 				"type" : "JSON",
 				"implicit" : 1
 			}

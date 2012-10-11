@@ -102,7 +102,7 @@
 					}
 ,
 					"text" : "pattr @bindto end_concert @invisible 1 @autorestore 0",
-					"varname" : "u477013493"
+					"varname" : "u611002710"
 				}
 
 			}
@@ -124,7 +124,7 @@
 					}
 ,
 					"text" : "pattr @bindto begin_concert @invisible 1 @autorestore 0",
-					"varname" : "u720013491"
+					"varname" : "u739002705"
 				}
 
 			}
@@ -571,15 +571,15 @@
 ,
 					"patching_rect" : [ -509.059937, 35.0, 59.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"globalpatchername" : "",
-						"fontsize" : 10.0,
 						"default_fontface" : 0,
+						"globalpatchername" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 10.0,
 						"description" : "",
+						"fontface" : 0,
+						"fontsize" : 10.0,
 						"tags" : ""
 					}
 ,
@@ -731,15 +731,15 @@
 ,
 					"patching_rect" : [ 245.0, 20.0, 283.0, 32.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"globalpatchername" : "oi.dataset[1]",
-						"fontsize" : 10.0,
 						"default_fontface" : 0,
+						"globalpatchername" : "oi.dataset[1]",
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 10.0,
 						"description" : "",
+						"fontface" : 0,
+						"fontsize" : 10.0,
 						"tags" : ""
 					}
 ,
@@ -836,15 +836,15 @@
 ,
 					"patching_rect" : [ -317.0, 695.0, 176.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"globalpatchername" : "",
-						"fontsize" : 10.0,
 						"default_fontface" : 0,
+						"globalpatchername" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 10.0,
 						"description" : "",
+						"fontface" : 0,
+						"fontsize" : 10.0,
 						"tags" : ""
 					}
 ,
@@ -1058,7 +1058,7 @@
 									}
 ,
 									"text" : "pattr @bindto ::oi.api::add_space @invisible 1",
-									"varname" : "u969013338"
+									"varname" : "u385002508"
 								}
 
 							}
@@ -1226,15 +1226,15 @@
 ,
 					"patching_rect" : [ -685.0, 46.5, 89.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"globalpatchername" : "",
-						"fontsize" : 10.0,
 						"default_fontface" : 0,
+						"globalpatchername" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 10.0,
 						"description" : "",
+						"fontface" : 0,
+						"fontsize" : 10.0,
 						"tags" : ""
 					}
 ,
@@ -1490,15 +1490,15 @@
 ,
 					"patching_rect" : [ -276.25, 650.0, 231.25, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"globalpatchername" : "",
-						"fontsize" : 10.0,
 						"default_fontface" : 0,
+						"globalpatchername" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 10.0,
 						"description" : "",
+						"fontface" : 0,
+						"fontsize" : 10.0,
 						"tags" : ""
 					}
 ,
@@ -1867,7 +1867,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ -285.0, 240.0, 59.5, 18.0 ],
 					"text" : "autopattr",
-					"varname" : "u989012236"
+					"varname" : "u408017987"
 				}
 
 			}
@@ -2436,56 +2436,56 @@
 		"dependency_cache" : [ 			{
 				"name" : "o.listaccum.maxpat",
 				"bootpath" : "/Applications/Max6/patches/OI lib /Utilities (objects)/Lists",
-				"patcherrelativepath" : "../../OI lib /Utilities (objects)/Lists",
+				"patcherrelativepath" : "../../../OI lib /Utilities (objects)/Lists",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oi.print.maxpat",
 				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Utilities (objects)/System/other",
-				"patcherrelativepath" : "../../OI lib /API lib/Utilities (objects)/System/other",
+				"patcherrelativepath" : "../../../OI lib /API lib/Utilities (objects)/System/other",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oi.hub.maxpat",
 				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Utilities (objects)/Communication /pattr objects",
-				"patcherrelativepath" : "../../OI lib /API lib/Utilities (objects)/Communication /pattr objects",
+				"patcherrelativepath" : "../../../OI lib /API lib/Utilities (objects)/Communication /pattr objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "o.holdmessage.maxpat",
 				"bootpath" : "/Applications/Max6/patches/OI lib /Utilities (objects)/Lists",
-				"patcherrelativepath" : "../../OI lib /Utilities (objects)/Lists",
+				"patcherrelativepath" : "../../../OI lib /Utilities (objects)/Lists",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oi.presets.maxpat",
 				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Tools (bpatchers)/data/communication",
-				"patcherrelativepath" : "../../OI lib /API lib/Tools (bpatchers)/data/communication",
+				"patcherrelativepath" : "../../../OI lib /API lib/Tools (bpatchers)/data/communication",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oi.autovarname.js",
 				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Utilities (objects)/Communication /pattr objects",
-				"patcherrelativepath" : "../../OI lib /API lib/Utilities (objects)/Communication /pattr objects",
+				"patcherrelativepath" : "../../../OI lib /API lib/Utilities (objects)/Communication /pattr objects",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "o.f2i.maxpat",
 				"bootpath" : "/Applications/Max6/patches/OI lib /Utilities (objects)/Conversions",
-				"patcherrelativepath" : "../../OI lib /Utilities (objects)/Conversions",
+				"patcherrelativepath" : "../../../OI lib /Utilities (objects)/Conversions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oi.modulecom.maxpat",
 				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Utilities (objects)/Communication /pattr objects",
-				"patcherrelativepath" : "../../OI lib /API lib/Utilities (objects)/Communication /pattr objects",
+				"patcherrelativepath" : "../../../OI lib /API lib/Utilities (objects)/Communication /pattr objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
