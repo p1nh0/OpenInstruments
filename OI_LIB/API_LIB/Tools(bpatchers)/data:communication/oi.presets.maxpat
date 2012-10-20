@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 5
+			"revision" : 7
 		}
 ,
 		"rect" : [ 346.0, 242.0, 214.0, 59.0 ],
@@ -29,6 +29,20 @@
 		"tags" : "",
 		"globalpatchername" : "tester[1][1][1][1][1][1][2][3][1][1][1][1][5][7][7][1][1][1]",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-14",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 250.104187, 220.0, 48.0, 18.0 ],
+					"text" : "deferlow"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
@@ -230,7 +244,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 250.104187, 220.0, 32.5, 18.0 ],
+					"patching_rect" : [ 250.104187, 200.0, 32.5, 18.0 ],
 					"text" : "o.f2i"
 				}
 
@@ -277,7 +291,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 5
+							"revision" : 7
 						}
 ,
 						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
@@ -473,21 +487,20 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [  ]
+ ]
 					}
 ,
 					"patching_rect" : [ 145.604187, 330.0, 102.0, 18.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"globalpatchername" : "",
-						"digest" : "",
 						"default_fontname" : "Arial",
-						"fontname" : "Arial",
 						"default_fontsize" : 10.0,
 						"description" : "",
+						"digest" : "",
 						"fontface" : 0,
+						"fontname" : "Arial",
 						"fontsize" : 10.0,
+						"globalpatchername" : "",
 						"tags" : ""
 					}
 ,
@@ -508,7 +521,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 250.104187, 195.0, 240.0, 18.0 ],
+					"patching_rect" : [ 250.104187, 180.0, 240.0, 18.0 ],
 					"restore" : [ 0.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
@@ -521,6 +534,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "If a pattrstorage is found, oi.presets will load slot 1 at startup. (slot 1 = init)",
 					"bgcolor" : [ 0.901961, 0.901961, 0.901961, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
@@ -571,7 +585,7 @@
 					"fontface" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-54",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -652,20 +666,6 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"id" : "obj-32",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 250.104187, 490.0, 121.0, 16.0 ],
-					"text" : "set getslotnamelist, bang"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
 					"id" : "obj-36",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -699,22 +699,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 263.604187, 464.0, 123.0, 16.0 ],
-					"text" : "set slotname $2 $1, bang"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"id" : "obj-26",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 250.104187, 413.5, 32.5, 18.0 ],
-					"text" : "t b s"
+					"patching_rect" : [ 263.604187, 464.0, 241.0, 16.0 ],
+					"text" : "set slotname $2 $1, bang, set getslotname $2, bang"
 				}
 
 			}
@@ -779,6 +765,7 @@
 					"fontface" : 2,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
+					"frgb" : 0.0,
 					"id" : "obj-8",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -793,13 +780,13 @@
 					"fontface" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-6",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 18.104187, 670.0, 330.0, 34.0 ],
+					"patching_rect" : [ 18.104187, 670.0, 330.0, 33.0 ],
 					"text" : "used for locating this window externely by sending the message \"locate presets::window\" to pattrstorage",
 					"textcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
 				}
@@ -833,6 +820,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 28.104187, 760.0, 96.0, 18.0 ],
 					"saved_object_attributes" : 					{
+						"filename" : "oi.autovarname",
 						"parameter_enable" : 0
 					}
 ,
@@ -1016,6 +1004,7 @@
 					"fontface" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
+					"frgb" : 0.0,
 					"hint" : "pattrstorage file name",
 					"id" : "obj-39",
 					"ignoreclick" : 1,
@@ -1111,7 +1100,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 5
+							"revision" : 7
 						}
 ,
 						"rect" : [ 25.0, 69.0, 384.0, 298.0 ],
@@ -1235,21 +1224,20 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [  ]
+ ]
 					}
 ,
 					"patching_rect" : [ 410.0, 63.0, 73.0, 18.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"globalpatchername" : "",
-						"digest" : "",
 						"default_fontname" : "Arial",
-						"fontname" : "Arial",
 						"default_fontsize" : 10.0,
 						"description" : "",
+						"digest" : "",
 						"fontface" : 0,
+						"fontname" : "Arial",
 						"fontsize" : 10.0,
+						"globalpatchername" : "",
 						"tags" : ""
 					}
 ,
@@ -1407,7 +1395,6 @@
 					"bordercolor" : [ 0.65098, 0.65098, 0.65098, 1.0 ],
 					"hint" : "preset storage manager",
 					"id" : "obj-76",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1457,6 +1444,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-12", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-14", 0 ]
 				}
 
 			}
@@ -1572,24 +1568,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-29", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-26", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-32", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-26", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-22", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1671,15 +1649,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-19", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-32", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-31", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1707,7 +1676,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-26", 0 ],
+					"destination" : [ "obj-29", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-36", 0 ]
@@ -1745,7 +1714,16 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-12", 0 ],
+					"destination" : [ "obj-14", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-29", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-4", 0 ]
@@ -1790,19 +1768,19 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
+					"destination" : [ "obj-5", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-43", 1 ]
+					"source" : [ "obj-43", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-5", 0 ],
+					"destination" : [ "obj-9", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-43", 0 ]
+					"source" : [ "obj-43", 1 ]
 				}
 
 			}
@@ -1971,31 +1949,31 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "oi.hub.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Utilities (objects)/Communication /pattr objects",
+				"bootpath" : "/Applications/Max6/patches/OI_LIB/API_LIB/Utilities(objects)/Communication /pattr objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "o.holdmessage.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OI lib /Utilities (objects)/Lists",
+				"bootpath" : "/Applications/Max6/patches/OI_LIB/Utilities(objects)/Lists",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oi.autovarname.js",
-				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Utilities (objects)/Communication /pattr objects",
+				"bootpath" : "/Applications/Max6/patches/OI_LIB/API_LIB/Utilities(objects)/Communication /pattr objects",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "o.f2i.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OI lib /Utilities (objects)/Conversions",
+				"bootpath" : "/Applications/Max6/patches/OI_LIB/Utilities(objects)/Conversions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oi.modulecom.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Utilities (objects)/Communication /pattr objects",
+				"bootpath" : "/Applications/Max6/patches/OI_LIB/API_LIB/Utilities(objects)/Communication /pattr objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
