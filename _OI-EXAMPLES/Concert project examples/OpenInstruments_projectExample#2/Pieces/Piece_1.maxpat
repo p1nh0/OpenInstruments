@@ -8,7 +8,7 @@
 		}
 ,
 		"rect" : [ 416.0, 264.0, 250.0, 133.0 ],
-		"bgcolor" : [ 0.6, 0.6, 0.6, 1.0 ],
+		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -166,7 +166,7 @@
 					}
 ,
 					"text" : "pattr @bindto ::oi.api::print @invisible 1 @autorestore 0",
-					"varname" : "u920000938"
+					"varname" : "u311007710"
 				}
 
 			}
@@ -180,7 +180,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 555.0, 685.0, 262.0, 22.0 ],
+					"patching_rect" : [ 910.0, 765.0, 262.0, 22.0 ],
 					"text" : "set the end of a piece (internal communication)"
 				}
 
@@ -234,7 +234,7 @@
 					}
 ,
 					"text" : "pattr @bindto end_piece @invisible 1 @autorestore 0",
-					"varname" : "u333000940"
+					"varname" : "u725009050"
 				}
 
 			}
@@ -272,7 +272,7 @@
 					}
 ,
 					"text" : "pattr @bindto begin_piece @invisible 1 @autorestore 0",
-					"varname" : "u549000942"
+					"varname" : "u964007263"
 				}
 
 			}
@@ -312,7 +312,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 394.0, 685.0, 161.0, 29.0 ],
+					"patching_rect" : [ 749.0, 765.0, 161.0, 29.0 ],
 					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
@@ -432,7 +432,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::piece_state @invisible 1 @autorestore 0 @thru 0",
-									"varname" : "u606000947"
+									"varname" : "u756007703"
 								}
 
 							}
@@ -468,7 +468,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::piece_state @invisible 1 @autorestore 0",
-									"varname" : "u374000949"
+									"varname" : "u222007702"
 								}
 
 							}
@@ -490,7 +490,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::parent::concert_state @invisible 1 @autorestore 0",
-									"varname" : "u212000951"
+									"varname" : "u896007701"
 								}
 
 							}
@@ -895,7 +895,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 402.0, 569.0, 131.0, 57.0 ],
+					"patching_rect" : [ 758.0, 649.0, 131.0, 57.0 ],
 					"text" : "2- connect last instrument to end this piece"
 				}
 
@@ -908,7 +908,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 381.0, 562.0, 44.0, 124.0 ],
+					"patching_rect" : [ 737.0, 642.0, 44.0, 124.0 ],
 					"shape" : 3
 				}
 
@@ -1308,7 +1308,7 @@
 									}
 ,
 									"text" : "autopattr @autoname 1",
-									"varname" : "u976001198"
+									"varname" : "u337007453"
 								}
 
 							}
@@ -1807,7 +1807,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ -650.0, 105.0, 188.0, 40.0 ],
-					"restore" : [ "-new piece" ],
+					"restore" : [ "Piece_A" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
@@ -2570,7 +2570,7 @@
 									}
 ,
 									"text" : "pattr @bindto ::oi.api::add_space @invisible 1",
-									"varname" : "u404001051"
+									"varname" : "u751007604"
 								}
 
 							}
@@ -3691,12 +3691,11 @@
 					"patching_rect" : [ -410.0, 215.0, 59.5, 18.0 ],
 					"restore" : 					{
 						"active" : [ 0 ],
-						"print" : [ 0 ],
 						"spaces" : [ 0 ]
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u050001200"
+					"varname" : "u460007451"
 				}
 
 			}
@@ -3704,7 +3703,27 @@
 				"box" : 				{
 					"active" : 					{
 						"piece_name" : 0,
-						"piece_state" : 0
+						"piece_state" : 0,
+						"Arduino example::MasterTransport::state" : 0,
+						"Arduino example::MAPPINGS::oi.mod.notemap::OUTPUT" : 0,
+						"Arduino example::IO::pre-processing::flex::OUTPUT" : 0,
+						"Arduino example::IO::pre-processing::flex_norm::OUTPUT" : 0,
+						"Arduino example::IO::pre-processing::membrane::OUTPUT" : 0,
+						"Arduino example::IO::pre-processing::rotary::OUTPUT" : 0,
+						"Arduino example::IO::pre-processing::membrane_filter::INPUT" : 0,
+						"Arduino example::IO::pre-processing::membrane_filter::OUTPUT" : 0,
+						"Arduino example::IO::pre-processing::rotary_filter::INPUT" : 0,
+						"Arduino example::IO::pre-processing::rotary_filter::OUTPUT" : 0,
+						"Arduino example::IO::oi.idv.serial::OUTPUT" : 0,
+						"Arduino example::IO::oi.idv.serial::pollrate" : 0,
+						"Arduino example::instrument_state" : 0,
+						"Arduino example::instrument_name" : 0,
+						"inst_C::MasterTransport::state" : 0,
+						"inst_C::instrument_state" : 0,
+						"inst_C::instrument_name" : 0,
+						"inst_D::MasterTransport::state" : 0,
+						"inst_D::instrument_state" : 0,
+						"inst_D::instrument_name" : 0
 					}
 ,
 					"annotation" : "if the pattrstorage state changes (storing slots) a prompt window will appear to save the file",
@@ -3716,7 +3735,208 @@
 					"id" : "obj-14",
 					"interp" : 					{
 						"piece_name" : [ 0, 0.0 ],
-						"PRESETS::current" : [ 0, 0.0 ]
+						"PRESETS::current" : [ 0, 0.0 ],
+						"Arduino example::MasterVolume::pan::pan" : [ 0, 0.0 ],
+						"Arduino example::MasterVolume::pan::ramp" : [ 0, 0.0 ],
+						"Arduino example::MasterVolume::state" : [ 0, 0.0 ],
+						"Arduino example::MasterVolume::module_name" : [ 0, 0.0 ],
+						"Arduino example::MasterVolume::ramp" : [ 0, 0.0 ],
+						"Arduino example::MasterVolume::bypass" : [ 0, 0.0 ],
+						"Arduino example::MasterVolume::gain" : [ 0, 0.0 ],
+						"Arduino example::presets::current" : [ 0, 0.0 ],
+						"Arduino example::MasterTransport::position::value" : [ 0, 0.0 ],
+						"Arduino example::MasterTransport::position::format" : [ 0, 0.0 ],
+						"Arduino example::MasterTransport::resolution::value" : [ 0, 0.0 ],
+						"Arduino example::MasterTransport::resolution::format" : [ 0, 0.0 ],
+						"Arduino example::MasterTransport::duration::format" : [ 0, 0.0 ],
+						"Arduino example::MasterTransport::duration::value" : [ 0, 0.0 ],
+						"Arduino example::MasterTransport::offset::value" : [ 0, 0.0 ],
+						"Arduino example::MasterTransport::offset::format" : [ 0, 0.0 ],
+						"Arduino example::MasterTransport::module_name" : [ 0, 0.0 ],
+						"Arduino example::MasterTransport::dur_mode" : [ 0, 0.0 ],
+						"Arduino example::MasterTransport::mode" : [ 0, 0.0 ],
+						"Arduino example::MasterTransport::slave_mode" : [ 0, 0.0 ],
+						"Arduino example::MasterTransport::state" : [ 0, 0.0 ],
+						"Arduino example::MasterTransport::transport_name" : [ 0, 0.0 ],
+						"Arduino example::MAPPINGS::PLUCK::param" : [ 0, 0.0 ],
+						"Arduino example::MAPPINGS::PLUCK::source" : [ 0, 0.0 ],
+						"Arduino example::MAPPINGS::PLUCK::state" : [ 0, 0.0 ],
+						"Arduino example::MAPPINGS::PLUCK::query" : [ 0, 0.0 ],
+						"Arduino example::MAPPINGS::PLUCK::module_name" : [ 0, 0.0 ],
+						"Arduino example::MAPPINGS::PLUCK::module" : [ 0, 0.0 ],
+						"Arduino example::MAPPINGS::MEMB_TOUCH::module_name" : [ 0, 0.0 ],
+						"Arduino example::MAPPINGS::MEMB_TOUCH::source" : [ 0, 0.0 ],
+						"Arduino example::MAPPINGS::MEMB_TOUCH::param" : [ 0, 0.0 ],
+						"Arduino example::MAPPINGS::MEMB_TOUCH::module" : [ 0, 0.0 ],
+						"Arduino example::MAPPINGS::MEMB_TOUCH::query" : [ 0, 0.0 ],
+						"Arduino example::MAPPINGS::MEMB_TOUCH::state" : [ 0, 0.0 ],
+						"Arduino example::MAPPINGS::DEC::param" : [ 0, 0.0 ],
+						"Arduino example::MAPPINGS::DEC::source" : [ 0, 0.0 ],
+						"Arduino example::MAPPINGS::DEC::state" : [ 0, 0.0 ],
+						"Arduino example::MAPPINGS::DEC::query" : [ 0, 0.0 ],
+						"Arduino example::MAPPINGS::DEC::module_name" : [ 0, 0.0 ],
+						"Arduino example::MAPPINGS::DEC::module" : [ 0, 0.0 ],
+						"Arduino example::MAPPINGS::DAMP::source" : [ 0, 0.0 ],
+						"Arduino example::MAPPINGS::DAMP::module" : [ 0, 0.0 ],
+						"Arduino example::MAPPINGS::DAMP::module_name" : [ 0, 0.0 ],
+						"Arduino example::MAPPINGS::DAMP::param" : [ 0, 0.0 ],
+						"Arduino example::MAPPINGS::DAMP::query" : [ 0, 0.0 ],
+						"Arduino example::MAPPINGS::DAMP::state" : [ 0, 0.0 ],
+						"Arduino example::MAPPINGS::ROTATION::module" : [ 0, 0.0 ],
+						"Arduino example::MAPPINGS::ROTATION::query" : [ 0, 0.0 ],
+						"Arduino example::MAPPINGS::ROTATION::param" : [ 0, 0.0 ],
+						"Arduino example::MAPPINGS::ROTATION::source" : [ 0, 0.0 ],
+						"Arduino example::MAPPINGS::ROTATION::state" : [ 0, 0.0 ],
+						"Arduino example::MAPPINGS::ROTATION::module_name" : [ 0, 0.0 ],
+						"Arduino example::MAPPINGS::PITCH_MOD::state" : [ 0, 0.0 ],
+						"Arduino example::MAPPINGS::PITCH_MOD::param" : [ 0, 0.0 ],
+						"Arduino example::MAPPINGS::PITCH_MOD::module_name" : [ 0, 0.0 ],
+						"Arduino example::MAPPINGS::PITCH_MOD::source" : [ 0, 0.0 ],
+						"Arduino example::MAPPINGS::PITCH_MOD::query" : [ 0, 0.0 ],
+						"Arduino example::MAPPINGS::PITCH_MOD::module" : [ 0, 0.0 ],
+						"Arduino example::MAPPINGS::PITCH::module_name" : [ 0, 0.0 ],
+						"Arduino example::MAPPINGS::PITCH::param" : [ 0, 0.0 ],
+						"Arduino example::MAPPINGS::PITCH::module" : [ 0, 0.0 ],
+						"Arduino example::MAPPINGS::PITCH::state" : [ 0, 0.0 ],
+						"Arduino example::MAPPINGS::PITCH::query" : [ 0, 0.0 ],
+						"Arduino example::MAPPINGS::PITCH::source" : [ 0, 0.0 ],
+						"Arduino example::MAPPINGS::oi.mod.notemap::state" : [ 0, 0.0 ],
+						"Arduino example::MAPPINGS::oi.mod.notemap::module_name" : [ 0, 0.0 ],
+						"Arduino example::MAPPINGS::oi.mod.notemap::scalelist" : [ 0, 0.0 ],
+						"Arduino example::MAPPINGS::oi.mod.notemap::pitch-class" : [ 0, 0.0 ],
+						"Arduino example::MAPPINGS::oi.mod.notemap::scale_mode" : [ 0, 0.0 ],
+						"Arduino example::MAPPINGS::oi.mod.notemap::filter_mode" : [ 0, 0.0 ],
+						"Arduino example::MAPPINGS::oi.mod.notemap::fill_mode" : [ 0, 0.0 ],
+						"Arduino example::MAPPINGS::oi.mod.notemap::bypass" : [ 0, 0.0 ],
+						"Arduino example::MAPPINGS::ROT::module_name" : [ 0, 0.0 ],
+						"Arduino example::MAPPINGS::ROT::query" : [ 0, 0.0 ],
+						"Arduino example::MAPPINGS::ROT::source" : [ 0, 0.0 ],
+						"Arduino example::MAPPINGS::ROT::module" : [ 0, 0.0 ],
+						"Arduino example::MAPPINGS::ROT::param" : [ 0, 0.0 ],
+						"Arduino example::MAPPINGS::ROT::state" : [ 0, 0.0 ],
+						"Arduino example::MAPPINGS::FLEX::state" : [ 0, 0.0 ],
+						"Arduino example::MAPPINGS::FLEX::query" : [ 0, 0.0 ],
+						"Arduino example::MAPPINGS::FLEX::module" : [ 0, 0.0 ],
+						"Arduino example::MAPPINGS::FLEX::module_name" : [ 0, 0.0 ],
+						"Arduino example::MAPPINGS::FLEX::param" : [ 0, 0.0 ],
+						"Arduino example::MAPPINGS::FLEX::source" : [ 0, 0.0 ],
+						"Arduino example::MAPPINGS::MEMB::module_name" : [ 0, 0.0 ],
+						"Arduino example::MAPPINGS::MEMB::param" : [ 0, 0.0 ],
+						"Arduino example::MAPPINGS::MEMB::module" : [ 0, 0.0 ],
+						"Arduino example::MAPPINGS::MEMB::source" : [ 0, 0.0 ],
+						"Arduino example::MAPPINGS::MEMB::query" : [ 0, 0.0 ],
+						"Arduino example::MAPPINGS::MEMB::state" : [ 0, 0.0 ],
+						"Arduino example::IO::pre-processing::flex::output_max" : [ 0, 0.0 ],
+						"Arduino example::IO::pre-processing::flex::ramp_grain" : [ 0, 0.0 ],
+						"Arduino example::IO::pre-processing::flex::bypass" : [ 0, 0.0 ],
+						"Arduino example::IO::pre-processing::flex::state" : [ 0, 0.0 ],
+						"Arduino example::IO::pre-processing::flex::mode" : [ 0, 0.0 ],
+						"Arduino example::IO::pre-processing::flex::ramp_slope" : [ 0, 0.0 ],
+						"Arduino example::IO::pre-processing::flex::input_min" : [ 0, 0.0 ],
+						"Arduino example::IO::pre-processing::flex::module_name" : [ 0, 0.0 ],
+						"Arduino example::IO::pre-processing::flex::output_min" : [ 0, 0.0 ],
+						"Arduino example::IO::pre-processing::flex::ramp_time" : [ 0, 0.0 ],
+						"Arduino example::IO::pre-processing::flex::input_max" : [ 0, 0.0 ],
+						"Arduino example::IO::pre-processing::flex_norm::state" : [ 0, 0.0 ],
+						"Arduino example::IO::pre-processing::flex_norm::clip" : [ 0, 0.0 ],
+						"Arduino example::IO::pre-processing::flex_norm::in_max" : [ 0, 0.0 ],
+						"Arduino example::IO::pre-processing::flex_norm::out_min" : [ 0, 0.0 ],
+						"Arduino example::IO::pre-processing::flex_norm::out_max" : [ 0, 0.0 ],
+						"Arduino example::IO::pre-processing::flex_norm::bypass" : [ 0, 0.0 ],
+						"Arduino example::IO::pre-processing::flex_norm::in_min" : [ 0, 0.0 ],
+						"Arduino example::IO::pre-processing::flex_norm::module_name" : [ 0, 0.0 ],
+						"Arduino example::IO::pre-processing::flex_norm::tracking" : [ 0, 0.0 ],
+						"Arduino example::IO::pre-processing::membrane::tracking" : [ 0, 0.0 ],
+						"Arduino example::IO::pre-processing::membrane::bypass" : [ 0, 0.0 ],
+						"Arduino example::IO::pre-processing::membrane::clip" : [ 0, 0.0 ],
+						"Arduino example::IO::pre-processing::membrane::out_max" : [ 0, 0.0 ],
+						"Arduino example::IO::pre-processing::membrane::in_min" : [ 0, 0.0 ],
+						"Arduino example::IO::pre-processing::membrane::module_name" : [ 0, 0.0 ],
+						"Arduino example::IO::pre-processing::membrane::state" : [ 0, 0.0 ],
+						"Arduino example::IO::pre-processing::membrane::out_min" : [ 0, 0.0 ],
+						"Arduino example::IO::pre-processing::membrane::in_max" : [ 0, 0.0 ],
+						"Arduino example::IO::pre-processing::rotary::out_max" : [ 0, 0.0 ],
+						"Arduino example::IO::pre-processing::rotary::out_min" : [ 0, 0.0 ],
+						"Arduino example::IO::pre-processing::rotary::module_name" : [ 0, 0.0 ],
+						"Arduino example::IO::pre-processing::rotary::in_min" : [ 0, 0.0 ],
+						"Arduino example::IO::pre-processing::rotary::clip" : [ 0, 0.0 ],
+						"Arduino example::IO::pre-processing::rotary::tracking" : [ 0, 0.0 ],
+						"Arduino example::IO::pre-processing::rotary::in_max" : [ 0, 0.0 ],
+						"Arduino example::IO::pre-processing::rotary::state" : [ 0, 0.0 ],
+						"Arduino example::IO::pre-processing::rotary::bypass" : [ 0, 0.0 ],
+						"Arduino example::IO::pre-processing::membrane_filter::+::autoadapt_mode" : [ 0, 0.0 ],
+						"Arduino example::IO::pre-processing::membrane_filter::+::autoadapt_changes" : [ 0, 0.0 ],
+						"Arduino example::IO::pre-processing::membrane_filter::+::autoadapt_scale" : [ 0, 0.0 ],
+						"Arduino example::IO::pre-processing::membrane_filter::bypass" : [ 0, 0.0 ],
+						"Arduino example::IO::pre-processing::membrane_filter::filter_type" : [ 0, 0.0 ],
+						"Arduino example::IO::pre-processing::membrane_filter::out_mode" : [ 0, 0.0 ],
+						"Arduino example::IO::pre-processing::membrane_filter::module_name" : [ 0, 0.0 ],
+						"Arduino example::IO::pre-processing::membrane_filter::threshold" : [ 0, 0.0 ],
+						"Arduino example::IO::pre-processing::membrane_filter::state" : [ 0, 0.0 ],
+						"Arduino example::IO::pre-processing::rotary_filter::+::autoadapt_scale" : [ 0, 0.0 ],
+						"Arduino example::IO::pre-processing::rotary_filter::+::autoadapt_mode" : [ 0, 0.0 ],
+						"Arduino example::IO::pre-processing::rotary_filter::+::autoadapt_changes" : [ 0, 0.0 ],
+						"Arduino example::IO::pre-processing::rotary_filter::out_mode" : [ 0, 0.0 ],
+						"Arduino example::IO::pre-processing::rotary_filter::bypass" : [ 0, 0.0 ],
+						"Arduino example::IO::pre-processing::rotary_filter::filter_type" : [ 0, 0.0 ],
+						"Arduino example::IO::pre-processing::rotary_filter::threshold" : [ 0, 0.0 ],
+						"Arduino example::IO::pre-processing::rotary_filter::module_name" : [ 0, 0.0 ],
+						"Arduino example::IO::pre-processing::rotary_filter::state" : [ 0, 0.0 ],
+						"Arduino example::IO::oi.idv.serial::module_name" : [ 0, 0.0 ],
+						"Arduino example::IO::oi.idv.serial::baudrate" : [ 0, 0.0 ],
+						"Arduino example::IO::oi.idv.serial::pollrate" : [ 0, 0.0 ],
+						"Arduino example::IO::oi.idv.serial::parameters" : [ 0, 0.0 ],
+						"Arduino example::IO::oi.idv.serial::autolearn" : [ 0, 0.0 ],
+						"Arduino example::IO::oi.idv.serial::device" : [ 0, 0.0 ],
+						"Arduino example::IO::oi.idv.serial::state" : [ 0, 0.0 ],
+						"Arduino example::instrument_name" : [ 0, 0.0 ],
+						"Arduino example::PRESETS::current" : [ 0, 0.0 ],
+						"inst_C::MasterVolume::pan::pan" : [ 0, 0.0 ],
+						"inst_C::MasterVolume::pan::ramp" : [ 0, 0.0 ],
+						"inst_C::MasterVolume::ramp" : [ 0, 0.0 ],
+						"inst_C::MasterVolume::state" : [ 0, 0.0 ],
+						"inst_C::MasterVolume::bypass" : [ 0, 0.0 ],
+						"inst_C::MasterVolume::module_name" : [ 0, 0.0 ],
+						"inst_C::MasterVolume::gain" : [ 0, 0.0 ],
+						"inst_C::PRESETS::current" : [ 0, 0.0 ],
+						"inst_C::MasterTransport::position::value" : [ 0, 0.0 ],
+						"inst_C::MasterTransport::position::format" : [ 0, 0.0 ],
+						"inst_C::MasterTransport::resolution::format" : [ 0, 0.0 ],
+						"inst_C::MasterTransport::resolution::value" : [ 0, 0.0 ],
+						"inst_C::MasterTransport::duration::value" : [ 0, 0.0 ],
+						"inst_C::MasterTransport::duration::format" : [ 0, 0.0 ],
+						"inst_C::MasterTransport::offset::value" : [ 0, 0.0 ],
+						"inst_C::MasterTransport::offset::format" : [ 0, 0.0 ],
+						"inst_C::MasterTransport::mode" : [ 0, 0.0 ],
+						"inst_C::MasterTransport::module_name" : [ 0, 0.0 ],
+						"inst_C::MasterTransport::dur_mode" : [ 0, 0.0 ],
+						"inst_C::MasterTransport::slave_mode" : [ 0, 0.0 ],
+						"inst_C::MasterTransport::transport_name" : [ 0, 0.0 ],
+						"inst_C::MasterTransport::state" : [ 0, 0.0 ],
+						"inst_C::instrument_name" : [ 0, 0.0 ],
+						"inst_D::MasterVolume::pan::ramp" : [ 0, 0.0 ],
+						"inst_D::MasterVolume::pan::pan" : [ 0, 0.0 ],
+						"inst_D::MasterVolume::gain" : [ 0, 0.0 ],
+						"inst_D::MasterVolume::state" : [ 0, 0.0 ],
+						"inst_D::MasterVolume::ramp" : [ 0, 0.0 ],
+						"inst_D::MasterVolume::bypass" : [ 0, 0.0 ],
+						"inst_D::MasterVolume::module_name" : [ 0, 0.0 ],
+						"inst_D::PRESETS::current" : [ 0, 0.0 ],
+						"inst_D::MasterTransport::position::format" : [ 0, 0.0 ],
+						"inst_D::MasterTransport::position::value" : [ 0, 0.0 ],
+						"inst_D::MasterTransport::resolution::value" : [ 0, 0.0 ],
+						"inst_D::MasterTransport::resolution::format" : [ 0, 0.0 ],
+						"inst_D::MasterTransport::duration::value" : [ 0, 0.0 ],
+						"inst_D::MasterTransport::duration::format" : [ 0, 0.0 ],
+						"inst_D::MasterTransport::offset::value" : [ 0, 0.0 ],
+						"inst_D::MasterTransport::offset::format" : [ 0, 0.0 ],
+						"inst_D::MasterTransport::slave_mode" : [ 0, 0.0 ],
+						"inst_D::MasterTransport::module_name" : [ 0, 0.0 ],
+						"inst_D::MasterTransport::state" : [ 0, 0.0 ],
+						"inst_D::MasterTransport::transport_name" : [ 0, 0.0 ],
+						"inst_D::MasterTransport::mode" : [ 0, 0.0 ],
+						"inst_D::MasterTransport::dur_mode" : [ 0, 0.0 ],
+						"inst_D::instrument_name" : [ 0, 0.0 ]
 					}
 ,
 					"linecount" : 5,
@@ -3726,7 +3946,211 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ -540.0, 390.0, 143.0, 85.0 ],
 					"priority" : 					{
-						"piece_name" : -10
+						"piece_name" : -10,
+						"Arduino example::MasterVolume::pan::pan" : -5,
+						"Arduino example::MasterVolume::pan::ramp" : -6,
+						"Arduino example::MasterVolume::state" : -5,
+						"Arduino example::MasterVolume::module_name" : -10,
+						"Arduino example::MasterVolume::ramp" : -6,
+						"Arduino example::MasterVolume::bypass" : -6,
+						"Arduino example::MasterVolume::gain" : -5,
+						"Arduino example::MasterTransport::position::value" : -6,
+						"Arduino example::MasterTransport::position::format" : -7,
+						"Arduino example::MasterTransport::resolution::value" : -6,
+						"Arduino example::MasterTransport::resolution::format" : -7,
+						"Arduino example::MasterTransport::duration::format" : -7,
+						"Arduino example::MasterTransport::duration::value" : -6,
+						"Arduino example::MasterTransport::offset::value" : -6,
+						"Arduino example::MasterTransport::offset::format" : -7,
+						"Arduino example::MasterTransport::beats" : -5,
+						"Arduino example::MasterTransport::module_name" : -10,
+						"Arduino example::MasterTransport::units" : -5,
+						"Arduino example::MasterTransport::bpm" : -6,
+						"Arduino example::MasterTransport::dur_mode" : -5,
+						"Arduino example::MasterTransport::mode" : -8,
+						"Arduino example::MasterTransport::slave_mode" : -7,
+						"Arduino example::MasterTransport::transport_name" : -9,
+						"Arduino example::MAPPINGS::PLUCK::param" : -8,
+						"Arduino example::MAPPINGS::PLUCK::source" : -10,
+						"Arduino example::MAPPINGS::PLUCK::state" : -5,
+						"Arduino example::MAPPINGS::PLUCK::query" : -10,
+						"Arduino example::MAPPINGS::PLUCK::module_name" : -10,
+						"Arduino example::MAPPINGS::PLUCK::module" : -9,
+						"Arduino example::MAPPINGS::MEMB_TOUCH::module_name" : -10,
+						"Arduino example::MAPPINGS::MEMB_TOUCH::source" : -10,
+						"Arduino example::MAPPINGS::MEMB_TOUCH::param" : -8,
+						"Arduino example::MAPPINGS::MEMB_TOUCH::module" : -9,
+						"Arduino example::MAPPINGS::MEMB_TOUCH::query" : -10,
+						"Arduino example::MAPPINGS::MEMB_TOUCH::state" : -5,
+						"Arduino example::MAPPINGS::DEC::param" : -8,
+						"Arduino example::MAPPINGS::DEC::source" : -10,
+						"Arduino example::MAPPINGS::DEC::state" : -5,
+						"Arduino example::MAPPINGS::DEC::query" : -10,
+						"Arduino example::MAPPINGS::DEC::module_name" : -10,
+						"Arduino example::MAPPINGS::DEC::module" : -9,
+						"Arduino example::MAPPINGS::DAMP::source" : -10,
+						"Arduino example::MAPPINGS::DAMP::module" : -9,
+						"Arduino example::MAPPINGS::DAMP::module_name" : -10,
+						"Arduino example::MAPPINGS::DAMP::param" : -8,
+						"Arduino example::MAPPINGS::DAMP::query" : -10,
+						"Arduino example::MAPPINGS::DAMP::state" : -5,
+						"Arduino example::MAPPINGS::ROTATION::module" : -9,
+						"Arduino example::MAPPINGS::ROTATION::query" : -10,
+						"Arduino example::MAPPINGS::ROTATION::param" : -8,
+						"Arduino example::MAPPINGS::ROTATION::source" : -10,
+						"Arduino example::MAPPINGS::ROTATION::state" : -5,
+						"Arduino example::MAPPINGS::ROTATION::module_name" : -10,
+						"Arduino example::MAPPINGS::PITCH_MOD::state" : -5,
+						"Arduino example::MAPPINGS::PITCH_MOD::param" : -8,
+						"Arduino example::MAPPINGS::PITCH_MOD::module_name" : -10,
+						"Arduino example::MAPPINGS::PITCH_MOD::source" : -10,
+						"Arduino example::MAPPINGS::PITCH_MOD::query" : -10,
+						"Arduino example::MAPPINGS::PITCH_MOD::module" : -9,
+						"Arduino example::MAPPINGS::PITCH::module_name" : -10,
+						"Arduino example::MAPPINGS::PITCH::param" : -8,
+						"Arduino example::MAPPINGS::PITCH::module" : -9,
+						"Arduino example::MAPPINGS::PITCH::state" : -5,
+						"Arduino example::MAPPINGS::PITCH::query" : -10,
+						"Arduino example::MAPPINGS::PITCH::source" : -10,
+						"Arduino example::MAPPINGS::oi.mod.notemap::state" : -5,
+						"Arduino example::MAPPINGS::oi.mod.notemap::module_name" : -10,
+						"Arduino example::MAPPINGS::oi.mod.notemap::scalelist" : -7,
+						"Arduino example::MAPPINGS::oi.mod.notemap::pitch-class" : -7,
+						"Arduino example::MAPPINGS::oi.mod.notemap::scale_mode" : -7,
+						"Arduino example::MAPPINGS::oi.mod.notemap::filter_mode" : -7,
+						"Arduino example::MAPPINGS::oi.mod.notemap::fill_mode" : -7,
+						"Arduino example::MAPPINGS::oi.mod.notemap::bypass" : -6,
+						"Arduino example::MAPPINGS::oi.mod.notemap::kslider" : -6,
+						"Arduino example::MAPPINGS::ROT::module_name" : -10,
+						"Arduino example::MAPPINGS::ROT::query" : -10,
+						"Arduino example::MAPPINGS::ROT::source" : -10,
+						"Arduino example::MAPPINGS::ROT::module" : -9,
+						"Arduino example::MAPPINGS::ROT::param" : -8,
+						"Arduino example::MAPPINGS::ROT::state" : -5,
+						"Arduino example::MAPPINGS::FLEX::state" : -5,
+						"Arduino example::MAPPINGS::FLEX::query" : -10,
+						"Arduino example::MAPPINGS::FLEX::module" : -9,
+						"Arduino example::MAPPINGS::FLEX::module_name" : -10,
+						"Arduino example::MAPPINGS::FLEX::param" : -8,
+						"Arduino example::MAPPINGS::FLEX::source" : -10,
+						"Arduino example::MAPPINGS::MEMB::module_name" : -10,
+						"Arduino example::MAPPINGS::MEMB::param" : -8,
+						"Arduino example::MAPPINGS::MEMB::module" : -9,
+						"Arduino example::MAPPINGS::MEMB::source" : -10,
+						"Arduino example::MAPPINGS::MEMB::query" : -10,
+						"Arduino example::MAPPINGS::MEMB::state" : -5,
+						"Arduino example::IO::pre-processing::flex::output_max" : -7,
+						"Arduino example::IO::pre-processing::flex::ramp_grain" : -7,
+						"Arduino example::IO::pre-processing::flex::bypass" : -6,
+						"Arduino example::IO::pre-processing::flex::state" : -5,
+						"Arduino example::IO::pre-processing::flex::mode" : -9,
+						"Arduino example::IO::pre-processing::flex::ramp_slope" : -7,
+						"Arduino example::IO::pre-processing::flex::input_min" : -8,
+						"Arduino example::IO::pre-processing::flex::module_name" : -10,
+						"Arduino example::IO::pre-processing::flex::output_min" : -7,
+						"Arduino example::IO::pre-processing::flex::ramp_time" : -7,
+						"Arduino example::IO::pre-processing::flex::input_max" : -7,
+						"Arduino example::IO::pre-processing::flex_norm::state" : -5,
+						"Arduino example::IO::pre-processing::flex_norm::clip" : -8,
+						"Arduino example::IO::pre-processing::flex_norm::in_max" : -6,
+						"Arduino example::IO::pre-processing::flex_norm::out_min" : -7,
+						"Arduino example::IO::pre-processing::flex_norm::out_max" : -6,
+						"Arduino example::IO::pre-processing::flex_norm::bypass" : -6,
+						"Arduino example::IO::pre-processing::flex_norm::in_min" : -7,
+						"Arduino example::IO::pre-processing::flex_norm::module_name" : -10,
+						"Arduino example::IO::pre-processing::flex_norm::tracking" : -5,
+						"Arduino example::IO::pre-processing::membrane::tracking" : -5,
+						"Arduino example::IO::pre-processing::membrane::bypass" : -6,
+						"Arduino example::IO::pre-processing::membrane::clip" : -8,
+						"Arduino example::IO::pre-processing::membrane::out_max" : -6,
+						"Arduino example::IO::pre-processing::membrane::in_min" : -7,
+						"Arduino example::IO::pre-processing::membrane::module_name" : -10,
+						"Arduino example::IO::pre-processing::membrane::state" : -5,
+						"Arduino example::IO::pre-processing::membrane::out_min" : -7,
+						"Arduino example::IO::pre-processing::membrane::in_max" : -6,
+						"Arduino example::IO::pre-processing::rotary::out_max" : -6,
+						"Arduino example::IO::pre-processing::rotary::out_min" : -7,
+						"Arduino example::IO::pre-processing::rotary::module_name" : -10,
+						"Arduino example::IO::pre-processing::rotary::in_min" : -7,
+						"Arduino example::IO::pre-processing::rotary::clip" : -8,
+						"Arduino example::IO::pre-processing::rotary::tracking" : -5,
+						"Arduino example::IO::pre-processing::rotary::in_max" : -6,
+						"Arduino example::IO::pre-processing::rotary::state" : -5,
+						"Arduino example::IO::pre-processing::rotary::bypass" : -6,
+						"Arduino example::IO::pre-processing::membrane_filter::+::autoadapt_mode" : -6,
+						"Arduino example::IO::pre-processing::membrane_filter::+::autoadapt_changes" : -6,
+						"Arduino example::IO::pre-processing::membrane_filter::+::autoadapt_scale" : -6,
+						"Arduino example::IO::pre-processing::membrane_filter::bypass" : -6,
+						"Arduino example::IO::pre-processing::membrane_filter::filter_type" : -6,
+						"Arduino example::IO::pre-processing::membrane_filter::out_mode" : -6,
+						"Arduino example::IO::pre-processing::membrane_filter::module_name" : -10,
+						"Arduino example::IO::pre-processing::membrane_filter::threshold" : -6,
+						"Arduino example::IO::pre-processing::membrane_filter::state" : -5,
+						"Arduino example::IO::pre-processing::rotary_filter::+::autoadapt_scale" : -6,
+						"Arduino example::IO::pre-processing::rotary_filter::+::autoadapt_mode" : -6,
+						"Arduino example::IO::pre-processing::rotary_filter::+::autoadapt_changes" : -6,
+						"Arduino example::IO::pre-processing::rotary_filter::out_mode" : -6,
+						"Arduino example::IO::pre-processing::rotary_filter::bypass" : -6,
+						"Arduino example::IO::pre-processing::rotary_filter::filter_type" : -6,
+						"Arduino example::IO::pre-processing::rotary_filter::threshold" : -6,
+						"Arduino example::IO::pre-processing::rotary_filter::module_name" : -10,
+						"Arduino example::IO::pre-processing::rotary_filter::state" : -5,
+						"Arduino example::IO::oi.idv.serial::module_name" : -10,
+						"Arduino example::IO::oi.idv.serial::baudrate" : -9,
+						"Arduino example::IO::oi.idv.serial::pollrate" : -6,
+						"Arduino example::IO::oi.idv.serial::parameters" : -6,
+						"Arduino example::IO::oi.idv.serial::autolearn" : -6,
+						"Arduino example::IO::oi.idv.serial::device" : -10,
+						"Arduino example::IO::oi.idv.serial::state" : -5,
+						"Arduino example::instrument_name" : -10,
+						"inst_C::MasterVolume::pan::pan" : -5,
+						"inst_C::MasterVolume::pan::ramp" : -6,
+						"inst_C::MasterVolume::ramp" : -6,
+						"inst_C::MasterVolume::state" : -5,
+						"inst_C::MasterVolume::bypass" : -6,
+						"inst_C::MasterVolume::module_name" : -10,
+						"inst_C::MasterVolume::gain" : -5,
+						"inst_C::MasterTransport::position::value" : -6,
+						"inst_C::MasterTransport::position::format" : -7,
+						"inst_C::MasterTransport::resolution::format" : -7,
+						"inst_C::MasterTransport::resolution::value" : -6,
+						"inst_C::MasterTransport::duration::value" : -6,
+						"inst_C::MasterTransport::duration::format" : -7,
+						"inst_C::MasterTransport::offset::value" : -6,
+						"inst_C::MasterTransport::offset::format" : -7,
+						"inst_C::MasterTransport::bpm" : -6,
+						"inst_C::MasterTransport::mode" : -8,
+						"inst_C::MasterTransport::module_name" : -10,
+						"inst_C::MasterTransport::dur_mode" : -5,
+						"inst_C::MasterTransport::slave_mode" : -7,
+						"inst_C::MasterTransport::beats" : -5,
+						"inst_C::MasterTransport::units" : -5,
+						"inst_C::MasterTransport::transport_name" : -9,
+						"inst_C::instrument_name" : -10,
+						"inst_D::MasterVolume::pan::ramp" : -6,
+						"inst_D::MasterVolume::pan::pan" : -5,
+						"inst_D::MasterVolume::gain" : -5,
+						"inst_D::MasterVolume::state" : -5,
+						"inst_D::MasterVolume::ramp" : -6,
+						"inst_D::MasterVolume::bypass" : -6,
+						"inst_D::MasterVolume::module_name" : -10,
+						"inst_D::MasterTransport::position::format" : -7,
+						"inst_D::MasterTransport::position::value" : -6,
+						"inst_D::MasterTransport::resolution::value" : -6,
+						"inst_D::MasterTransport::resolution::format" : -7,
+						"inst_D::MasterTransport::duration::value" : -6,
+						"inst_D::MasterTransport::duration::format" : -7,
+						"inst_D::MasterTransport::offset::value" : -6,
+						"inst_D::MasterTransport::offset::format" : -7,
+						"inst_D::MasterTransport::slave_mode" : -7,
+						"inst_D::MasterTransport::bpm" : -6,
+						"inst_D::MasterTransport::module_name" : -10,
+						"inst_D::MasterTransport::beats" : -5,
+						"inst_D::MasterTransport::transport_name" : -9,
+						"inst_D::MasterTransport::mode" : -8,
+						"inst_D::MasterTransport::units" : -5,
+						"inst_D::MasterTransport::dur_mode" : -5,
+						"inst_D::instrument_name" : -10
 					}
 ,
 					"saved_object_attributes" : 					{
@@ -3752,7 +4176,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ -330.0, 390.0, 92.0, 22.0 ],
-					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "grow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 416, 264, 666, 397, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+					"save" : [ "#N", "thispatcher", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
 				}
 
@@ -3815,7 +4239,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 35.5, 3.0, 209.0289, 35.5 ],
 					"rounded" : 0.0,
-					"text" : "\"-new piece\"",
+					"text" : "Piece_A",
 					"varname" : "textedit"
 				}
 
@@ -3830,6 +4254,32 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 381.0, 256.0, 44.0, 124.0 ],
 					"shape" : 3
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-42",
+					"maxclass" : "bpatcher",
+					"name" : "inst_C.maxpat",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "begin" ],
+					"patching_rect" : [ 393.0, 380.0, 251.0, 250.0 ],
+					"varname" : "inst_C"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-61",
+					"maxclass" : "bpatcher",
+					"name" : "inst_D.maxpat",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "begin" ],
+					"patching_rect" : [ 749.0, 380.0, 250.0, 250.0 ],
+					"varname" : "inst_D"
 				}
 
 			}
@@ -4260,10 +4710,29 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-61", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 634.5, 656.0, 704.0, 656.0, 704.0, 349.0, 758.5, 349.0 ],
+					"source" : [ "obj-42", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-32", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-44", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-42", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-45", 0 ]
 				}
 
 			}
@@ -4388,6 +4857,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-40", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-61", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-19", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -4488,70 +4966,6 @@
 					"source" : [ "obj-9", 0 ]
 				}
 
-			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "piece1_data.json",
-				"bootpath" : "/Applications/Max6/examples/_OI-EXAMPLES/Concert project examples/OpenInstruments_projectExample#1/_presets",
-				"patcherrelativepath" : "../../../../examples/_OI-EXAMPLES/Concert project examples/OpenInstruments_projectExample#1/_presets",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "o.listaccum.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OI_LIB/Utilities(objects)/Lists",
-				"patcherrelativepath" : "../../../OI_LIB/Utilities(objects)/Lists",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "oi.presets.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OI_LIB/API_LIB/Tools(bpatchers)/data/communication",
-				"patcherrelativepath" : "../../../OI_LIB/API_LIB/Tools(bpatchers)/data/communication",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "oi.hub.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OI_LIB/API_LIB/Utilities(objects)/Communication /pattr objects",
-				"patcherrelativepath" : "../../../OI_LIB/API_LIB/Utilities(objects)/Communication /pattr objects",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "o.holdmessage.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OI_LIB/Utilities(objects)/Lists",
-				"patcherrelativepath" : "../../../OI_LIB/Utilities(objects)/Lists",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "oi.autovarname.js",
-				"bootpath" : "/Applications/Max6/patches/OI_LIB/API_LIB/Utilities(objects)/Communication /pattr objects",
-				"patcherrelativepath" : "../../../OI_LIB/API_LIB/Utilities(objects)/Communication /pattr objects",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "o.f2i.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OI_LIB/Utilities(objects)/Conversions",
-				"patcherrelativepath" : "../../../OI_LIB/Utilities(objects)/Conversions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "oi.modulecom.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OI_LIB/API_LIB/Utilities(objects)/Communication /pattr objects",
-				"patcherrelativepath" : "../../../OI_LIB/API_LIB/Utilities(objects)/Communication /pattr objects",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "oi.print.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OI_LIB/API_LIB/Utilities(objects)/System/other",
-				"patcherrelativepath" : "../../../OI_LIB/API_LIB/Utilities(objects)/System/other",
-				"type" : "JSON",
-				"implicit" : 1
 			}
  ]
 	}
