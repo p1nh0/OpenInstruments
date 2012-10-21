@@ -27,8 +27,26 @@
 		"description" : "",
 		"digest" : "",
 		"tags" : "",
-		"globalpatchername" : "u791000941[1][1]",
+		"globalpatchername" : "u791000941[1][1][2]",
 		"boxes" : [ 			{
+				"box" : 				{
+					"bubble" : 1,
+					"fontface" : 3,
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"frgb" : 0.0,
+					"id" : "obj-46",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 720.0, 215.0, 187.0, 42.0 ],
+					"presentation_rect" : [ 771.0, 202.0, 0.0, 0.0 ],
+					"text" : "playing inst_B after inst_A"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
@@ -166,7 +184,7 @@
 					}
 ,
 					"text" : "pattr @bindto ::oi.api::print @invisible 1 @autorestore 0",
-					"varname" : "u311007710"
+					"varname" : "u546009903"
 				}
 
 			}
@@ -180,7 +198,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 910.0, 765.0, 262.0, 22.0 ],
+					"patching_rect" : [ 630.0, 726.0, 262.0, 22.0 ],
 					"text" : "set the end of a piece (internal communication)"
 				}
 
@@ -196,7 +214,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 615.0, 240.0, 246.0, 33.0 ],
+					"patching_rect" : [ 344.0, 63.5, 246.0, 33.0 ],
 					"text" : "sets the beginning of a piece (internal communication)"
 				}
 
@@ -234,7 +252,7 @@
 					}
 ,
 					"text" : "pattr @bindto end_piece @invisible 1 @autorestore 0",
-					"varname" : "u725009050"
+					"varname" : "u864009900"
 				}
 
 			}
@@ -272,7 +290,7 @@
 					}
 ,
 					"text" : "pattr @bindto begin_piece @invisible 1 @autorestore 0",
-					"varname" : "u964007263"
+					"varname" : "u747010689"
 				}
 
 			}
@@ -284,17 +302,18 @@
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-45",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 393.0, 240.0, 230.0, 18.0 ],
+					"patching_rect" : [ 175.0, 67.5, 170.0, 29.0 ],
 					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "pattr begin_piece @autorestore 0 @invisible 1",
+					"text" : "pattr begin_piece @autorestore 0 @invisible 1 @type symbol",
 					"varname" : "begin_piece"
 				}
 
@@ -312,7 +331,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 749.0, 765.0, 161.0, 29.0 ],
+					"patching_rect" : [ 469.0, 726.0, 161.0, 29.0 ],
 					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
@@ -432,7 +451,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::piece_state @invisible 1 @autorestore 0 @thru 0",
-									"varname" : "u756007703"
+									"varname" : "u955009894"
 								}
 
 							}
@@ -468,7 +487,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::piece_state @invisible 1 @autorestore 0",
-									"varname" : "u222007702"
+									"varname" : "u220009892"
 								}
 
 							}
@@ -490,7 +509,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::parent::concert_state @invisible 1 @autorestore 0",
-									"varname" : "u896007701"
+									"varname" : "u888009886"
 								}
 
 							}
@@ -895,7 +914,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 758.0, 649.0, 131.0, 57.0 ],
+					"patching_rect" : [ 477.0, 610.0, 131.0, 57.0 ],
 					"text" : "2- connect last instrument to end this piece"
 				}
 
@@ -908,7 +927,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 737.0, 642.0, 44.0, 124.0 ],
+					"patching_rect" : [ 456.0, 603.0, 44.0, 124.0 ],
 					"shape" : 3
 				}
 
@@ -953,7 +972,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 403.0, 275.0, 187.0, 57.0 ],
+					"patching_rect" : [ 184.0, 110.0, 187.0, 57.0 ],
 					"text" : "1- connect to the first instrument to be played in this piece"
 				}
 
@@ -1214,7 +1233,7 @@
 							"revision" : 7
 						}
 ,
-						"rect" : [ 1469.0, -192.0, 1215.0, 698.0 ],
+						"rect" : [ 67.0, 78.0, 1215.0, 698.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 10.0,
@@ -1235,58 +1254,142 @@
 						"tags" : "",
 						"boxes" : [ 							{
 								"box" : 								{
-									"id" : "obj-38",
-									"maxclass" : "toggle",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "int" ],
-									"parameter_enable" : 0,
-									"patching_rect" : [ 120.0, 80.0, 20.0, 20.0 ],
-									"varname" : "toggle"
-								}
-
-							}
-, 							{
-								"box" : 								{
+									"bubble" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
-									"id" : "obj-36",
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 120.0, 240.0, 32.5, 18.0 ],
-									"text" : "gate"
+									"frgb" : 0.0,
+									"id" : "obj-24",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 1043.0, 610.0, 54.0, 22.0 ],
+									"text" : "global"
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"bgcolor" : [ 0.65098, 0.65098, 0.65098, 0.0 ],
-									"id" : "obj-34",
-									"knobcolor" : [ 0.4, 0.4, 0.4, 1.0 ],
-									"maxclass" : "gain~",
-									"numinlets" : 2,
+									"id" : "obj-27",
+									"maxclass" : "bpatcher",
+									"name" : "oi.stereotrack~.maxpat",
+									"numinlets" : 3,
 									"numoutlets" : 2,
-									"outlettype" : [ "signal", "int" ],
-									"parameter_enable" : 0,
-									"patching_rect" : [ 168.5, 80.0, 22.0, 140.0 ],
-									"prototypename" : "oi.gainV",
-									"stripecolor" : [ 0.858824, 0.898039, 0.678431, 0.0 ],
-									"varname" : "gain_in[2]"
+									"outlettype" : [ "signal", "signal" ],
+									"patching_rect" : [ 859.0, 540.0, 180.0, 55.0 ],
+									"varname" : "api_out~"
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"bgcolor" : [ 0.65098, 0.65098, 0.65098, 1.0 ],
-									"id" : "obj-35",
-									"maxclass" : "meter~",
+									"bgcolor" : [ 0.258824, 0.517647, 0.709804, 1.0 ],
+									"color" : [ 0.65098, 0.65098, 0.65098, 1.0 ],
+									"fontface" : 3,
+									"fontname" : "Arial",
+									"fontsize" : 10.0,
+									"id" : "obj-28",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 951.0, 610.0, 92.0, 18.0 ],
+									"text" : "send~ oi.api.out2",
+									"textcolor" : [ 0.901961, 0.901961, 0.901961, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bgcolor" : [ 0.258824, 0.517647, 0.709804, 1.0 ],
+									"color" : [ 0.65098, 0.65098, 0.65098, 1.0 ],
+									"fontface" : 3,
+									"fontname" : "Arial",
+									"fontsize" : 10.0,
+									"id" : "obj-29",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 859.0, 610.0, 92.0, 18.0 ],
+									"text" : "send~ oi.api.out1",
+									"textcolor" : [ 0.901961, 0.901961, 0.901961, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bubble" : 1,
+									"fontname" : "Arial",
+									"fontsize" : 10.0,
+									"frgb" : 0.0,
+									"id" : "obj-16",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 271.0, 28.0, 54.0, 22.0 ],
+									"text" : "global"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-17",
+									"maxclass" : "bpatcher",
+									"name" : "oi.stereotrack~.maxpat",
+									"numinlets" : 3,
+									"numoutlets" : 2,
+									"outlettype" : [ "signal", "signal" ],
+									"patching_rect" : [ 80.0, 60.0, 180.0, 55.0 ],
+									"varname" : "api_in~"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bgcolor" : [ 0.466667, 0.752941, 0.894118, 1.0 ],
+									"color" : [ 0.65098, 0.65098, 0.65098, 1.0 ],
+									"fontface" : 3,
+									"fontname" : "Arial",
+									"fontsize" : 10.0,
+									"id" : "obj-18",
+									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
-									"outlettype" : [ "float" ],
-									"patching_rect" : [ 168.5, 80.0, 22.0, 140.0 ],
-									"prototypename" : "oi.meterV"
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 174.0, 30.0, 97.0, 18.0 ],
+									"text" : "receive~ oi.api.in2",
+									"textcolor" : [ 0.2, 0.2, 0.2, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bgcolor" : [ 0.466667, 0.752941, 0.894118, 1.0 ],
+									"color" : [ 0.65098, 0.65098, 0.65098, 1.0 ],
+									"fontface" : 3,
+									"fontname" : "Arial",
+									"fontsize" : 10.0,
+									"id" : "obj-2",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 80.0, 30.0, 97.0, 18.0 ],
+									"text" : "receive~ oi.api.in1",
+									"textcolor" : [ 0.2, 0.2, 0.2, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bubble" : 1,
+									"fontname" : "Arial",
+									"fontsize" : 10.0,
+									"frgb" : 0.0,
+									"id" : "obj-9",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 313.0, 600.0, 69.0, 22.0 ],
+									"text" : "local (#0)"
 								}
 
 							}
@@ -1301,31 +1404,8 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 540.0, 23.5, 116.0, 18.0 ],
-									"restore" : 									{
-										"gain_in[1]" : [ 115 ],
-										"gain_in[2]" : [ 115 ],
-										"toggle" : [ 0 ]
-									}
-,
 									"text" : "autopattr @autoname 1",
-									"varname" : "u337007453"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"bgcolor" : [ 0.65098, 0.65098, 0.65098, 0.0 ],
-									"id" : "obj-31",
-									"knobcolor" : [ 0.4, 0.4, 0.4, 1.0 ],
-									"maxclass" : "gain~",
-									"numinlets" : 2,
-									"numoutlets" : 2,
-									"outlettype" : [ "signal", "int" ],
-									"parameter_enable" : 0,
-									"patching_rect" : [ 80.5, 80.0, 22.0, 140.0 ],
-									"prototypename" : "oi.gainV",
-									"stripecolor" : [ 0.858824, 0.898039, 0.678431, 0.0 ],
-									"varname" : "gain_in[1]"
+									"varname" : "u462010743"
 								}
 
 							}
@@ -1340,7 +1420,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 187.0, 240.0, 149.0, 30.0 ],
+									"patching_rect" : [ 260.0, 240.0, 149.0, 30.0 ],
 									"text" : "pre-processing"
 								}
 
@@ -1353,11 +1433,12 @@
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
 									"id" : "obj-25",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 168.0, 600.0, 84.0, 18.0 ],
-									"text" : "send~ #0-in1",
+									"patching_rect" : [ 241.0, 600.0, 80.0, 29.0 ],
+									"text" : "send~ #0-oi.pce.in2",
 									"textcolor" : [ 0.2, 0.2, 0.2, 1.0 ]
 								}
 
@@ -1370,29 +1451,12 @@
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
 									"id" : "obj-26",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 80.0, 600.0, 84.0, 18.0 ],
-									"text" : "send~ #0-in1",
-									"textcolor" : [ 0.2, 0.2, 0.2, 1.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"bgcolor" : [ 0.466667, 0.752941, 0.894118, 1.0 ],
-									"color" : [ 0.65098, 0.65098, 0.65098, 1.0 ],
-									"fontface" : 3,
-									"fontname" : "Arial",
-									"fontsize" : 10.0,
-									"id" : "obj-24",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "signal", "signal" ],
-									"patching_rect" : [ 80.0, 40.0, 107.0, 18.0 ],
-									"text" : "adc~",
+									"patching_rect" : [ 80.0, 600.0, 80.0, 29.0 ],
+									"text" : "send~ #0-oi.pce.in1",
 									"textcolor" : [ 0.2, 0.2, 0.2, 1.0 ]
 								}
 
@@ -1436,7 +1500,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1043.0, 300.0, 152.0, 30.0 ],
+									"patching_rect" : [ 1040.0, 260.0, 152.0, 30.0 ],
 									"text" : "post-processing"
 								}
 
@@ -1444,7 +1508,7 @@
 , 							{
 								"box" : 								{
 									"bgcolor" : [ 0.258824, 0.517647, 0.709804, 1.0 ],
-									"color" : [ 0.901961, 0.901961, 0.901961, 1.0 ],
+									"color" : [ 0.65098, 0.65098, 0.65098, 1.0 ],
 									"fontface" : 3,
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
@@ -1453,8 +1517,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 1021.0, 40.0, 101.0, 18.0 ],
-									"text" : "receive~ #0-out2",
+									"patching_rect" : [ 1021.0, 40.0, 131.0, 18.0 ],
+									"text" : "receive~ #0-oi.pce.out2",
 									"textcolor" : [ 0.901961, 0.901961, 0.901961, 1.0 ]
 								}
 
@@ -1462,7 +1526,7 @@
 , 							{
 								"box" : 								{
 									"bgcolor" : [ 0.258824, 0.517647, 0.709804, 1.0 ],
-									"color" : [ 0.901961, 0.901961, 0.901961, 1.0 ],
+									"color" : [ 0.65098, 0.65098, 0.65098, 1.0 ],
 									"fontface" : 3,
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
@@ -1471,25 +1535,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 859.0, 40.0, 101.0, 18.0 ],
-									"text" : "receive~ #0-out1",
-									"textcolor" : [ 0.901961, 0.901961, 0.901961, 1.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"bgcolor" : [ 0.258824, 0.517647, 0.709804, 1.0 ],
-									"color" : [ 0.901961, 0.901961, 0.901961, 1.0 ],
-									"fontface" : 3,
-									"fontname" : "Arial",
-									"fontsize" : 10.0,
-									"id" : "obj-2",
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 0,
-									"patching_rect" : [ 860.0, 593.0, 180.0, 18.0 ],
-									"text" : "dac~",
+									"patching_rect" : [ 859.0, 40.0, 131.0, 18.0 ],
+									"text" : "receive~ #0-oi.pce.out1",
 									"textcolor" : [ 0.901961, 0.901961, 0.901961, 1.0 ]
 								}
 
@@ -1507,35 +1554,13 @@
 								}
 
 							}
-, 							{
-								"box" : 								{
-									"bgcolor" : [ 0.65098, 0.65098, 0.65098, 1.0 ],
-									"id" : "obj-33",
-									"maxclass" : "meter~",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "float" ],
-									"patching_rect" : [ 80.5, 80.0, 22.0, 140.0 ],
-									"prototypename" : "oi.meterV"
-								}
-
-							}
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
-									"destination" : [ "obj-31", 0 ],
+									"destination" : [ "obj-25", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"source" : [ "obj-24", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-34", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-24", 1 ]
+									"source" : [ "obj-17", 1 ]
 								}
 
 							}
@@ -1544,69 +1569,51 @@
 									"destination" : [ "obj-26", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"source" : [ "obj-31", 0 ]
+									"source" : [ "obj-17", 0 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-33", 0 ],
+									"destination" : [ "obj-17", 2 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"source" : [ "obj-31", 0 ]
+									"midpoints" : [ 183.5, 53.5, 250.5, 53.5 ],
+									"source" : [ "obj-18", 0 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-36", 1 ],
+									"destination" : [ "obj-17", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 93.5, 229.5, 143.0, 229.5 ],
-									"source" : [ "obj-31", 1 ]
+									"source" : [ "obj-2", 0 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-25", 0 ],
+									"destination" : [ "obj-28", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"source" : [ "obj-34", 0 ]
+									"midpoints" : [ 1029.5, 599.5, 960.5, 599.5 ],
+									"source" : [ "obj-27", 1 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-35", 0 ],
+									"destination" : [ "obj-29", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"source" : [ "obj-34", 0 ]
+									"source" : [ "obj-27", 0 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-34", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"midpoints" : [ 129.5, 267.0, 153.5, 267.0, 153.5, 70.0, 177.5, 70.0 ],
-									"source" : [ "obj-36", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-36", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-38", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-2", 0 ],
+									"destination" : [ "obj-27", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-4", 0 ]
@@ -1615,9 +1622,10 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-2", 1 ],
+									"destination" : [ "obj-27", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
+									"midpoints" : [ 1030.5, 525.5, 949.0, 525.5 ],
 									"source" : [ "obj-5", 0 ]
 								}
 
@@ -1807,7 +1815,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ -650.0, 105.0, 188.0, 40.0 ],
-					"restore" : [ "Piece_A" ],
+					"restore" : [ "Piece_1" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
@@ -2570,7 +2578,7 @@
 									}
 ,
 									"text" : "pattr @bindto ::oi.api::add_space @invisible 1",
-									"varname" : "u751007604"
+									"varname" : "u201009649"
 								}
 
 							}
@@ -2771,7 +2779,7 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"globalpatchername" : "oi.visualfeedback",
+						"globalpatchername" : "oi.visualfeedback[2]",
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -2859,7 +2867,7 @@
 						"fontface" : 0,
 						"fontname" : "Arial",
 						"fontsize" : 10.0,
-						"globalpatchername" : "oi.visualfeedback",
+						"globalpatchername" : "oi.visualfeedback[2]",
 						"tags" : ""
 					}
 ,
@@ -2920,7 +2928,7 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"globalpatchername" : "oi.dataset[1][1]",
+						"globalpatchername" : "oi.dataset[1][1][3]",
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -2978,7 +2986,7 @@
 						"fontface" : 0,
 						"fontname" : "Arial",
 						"fontsize" : 10.0,
-						"globalpatchername" : "oi.dataset[1][1]",
+						"globalpatchername" : "oi.dataset[1][1][3]",
 						"tags" : ""
 					}
 ,
@@ -3695,7 +3703,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u460007451"
+					"varname" : "u257010748"
 				}
 
 			}
@@ -3704,26 +3712,12 @@
 					"active" : 					{
 						"piece_name" : 0,
 						"piece_state" : 0,
-						"Arduino example::MasterTransport::state" : 0,
-						"Arduino example::MAPPINGS::oi.mod.notemap::OUTPUT" : 0,
-						"Arduino example::IO::pre-processing::flex::OUTPUT" : 0,
-						"Arduino example::IO::pre-processing::flex_norm::OUTPUT" : 0,
-						"Arduino example::IO::pre-processing::membrane::OUTPUT" : 0,
-						"Arduino example::IO::pre-processing::rotary::OUTPUT" : 0,
-						"Arduino example::IO::pre-processing::membrane_filter::INPUT" : 0,
-						"Arduino example::IO::pre-processing::membrane_filter::OUTPUT" : 0,
-						"Arduino example::IO::pre-processing::rotary_filter::INPUT" : 0,
-						"Arduino example::IO::pre-processing::rotary_filter::OUTPUT" : 0,
-						"Arduino example::IO::oi.idv.serial::OUTPUT" : 0,
-						"Arduino example::IO::oi.idv.serial::pollrate" : 0,
-						"Arduino example::instrument_state" : 0,
-						"Arduino example::instrument_name" : 0,
-						"inst_C::MasterTransport::state" : 0,
-						"inst_C::instrument_state" : 0,
-						"inst_C::instrument_name" : 0,
-						"inst_D::MasterTransport::state" : 0,
-						"inst_D::instrument_state" : 0,
-						"inst_D::instrument_name" : 0
+						"inst_A::MasterTransport::state" : 0,
+						"inst_A::instrument_state" : 0,
+						"inst_A::instrument_name" : 0,
+						"inst_B::MasterTransport::state" : 0,
+						"inst_B::instrument_state" : 0,
+						"inst_B::instrument_name" : 0
 					}
 ,
 					"annotation" : "if the pattrstorage state changes (storing slots) a prompt window will appear to save the file",
@@ -3736,207 +3730,66 @@
 					"interp" : 					{
 						"piece_name" : [ 0, 0.0 ],
 						"PRESETS::current" : [ 0, 0.0 ],
-						"Arduino example::MasterVolume::pan::pan" : [ 0, 0.0 ],
-						"Arduino example::MasterVolume::pan::ramp" : [ 0, 0.0 ],
-						"Arduino example::MasterVolume::state" : [ 0, 0.0 ],
-						"Arduino example::MasterVolume::module_name" : [ 0, 0.0 ],
-						"Arduino example::MasterVolume::ramp" : [ 0, 0.0 ],
-						"Arduino example::MasterVolume::bypass" : [ 0, 0.0 ],
-						"Arduino example::MasterVolume::gain" : [ 0, 0.0 ],
-						"Arduino example::presets::current" : [ 0, 0.0 ],
-						"Arduino example::MasterTransport::position::value" : [ 0, 0.0 ],
-						"Arduino example::MasterTransport::position::format" : [ 0, 0.0 ],
-						"Arduino example::MasterTransport::resolution::value" : [ 0, 0.0 ],
-						"Arduino example::MasterTransport::resolution::format" : [ 0, 0.0 ],
-						"Arduino example::MasterTransport::duration::format" : [ 0, 0.0 ],
-						"Arduino example::MasterTransport::duration::value" : [ 0, 0.0 ],
-						"Arduino example::MasterTransport::offset::value" : [ 0, 0.0 ],
-						"Arduino example::MasterTransport::offset::format" : [ 0, 0.0 ],
-						"Arduino example::MasterTransport::module_name" : [ 0, 0.0 ],
-						"Arduino example::MasterTransport::dur_mode" : [ 0, 0.0 ],
-						"Arduino example::MasterTransport::mode" : [ 0, 0.0 ],
-						"Arduino example::MasterTransport::slave_mode" : [ 0, 0.0 ],
-						"Arduino example::MasterTransport::state" : [ 0, 0.0 ],
-						"Arduino example::MasterTransport::transport_name" : [ 0, 0.0 ],
-						"Arduino example::MAPPINGS::PLUCK::param" : [ 0, 0.0 ],
-						"Arduino example::MAPPINGS::PLUCK::source" : [ 0, 0.0 ],
-						"Arduino example::MAPPINGS::PLUCK::state" : [ 0, 0.0 ],
-						"Arduino example::MAPPINGS::PLUCK::query" : [ 0, 0.0 ],
-						"Arduino example::MAPPINGS::PLUCK::module_name" : [ 0, 0.0 ],
-						"Arduino example::MAPPINGS::PLUCK::module" : [ 0, 0.0 ],
-						"Arduino example::MAPPINGS::MEMB_TOUCH::module_name" : [ 0, 0.0 ],
-						"Arduino example::MAPPINGS::MEMB_TOUCH::source" : [ 0, 0.0 ],
-						"Arduino example::MAPPINGS::MEMB_TOUCH::param" : [ 0, 0.0 ],
-						"Arduino example::MAPPINGS::MEMB_TOUCH::module" : [ 0, 0.0 ],
-						"Arduino example::MAPPINGS::MEMB_TOUCH::query" : [ 0, 0.0 ],
-						"Arduino example::MAPPINGS::MEMB_TOUCH::state" : [ 0, 0.0 ],
-						"Arduino example::MAPPINGS::DEC::param" : [ 0, 0.0 ],
-						"Arduino example::MAPPINGS::DEC::source" : [ 0, 0.0 ],
-						"Arduino example::MAPPINGS::DEC::state" : [ 0, 0.0 ],
-						"Arduino example::MAPPINGS::DEC::query" : [ 0, 0.0 ],
-						"Arduino example::MAPPINGS::DEC::module_name" : [ 0, 0.0 ],
-						"Arduino example::MAPPINGS::DEC::module" : [ 0, 0.0 ],
-						"Arduino example::MAPPINGS::DAMP::source" : [ 0, 0.0 ],
-						"Arduino example::MAPPINGS::DAMP::module" : [ 0, 0.0 ],
-						"Arduino example::MAPPINGS::DAMP::module_name" : [ 0, 0.0 ],
-						"Arduino example::MAPPINGS::DAMP::param" : [ 0, 0.0 ],
-						"Arduino example::MAPPINGS::DAMP::query" : [ 0, 0.0 ],
-						"Arduino example::MAPPINGS::DAMP::state" : [ 0, 0.0 ],
-						"Arduino example::MAPPINGS::ROTATION::module" : [ 0, 0.0 ],
-						"Arduino example::MAPPINGS::ROTATION::query" : [ 0, 0.0 ],
-						"Arduino example::MAPPINGS::ROTATION::param" : [ 0, 0.0 ],
-						"Arduino example::MAPPINGS::ROTATION::source" : [ 0, 0.0 ],
-						"Arduino example::MAPPINGS::ROTATION::state" : [ 0, 0.0 ],
-						"Arduino example::MAPPINGS::ROTATION::module_name" : [ 0, 0.0 ],
-						"Arduino example::MAPPINGS::PITCH_MOD::state" : [ 0, 0.0 ],
-						"Arduino example::MAPPINGS::PITCH_MOD::param" : [ 0, 0.0 ],
-						"Arduino example::MAPPINGS::PITCH_MOD::module_name" : [ 0, 0.0 ],
-						"Arduino example::MAPPINGS::PITCH_MOD::source" : [ 0, 0.0 ],
-						"Arduino example::MAPPINGS::PITCH_MOD::query" : [ 0, 0.0 ],
-						"Arduino example::MAPPINGS::PITCH_MOD::module" : [ 0, 0.0 ],
-						"Arduino example::MAPPINGS::PITCH::module_name" : [ 0, 0.0 ],
-						"Arduino example::MAPPINGS::PITCH::param" : [ 0, 0.0 ],
-						"Arduino example::MAPPINGS::PITCH::module" : [ 0, 0.0 ],
-						"Arduino example::MAPPINGS::PITCH::state" : [ 0, 0.0 ],
-						"Arduino example::MAPPINGS::PITCH::query" : [ 0, 0.0 ],
-						"Arduino example::MAPPINGS::PITCH::source" : [ 0, 0.0 ],
-						"Arduino example::MAPPINGS::oi.mod.notemap::state" : [ 0, 0.0 ],
-						"Arduino example::MAPPINGS::oi.mod.notemap::module_name" : [ 0, 0.0 ],
-						"Arduino example::MAPPINGS::oi.mod.notemap::scalelist" : [ 0, 0.0 ],
-						"Arduino example::MAPPINGS::oi.mod.notemap::pitch-class" : [ 0, 0.0 ],
-						"Arduino example::MAPPINGS::oi.mod.notemap::scale_mode" : [ 0, 0.0 ],
-						"Arduino example::MAPPINGS::oi.mod.notemap::filter_mode" : [ 0, 0.0 ],
-						"Arduino example::MAPPINGS::oi.mod.notemap::fill_mode" : [ 0, 0.0 ],
-						"Arduino example::MAPPINGS::oi.mod.notemap::bypass" : [ 0, 0.0 ],
-						"Arduino example::MAPPINGS::ROT::module_name" : [ 0, 0.0 ],
-						"Arduino example::MAPPINGS::ROT::query" : [ 0, 0.0 ],
-						"Arduino example::MAPPINGS::ROT::source" : [ 0, 0.0 ],
-						"Arduino example::MAPPINGS::ROT::module" : [ 0, 0.0 ],
-						"Arduino example::MAPPINGS::ROT::param" : [ 0, 0.0 ],
-						"Arduino example::MAPPINGS::ROT::state" : [ 0, 0.0 ],
-						"Arduino example::MAPPINGS::FLEX::state" : [ 0, 0.0 ],
-						"Arduino example::MAPPINGS::FLEX::query" : [ 0, 0.0 ],
-						"Arduino example::MAPPINGS::FLEX::module" : [ 0, 0.0 ],
-						"Arduino example::MAPPINGS::FLEX::module_name" : [ 0, 0.0 ],
-						"Arduino example::MAPPINGS::FLEX::param" : [ 0, 0.0 ],
-						"Arduino example::MAPPINGS::FLEX::source" : [ 0, 0.0 ],
-						"Arduino example::MAPPINGS::MEMB::module_name" : [ 0, 0.0 ],
-						"Arduino example::MAPPINGS::MEMB::param" : [ 0, 0.0 ],
-						"Arduino example::MAPPINGS::MEMB::module" : [ 0, 0.0 ],
-						"Arduino example::MAPPINGS::MEMB::source" : [ 0, 0.0 ],
-						"Arduino example::MAPPINGS::MEMB::query" : [ 0, 0.0 ],
-						"Arduino example::MAPPINGS::MEMB::state" : [ 0, 0.0 ],
-						"Arduino example::IO::pre-processing::flex::output_max" : [ 0, 0.0 ],
-						"Arduino example::IO::pre-processing::flex::ramp_grain" : [ 0, 0.0 ],
-						"Arduino example::IO::pre-processing::flex::bypass" : [ 0, 0.0 ],
-						"Arduino example::IO::pre-processing::flex::state" : [ 0, 0.0 ],
-						"Arduino example::IO::pre-processing::flex::mode" : [ 0, 0.0 ],
-						"Arduino example::IO::pre-processing::flex::ramp_slope" : [ 0, 0.0 ],
-						"Arduino example::IO::pre-processing::flex::input_min" : [ 0, 0.0 ],
-						"Arduino example::IO::pre-processing::flex::module_name" : [ 0, 0.0 ],
-						"Arduino example::IO::pre-processing::flex::output_min" : [ 0, 0.0 ],
-						"Arduino example::IO::pre-processing::flex::ramp_time" : [ 0, 0.0 ],
-						"Arduino example::IO::pre-processing::flex::input_max" : [ 0, 0.0 ],
-						"Arduino example::IO::pre-processing::flex_norm::state" : [ 0, 0.0 ],
-						"Arduino example::IO::pre-processing::flex_norm::clip" : [ 0, 0.0 ],
-						"Arduino example::IO::pre-processing::flex_norm::in_max" : [ 0, 0.0 ],
-						"Arduino example::IO::pre-processing::flex_norm::out_min" : [ 0, 0.0 ],
-						"Arduino example::IO::pre-processing::flex_norm::out_max" : [ 0, 0.0 ],
-						"Arduino example::IO::pre-processing::flex_norm::bypass" : [ 0, 0.0 ],
-						"Arduino example::IO::pre-processing::flex_norm::in_min" : [ 0, 0.0 ],
-						"Arduino example::IO::pre-processing::flex_norm::module_name" : [ 0, 0.0 ],
-						"Arduino example::IO::pre-processing::flex_norm::tracking" : [ 0, 0.0 ],
-						"Arduino example::IO::pre-processing::membrane::tracking" : [ 0, 0.0 ],
-						"Arduino example::IO::pre-processing::membrane::bypass" : [ 0, 0.0 ],
-						"Arduino example::IO::pre-processing::membrane::clip" : [ 0, 0.0 ],
-						"Arduino example::IO::pre-processing::membrane::out_max" : [ 0, 0.0 ],
-						"Arduino example::IO::pre-processing::membrane::in_min" : [ 0, 0.0 ],
-						"Arduino example::IO::pre-processing::membrane::module_name" : [ 0, 0.0 ],
-						"Arduino example::IO::pre-processing::membrane::state" : [ 0, 0.0 ],
-						"Arduino example::IO::pre-processing::membrane::out_min" : [ 0, 0.0 ],
-						"Arduino example::IO::pre-processing::membrane::in_max" : [ 0, 0.0 ],
-						"Arduino example::IO::pre-processing::rotary::out_max" : [ 0, 0.0 ],
-						"Arduino example::IO::pre-processing::rotary::out_min" : [ 0, 0.0 ],
-						"Arduino example::IO::pre-processing::rotary::module_name" : [ 0, 0.0 ],
-						"Arduino example::IO::pre-processing::rotary::in_min" : [ 0, 0.0 ],
-						"Arduino example::IO::pre-processing::rotary::clip" : [ 0, 0.0 ],
-						"Arduino example::IO::pre-processing::rotary::tracking" : [ 0, 0.0 ],
-						"Arduino example::IO::pre-processing::rotary::in_max" : [ 0, 0.0 ],
-						"Arduino example::IO::pre-processing::rotary::state" : [ 0, 0.0 ],
-						"Arduino example::IO::pre-processing::rotary::bypass" : [ 0, 0.0 ],
-						"Arduino example::IO::pre-processing::membrane_filter::+::autoadapt_mode" : [ 0, 0.0 ],
-						"Arduino example::IO::pre-processing::membrane_filter::+::autoadapt_changes" : [ 0, 0.0 ],
-						"Arduino example::IO::pre-processing::membrane_filter::+::autoadapt_scale" : [ 0, 0.0 ],
-						"Arduino example::IO::pre-processing::membrane_filter::bypass" : [ 0, 0.0 ],
-						"Arduino example::IO::pre-processing::membrane_filter::filter_type" : [ 0, 0.0 ],
-						"Arduino example::IO::pre-processing::membrane_filter::out_mode" : [ 0, 0.0 ],
-						"Arduino example::IO::pre-processing::membrane_filter::module_name" : [ 0, 0.0 ],
-						"Arduino example::IO::pre-processing::membrane_filter::threshold" : [ 0, 0.0 ],
-						"Arduino example::IO::pre-processing::membrane_filter::state" : [ 0, 0.0 ],
-						"Arduino example::IO::pre-processing::rotary_filter::+::autoadapt_scale" : [ 0, 0.0 ],
-						"Arduino example::IO::pre-processing::rotary_filter::+::autoadapt_mode" : [ 0, 0.0 ],
-						"Arduino example::IO::pre-processing::rotary_filter::+::autoadapt_changes" : [ 0, 0.0 ],
-						"Arduino example::IO::pre-processing::rotary_filter::out_mode" : [ 0, 0.0 ],
-						"Arduino example::IO::pre-processing::rotary_filter::bypass" : [ 0, 0.0 ],
-						"Arduino example::IO::pre-processing::rotary_filter::filter_type" : [ 0, 0.0 ],
-						"Arduino example::IO::pre-processing::rotary_filter::threshold" : [ 0, 0.0 ],
-						"Arduino example::IO::pre-processing::rotary_filter::module_name" : [ 0, 0.0 ],
-						"Arduino example::IO::pre-processing::rotary_filter::state" : [ 0, 0.0 ],
-						"Arduino example::IO::oi.idv.serial::module_name" : [ 0, 0.0 ],
-						"Arduino example::IO::oi.idv.serial::baudrate" : [ 0, 0.0 ],
-						"Arduino example::IO::oi.idv.serial::pollrate" : [ 0, 0.0 ],
-						"Arduino example::IO::oi.idv.serial::parameters" : [ 0, 0.0 ],
-						"Arduino example::IO::oi.idv.serial::autolearn" : [ 0, 0.0 ],
-						"Arduino example::IO::oi.idv.serial::device" : [ 0, 0.0 ],
-						"Arduino example::IO::oi.idv.serial::state" : [ 0, 0.0 ],
-						"Arduino example::instrument_name" : [ 0, 0.0 ],
-						"Arduino example::PRESETS::current" : [ 0, 0.0 ],
-						"inst_C::MasterVolume::pan::pan" : [ 0, 0.0 ],
-						"inst_C::MasterVolume::pan::ramp" : [ 0, 0.0 ],
-						"inst_C::MasterVolume::ramp" : [ 0, 0.0 ],
-						"inst_C::MasterVolume::state" : [ 0, 0.0 ],
-						"inst_C::MasterVolume::bypass" : [ 0, 0.0 ],
-						"inst_C::MasterVolume::module_name" : [ 0, 0.0 ],
-						"inst_C::MasterVolume::gain" : [ 0, 0.0 ],
-						"inst_C::PRESETS::current" : [ 0, 0.0 ],
-						"inst_C::MasterTransport::position::value" : [ 0, 0.0 ],
-						"inst_C::MasterTransport::position::format" : [ 0, 0.0 ],
-						"inst_C::MasterTransport::resolution::format" : [ 0, 0.0 ],
-						"inst_C::MasterTransport::resolution::value" : [ 0, 0.0 ],
-						"inst_C::MasterTransport::duration::value" : [ 0, 0.0 ],
-						"inst_C::MasterTransport::duration::format" : [ 0, 0.0 ],
-						"inst_C::MasterTransport::offset::value" : [ 0, 0.0 ],
-						"inst_C::MasterTransport::offset::format" : [ 0, 0.0 ],
-						"inst_C::MasterTransport::mode" : [ 0, 0.0 ],
-						"inst_C::MasterTransport::module_name" : [ 0, 0.0 ],
-						"inst_C::MasterTransport::dur_mode" : [ 0, 0.0 ],
-						"inst_C::MasterTransport::slave_mode" : [ 0, 0.0 ],
-						"inst_C::MasterTransport::transport_name" : [ 0, 0.0 ],
-						"inst_C::MasterTransport::state" : [ 0, 0.0 ],
-						"inst_C::instrument_name" : [ 0, 0.0 ],
-						"inst_D::MasterVolume::pan::ramp" : [ 0, 0.0 ],
-						"inst_D::MasterVolume::pan::pan" : [ 0, 0.0 ],
-						"inst_D::MasterVolume::gain" : [ 0, 0.0 ],
-						"inst_D::MasterVolume::state" : [ 0, 0.0 ],
-						"inst_D::MasterVolume::ramp" : [ 0, 0.0 ],
-						"inst_D::MasterVolume::bypass" : [ 0, 0.0 ],
-						"inst_D::MasterVolume::module_name" : [ 0, 0.0 ],
-						"inst_D::PRESETS::current" : [ 0, 0.0 ],
-						"inst_D::MasterTransport::position::format" : [ 0, 0.0 ],
-						"inst_D::MasterTransport::position::value" : [ 0, 0.0 ],
-						"inst_D::MasterTransport::resolution::value" : [ 0, 0.0 ],
-						"inst_D::MasterTransport::resolution::format" : [ 0, 0.0 ],
-						"inst_D::MasterTransport::duration::value" : [ 0, 0.0 ],
-						"inst_D::MasterTransport::duration::format" : [ 0, 0.0 ],
-						"inst_D::MasterTransport::offset::value" : [ 0, 0.0 ],
-						"inst_D::MasterTransport::offset::format" : [ 0, 0.0 ],
-						"inst_D::MasterTransport::slave_mode" : [ 0, 0.0 ],
-						"inst_D::MasterTransport::module_name" : [ 0, 0.0 ],
-						"inst_D::MasterTransport::state" : [ 0, 0.0 ],
-						"inst_D::MasterTransport::transport_name" : [ 0, 0.0 ],
-						"inst_D::MasterTransport::mode" : [ 0, 0.0 ],
-						"inst_D::MasterTransport::dur_mode" : [ 0, 0.0 ],
-						"inst_D::instrument_name" : [ 0, 0.0 ]
+						"IO::api_in~::module_name" : [ 0, 0.0 ],
+						"IO::api_in~::bypass" : [ 0, 0.0 ],
+						"IO::api_in~::ramp" : [ 0, 0.0 ],
+						"IO::api_in~::state" : [ 0, 0.0 ],
+						"IO::api_in~::gain" : [ 0, 0.0 ],
+						"IO::api_in~::pan::ramp" : [ 0, 0.0 ],
+						"IO::api_in~::pan::pan" : [ 0, 0.0 ],
+						"IO::api_out~::module_name" : [ 0, 0.0 ],
+						"IO::api_out~::bypass" : [ 0, 0.0 ],
+						"IO::api_out~::ramp" : [ 0, 0.0 ],
+						"IO::api_out~::state" : [ 0, 0.0 ],
+						"IO::api_out~::gain" : [ 0, 0.0 ],
+						"IO::api_out~::pan::ramp" : [ 0, 16386560.0 ],
+						"IO::api_out~::pan::pan" : [ 0, 16386560.0 ],
+						"inst_A::MasterVolume::pan::ramp" : [ 0, 0.0 ],
+						"inst_A::MasterVolume::pan::pan" : [ 0, 0.0 ],
+						"inst_A::MasterVolume::ramp" : [ 0, 0.0 ],
+						"inst_A::MasterVolume::bypass" : [ 0, 0.0 ],
+						"inst_A::MasterVolume::state" : [ 0, 0.0 ],
+						"inst_A::MasterVolume::gain" : [ 0, 0.0 ],
+						"inst_A::MasterVolume::module_name" : [ 0, 0.0 ],
+						"inst_A::PRESETS::current" : [ 0, 0.0 ],
+						"inst_A::MasterTransport::position::format" : [ 0, 0.0 ],
+						"inst_A::MasterTransport::position::value" : [ 0, 0.0 ],
+						"inst_A::MasterTransport::resolution::value" : [ 0, 0.0 ],
+						"inst_A::MasterTransport::resolution::format" : [ 0, 0.0 ],
+						"inst_A::MasterTransport::duration::format" : [ 0, 0.0 ],
+						"inst_A::MasterTransport::duration::value" : [ 0, 0.0 ],
+						"inst_A::MasterTransport::offset::format" : [ 0, 0.0 ],
+						"inst_A::MasterTransport::offset::value" : [ 0, 0.0 ],
+						"inst_A::MasterTransport::module_name" : [ 0, 0.0 ],
+						"inst_A::MasterTransport::transport_name" : [ 0, 0.0 ],
+						"inst_A::MasterTransport::mode" : [ 0, 0.0 ],
+						"inst_A::MasterTransport::state" : [ 0, 0.0 ],
+						"inst_A::MasterTransport::slave_mode" : [ 0, 0.0 ],
+						"inst_A::MasterTransport::dur_mode" : [ 0, 0.0 ],
+						"inst_A::instrument_name" : [ 0, 0.0 ],
+						"inst_B::MasterVolume::pan::pan" : [ 0, 0.0 ],
+						"inst_B::MasterVolume::pan::ramp" : [ 0, 0.0 ],
+						"inst_B::MasterVolume::module_name" : [ 0, 0.0 ],
+						"inst_B::MasterVolume::bypass" : [ 0, 0.0 ],
+						"inst_B::MasterVolume::gain" : [ 0, 0.0 ],
+						"inst_B::MasterVolume::ramp" : [ 0, 0.0 ],
+						"inst_B::MasterVolume::state" : [ 0, 0.0 ],
+						"inst_B::PRESETS::current" : [ 0, 0.0 ],
+						"inst_B::MasterTransport::position::format" : [ 0, 0.0 ],
+						"inst_B::MasterTransport::position::value" : [ 0, 0.0 ],
+						"inst_B::MasterTransport::resolution::format" : [ 0, 0.0 ],
+						"inst_B::MasterTransport::resolution::value" : [ 0, 0.0 ],
+						"inst_B::MasterTransport::duration::value" : [ 0, 0.0 ],
+						"inst_B::MasterTransport::duration::format" : [ 0, 0.0 ],
+						"inst_B::MasterTransport::offset::format" : [ 0, 0.0 ],
+						"inst_B::MasterTransport::offset::value" : [ 0, 0.0 ],
+						"inst_B::MasterTransport::slave_mode" : [ 0, 0.0 ],
+						"inst_B::MasterTransport::dur_mode" : [ 0, 0.0 ],
+						"inst_B::MasterTransport::transport_name" : [ 0, 0.0 ],
+						"inst_B::MasterTransport::module_name" : [ 0, 0.0 ],
+						"inst_B::MasterTransport::mode" : [ 0, 0.0 ],
+						"inst_B::MasterTransport::state" : [ 0, 0.0 ],
+						"inst_B::instrument_name" : [ 0, 0.0 ]
 					}
 ,
 					"linecount" : 5,
@@ -3947,210 +3800,68 @@
 					"patching_rect" : [ -540.0, 390.0, 143.0, 85.0 ],
 					"priority" : 					{
 						"piece_name" : -10,
-						"Arduino example::MasterVolume::pan::pan" : -5,
-						"Arduino example::MasterVolume::pan::ramp" : -6,
-						"Arduino example::MasterVolume::state" : -5,
-						"Arduino example::MasterVolume::module_name" : -10,
-						"Arduino example::MasterVolume::ramp" : -6,
-						"Arduino example::MasterVolume::bypass" : -6,
-						"Arduino example::MasterVolume::gain" : -5,
-						"Arduino example::MasterTransport::position::value" : -6,
-						"Arduino example::MasterTransport::position::format" : -7,
-						"Arduino example::MasterTransport::resolution::value" : -6,
-						"Arduino example::MasterTransport::resolution::format" : -7,
-						"Arduino example::MasterTransport::duration::format" : -7,
-						"Arduino example::MasterTransport::duration::value" : -6,
-						"Arduino example::MasterTransport::offset::value" : -6,
-						"Arduino example::MasterTransport::offset::format" : -7,
-						"Arduino example::MasterTransport::beats" : -5,
-						"Arduino example::MasterTransport::module_name" : -10,
-						"Arduino example::MasterTransport::units" : -5,
-						"Arduino example::MasterTransport::bpm" : -6,
-						"Arduino example::MasterTransport::dur_mode" : -5,
-						"Arduino example::MasterTransport::mode" : -8,
-						"Arduino example::MasterTransport::slave_mode" : -7,
-						"Arduino example::MasterTransport::transport_name" : -9,
-						"Arduino example::MAPPINGS::PLUCK::param" : -8,
-						"Arduino example::MAPPINGS::PLUCK::source" : -10,
-						"Arduino example::MAPPINGS::PLUCK::state" : -5,
-						"Arduino example::MAPPINGS::PLUCK::query" : -10,
-						"Arduino example::MAPPINGS::PLUCK::module_name" : -10,
-						"Arduino example::MAPPINGS::PLUCK::module" : -9,
-						"Arduino example::MAPPINGS::MEMB_TOUCH::module_name" : -10,
-						"Arduino example::MAPPINGS::MEMB_TOUCH::source" : -10,
-						"Arduino example::MAPPINGS::MEMB_TOUCH::param" : -8,
-						"Arduino example::MAPPINGS::MEMB_TOUCH::module" : -9,
-						"Arduino example::MAPPINGS::MEMB_TOUCH::query" : -10,
-						"Arduino example::MAPPINGS::MEMB_TOUCH::state" : -5,
-						"Arduino example::MAPPINGS::DEC::param" : -8,
-						"Arduino example::MAPPINGS::DEC::source" : -10,
-						"Arduino example::MAPPINGS::DEC::state" : -5,
-						"Arduino example::MAPPINGS::DEC::query" : -10,
-						"Arduino example::MAPPINGS::DEC::module_name" : -10,
-						"Arduino example::MAPPINGS::DEC::module" : -9,
-						"Arduino example::MAPPINGS::DAMP::source" : -10,
-						"Arduino example::MAPPINGS::DAMP::module" : -9,
-						"Arduino example::MAPPINGS::DAMP::module_name" : -10,
-						"Arduino example::MAPPINGS::DAMP::param" : -8,
-						"Arduino example::MAPPINGS::DAMP::query" : -10,
-						"Arduino example::MAPPINGS::DAMP::state" : -5,
-						"Arduino example::MAPPINGS::ROTATION::module" : -9,
-						"Arduino example::MAPPINGS::ROTATION::query" : -10,
-						"Arduino example::MAPPINGS::ROTATION::param" : -8,
-						"Arduino example::MAPPINGS::ROTATION::source" : -10,
-						"Arduino example::MAPPINGS::ROTATION::state" : -5,
-						"Arduino example::MAPPINGS::ROTATION::module_name" : -10,
-						"Arduino example::MAPPINGS::PITCH_MOD::state" : -5,
-						"Arduino example::MAPPINGS::PITCH_MOD::param" : -8,
-						"Arduino example::MAPPINGS::PITCH_MOD::module_name" : -10,
-						"Arduino example::MAPPINGS::PITCH_MOD::source" : -10,
-						"Arduino example::MAPPINGS::PITCH_MOD::query" : -10,
-						"Arduino example::MAPPINGS::PITCH_MOD::module" : -9,
-						"Arduino example::MAPPINGS::PITCH::module_name" : -10,
-						"Arduino example::MAPPINGS::PITCH::param" : -8,
-						"Arduino example::MAPPINGS::PITCH::module" : -9,
-						"Arduino example::MAPPINGS::PITCH::state" : -5,
-						"Arduino example::MAPPINGS::PITCH::query" : -10,
-						"Arduino example::MAPPINGS::PITCH::source" : -10,
-						"Arduino example::MAPPINGS::oi.mod.notemap::state" : -5,
-						"Arduino example::MAPPINGS::oi.mod.notemap::module_name" : -10,
-						"Arduino example::MAPPINGS::oi.mod.notemap::scalelist" : -7,
-						"Arduino example::MAPPINGS::oi.mod.notemap::pitch-class" : -7,
-						"Arduino example::MAPPINGS::oi.mod.notemap::scale_mode" : -7,
-						"Arduino example::MAPPINGS::oi.mod.notemap::filter_mode" : -7,
-						"Arduino example::MAPPINGS::oi.mod.notemap::fill_mode" : -7,
-						"Arduino example::MAPPINGS::oi.mod.notemap::bypass" : -6,
-						"Arduino example::MAPPINGS::oi.mod.notemap::kslider" : -6,
-						"Arduino example::MAPPINGS::ROT::module_name" : -10,
-						"Arduino example::MAPPINGS::ROT::query" : -10,
-						"Arduino example::MAPPINGS::ROT::source" : -10,
-						"Arduino example::MAPPINGS::ROT::module" : -9,
-						"Arduino example::MAPPINGS::ROT::param" : -8,
-						"Arduino example::MAPPINGS::ROT::state" : -5,
-						"Arduino example::MAPPINGS::FLEX::state" : -5,
-						"Arduino example::MAPPINGS::FLEX::query" : -10,
-						"Arduino example::MAPPINGS::FLEX::module" : -9,
-						"Arduino example::MAPPINGS::FLEX::module_name" : -10,
-						"Arduino example::MAPPINGS::FLEX::param" : -8,
-						"Arduino example::MAPPINGS::FLEX::source" : -10,
-						"Arduino example::MAPPINGS::MEMB::module_name" : -10,
-						"Arduino example::MAPPINGS::MEMB::param" : -8,
-						"Arduino example::MAPPINGS::MEMB::module" : -9,
-						"Arduino example::MAPPINGS::MEMB::source" : -10,
-						"Arduino example::MAPPINGS::MEMB::query" : -10,
-						"Arduino example::MAPPINGS::MEMB::state" : -5,
-						"Arduino example::IO::pre-processing::flex::output_max" : -7,
-						"Arduino example::IO::pre-processing::flex::ramp_grain" : -7,
-						"Arduino example::IO::pre-processing::flex::bypass" : -6,
-						"Arduino example::IO::pre-processing::flex::state" : -5,
-						"Arduino example::IO::pre-processing::flex::mode" : -9,
-						"Arduino example::IO::pre-processing::flex::ramp_slope" : -7,
-						"Arduino example::IO::pre-processing::flex::input_min" : -8,
-						"Arduino example::IO::pre-processing::flex::module_name" : -10,
-						"Arduino example::IO::pre-processing::flex::output_min" : -7,
-						"Arduino example::IO::pre-processing::flex::ramp_time" : -7,
-						"Arduino example::IO::pre-processing::flex::input_max" : -7,
-						"Arduino example::IO::pre-processing::flex_norm::state" : -5,
-						"Arduino example::IO::pre-processing::flex_norm::clip" : -8,
-						"Arduino example::IO::pre-processing::flex_norm::in_max" : -6,
-						"Arduino example::IO::pre-processing::flex_norm::out_min" : -7,
-						"Arduino example::IO::pre-processing::flex_norm::out_max" : -6,
-						"Arduino example::IO::pre-processing::flex_norm::bypass" : -6,
-						"Arduino example::IO::pre-processing::flex_norm::in_min" : -7,
-						"Arduino example::IO::pre-processing::flex_norm::module_name" : -10,
-						"Arduino example::IO::pre-processing::flex_norm::tracking" : -5,
-						"Arduino example::IO::pre-processing::membrane::tracking" : -5,
-						"Arduino example::IO::pre-processing::membrane::bypass" : -6,
-						"Arduino example::IO::pre-processing::membrane::clip" : -8,
-						"Arduino example::IO::pre-processing::membrane::out_max" : -6,
-						"Arduino example::IO::pre-processing::membrane::in_min" : -7,
-						"Arduino example::IO::pre-processing::membrane::module_name" : -10,
-						"Arduino example::IO::pre-processing::membrane::state" : -5,
-						"Arduino example::IO::pre-processing::membrane::out_min" : -7,
-						"Arduino example::IO::pre-processing::membrane::in_max" : -6,
-						"Arduino example::IO::pre-processing::rotary::out_max" : -6,
-						"Arduino example::IO::pre-processing::rotary::out_min" : -7,
-						"Arduino example::IO::pre-processing::rotary::module_name" : -10,
-						"Arduino example::IO::pre-processing::rotary::in_min" : -7,
-						"Arduino example::IO::pre-processing::rotary::clip" : -8,
-						"Arduino example::IO::pre-processing::rotary::tracking" : -5,
-						"Arduino example::IO::pre-processing::rotary::in_max" : -6,
-						"Arduino example::IO::pre-processing::rotary::state" : -5,
-						"Arduino example::IO::pre-processing::rotary::bypass" : -6,
-						"Arduino example::IO::pre-processing::membrane_filter::+::autoadapt_mode" : -6,
-						"Arduino example::IO::pre-processing::membrane_filter::+::autoadapt_changes" : -6,
-						"Arduino example::IO::pre-processing::membrane_filter::+::autoadapt_scale" : -6,
-						"Arduino example::IO::pre-processing::membrane_filter::bypass" : -6,
-						"Arduino example::IO::pre-processing::membrane_filter::filter_type" : -6,
-						"Arduino example::IO::pre-processing::membrane_filter::out_mode" : -6,
-						"Arduino example::IO::pre-processing::membrane_filter::module_name" : -10,
-						"Arduino example::IO::pre-processing::membrane_filter::threshold" : -6,
-						"Arduino example::IO::pre-processing::membrane_filter::state" : -5,
-						"Arduino example::IO::pre-processing::rotary_filter::+::autoadapt_scale" : -6,
-						"Arduino example::IO::pre-processing::rotary_filter::+::autoadapt_mode" : -6,
-						"Arduino example::IO::pre-processing::rotary_filter::+::autoadapt_changes" : -6,
-						"Arduino example::IO::pre-processing::rotary_filter::out_mode" : -6,
-						"Arduino example::IO::pre-processing::rotary_filter::bypass" : -6,
-						"Arduino example::IO::pre-processing::rotary_filter::filter_type" : -6,
-						"Arduino example::IO::pre-processing::rotary_filter::threshold" : -6,
-						"Arduino example::IO::pre-processing::rotary_filter::module_name" : -10,
-						"Arduino example::IO::pre-processing::rotary_filter::state" : -5,
-						"Arduino example::IO::oi.idv.serial::module_name" : -10,
-						"Arduino example::IO::oi.idv.serial::baudrate" : -9,
-						"Arduino example::IO::oi.idv.serial::pollrate" : -6,
-						"Arduino example::IO::oi.idv.serial::parameters" : -6,
-						"Arduino example::IO::oi.idv.serial::autolearn" : -6,
-						"Arduino example::IO::oi.idv.serial::device" : -10,
-						"Arduino example::IO::oi.idv.serial::state" : -5,
-						"Arduino example::instrument_name" : -10,
-						"inst_C::MasterVolume::pan::pan" : -5,
-						"inst_C::MasterVolume::pan::ramp" : -6,
-						"inst_C::MasterVolume::ramp" : -6,
-						"inst_C::MasterVolume::state" : -5,
-						"inst_C::MasterVolume::bypass" : -6,
-						"inst_C::MasterVolume::module_name" : -10,
-						"inst_C::MasterVolume::gain" : -5,
-						"inst_C::MasterTransport::position::value" : -6,
-						"inst_C::MasterTransport::position::format" : -7,
-						"inst_C::MasterTransport::resolution::format" : -7,
-						"inst_C::MasterTransport::resolution::value" : -6,
-						"inst_C::MasterTransport::duration::value" : -6,
-						"inst_C::MasterTransport::duration::format" : -7,
-						"inst_C::MasterTransport::offset::value" : -6,
-						"inst_C::MasterTransport::offset::format" : -7,
-						"inst_C::MasterTransport::bpm" : -6,
-						"inst_C::MasterTransport::mode" : -8,
-						"inst_C::MasterTransport::module_name" : -10,
-						"inst_C::MasterTransport::dur_mode" : -5,
-						"inst_C::MasterTransport::slave_mode" : -7,
-						"inst_C::MasterTransport::beats" : -5,
-						"inst_C::MasterTransport::units" : -5,
-						"inst_C::MasterTransport::transport_name" : -9,
-						"inst_C::instrument_name" : -10,
-						"inst_D::MasterVolume::pan::ramp" : -6,
-						"inst_D::MasterVolume::pan::pan" : -5,
-						"inst_D::MasterVolume::gain" : -5,
-						"inst_D::MasterVolume::state" : -5,
-						"inst_D::MasterVolume::ramp" : -6,
-						"inst_D::MasterVolume::bypass" : -6,
-						"inst_D::MasterVolume::module_name" : -10,
-						"inst_D::MasterTransport::position::format" : -7,
-						"inst_D::MasterTransport::position::value" : -6,
-						"inst_D::MasterTransport::resolution::value" : -6,
-						"inst_D::MasterTransport::resolution::format" : -7,
-						"inst_D::MasterTransport::duration::value" : -6,
-						"inst_D::MasterTransport::duration::format" : -7,
-						"inst_D::MasterTransport::offset::value" : -6,
-						"inst_D::MasterTransport::offset::format" : -7,
-						"inst_D::MasterTransport::slave_mode" : -7,
-						"inst_D::MasterTransport::bpm" : -6,
-						"inst_D::MasterTransport::module_name" : -10,
-						"inst_D::MasterTransport::beats" : -5,
-						"inst_D::MasterTransport::transport_name" : -9,
-						"inst_D::MasterTransport::mode" : -8,
-						"inst_D::MasterTransport::units" : -5,
-						"inst_D::MasterTransport::dur_mode" : -5,
-						"inst_D::instrument_name" : -10
+						"IO::api_in~::module_name" : -10,
+						"IO::api_in~::bypass" : -6,
+						"IO::api_in~::ramp" : -6,
+						"IO::api_in~::state" : -5,
+						"IO::api_in~::gain" : -5,
+						"IO::api_in~::pan::ramp" : -6,
+						"IO::api_in~::pan::pan" : -5,
+						"IO::api_out~::module_name" : -10,
+						"IO::api_out~::bypass" : -6,
+						"IO::api_out~::ramp" : -6,
+						"IO::api_out~::state" : -5,
+						"IO::api_out~::gain" : -5,
+						"IO::api_out~::pan::ramp" : -6,
+						"IO::api_out~::pan::pan" : -5,
+						"inst_A::MasterVolume::pan::ramp" : -6,
+						"inst_A::MasterVolume::pan::pan" : -5,
+						"inst_A::MasterVolume::ramp" : -6,
+						"inst_A::MasterVolume::bypass" : -6,
+						"inst_A::MasterVolume::state" : -5,
+						"inst_A::MasterVolume::gain" : -5,
+						"inst_A::MasterVolume::module_name" : -10,
+						"inst_A::MasterTransport::position::format" : -7,
+						"inst_A::MasterTransport::position::value" : -6,
+						"inst_A::MasterTransport::resolution::value" : -6,
+						"inst_A::MasterTransport::resolution::format" : -7,
+						"inst_A::MasterTransport::duration::format" : -7,
+						"inst_A::MasterTransport::duration::value" : -6,
+						"inst_A::MasterTransport::offset::format" : -7,
+						"inst_A::MasterTransport::offset::value" : -6,
+						"inst_A::MasterTransport::module_name" : -10,
+						"inst_A::MasterTransport::beats" : -5,
+						"inst_A::MasterTransport::transport_name" : -9,
+						"inst_A::MasterTransport::mode" : -8,
+						"inst_A::MasterTransport::slave_mode" : -7,
+						"inst_A::MasterTransport::units" : -5,
+						"inst_A::MasterTransport::dur_mode" : -5,
+						"inst_A::MasterTransport::bpm" : -6,
+						"inst_A::instrument_name" : -10,
+						"inst_B::MasterVolume::pan::pan" : -5,
+						"inst_B::MasterVolume::pan::ramp" : -6,
+						"inst_B::MasterVolume::module_name" : -10,
+						"inst_B::MasterVolume::bypass" : -6,
+						"inst_B::MasterVolume::gain" : -5,
+						"inst_B::MasterVolume::ramp" : -6,
+						"inst_B::MasterVolume::state" : -5,
+						"inst_B::MasterTransport::position::format" : -7,
+						"inst_B::MasterTransport::position::value" : -6,
+						"inst_B::MasterTransport::resolution::format" : -7,
+						"inst_B::MasterTransport::resolution::value" : -6,
+						"inst_B::MasterTransport::duration::value" : -6,
+						"inst_B::MasterTransport::duration::format" : -7,
+						"inst_B::MasterTransport::offset::format" : -7,
+						"inst_B::MasterTransport::offset::value" : -6,
+						"inst_B::MasterTransport::units" : -5,
+						"inst_B::MasterTransport::slave_mode" : -7,
+						"inst_B::MasterTransport::dur_mode" : -5,
+						"inst_B::MasterTransport::transport_name" : -9,
+						"inst_B::MasterTransport::beats" : -5,
+						"inst_B::MasterTransport::module_name" : -10,
+						"inst_B::MasterTransport::mode" : -8,
+						"inst_B::MasterTransport::bpm" : -6,
+						"inst_B::instrument_name" : -10
 					}
 ,
 					"saved_object_attributes" : 					{
@@ -4239,7 +3950,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 35.5, 3.0, 209.0289, 35.5 ],
 					"rounded" : 0.0,
-					"text" : "Piece_A",
+					"text" : "Piece_1",
 					"varname" : "textedit"
 				}
 
@@ -4252,34 +3963,36 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 381.0, 256.0, 44.0, 124.0 ],
+					"patching_rect" : [ 162.0, 91.0, 44.0, 124.0 ],
 					"shape" : 3
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-42",
+					"border" : 1,
+					"id" : "obj-39",
 					"maxclass" : "bpatcher",
-					"name" : "inst_C.maxpat",
+					"name" : "inst_A.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "begin" ],
-					"patching_rect" : [ 393.0, 380.0, 251.0, 250.0 ],
-					"varname" : "inst_C"
+					"patching_rect" : [ 175.0, 215.0, 251.0, 390.0 ],
+					"varname" : "inst_A"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-61",
+					"border" : 1,
+					"id" : "obj-42",
 					"maxclass" : "bpatcher",
-					"name" : "inst_D.maxpat",
+					"name" : "inst_B.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "begin" ],
-					"patching_rect" : [ 749.0, 380.0, 250.0, 250.0 ],
-					"varname" : "inst_D"
+					"patching_rect" : [ 469.0, 215.0, 251.0, 390.0 ],
+					"varname" : "inst_B"
 				}
 
 			}
@@ -4700,6 +4413,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-42", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 416.5, 614.0, 447.5, 614.0, 447.5, 205.0, 478.5, 205.0 ],
+					"source" : [ "obj-39", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-146", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -4710,11 +4433,10 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-61", 0 ],
+					"destination" : [ "obj-40", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 634.5, 656.0, 704.0, 656.0, 704.0, 349.0, 758.5, 349.0 ],
-					"source" : [ "obj-42", 1 ]
+					"source" : [ "obj-42", 0 ]
 				}
 
 			}
@@ -4729,7 +4451,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-42", 0 ],
+					"destination" : [ "obj-39", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-45", 0 ]
@@ -4852,15 +4574,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-60", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-40", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-61", 0 ]
 				}
 
 			}

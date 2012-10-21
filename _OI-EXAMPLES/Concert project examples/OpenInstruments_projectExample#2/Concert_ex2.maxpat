@@ -7,7 +7,7 @@
 			"revision" : 7
 		}
 ,
-		"rect" : [ 139.0, 208.0, 385.0, 80.0 ],
+		"rect" : [ 0.0, 44.0, 1440.0, 806.0 ],
 		"bgcolor" : [ 0.4, 0.4, 0.4, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -31,17 +31,15 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"bubble" : 1,
-					"fontface" : 3,
 					"fontname" : "Arial",
-					"fontsize" : 14.0,
+					"fontsize" : 10.0,
 					"frgb" : 0.0,
-					"id" : "obj-35",
+					"id" : "obj-39",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 285.0, 451.0, 234.0, 26.0 ],
-					"presentation_rect" : [ 283.0, 449.0, 0.0, 0.0 ],
-					"text" : "wait 3 seconds between pieces"
+					"patching_rect" : [ 280.0, 509.0, 131.0, 22.0 ],
+					"text" : "wait 3s between pieces"
 				}
 
 			}
@@ -54,7 +52,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 235.0, 455.0, 54.0, 18.0 ],
+					"patching_rect" : [ 230.0, 510.0, 54.0, 18.0 ],
 					"text" : "pipe 3000"
 				}
 
@@ -133,7 +131,7 @@
 					}
 ,
 					"text" : "pattr @bindto end_concert @invisible 1 @autorestore 0",
-					"varname" : "u877007937"
+					"varname" : "u800010142"
 				}
 
 			}
@@ -149,13 +147,13 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ -307.5, 205.0, 265.0, 18.0 ],
-					"restore" : [ "begin" ],
+					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
 ,
 					"text" : "pattr @bindto begin_concert @invisible 1 @autorestore 0",
-					"varname" : "u316007931"
+					"varname" : "u857010140"
 				}
 
 			}
@@ -171,13 +169,13 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 235.0, 178.0, 241.0, 18.0 ],
-					"restore" : [ "begin" ],
+					"patching_rect" : [ 230.0, 233.0, 311.0, 18.0 ],
+					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "pattr begin_concert @autorestore 0 @invisible 1",
+					"text" : "pattr begin_concert @autorestore 0 @invisible 1 @type symbol",
 					"varname" : "begin_concert"
 				}
 
@@ -193,7 +191,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 245.0, 630.0, 228.0, 26.0 ],
+					"patching_rect" : [ 240.0, 695.0, 228.0, 26.0 ],
 					"text" : "2- connect to end this concert"
 				}
 
@@ -206,7 +204,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 223.0, 600.0, 44.0, 124.0 ],
+					"patching_rect" : [ 218.0, 665.0, 44.0, 124.0 ],
 					"shape" : 3
 				}
 
@@ -223,7 +221,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 235.0, 725.0, 303.0, 18.0 ],
+					"patching_rect" : [ 230.0, 790.0, 303.0, 18.0 ],
 					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
@@ -287,7 +285,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 245.0, 235.0, 227.0, 26.0 ],
+					"patching_rect" : [ 240.0, 290.0, 227.0, 26.0 ],
 					"text" : "1- connect to the first piece"
 				}
 
@@ -300,7 +298,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 223.0, 196.0, 44.0, 124.0 ],
+					"patching_rect" : [ 218.0, 251.0, 44.0, 124.0 ],
 					"shape" : 3
 				}
 
@@ -1090,7 +1088,7 @@
 									}
 ,
 									"text" : "pattr @bindto ::oi.api::add_space @invisible 1",
-									"varname" : "u896007770"
+									"varname" : "u615009972"
 								}
 
 							}
@@ -1532,7 +1530,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ -405.0, 75.0, 175.0, 29.0 ],
-					"restore" : [ "begin" ],
+					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
@@ -1885,19 +1883,19 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ -285.0, 240.0, 59.5, 18.0 ],
 					"text" : "autopattr",
-					"varname" : "u039007733"
+					"varname" : "u796009923"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"active" : 					{
-						"Piece_A" : 0,
-						"Piece_A::u340007717" : 0,
-						"Piece_A::pieceList" : 0,
-						"Piece_B" : 0,
-						"Piece_B::u825007431" : 0,
-						"Piece_B::pieceList" : 0
+						"Piece_1" : 0,
+						"Piece_1::u734010690" : 0,
+						"Piece_1::pieceList" : 0,
+						"Piece_2" : 0,
+						"Piece_2::u423009466" : 0,
+						"Piece_2::pieceList" : 0
 					}
 ,
 					"annotation" : "file saving is managed by midp.crt.window",
@@ -1947,12 +1945,12 @@
 					"border" : 1,
 					"id" : "obj-22",
 					"maxclass" : "bpatcher",
-					"name" : "Piece_A.maxpat",
+					"name" : "Piece_1.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "begin" ],
-					"patching_rect" : [ 235.0, 320.0, 250.0, 117.0 ],
-					"varname" : "Piece_A"
+					"patching_rect" : [ 230.0, 375.0, 250.0, 127.0 ],
+					"varname" : "Piece_1"
 				}
 
 			}
@@ -1961,12 +1959,12 @@
 					"border" : 1,
 					"id" : "obj-31",
 					"maxclass" : "bpatcher",
-					"name" : "Piece_B.maxpat",
+					"name" : "Piece_2.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "begin" ],
-					"patching_rect" : [ 235.0, 484.5, 250.0, 115.0 ],
-					"varname" : "Piece_B"
+					"patching_rect" : [ 230.0, 537.0, 250.0, 127.0 ],
+					"varname" : "Piece_2"
 				}
 
 			}
@@ -2358,6 +2356,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-31", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-31", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-32", 0 ]
 				}
 
 			}

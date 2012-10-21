@@ -438,7 +438,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::speedlim @invisible 1 @autorestore 0",
-									"varname" : "u088011931"
+									"varname" : "u083011083"
 								}
 
 							}
@@ -460,7 +460,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::vfrate @invisible 1 @autorestore 0",
-									"varname" : "u206011929"
+									"varname" : "u033011085"
 								}
 
 							}
@@ -603,7 +603,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::mode @invisible 1 @autorestore 0",
-									"varname" : "u912011925"
+									"varname" : "u601011089"
 								}
 
 							}
@@ -940,7 +940,7 @@
 													}
 ,
 													"text" : "pattr @bindto parent::parent::add_space @invisible 1 @autorestore 0",
-													"varname" : "u619015313"
+													"varname" : "u805011171"
 												}
 
 											}
@@ -1331,7 +1331,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::presets @invisible 1 @autorestore 0",
-									"varname" : "u148015310"
+									"varname" : "u024011176"
 								}
 
 							}
@@ -1382,7 +1382,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::dataset @invisible 1 @autorestore 0",
-									"varname" : "u101015361"
+									"varname" : "u883011178"
 								}
 
 							}
@@ -1460,7 +1460,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::outputs @invisible 1 @autorestore 0",
-									"varname" : "u678015300"
+									"varname" : "u179011180"
 								}
 
 							}
@@ -1609,7 +1609,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::inputs @invisible 1 @autorestore 0",
-									"varname" : "u658015306"
+									"varname" : "u264011182"
 								}
 
 							}
@@ -1645,7 +1645,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::view @invisible 1 @autorestore 0",
-									"varname" : "u400015301"
+									"varname" : "u176011184"
 								}
 
 							}
@@ -2007,7 +2007,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::print @invisible 1 @autorestore 0",
-									"varname" : "u105015302"
+									"varname" : "u523011187"
 								}
 
 							}
@@ -2268,7 +2268,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::reset @invisible 1 @autorestore 0",
-									"varname" : "u561015282"
+									"varname" : "u241011208"
 								}
 
 							}
@@ -2549,7 +2549,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::saveas @invisible 1 @autorestore 0",
-									"varname" : "u888015235"
+									"varname" : "u559011215"
 								}
 
 							}
@@ -2571,7 +2571,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::save @invisible 1 @autorestore 0",
-									"varname" : "u860015274"
+									"varname" : "u905011217"
 								}
 
 							}
@@ -2593,7 +2593,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::new @invisible 1 @autorestore 0",
-									"varname" : "u122015272"
+									"varname" : "u901011219"
 								}
 
 							}
@@ -2615,7 +2615,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::quit @invisible 1 @autorestore 0",
-									"varname" : "u500015270"
+									"varname" : "u152011221"
 								}
 
 							}
@@ -2637,7 +2637,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::open @invisible 1 @autorestore 0",
-									"varname" : "u026015268"
+									"varname" : "u593011223"
 								}
 
 							}
@@ -4002,7 +4002,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::reset @invisible 1 @autorestore 0",
-									"varname" : "u182015202"
+									"varname" : "u683011289"
 								}
 
 							}
@@ -4051,7 +4051,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::info @invisible 1 @autorestore 0",
-									"varname" : "u498015201"
+									"varname" : "u637011291"
 								}
 
 							}
@@ -4117,7 +4117,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::print @invisible 1 @autorestore 0",
-									"varname" : "u646015195"
+									"varname" : "u737011293"
 								}
 
 							}
