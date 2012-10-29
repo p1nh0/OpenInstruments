@@ -4,10 +4,10 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 7
+			"revision" : 5
 		}
 ,
-		"rect" : [ 142.0, 242.0, 700.0, 454.0 ],
+		"rect" : [ 100.0, 100.0, 700.0, 454.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -41,10 +41,10 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 7
+							"revision" : 5
 						}
 ,
-						"rect" : [ 142.0, 268.0, 700.0, 428.0 ],
+						"rect" : [ 0.0, 26.0, 700.0, 428.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -68,13 +68,11 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
-									"frgb" : 0.0,
 									"id" : "obj-3",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 35.0, 140.0, 229.0, 21.0 ],
-									"presentation_rect" : [ 34.0, 141.0, 0.0, 0.0 ],
 									"prototypename" : "oi.help_digest",
 									"text" : "add '+' UI for entering transport_name"
 								}
@@ -84,13 +82,12 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
-									"frgb" : 0.0,
 									"id" : "obj-1",
 									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 35.0, 95.0, 352.0, 36.0 ],
+									"patching_rect" : [ 35.0, 95.0, 352.0, 37.0 ],
 									"prototypename" : "oi.help_digest",
 									"text" : "UI enhancement: \nwhen setting 'time point', 'remaining time' should be cleared"
 								}
@@ -103,6 +100,7 @@
 									"grad1" : [ 0.65098, 0.65098, 0.65098, 0.0 ],
 									"grad2" : [ 0.65098, 0.65098, 0.65098, 1.0 ],
 									"id" : "obj-6",
+									"ignoreclick" : 1,
 									"maxclass" : "panel",
 									"mode" : 1,
 									"numinlets" : 1,
@@ -128,21 +126,28 @@
 
 							}
  ],
-						"lines" : [  ]
+						"lines" : [  ],
+						"dependency_cache" : [ 							{
+								"name" : "helpdetails.js",
+								"bootpath" : "/Applications/Max6/Cycling '74/help-resources",
+								"type" : "TEXT",
+								"implicit" : 1
+							}
+ ]
 					}
 ,
 					"patching_rect" : [ 41.0, 147.0, 58.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
 						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontsize" : 13.0,
 						"description" : "",
-						"digest" : "",
-						"fontface" : 0,
-						"fontname" : "Arial",
-						"fontsize" : 13.0,
 						"globalpatchername" : "",
-						"tags" : ""
+						"fontface" : 0,
+						"fontsize" : 13.0,
+						"default_fontface" : 0,
+						"digest" : ""
 					}
 ,
 					"text" : "p \"to do…\"",
@@ -163,7 +168,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 7
+							"revision" : 5
 						}
 ,
 						"rect" : [ 0.0, 26.0, 700.0, 428.0 ],
@@ -191,7 +196,6 @@
 									"fontface" : 2,
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
-									"frgb" : 0.0,
 									"id" : "obj-12",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -205,12 +209,11 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 22.343197,
-									"frgb" : 0.0,
 									"id" : "obj-10",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 270.0, 204.5, 34.0, 31.0 ],
+									"patching_rect" : [ 270.0, 204.5, 34.0, 32.0 ],
 									"text" : "!="
 								}
 
@@ -220,7 +223,7 @@
 									"fontface" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"frgb" : 0.0,
+									"frgb" : [ 1.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-1",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -323,6 +326,7 @@
 									"grad1" : [ 0.65098, 0.65098, 0.65098, 0.0 ],
 									"grad2" : [ 0.65098, 0.65098, 0.65098, 1.0 ],
 									"id" : "obj-6",
+									"ignoreclick" : 1,
 									"maxclass" : "panel",
 									"mode" : 1,
 									"numinlets" : 1,
@@ -394,21 +398,28 @@
 								}
 
 							}
+ ],
+						"dependency_cache" : [ 							{
+								"name" : "helpdetails.js",
+								"bootpath" : "/Applications/Max6/Cycling '74/help-resources",
+								"type" : "TEXT",
+								"implicit" : 1
+							}
  ]
 					}
 ,
 					"patching_rect" : [ 23.0, 121.0, 62.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
 						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontsize" : 13.0,
 						"description" : "",
-						"digest" : "",
-						"fontface" : 0,
-						"fontname" : "Arial",
-						"fontsize" : 13.0,
 						"globalpatchername" : "",
-						"tags" : ""
+						"fontface" : 0,
+						"fontsize" : 13.0,
+						"default_fontface" : 0,
+						"digest" : ""
 					}
 ,
 					"text" : "p advanced",
@@ -427,7 +438,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 75.0, 85.0, 122.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"filename" : "helpstarter",
 						"parameter_enable" : 0
 					}
 ,
@@ -448,10 +458,10 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 7
+							"revision" : 5
 						}
 ,
-						"rect" : [ 0.0, 26.0, 700.0, 428.0 ],
+						"rect" : [ 100.0, 126.0, 700.0, 428.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -472,6 +482,20 @@
 						"tags" : "",
 						"showontab" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 13.0,
+									"id" : "obj-4",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 185.0, 207.0, 150.0, 36.0 ],
+									"text" : "module's tempo resolution = 5 ticks"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-25",
 									"maxclass" : "button",
@@ -555,7 +579,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
-									"frgb" : 0.0,
 									"id" : "obj-3",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -570,7 +593,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
-									"frgb" : 0.0,
+									"frgb" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
 									"id" : "obj-5",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -589,6 +612,7 @@
 									"grad1" : [ 0.65098, 0.65098, 0.65098, 0.0 ],
 									"grad2" : [ 0.65098, 0.65098, 0.65098, 1.0 ],
 									"id" : "obj-6",
+									"ignoreclick" : 1,
 									"maxclass" : "panel",
 									"mode" : 1,
 									"numinlets" : 1,
@@ -650,21 +674,64 @@
 								}
 
 							}
+ ],
+						"dependency_cache" : [ 							{
+								"name" : "helpdetails.js",
+								"bootpath" : "/Applications/Max6/Cycling '74/help-resources",
+								"type" : "TEXT",
+								"implicit" : 1
+							}
+, 							{
+								"name" : "oi.timepoint.maxpat",
+								"bootpath" : "/Applications/Max6/patches/OI_LIB/API_LIB/Tools(bpatchers)/timing",
+								"type" : "JSON",
+								"implicit" : 1
+							}
+, 							{
+								"name" : "oi.autovarname.js",
+								"bootpath" : "/Applications/Max6/patches/OI_LIB/API_LIB/Utilities(objects)/Communication /pattr objects",
+								"type" : "TEXT",
+								"implicit" : 1
+							}
+, 							{
+								"name" : "oi.modulecom.maxpat",
+								"bootpath" : "/Applications/Max6/patches/OI_LIB/API_LIB/Utilities(objects)/Communication /pattr objects",
+								"type" : "JSON",
+								"implicit" : 1
+							}
+, 							{
+								"name" : "oi.timeformat.maxpat",
+								"bootpath" : "/Applications/Max6/patches/OI_LIB/API_LIB/Tools(bpatchers)/timing",
+								"type" : "JSON",
+								"implicit" : 1
+							}
+, 							{
+								"name" : "oi.timeformat_interface.maxpat",
+								"bootpath" : "/Applications/Max6/patches/OI_LIB/API_LIB/Tools(bpatchers)/timing",
+								"type" : "JSON",
+								"implicit" : 1
+							}
+, 							{
+								"name" : "o.holdmessage.maxpat",
+								"bootpath" : "/Applications/Max6/patches/OI_LIB/Utilities(objects)/Lists",
+								"type" : "JSON",
+								"implicit" : 1
+							}
  ]
 					}
 ,
 					"patching_rect" : [ 10.0, 85.0, 50.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
 						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontsize" : 13.0,
 						"description" : "",
-						"digest" : "",
-						"fontface" : 0,
-						"fontname" : "Arial",
-						"fontsize" : 13.0,
 						"globalpatchername" : "",
-						"tags" : ""
+						"fontface" : 0,
+						"fontsize" : 13.0,
+						"default_fontface" : 0,
+						"digest" : ""
 					}
 ,
 					"text" : "p basic",
@@ -700,7 +767,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 7
+							"revision" : 5
 						}
 ,
 						"rect" : [ 0.0, 26.0, 700.0, 428.0 ],
@@ -724,21 +791,22 @@
 						"tags" : "",
 						"showontab" : 1,
 						"boxes" : [  ],
-						"lines" : [  ]
+						"lines" : [  ],
+						"dependency_cache" : [  ]
 					}
 ,
 					"patching_rect" : [ 75.0, 200.0, 50.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
 						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontsize" : 10.0,
 						"description" : "",
-						"digest" : "",
-						"fontface" : 0,
-						"fontname" : "Arial",
-						"fontsize" : 10.0,
 						"globalpatchername" : "",
-						"tags" : ""
+						"fontface" : 0,
+						"fontsize" : 10.0,
+						"default_fontface" : 0,
+						"digest" : ""
 					}
 ,
 					"text" : "p ?",

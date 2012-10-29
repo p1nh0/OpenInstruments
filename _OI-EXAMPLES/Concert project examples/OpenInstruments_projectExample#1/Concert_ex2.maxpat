@@ -7,7 +7,7 @@
 			"revision" : 5
 		}
 ,
-		"rect" : [ 161.0, 154.0, 1038.0, 678.0 ],
+		"rect" : [ 6.0, 139.0, 516.0, 646.0 ],
 		"bgcolor" : [ 0.4, 0.4, 0.4, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -30,15 +30,45 @@
 		"globalpatchername" : "concert",
 		"boxes" : [ 			{
 				"box" : 				{
+					"bubble" : 1,
 					"fontface" : 3,
 					"fontname" : "Arial",
-					"fontsize" : 16.0,
-					"id" : "obj-35",
+					"fontsize" : 14.0,
+					"id" : "obj-12",
+					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 218.0, 185.0, 400.0, 25.0 ],
-					"text" : "Concert example #1 — connecting pieces (basic01)"
+					"patching_rect" : [ 485.0, 509.0, 228.0, 59.0 ],
+					"text" : "lets say you'd want to play this piece 3 seconds after finishing the previous piece"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-39",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 280.0, 509.0, 131.0, 22.0 ],
+					"text" : "wait 3s between pieces"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-32",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 230.0, 510.0, 54.0, 18.0 ],
+					"text" : "pipe 3000"
 				}
 
 			}
@@ -110,13 +140,13 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ -360.0, 10.0, 257.0, 18.0 ],
-					"restore" : [ "" ],
+					"restore" : [ "begin" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
 ,
 					"text" : "pattr @bindto end_concert @invisible 1 @autorestore 0",
-					"varname" : "u174009491"
+					"varname" : "u760000811"
 				}
 
 			}
@@ -132,13 +162,13 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ -307.5, 205.0, 265.0, 18.0 ],
-					"restore" : [ 0 ],
+					"restore" : [ "" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
 ,
 					"text" : "pattr @bindto begin_concert @invisible 1 @autorestore 0",
-					"varname" : "u478009493"
+					"varname" : "u804000813"
 				}
 
 			}
@@ -154,13 +184,13 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 230.0, 233.0, 241.0, 18.0 ],
-					"restore" : [ 0 ],
+					"patching_rect" : [ 230.0, 233.0, 311.0, 18.0 ],
+					"restore" : [ "" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "pattr begin_concert @autorestore 0 @invisible 1",
+					"text" : "pattr begin_concert @autorestore 0 @invisible 1 @type symbol",
 					"varname" : "begin_concert"
 				}
 
@@ -207,7 +237,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 230.0, 790.0, 303.0, 18.0 ],
-					"restore" : [ "" ],
+					"restore" : [ "begin" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
@@ -585,16 +615,16 @@
 ,
 					"patching_rect" : [ -509.059937, 35.0, 59.0, 18.0 ],
 					"saved_object_attributes" : 					{
+						"digest" : "",
+						"default_fontname" : "Arial",
+						"globalpatchername" : "",
 						"fontname" : "Arial",
 						"default_fontsize" : 10.0,
 						"description" : "",
+						"tags" : "",
 						"fontface" : 0,
 						"fontsize" : 10.0,
-						"globalpatchername" : "",
-						"default_fontface" : 0,
-						"tags" : "",
-						"digest" : "",
-						"default_fontname" : "Arial"
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p set_color"
@@ -714,157 +744,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
-									"id" : "obj-39",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 3,
-									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 386.0, 205.0, 190.0, 18.0 ],
-									"restore" : [ 3478.458008 ],
-									"saved_object_attributes" : 									{
-										"parameter_enable" : 0
-									}
-,
-									"text" : "pattr @name abuffer::size @type float32",
-									"varname" : "abuffer::size"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"buffername" : "abuffer",
-									"id" : "obj-1",
-									"maxclass" : "waveform~",
-									"numinlets" : 5,
-									"numoutlets" : 6,
-									"outlettype" : [ "float", "float", "float", "float", "list", "" ],
-									"patching_rect" : [ 305.0, 235.0, 256.0, 64.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 10.0,
-									"id" : "obj-41",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 8,
-									"outlettype" : [ "float", "list", "float", "float", "float", "float", "float", "" ],
-									"patching_rect" : [ 305.0, 176.0, 113.5, 18.0 ],
-									"text" : "info~ abuffer"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 10.0,
-									"id" : "obj-40",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 305.0, 116.0, 43.0, 16.0 ],
-									"text" : "replace"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 10.0,
-									"id" : "obj-38",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "float", "bang" ],
-									"patching_rect" : [ 305.0, 146.0, 120.0, 18.0 ],
-									"text" : "buffer~ abuffer drumloop"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"candycane" : 6,
-									"id" : "obj-37",
-									"maxclass" : "multislider",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
-									"parameter_enable" : 0,
-									"patching_rect" : [ 50.0, 395.0, 205.0, 80.0 ],
-									"setminmax" : [ 0.0, 1.0 ],
-									"setstyle" : 1,
-									"size" : 12,
-									"varname" : "multislider"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"hint" : "x 127 y 81",
-									"id" : "obj-36",
-									"maxclass" : "itable",
-									"name" : "",
-									"numinlets" : 2,
-									"numoutlets" : 2,
-									"outlettype" : [ "int", "bang" ],
-									"parameter_enable" : 0,
-									"patching_rect" : [ 50.0, 205.0, 160.0, 145.0 ],
-									"range" : 128,
-									"size" : 128,
-									"table_data" : [ 0, 44, 45, 45, 46, 46, 47, 48, 48, 48, 48, 48, 49, 49, 49, 49, 49, 49, 50, 50, 50, 50, 50, 50, 51, 51, 51, 51, 51, 51, 51, 51, 51, 51, 51, 51, 51, 51, 40, 38, 37, 36, 35, 34, 33, 33, 32, 56, 53, 52, 52, 51, 51, 51, 51, 51, 51, 51, 51, 51, 51, 51, 51, 51, 52, 52, 52, 52, 53, 53, 53, 53, 54, 54, 54, 54, 55, 55, 57, 58, 59, 62, 64, 66, 85, 84, 94, 94, 94, 94, 94, 94, 95, 95, 95, 95, 95, 95, 95, 95, 95, 95, 95, 95, 95, 95, 95, 94, 94, 93, 93, 92, 92, 91, 91, 90, 90, 89, 88, 88, 87, 86, 84, 80, 69, 70, 71, 72, 127 ],
-									"varname" : "itable"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 10.0,
-									"id" : "obj-35",
-									"linecount" : 2,
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 110.0, 115.0, 121.0, 29.0 ],
-									"text" : "musical scales to access through dictionaries"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 10.0,
-									"id" : "obj-31",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 90.0, 160.0, 18.0 ],
-									"text" : "loadmess import scales-collection"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 10.0,
-									"id" : "obj-30",
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 4,
-									"outlettype" : [ "dictionary", "", "", "" ],
-									"patching_rect" : [ 50.0, 115.0, 59.5, 18.0 ],
-									"text" : "dict scales"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 10.0,
 									"id" : "obj-76",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -890,59 +769,22 @@
 
 							}
  ],
-						"lines" : [ 							{
-								"patchline" : 								{
-									"destination" : [ "obj-30", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-31", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-41", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"midpoints" : [ 415.5, 169.5, 314.5, 169.5 ],
-									"source" : [ "obj-38", 1 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-38", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-40", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-39", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-41", 6 ]
-								}
-
-							}
- ],
+						"lines" : [  ],
 						"dependency_cache" : [  ]
 					}
 ,
 					"patching_rect" : [ 245.0, 20.0, 283.0, 32.0 ],
 					"saved_object_attributes" : 					{
+						"digest" : "",
+						"default_fontname" : "Arial",
+						"globalpatchername" : "oi.dataset[1]",
 						"fontname" : "Arial",
 						"default_fontsize" : 10.0,
 						"description" : "",
+						"tags" : "",
 						"fontface" : 0,
 						"fontsize" : 10.0,
-						"globalpatchername" : "oi.dataset[1]",
-						"default_fontface" : 0,
-						"tags" : "",
-						"digest" : "",
-						"default_fontname" : "Arial"
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p DataSet",
@@ -985,12 +827,12 @@
 					"id" : "obj-21",
 					"maxclass" : "bpatcher",
 					"name" : "oi.presets.maxpat",
-					"numinlets" : 0,
+					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 595.0, 20.0, 211.5, 58.0 ],
+					"patching_rect" : [ -215.25, 48.0, 211.5, 58.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ -2.0, -1.0, 215.0, 58.0 ],
-					"varname" : "presets"
+					"varname" : "PRESETS"
 				}
 
 			}
@@ -1038,16 +880,16 @@
 ,
 					"patching_rect" : [ -317.0, 695.0, 176.0, 18.0 ],
 					"saved_object_attributes" : 					{
+						"digest" : "",
+						"default_fontname" : "Arial",
+						"globalpatchername" : "",
 						"fontname" : "Arial",
 						"default_fontsize" : 10.0,
 						"description" : "",
+						"tags" : "",
 						"fontface" : 0,
 						"fontsize" : 10.0,
-						"globalpatchername" : "",
-						"default_fontface" : 0,
-						"tags" : "",
-						"digest" : "",
-						"default_fontname" : "Arial"
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p \"this used to have a oi.saveprompt\""
@@ -1260,7 +1102,7 @@
 									}
 ,
 									"text" : "pattr @bindto ::oi.api::add_space @invisible 1",
-									"varname" : "u210009662"
+									"varname" : "u215000980"
 								}
 
 							}
@@ -1413,13 +1255,13 @@
  ],
 						"dependency_cache" : [ 							{
 								"name" : "oi.hub.maxpat",
-								"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Utilities (objects)/Communication ",
+								"bootpath" : "/Applications/Max6/patches/OI_LIB/API_LIB/Utilities(objects)/Communication /pattr objects",
 								"type" : "JSON",
 								"implicit" : 1
 							}
 , 							{
 								"name" : "o.holdmessage.maxpat",
-								"bootpath" : "/Applications/Max6/patches/OI lib /Utilities (objects)/Lists",
+								"bootpath" : "/Applications/Max6/patches/OI_LIB/Utilities(objects)/Lists",
 								"type" : "JSON",
 								"implicit" : 1
 							}
@@ -1428,16 +1270,16 @@
 ,
 					"patching_rect" : [ -685.0, 46.5, 89.0, 18.0 ],
 					"saved_object_attributes" : 					{
+						"digest" : "",
+						"default_fontname" : "Arial",
+						"globalpatchername" : "",
 						"fontname" : "Arial",
 						"default_fontsize" : 10.0,
 						"description" : "",
+						"tags" : "",
 						"fontface" : 0,
 						"fontsize" : 10.0,
-						"globalpatchername" : "",
-						"default_fontface" : 0,
-						"tags" : "",
-						"digest" : "",
-						"default_fontname" : "Arial"
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p key_commands",
@@ -1683,7 +1525,7 @@
  ],
 						"dependency_cache" : [ 							{
 								"name" : "oi.print.maxpat",
-								"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Utilities (objects)/System/internals",
+								"bootpath" : "/Applications/Max6/patches/OI_LIB/API_LIB/Utilities(objects)/System/other",
 								"type" : "JSON",
 								"implicit" : 1
 							}
@@ -1692,16 +1534,16 @@
 ,
 					"patching_rect" : [ -276.25, 650.0, 231.25, 18.0 ],
 					"saved_object_attributes" : 					{
+						"digest" : "",
+						"default_fontname" : "Arial",
+						"globalpatchername" : "",
 						"fontname" : "Arial",
 						"default_fontsize" : 10.0,
 						"description" : "",
+						"tags" : "",
 						"fontface" : 0,
 						"fontsize" : 10.0,
-						"globalpatchername" : "",
-						"default_fontface" : 0,
-						"tags" : "",
-						"digest" : "",
-						"default_fontname" : "Arial"
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p oi_print",
@@ -1824,8 +1666,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ -492.25, 612.0, 61.0, 18.0 ],
-					"text" : "o.listaccum"
+					"patching_rect" : [ -492.25, 612.0, 150.0, 18.0 ],
+					"text" : "o.listaccum @maxlength 64000"
 				}
 
 			}
@@ -2069,19 +1911,27 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ -285.0, 240.0, 59.5, 18.0 ],
 					"text" : "autopattr",
-					"varname" : "u584013415"
+					"varname" : "u279014156"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"active" : 					{
+						"Piece_2" : 0,
+						"Piece_2::piece_data" : 0,
+						"Piece_1" : 0,
+						"Piece_1::piece_data" : 0
+					}
+,
 					"annotation" : "file saving is managed by midp.crt.window",
+					"autorestore" : "concert_data.json",
 					"bgcolor" : [ 0.65098, 0.65098, 0.65098, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
 					"id" : "obj-14",
 					"interp" : 					{
-						"presets::current" : [ 0, 0.0 ]
+						"PRESETS::current" : [ 0, 0.0 ]
 					}
 ,
 					"linecount" : 7,
@@ -2091,8 +1941,8 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ -415.0, 415.0, 125.0, 119.0 ],
 					"saved_object_attributes" : 					{
+						"client_rect" : [ 693, 194, 1076, 556 ],
 						"storage_rect" : [ 373, 115, 824, 243 ],
-						"client_rect" : [ 16, 159, 399, 521 ],
 						"parameter_enable" : 0
 					}
 ,
@@ -2119,29 +1969,33 @@
 			}
 , 			{
 				"box" : 				{
-					"bgmode" : 1,
+					"border" : 1,
 					"id" : "obj-22",
 					"maxclass" : "bpatcher",
-					"name" : "Piece_example1.maxpat",
+					"name" : "Piece_1.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "begin" ],
-					"patching_rect" : [ 230.0, 395.0, 255.0, 270.0 ],
-					"varname" : "Piece_example1"
+					"patching_rect" : [ 230.0, 375.0, 250.0, 127.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 70.0, 83.0, 250.0, 127.0 ],
+					"varname" : "Piece_1"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bgmode" : 1,
-					"id" : "obj-28",
+					"border" : 1,
+					"id" : "obj-31",
 					"maxclass" : "bpatcher",
-					"name" : "Piece_example2.maxpat",
+					"name" : "Piece_2.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "begin" ],
-					"patching_rect" : [ 570.0, 395.0, 250.0, 115.0 ],
-					"varname" : "Piece_example2"
+					"patching_rect" : [ 230.0, 537.0, 250.0, 127.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 70.0, 220.0, 250.0, 127.0 ],
+					"varname" : "Piece_2"
 				}
 
 			}
@@ -2428,15 +2282,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-40", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-22", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-51", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -2524,6 +2369,24 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-40", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-31", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-31", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-32", 0 ]
 				}
 
 			}
@@ -2656,7 +2519,7 @@
 					"destination" : [ "obj-33", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ -323.5, 604.5, -482.75, 604.5 ],
+					"midpoints" : [ -323.5, 599.0, -482.75, 599.0 ],
 					"source" : [ "obj-88", 2 ]
 				}
 
@@ -2681,205 +2544,395 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-4::obj-22::obj-39::obj-54::obj-2" : [ "live.gain~[4]", "live.gain~", 0 ],
-			"obj-4::obj-22::obj-38::obj-54::obj-2" : [ "live.gain~[5]", "live.gain~", 0 ],
-			"obj-4::obj-28::obj-26::obj-54::obj-2" : [ "live.gain~[3]", "live.gain~", 0 ]
-		}
-,
 		"dependency_cache" : [ 			{
-				"name" : "Piece_example2.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OI examples/Concert project examples/OpenInstruments_projectExample#1/Pieces",
-				"patcherrelativepath" : "../OpenInstruments_projectExample#1/Pieces",
+				"name" : "Piece_2.maxpat",
+				"bootpath" : "/Applications/Max6/examples/_OI-EXAMPLES/Concert project examples/OpenInstruments_projectExample#2/Pieces",
+				"patcherrelativepath" : "../OpenInstruments_projectExample#2/Pieces",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Instrument_example1.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OI examples/Concert project examples/OpenInstruments_projectExample#1/Instruments",
-				"patcherrelativepath" : "../OpenInstruments_projectExample#1/Instruments",
+				"name" : "inst_D.maxpat",
+				"bootpath" : "/Applications/Max6/examples/_OI-EXAMPLES/Concert project examples/OpenInstruments_projectExample#2/Instruments",
+				"patcherrelativepath" : "../OpenInstruments_projectExample#2/Instruments",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oi.gen.transport.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Modules (bpatchers)/Generators",
-				"patcherrelativepath" : "../../../OI lib /API lib/Modules (bpatchers)/Generators",
+				"bootpath" : "/Applications/Max6/patches/OI_LIB/API_LIB/Modules(bpatchers)/Generators",
+				"patcherrelativepath" : "../../../../patches/OI_LIB/API_LIB/Modules(bpatchers)/Generators",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oi.autovarname.js",
-				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Utilities (objects)/Communication ",
-				"patcherrelativepath" : "../../../OI lib /API lib/Utilities (objects)/Communication ",
+				"bootpath" : "/Applications/Max6/patches/OI_LIB/API_LIB/Utilities(objects)/Communication /pattr objects",
+				"patcherrelativepath" : "../../../../patches/OI_LIB/API_LIB/Utilities(objects)/Communication /pattr objects",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oi.modulecom.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Utilities (objects)/Communication ",
-				"patcherrelativepath" : "../../../OI lib /API lib/Utilities (objects)/Communication ",
+				"bootpath" : "/Applications/Max6/patches/OI_LIB/API_LIB/Utilities(objects)/Communication /pattr objects",
+				"patcherrelativepath" : "../../../../patches/OI_LIB/API_LIB/Utilities(objects)/Communication /pattr objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oi.timeformat.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Tools (bpatchers)",
-				"patcherrelativepath" : "../../../OI lib /API lib/Tools (bpatchers)",
+				"bootpath" : "/Applications/Max6/patches/OI_LIB/API_LIB/Tools(bpatchers)/timing",
+				"patcherrelativepath" : "../../../../patches/OI_LIB/API_LIB/Tools(bpatchers)/timing",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oi.timeformat_interface.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Tools (bpatchers)",
-				"patcherrelativepath" : "../../../OI lib /API lib/Tools (bpatchers)",
+				"bootpath" : "/Applications/Max6/patches/OI_LIB/API_LIB/Tools(bpatchers)/timing",
+				"patcherrelativepath" : "../../../../patches/OI_LIB/API_LIB/Tools(bpatchers)/timing",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "o.holdmessage.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OI lib /Utilities (objects)/Lists",
-				"patcherrelativepath" : "../../../OI lib /Utilities (objects)/Lists",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "oi.print.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Utilities (objects)/System/internals",
-				"patcherrelativepath" : "../../../OI lib /API lib/Utilities (objects)/System/internals",
+				"bootpath" : "/Applications/Max6/patches/OI_LIB/Utilities(objects)/Lists",
+				"patcherrelativepath" : "../../../../patches/OI_LIB/Utilities(objects)/Lists",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oi.pattrtemp.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Utilities (objects)/Communication ",
-				"patcherrelativepath" : "../../../OI lib /API lib/Utilities (objects)/Communication ",
+				"bootpath" : "/Applications/Max6/patches/OI_LIB/API_LIB/Utilities(objects)/Communication /pattr objects",
+				"patcherrelativepath" : "../../../../patches/OI_LIB/API_LIB/Utilities(objects)/Communication /pattr objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oi.vfgate.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Utilities (objects)/System/internals",
-				"patcherrelativepath" : "../../../OI lib /API lib/Utilities (objects)/System/internals",
+				"bootpath" : "/Applications/Max6/patches/OI_LIB/API_LIB/Utilities(objects)/System/data flow",
+				"patcherrelativepath" : "../../../../patches/OI_LIB/API_LIB/Utilities(objects)/System/data flow",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "oi.print.maxpat",
+				"bootpath" : "/Applications/Max6/patches/OI_LIB/API_LIB/Utilities(objects)/System/other",
+				"patcherrelativepath" : "../../../../patches/OI_LIB/API_LIB/Utilities(objects)/System/other",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oi.presets.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Tools (bpatchers)",
-				"patcherrelativepath" : "../../../OI lib /API lib/Tools (bpatchers)",
+				"bootpath" : "/Applications/Max6/patches/OI_LIB/API_LIB/Tools(bpatchers)/data/communication",
+				"patcherrelativepath" : "../../../../patches/OI_LIB/API_LIB/Tools(bpatchers)/data/communication",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oi.hub.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Utilities (objects)/Communication ",
-				"patcherrelativepath" : "../../../OI lib /API lib/Utilities (objects)/Communication ",
+				"bootpath" : "/Applications/Max6/patches/OI_LIB/API_LIB/Utilities(objects)/Communication /pattr objects",
+				"patcherrelativepath" : "../../../../patches/OI_LIB/API_LIB/Utilities(objects)/Communication /pattr objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "o.f2i.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OI lib /Utilities (objects)/Conversions",
-				"patcherrelativepath" : "../../../OI lib /Utilities (objects)/Conversions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "instrument1_data.json",
-				"bootpath" : "/Applications/Max6/patches/OI examples/Concert project examples/OpenInstruments_projectExample#1/_presets",
-				"patcherrelativepath" : "../OpenInstruments_projectExample#1/_presets",
+				"bootpath" : "/Applications/Max6/patches/OI_LIB/Utilities(objects)/Conversions",
+				"patcherrelativepath" : "../../../../patches/OI_LIB/Utilities(objects)/Conversions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "o.listaccum.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OI lib /Utilities (objects)/Lists",
-				"patcherrelativepath" : "../../../OI lib /Utilities (objects)/Lists",
+				"bootpath" : "/Applications/Max6/patches/OI_LIB/Utilities(objects)/Lists",
+				"patcherrelativepath" : "../../../../patches/OI_LIB/Utilities(objects)/Lists",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oi.stereotrack~.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Tools (bpatchers)/msp",
-				"patcherrelativepath" : "../../../OI lib /API lib/Tools (bpatchers)/msp",
+				"bootpath" : "/Applications/Max6/patches/OI_LIB/API_LIB/Tools(bpatchers)/signals",
+				"patcherrelativepath" : "../../../../patches/OI_LIB/API_LIB/Tools(bpatchers)/signals",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oi.cppan~.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Tools (bpatchers)/msp",
-				"patcherrelativepath" : "../../../OI lib /API lib/Tools (bpatchers)/msp",
+				"bootpath" : "/Applications/Max6/patches/OI_LIB/API_LIB/Tools(bpatchers)/signals",
+				"patcherrelativepath" : "../../../../patches/OI_LIB/API_LIB/Tools(bpatchers)/signals",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "oi.parameterhub.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Tools (bpatchers)",
-				"patcherrelativepath" : "../../../OI lib /API lib/Tools (bpatchers)",
+				"name" : "o.bypass~.maxpat",
+				"bootpath" : "/Applications/Max6/patches/OI_LIB/Utilities(objects)/MSP",
+				"patcherrelativepath" : "../../../../patches/OI_LIB/Utilities(objects)/MSP",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "o.symbolchange.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OI lib /Utilities (objects)/Symbols",
-				"patcherrelativepath" : "../../../OI lib /Utilities (objects)/Symbols",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "oi.gate.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Utilities (objects)/System/internals",
-				"patcherrelativepath" : "../../../OI lib /API lib/Utilities (objects)/System/internals",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "pattrstorageupwards.js",
-				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Utilities (objects)/Communication ",
-				"patcherrelativepath" : "../../../OI lib /API lib/Utilities (objects)/Communication ",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "pattrutils.js",
-				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Utilities (objects)/Communication ",
-				"patcherrelativepath" : "../../../OI lib /API lib/Utilities (objects)/Communication ",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "o.listutils.js",
-				"bootpath" : "/Applications/Max6/patches/OI lib /Utilities (objects)/Lists",
-				"patcherrelativepath" : "../../../OI lib /Utilities (objects)/Lists",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "o.checkumenuitem.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OI lib /Utilities (objects)/other",
-				"patcherrelativepath" : "../../../OI lib /Utilities (objects)/other",
+				"name" : "inst_C.maxpat",
+				"bootpath" : "/Applications/Max6/examples/_OI-EXAMPLES/Concert project examples/OpenInstruments_projectExample#2/Instruments",
+				"patcherrelativepath" : "../OpenInstruments_projectExample#2/Instruments",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "piece1_data.json",
-				"bootpath" : "/Applications/Max6/patches/OI examples/Concert project examples/OpenInstruments_projectExample#1/_presets",
-				"patcherrelativepath" : "../OpenInstruments_projectExample#1/_presets",
+				"bootpath" : "/Applications/Max6/examples/_OI-EXAMPLES/Concert project examples/OpenInstruments_project(OLD)/_presets",
+				"patcherrelativepath" : "../OpenInstruments_project(OLD)/_presets",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Piece_example1.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OI examples/Concert project examples/OpenInstruments_projectExample#1/Pieces",
-				"patcherrelativepath" : "../OpenInstruments_projectExample#1/Pieces",
+				"name" : "Piece_1.maxpat",
+				"bootpath" : "/Applications/Max6/examples/_OI-EXAMPLES/Concert project examples/OpenInstruments_projectExample#2/Pieces",
+				"patcherrelativepath" : "../OpenInstruments_projectExample#2/Pieces",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Instrument_example2.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OI examples/Concert project examples/OpenInstruments_projectExample#1/Instruments",
-				"patcherrelativepath" : "../OpenInstruments_projectExample#1/Instruments",
+				"name" : "Arduino_example.maxpat",
+				"bootpath" : "/Applications/Max6/examples/_OI-EXAMPLES/Concert project examples/OpenInstruments_projectExample#2/Instruments",
+				"patcherrelativepath" : "../OpenInstruments_projectExample#2/Instruments",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "oi.idv.serial.maxpat",
+				"bootpath" : "/Applications/Max6/patches/OI_LIB/API_LIB/Modules(bpatchers)/Devices",
+				"patcherrelativepath" : "../../../../patches/OI_LIB/API_LIB/Modules(bpatchers)/Devices",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "o.listlearn.js",
+				"bootpath" : "/Applications/Max6/patches/OI_LIB/Utilities(objects)/Lists",
+				"patcherrelativepath" : "../../../../patches/OI_LIB/Utilities(objects)/Lists",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "oi.mod.varfilter.maxpat",
+				"bootpath" : "/Applications/Max6/patches/OI_LIB/API_LIB/Modules(bpatchers)/Modifiers",
+				"patcherrelativepath" : "../../../../patches/OI_LIB/API_LIB/Modules(bpatchers)/Modifiers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "oi.speedlim.maxpat",
+				"bootpath" : "/Applications/Max6/patches/OI_LIB/API_LIB/Utilities(objects)/System/data flow",
+				"patcherrelativepath" : "../../../../patches/OI_LIB/API_LIB/Utilities(objects)/System/data flow",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "oi.modulegate.maxpat",
+				"bootpath" : "/Applications/Max6/patches/OI_LIB/API_LIB/Utilities(objects)/System/data flow",
+				"patcherrelativepath" : "../../../../patches/OI_LIB/API_LIB/Utilities(objects)/System/data flow",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "o.varfilter.maxpat",
+				"bootpath" : "/Applications/Max6/patches/OI_LIB/Utilities(objects)/Streams",
+				"patcherrelativepath" : "../../../../patches/OI_LIB/Utilities(objects)/Streams",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "o.automean.maxpat",
+				"bootpath" : "/Applications/Max6/patches/OI_LIB/Utilities(objects)/Streams",
+				"patcherrelativepath" : "../../../../patches/OI_LIB/Utilities(objects)/Streams",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "oi.gate.maxpat",
+				"bootpath" : "/Applications/Max6/patches/OI_LIB/API_LIB/Utilities(objects)/System/data flow",
+				"patcherrelativepath" : "../../../../patches/OI_LIB/API_LIB/Utilities(objects)/System/data flow",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "oi.mod.norm.maxpat",
+				"bootpath" : "/Applications/Max6/patches/OI_LIB/API_LIB/Modules(bpatchers)/Modifiers",
+				"patcherrelativepath" : "../../../../patches/OI_LIB/API_LIB/Modules(bpatchers)/Modifiers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "o.autorange.maxpat",
+				"bootpath" : "/Applications/Max6/patches/OI_LIB/Utilities(objects)/Streams",
+				"patcherrelativepath" : "../../../../patches/OI_LIB/Utilities(objects)/Streams",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "oi.mod.range.maxpat",
+				"bootpath" : "/Applications/Max6/patches/OI_LIB/API_LIB/Modules(bpatchers)/Modifiers",
+				"patcherrelativepath" : "../../../../patches/OI_LIB/API_LIB/Modules(bpatchers)/Modifiers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "o.fold.maxpat",
+				"bootpath" : "/Applications/Max6/patches/OI_LIB/Utilities(objects)/Streams",
+				"patcherrelativepath" : "../../../../patches/OI_LIB/Utilities(objects)/Streams",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "o.wrap.maxpat",
+				"bootpath" : "/Applications/Max6/patches/OI_LIB/Utilities(objects)/Streams",
+				"patcherrelativepath" : "../../../../patches/OI_LIB/Utilities(objects)/Streams",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "o.ramp.maxpat",
+				"bootpath" : "/Applications/Max6/patches/OI_LIB/Utilities(objects)/Streams",
+				"patcherrelativepath" : "../../../../patches/OI_LIB/Utilities(objects)/Streams",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "oi.parameterhub.maxpat",
+				"bootpath" : "/Applications/Max6/patches/OI_LIB/API_LIB/Tools(bpatchers)/data/communication",
+				"patcherrelativepath" : "../../../../patches/OI_LIB/API_LIB/Tools(bpatchers)/data/communication",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "o.symbolchange.maxpat",
+				"bootpath" : "/Applications/Max6/patches/OI_LIB/Utilities(objects)/Symbols",
+				"patcherrelativepath" : "../../../../patches/OI_LIB/Utilities(objects)/Symbols",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "oi.pattrstorageupwards.js",
+				"bootpath" : "/Applications/Max6/patches/OI_LIB/API_LIB/Utilities(objects)/Communication /pattr objects",
+				"patcherrelativepath" : "../../../../patches/OI_LIB/API_LIB/Utilities(objects)/Communication /pattr objects",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "o.checkumenuitem.maxpat",
+				"bootpath" : "/Applications/Max6/patches/OI_LIB/Utilities(objects)/other",
+				"patcherrelativepath" : "../../../../patches/OI_LIB/Utilities(objects)/other",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "oi.mod.notemap.maxpat",
+				"bootpath" : "/Applications/Max6/patches/OI_LIB/API_LIB/Modules(bpatchers)/Modifiers",
+				"patcherrelativepath" : "../../../../patches/OI_LIB/API_LIB/Modules(bpatchers)/Modifiers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "o.stripvelocity.js",
+				"bootpath" : "/Applications/Max6/patches/OI_LIB/Utilities(objects)/MIDI",
+				"patcherrelativepath" : "../../../../patches/OI_LIB/Utilities(objects)/MIDI",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "o.note2pitchclass.js",
+				"bootpath" : "/Applications/Max6/patches/OI_LIB/Utilities(objects)/MIDI",
+				"patcherrelativepath" : "../../../../patches/OI_LIB/Utilities(objects)/MIDI",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "o.findclosestnote.js",
+				"bootpath" : "/Applications/Max6/patches/OI_LIB/Utilities(objects)/MIDI",
+				"patcherrelativepath" : "../../../../patches/OI_LIB/Utilities(objects)/MIDI",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "o.vpr2note.maxpat",
+				"bootpath" : "/Applications/Max6/patches/OI_LIB/Utilities(objects)/MIDI",
+				"patcherrelativepath" : "../../../../patches/OI_LIB/Utilities(objects)/MIDI",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "o.note2vpr.maxpat",
+				"bootpath" : "/Applications/Max6/patches/OI_LIB/Utilities(objects)/MIDI",
+				"patcherrelativepath" : "../../../../patches/OI_LIB/Utilities(objects)/MIDI",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Arduino_example.json",
+				"bootpath" : "/Applications/Max6/examples/_OI-EXAMPLES/Concert project examples/OpenInstruments_projectExample#2/Instruments",
+				"patcherrelativepath" : "../OpenInstruments_projectExample#2/Instruments",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "poylyrhhythm.maxpat",
+				"bootpath" : "/Applications/Max6/examples/_OI-EXAMPLES/Concert project examples/OpenInstruments_projectExample#2/Instruments",
+				"patcherrelativepath" : "../OpenInstruments_projectExample#2/Instruments",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "oi.vst~.maxpat",
+				"bootpath" : "/Applications/Max6/patches/OI_LIB/API_LIB/Tools(bpatchers)/signals",
+				"patcherrelativepath" : "../../../../patches/OI_LIB/API_LIB/Tools(bpatchers)/signals",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "get_plugs.js",
+				"bootpath" : "/Applications/Max6/Cycling '74/msp-help",
+				"patcherrelativepath" : "../../../../Cycling '74/msp-help",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "oi.gate~.maxpat",
+				"bootpath" : "/Applications/Max6/patches/OI_LIB/API_LIB/Utilities(objects)/System/data flow",
+				"patcherrelativepath" : "../../../../patches/OI_LIB/API_LIB/Utilities(objects)/System/data flow",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "poylyrhhythm.json",
+				"bootpath" : "/Applications/Max6/examples/_OI-EXAMPLES/Concert project examples/OpenInstruments_projectExample#2/Instruments",
+				"patcherrelativepath" : "../OpenInstruments_projectExample#2/Instruments",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Piece_1.json",
+				"bootpath" : "/Applications/Max6/examples/_OI-EXAMPLES/Concert project examples/OpenInstruments_projectExample#2/Pieces",
+				"patcherrelativepath" : "../OpenInstruments_projectExample#2/Pieces",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "oi.timepoint.maxpat",
+				"bootpath" : "/Applications/Max6/patches/OI_LIB/API_LIB/Tools(bpatchers)/timing",
+				"patcherrelativepath" : "../../../../patches/OI_LIB/API_LIB/Tools(bpatchers)/timing",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "o.clocker.maxpat",
+				"bootpath" : "/Applications/Max6/patches/OI_LIB/Utilities(objects)/Timing",
+				"patcherrelativepath" : "../../../../patches/OI_LIB/Utilities(objects)/Timing",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "concert_data.json",
+				"bootpath" : "/Applications/Max6/examples/_OI-EXAMPLES/Concert project examples/OpenInstruments_projectExample#2/_presets",
+				"patcherrelativepath" : "../OpenInstruments_projectExample#2/_presets",
 				"type" : "JSON",
 				"implicit" : 1
 			}
