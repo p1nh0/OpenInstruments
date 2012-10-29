@@ -46,7 +46,7 @@
 					}
 ,
 					"text" : "pattr @bindto ::oi.api::print @invisible 1 @autorestore 0",
-					"varname" : "u830001552"
+					"varname" : "u785004180"
 				}
 
 			}
@@ -159,7 +159,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::instrument_state @invisible 1 @autorestore 0 @thru 0",
-									"varname" : "u603001529"
+									"varname" : "u798004173"
 								}
 
 							}
@@ -195,7 +195,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::instrument_state @invisible 1 @autorestore 0",
-									"varname" : "u395001528"
+									"varname" : "u131004175"
 								}
 
 							}
@@ -217,7 +217,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::parent::piece_state @invisible 1 @autorestore 0",
-									"varname" : "u292001527"
+									"varname" : "u309004172"
 								}
 
 							}
@@ -936,7 +936,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::MasterTransport::mode @invisible 1 @autorestore 0",
-									"varname" : "u052001514"
+									"varname" : "u322004154"
 								}
 
 							}
@@ -967,13 +967,13 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 50.0, 145.0, 385.0, 18.0 ],
-									"restore" : [ "-new_instrument" ],
+									"restore" : [ "Untitled9" ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0
 									}
 ,
 									"text" : "pattr @bindto parent::MasterTransport::transport_name @invisible 1 @autorestore 0",
-									"varname" : "u327001510"
+									"varname" : "u957004153"
 								}
 
 							}
@@ -990,13 +990,13 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 50.0, 110.0, 313.0, 18.0 ],
-									"restore" : [ "-new instrument" ],
+									"restore" : [ "Untitled9" ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0
 									}
 ,
 									"text" : "pattr @bindto parent::instrument_name @invisible 1 @autorestore 0",
-									"varname" : "u405001415"
+									"varname" : "u194004148"
 								}
 
 							}
@@ -2397,7 +2397,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ -595.0, 85.0, 550.0, 18.0 ],
-					"restore" : [ "-new instrument" ],
+					"restore" : [ "Untitled9" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
@@ -2417,7 +2417,6 @@
 					"frgb" : 0.0,
 					"id" : "obj-21",
 					"ignoreclick" : 1,
-					"linecount" : 2,
 					"maxclass" : "textedit",
 					"numinlets" : 1,
 					"numoutlets" : 4,
@@ -2427,7 +2426,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 34.0, 3.0, 211.727707, 35.5 ],
 					"rounded" : 0.0,
-					"text" : "\"-new instrument\"",
+					"text" : "Untitled9",
 					"varname" : "textedit"
 				}
 
@@ -3082,7 +3081,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u391007706"
+					"varname" : "u136010576"
 				}
 
 			}
@@ -3357,7 +3356,7 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 40.0, 10.0, 208.0, 18.0 ],
 									"text" : "autopattr @autoname 1 @dirty 1 @greedy 1",
-									"varname" : "u286007347"
+									"varname" : "u362010571"
 								}
 
 							}
@@ -3744,7 +3743,7 @@
 									}
 ,
 									"text" : "autopattr @autoname 1",
-									"varname" : "u429007346"
+									"varname" : "u452010569"
 								}
 
 							}
@@ -4792,119 +4791,119 @@
 		"dependency_cache" : [ 			{
 				"name" : "oi.gen.transport.maxpat",
 				"bootpath" : "/Applications/Max6/patches/OI_LIB/API_LIB/Modules(bpatchers)/Generators",
-				"patcherrelativepath" : "../../../OI_LIB/API_LIB/Modules(bpatchers)/Generators",
+				"patcherrelativepath" : "../../../../../patches/OI_LIB/API_LIB/Modules(bpatchers)/Generators",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oi.autovarname.js",
 				"bootpath" : "/Applications/Max6/patches/OI_LIB/API_LIB/Utilities(objects)/Communication /pattr objects",
-				"patcherrelativepath" : "../../../OI_LIB/API_LIB/Utilities(objects)/Communication /pattr objects",
+				"patcherrelativepath" : "../../../../../patches/OI_LIB/API_LIB/Utilities(objects)/Communication /pattr objects",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oi.modulecom.maxpat",
 				"bootpath" : "/Applications/Max6/patches/OI_LIB/API_LIB/Utilities(objects)/Communication /pattr objects",
-				"patcherrelativepath" : "../../../OI_LIB/API_LIB/Utilities(objects)/Communication /pattr objects",
+				"patcherrelativepath" : "../../../../../patches/OI_LIB/API_LIB/Utilities(objects)/Communication /pattr objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oi.timeformat.maxpat",
 				"bootpath" : "/Applications/Max6/patches/OI_LIB/API_LIB/Tools(bpatchers)/timing",
-				"patcherrelativepath" : "../../../OI_LIB/API_LIB/Tools(bpatchers)/timing",
+				"patcherrelativepath" : "../../../../../patches/OI_LIB/API_LIB/Tools(bpatchers)/timing",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oi.timeformat_interface.maxpat",
 				"bootpath" : "/Applications/Max6/patches/OI_LIB/API_LIB/Tools(bpatchers)/timing",
-				"patcherrelativepath" : "../../../OI_LIB/API_LIB/Tools(bpatchers)/timing",
+				"patcherrelativepath" : "../../../../../patches/OI_LIB/API_LIB/Tools(bpatchers)/timing",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "o.holdmessage.maxpat",
 				"bootpath" : "/Applications/Max6/patches/OI_LIB/Utilities(objects)/Lists",
-				"patcherrelativepath" : "../../../OI_LIB/Utilities(objects)/Lists",
+				"patcherrelativepath" : "../../../../../patches/OI_LIB/Utilities(objects)/Lists",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oi.print.maxpat",
 				"bootpath" : "/Applications/Max6/patches/OI_LIB/API_LIB/Utilities(objects)/System/other",
-				"patcherrelativepath" : "../../../OI_LIB/API_LIB/Utilities(objects)/System/other",
+				"patcherrelativepath" : "../../../../../patches/OI_LIB/API_LIB/Utilities(objects)/System/other",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oi.pattrtemp.maxpat",
 				"bootpath" : "/Applications/Max6/patches/OI_LIB/API_LIB/Utilities(objects)/Communication /pattr objects",
-				"patcherrelativepath" : "../../../OI_LIB/API_LIB/Utilities(objects)/Communication /pattr objects",
+				"patcherrelativepath" : "../../../../../patches/OI_LIB/API_LIB/Utilities(objects)/Communication /pattr objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oi.vfgate.maxpat",
 				"bootpath" : "/Applications/Max6/patches/OI_LIB/API_LIB/Utilities(objects)/System/data flow",
-				"patcherrelativepath" : "../../../OI_LIB/API_LIB/Utilities(objects)/System/data flow",
+				"patcherrelativepath" : "../../../../../patches/OI_LIB/API_LIB/Utilities(objects)/System/data flow",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oi.presets.maxpat",
 				"bootpath" : "/Applications/Max6/patches/OI_LIB/API_LIB/Tools(bpatchers)/data/communication",
-				"patcherrelativepath" : "../../../OI_LIB/API_LIB/Tools(bpatchers)/data/communication",
+				"patcherrelativepath" : "../../../../../patches/OI_LIB/API_LIB/Tools(bpatchers)/data/communication",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oi.hub.maxpat",
 				"bootpath" : "/Applications/Max6/patches/OI_LIB/API_LIB/Utilities(objects)/Communication /pattr objects",
-				"patcherrelativepath" : "../../../OI_LIB/API_LIB/Utilities(objects)/Communication /pattr objects",
+				"patcherrelativepath" : "../../../../../patches/OI_LIB/API_LIB/Utilities(objects)/Communication /pattr objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "o.f2i.maxpat",
 				"bootpath" : "/Applications/Max6/patches/OI_LIB/Utilities(objects)/Conversions",
-				"patcherrelativepath" : "../../../OI_LIB/Utilities(objects)/Conversions",
+				"patcherrelativepath" : "../../../../../patches/OI_LIB/Utilities(objects)/Conversions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "o.listaccum.maxpat",
 				"bootpath" : "/Applications/Max6/patches/OI_LIB/Utilities(objects)/Lists",
-				"patcherrelativepath" : "../../../OI_LIB/Utilities(objects)/Lists",
+				"patcherrelativepath" : "../../../../../patches/OI_LIB/Utilities(objects)/Lists",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oi.stereotrack~.maxpat",
 				"bootpath" : "/Applications/Max6/patches/OI_LIB/API_LIB/Tools(bpatchers)/signals",
-				"patcherrelativepath" : "../../../OI_LIB/API_LIB/Tools(bpatchers)/signals",
+				"patcherrelativepath" : "../../../../../patches/OI_LIB/API_LIB/Tools(bpatchers)/signals",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oi.cppan~.maxpat",
 				"bootpath" : "/Applications/Max6/patches/OI_LIB/API_LIB/Tools(bpatchers)/signals",
-				"patcherrelativepath" : "../../../OI_LIB/API_LIB/Tools(bpatchers)/signals",
+				"patcherrelativepath" : "../../../../../patches/OI_LIB/API_LIB/Tools(bpatchers)/signals",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "o.cppan.gendsp",
 				"bootpath" : "/Applications/Max6/patches/OI_LIB/Utilities(objects)/MSP/GEN",
-				"patcherrelativepath" : "../../../OI_LIB/Utilities(objects)/MSP/GEN",
+				"patcherrelativepath" : "../../../../../patches/OI_LIB/Utilities(objects)/MSP/GEN",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "o.bypass~.maxpat",
 				"bootpath" : "/Applications/Max6/patches/OI_LIB/Utilities(objects)/MSP",
-				"patcherrelativepath" : "../../../OI_LIB/Utilities(objects)/MSP",
+				"patcherrelativepath" : "../../../../../patches/OI_LIB/Utilities(objects)/MSP",
 				"type" : "JSON",
 				"implicit" : 1
 			}

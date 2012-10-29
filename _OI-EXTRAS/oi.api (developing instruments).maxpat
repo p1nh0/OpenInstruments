@@ -4,10 +4,10 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 5
+			"revision" : 7
 		}
 ,
-		"rect" : [ 877.0, 38.0, 560.0, 55.0 ],
+		"rect" : [ 759.0, 38.0, 680.0, 55.0 ],
 		"bgcolor" : [ 0.937255, 0.611765, 0.258824, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -29,23 +29,6 @@
 		"tags" : "",
 		"globalpatchername" : "oi.api",
 		"boxes" : [ 			{
-				"box" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
-					"border" : 3,
-					"bordercolor" : [ 0.65098, 0.65098, 0.65098, 1.0 ],
-					"id" : "obj-4",
-					"ignoreclick" : 1,
-					"maxclass" : "panel",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 445.0, 5.0, 45.0, 45.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 560.0, 55.0 ],
-					"rounded" : 6
-				}
-
-			}
-, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
@@ -70,6 +53,22 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 261.0, 250.0, 122.0, 18.0 ],
 					"text" : "loadmess bang @defer 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
+					"border" : 3,
+					"bordercolor" : [ 0.65098, 0.65098, 0.65098, 1.0 ],
+					"id" : "obj-4",
+					"maxclass" : "panel",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 445.0, 5.0, 45.0, 45.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, 0.0, 680.0, 55.0 ],
+					"rounded" : 6
 				}
 
 			}
@@ -137,14 +136,15 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
+					"frgb" : 0.0,
 					"id" : "obj-27",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 730.0, 295.0, 107.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 189.0, 34.0, 107.0, 18.0 ],
-					"text" : "open single inst. file"
+					"presentation_rect" : [ 319.0, 29.0, 107.0, 18.0 ],
+					"text" : "open instrument file "
 				}
 
 			}
@@ -152,13 +152,14 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
+					"frgb" : 0.0,
 					"id" : "obj-26",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 555.0, 275.0, 110.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 189.0, 20.0, 110.0, 18.0 ],
+					"presentation_rect" : [ 189.0, 29.0, 110.0, 18.0 ],
 					"text" : "open instrument folder"
 				}
 
@@ -172,7 +173,7 @@
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 710.0, 295.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 169.0, 34.0, 20.0, 20.0 ]
+					"presentation_rect" : [ 299.0, 29.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -252,7 +253,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-87",
-					"items" : [ "Arduino example.json", ",", "Arduino example.maxpat", ",", "Joystick example.json", ",", "Joystick example.maxpat", ",", "joystick_matmap.txt", ",", "joystick_matmap2.txt", ",", "joystick_matmap3.txt" ],
+					"items" : [ "Arduino example.json", ",", "Arduino example.maxpat", ",", "Joystick example.json", ",", "Joystick example.maxpat", ",", "joystick_matmap.txt" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -276,7 +277,7 @@
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 535.0, 275.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 169.0, 20.0, 20.0, 20.0 ]
+					"presentation_rect" : [ 169.0, 29.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -298,11 +299,14 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
+					"frgb" : 0.0,
 					"id" : "obj-2",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 904.0, 130.0, 99.5, 18.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 324.5, 5.0, 71.0, 18.0 ],
 					"text" : "data flow rate"
 				}
 
@@ -319,6 +323,8 @@
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 854.0, 130.0, 50.0, 18.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 394.0, 5.0, 50.0, 18.0 ],
 					"varname" : "number[1]"
 				}
 
@@ -383,7 +389,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 0.0, 95.0, 59.0, 18.0 ],
-					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "grow", "close", "nozoom", "float", "nomenu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 877, 38, 1437, 93, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "grow", "close", "nozoom", "float", "nomenu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 759, 38, 1439, 93, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
 				}
 
@@ -405,6 +411,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
+					"frgb" : 0.0,
 					"id" : "obj-76",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -482,6 +489,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
+					"frgb" : 0.0,
 					"id" : "obj-65",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -551,6 +559,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
+					"frgb" : 0.0,
 					"id" : "obj-55",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -592,7 +601,7 @@
 					"ongradcolor1" : [ 0.792196, 0.977408, 0.678129, 1.0 ],
 					"patching_rect" : [ 68.5, 345.0, 45.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 505.0, 0.0, 55.0, 55.0 ]
+					"presentation_rect" : [ 625.0, 0.0, 55.0, 55.0 ]
 				}
 
 			}
@@ -606,7 +615,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 68.5, 277.5, 180.0, 55.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 325.0, 0.0, 180.0, 55.0 ],
+					"presentation_rect" : [ 445.0, 0.0, 180.0, 55.0 ],
 					"varname" : "api_output"
 				}
 
@@ -849,6 +858,13 @@
 				"bootpath" : "/Applications/Max6/patches/OI_LIB/API_LIB/Tools(bpatchers)/signals",
 				"patcherrelativepath" : "../../OI_LIB/API_LIB/Tools(bpatchers)/signals",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "o.cppan.gendsp",
+				"bootpath" : "/Applications/Max6/patches/OI_LIB/Utilities(objects)/MSP/GEN",
+				"patcherrelativepath" : "../../OI_LIB/Utilities(objects)/MSP/GEN",
+				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
