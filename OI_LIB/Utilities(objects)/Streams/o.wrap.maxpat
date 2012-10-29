@@ -303,8 +303,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 126.0, 340.0, 61.0, 18.0 ],
-					"text" : "+ 0.000001"
+					"patching_rect" : [ 126.0, 340.0, 55.0, 18.0 ],
+					"text" : "+ 0.00001"
 				}
 
 			}

@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 7
+			"revision" : 5
 		}
 ,
 		"rect" : [ 2068.0, -177.0, 492.0, 549.0 ],
@@ -28,6 +28,21 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontface" : 3,
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-20",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 25.285713, 50.0, 316.0, 18.0 ],
+					"presentation_rect" : [ 25.285713, 49.0, 0.0, 0.0 ],
+					"text" : "—> oi.speedlim does not need the pattr object named 'speedlim'"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-22",
@@ -36,7 +51,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 184.0, 453.0, 84.0, 27.0 ],
+					"patching_rect" : [ 184.0, 453.0, 84.0, 28.0 ],
 					"text" : ";\rmax maxwindow"
 				}
 
@@ -46,7 +61,6 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"frgb" : 0.0,
 					"id" : "obj-19",
 					"linecount" : 3,
 					"maxclass" : "comment",
@@ -62,14 +76,13 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"frgb" : 0.0,
 					"id" : "obj-18",
-					"linecount" : 9,
+					"linecount" : 10,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 25.285713, 365.0, 438.0, 108.0 ],
-					"text" : "—> MODULE_TEMPLATE update: \n(1) add '::oi.api.mode' to '+' so that the user can connect/disconnect each module's visual feedback ('v' textbutton like 'p'=print)\n(2) add input rate control to all modules\n(3) make bgcolor = crayon Mercury\n(4) add 'dump' message on 'print' UI \n(5) make space to add extra dump messages (like UI interfaces and other named objects)\n(6) add version number\n(7) add 'open max window' ——>"
+					"patching_rect" : [ 25.285713, 365.0, 438.0, 122.0 ],
+					"text" : "—> MODULE_TEMPLATE update: \n(1) add '::oi.api.mode' to '+' so that the user can connect/disconnect each module's visual feedback ('v' textbutton like 'p'=print)\n(2) add input rate control to all modules\n(3) make bgcolor = crayon Mercury\n(4) add 'dump' message on 'print' UI \n(5) make space to add extra dump messages (like UI interfaces and other named objects)\n(6) add version number\n(7) add 'open max window' ——>\n(8) add module name to '+' window title"
 				}
 
 			}
@@ -78,7 +91,6 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"frgb" : 0.0,
 					"id" : "obj-17",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -93,7 +105,6 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"frgb" : 0.0,
 					"id" : "obj-16",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -108,7 +119,6 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"frgb" : 0.0,
 					"id" : "obj-5",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -123,7 +133,6 @@
 					"fontface" : 2,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"frgb" : 0.0,
 					"id" : "obj-14",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -138,7 +147,6 @@
 					"fontface" : 2,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"frgb" : 0.0,
 					"id" : "obj-13",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -153,7 +161,6 @@
 					"fontface" : 2,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"frgb" : 0.0,
 					"id" : "obj-12",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -168,7 +175,6 @@
 					"fontface" : 2,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"frgb" : 0.0,
 					"id" : "obj-11",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -197,7 +203,6 @@
 					"fontface" : 2,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"frgb" : 0.0,
 					"id" : "obj-9",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -240,7 +245,6 @@
 					"fontface" : 2,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"frgb" : 0.0,
 					"id" : "obj-6",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -255,7 +259,6 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"frgb" : 0.0,
 					"id" : "obj-3",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -270,7 +273,6 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"frgb" : 0.0,
 					"id" : "obj-1",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -285,12 +287,11 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"frgb" : 0.0,
 					"id" : "obj-4",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 25.285713, 45.0, 151.0, 18.0 ],
+					"patching_rect" : [ 25.285713, 25.0, 151.0, 18.0 ],
 					"text" : "—> update oi.api.architecture"
 				}
 
@@ -300,14 +301,13 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 16.0,
-					"frgb" : 0.0,
 					"id" : "obj-2",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 0.0, 0.0, 490.0, 24.0 ],
+					"patching_rect" : [ 0.0, 0.0, 490.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 15.0, 314.0, 24.0 ],
+					"presentation_rect" : [ 15.0, 15.0, 314.0, 25.0 ],
 					"text" : "Open Instruments ToDo list"
 				}
 
@@ -318,6 +318,7 @@
 					"grad1" : [ 0.65098, 0.65098, 0.65098, 1.0 ],
 					"grad2" : [ 1.0, 0.99828, 0.995128, 1.0 ],
 					"id" : "obj-47",
+					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"mode" : 1,
 					"numinlets" : 1,
@@ -334,6 +335,7 @@
 					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"border" : 2,
 					"id" : "obj-15",
+					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
