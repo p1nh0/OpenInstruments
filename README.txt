@@ -1,4 +1,4 @@
-OPEN INSTRUMENTS (alpha 0.5_201012â "hello world") 
+OPEN INSTRUMENTS (alpha 0.5_201012 "hello world") 
 
 Introduction: 
 Open Instruments is a MaxMSP framework for the development and performance of digital musical instruments. 
