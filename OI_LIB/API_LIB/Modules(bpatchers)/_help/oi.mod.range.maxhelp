@@ -7,7 +7,7 @@
 			"revision" : 5
 		}
 ,
-		"rect" : [ 100.0, 100.0, 700.0, 454.0 ],
+		"rect" : [ 690.0, 103.0, 700.0, 454.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -235,7 +235,7 @@
 									"id" : "obj-11",
 									"maxclass" : "bpatcher",
 									"name" : "oi.mod.range.maxpat",
-									"numinlets" : 1,
+									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 35.0, 202.0, 190.0, 115.0 ],
@@ -286,37 +286,67 @@
 							}
 , 							{
 								"name" : "oi.mod.range.maxpat",
-								"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Modules (bpatchers)/Modifiers",
+								"bootpath" : "/Applications/Max6/patches/OI_LIB/API_LIB/Modules(bpatchers)/Modifiers",
 								"type" : "JSON",
 								"implicit" : 1
 							}
 , 							{
-								"name" : "o.fold.maxpat",
-								"bootpath" : "/Applications/Max6/patches/OI lib /Utilities (objects)/Streams",
-								"type" : "JSON",
-								"implicit" : 1
-							}
-, 							{
-								"name" : "o.wrap.maxpat",
-								"bootpath" : "/Applications/Max6/patches/OI lib /Utilities (objects)/Streams",
+								"name" : "oi.print.maxpat",
+								"bootpath" : "/Applications/Max6/patches/OI_LIB/API_LIB/Utilities(objects)/System/other",
 								"type" : "JSON",
 								"implicit" : 1
 							}
 , 							{
 								"name" : "oi.autovarname.js",
-								"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Utilities (objects)/Communication ",
+								"bootpath" : "/Applications/Max6/patches/OI_LIB/API_LIB/Utilities(objects)/Communication /pattr objects",
 								"type" : "TEXT",
 								"implicit" : 1
 							}
 , 							{
+								"name" : "oi.speedlim.maxpat",
+								"bootpath" : "/Applications/Max6/patches/OI_LIB/API_LIB/Utilities(objects)/System/data flow",
+								"type" : "JSON",
+								"implicit" : 1
+							}
+, 							{
+								"name" : "oi.modulecom.maxpat",
+								"bootpath" : "/Applications/Max6/patches/OI_LIB/API_LIB/Utilities(objects)/Communication /pattr objects",
+								"type" : "JSON",
+								"implicit" : 1
+							}
+, 							{
+								"name" : "oi.modulegate.maxpat",
+								"bootpath" : "/Applications/Max6/patches/OI_LIB/API_LIB/Utilities(objects)/System/data flow",
+								"type" : "JSON",
+								"implicit" : 1
+							}
+, 							{
+								"name" : "o.fold.maxpat",
+								"bootpath" : "/Applications/Max6/patches/OI_LIB/Utilities(objects)/Streams",
+								"type" : "JSON",
+								"implicit" : 1
+							}
+, 							{
+								"name" : "o.wrap.maxpat",
+								"bootpath" : "/Applications/Max6/patches/OI_LIB/Utilities(objects)/Streams",
+								"type" : "JSON",
+								"implicit" : 1
+							}
+, 							{
 								"name" : "o.ramp.maxpat",
-								"bootpath" : "/Applications/Max6/patches/OI lib /Utilities (objects)/Streams",
+								"bootpath" : "/Applications/Max6/patches/OI_LIB/Utilities(objects)/Streams",
 								"type" : "JSON",
 								"implicit" : 1
 							}
 , 							{
 								"name" : "oi.gate.maxpat",
-								"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Utilities (objects)/System/data flow",
+								"bootpath" : "/Applications/Max6/patches/OI_LIB/API_LIB/Utilities(objects)/System/data flow",
+								"type" : "JSON",
+								"implicit" : 1
+							}
+, 							{
+								"name" : "o.f2i.maxpat",
+								"bootpath" : "/Applications/Max6/patches/OI_LIB/Utilities(objects)/Conversions",
 								"type" : "JSON",
 								"implicit" : 1
 							}
@@ -325,16 +355,16 @@
 ,
 					"patching_rect" : [ 10.0, 106.0, 58.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 13.0,
-						"description" : "",
-						"fontname" : "Arial",
-						"tags" : "",
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 13.0,
 						"default_fontface" : 0,
 						"digest" : "",
-						"default_fontname" : "Arial"
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"tags" : "",
+						"default_fontsize" : 13.0,
+						"globalpatchername" : "",
+						"description" : "",
+						"fontface" : 0,
+						"fontsize" : 13.0
 					}
 ,
 					"text" : "p \"to do…\"",
@@ -376,7 +406,7 @@
 							"revision" : 5
 						}
 ,
-						"rect" : [ 100.0, 126.0, 700.0, 428.0 ],
+						"rect" : [ 690.0, 129.0, 700.0, 428.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -405,7 +435,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 71.0, 365.0, 50.0, 19.0 ],
+									"patching_rect" : [ 71.0, 380.0, 50.0, 19.0 ],
 									"text" : "1."
 								}
 
@@ -417,7 +447,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 273.0, 345.0, 20.0, 20.0 ]
+									"patching_rect" : [ 273.0, 360.0, 20.0, 20.0 ]
 								}
 
 							}
@@ -451,29 +481,13 @@
 							}
 , 							{
 								"box" : 								{
-									"fontface" : 1,
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"frgb" : [ 1.0, 0.0, 0.0, 1.0 ],
-									"id" : "obj-9",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 292.0, 220.0, 93.0, 20.0 ],
-									"text" : "oi.mod.range",
-									"textcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"id" : "obj-7",
 									"maxclass" : "bpatcher",
 									"name" : "oi.mod.range.maxpat",
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 102.0, 220.0, 190.0, 120.0 ],
+									"patching_rect" : [ 102.0, 220.0, 190.0, 130.0 ],
 									"varname" : "oi.mod.range"
 								}
 
@@ -587,61 +601,67 @@
 							}
 , 							{
 								"name" : "oi.mod.range.maxpat",
-								"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Modules (bpatchers)/Modifiers",
+								"bootpath" : "/Applications/Max6/patches/OI_LIB/API_LIB/Modules(bpatchers)/Modifiers",
 								"type" : "JSON",
 								"implicit" : 1
 							}
 , 							{
 								"name" : "oi.print.maxpat",
-								"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Utilities (objects)/System/other",
+								"bootpath" : "/Applications/Max6/patches/OI_LIB/API_LIB/Utilities(objects)/System/other",
 								"type" : "JSON",
 								"implicit" : 1
 							}
 , 							{
 								"name" : "oi.autovarname.js",
-								"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Utilities (objects)/Communication ",
+								"bootpath" : "/Applications/Max6/patches/OI_LIB/API_LIB/Utilities(objects)/Communication /pattr objects",
 								"type" : "TEXT",
 								"implicit" : 1
 							}
 , 							{
 								"name" : "oi.speedlim.maxpat",
-								"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Utilities (objects)/System/data flow",
+								"bootpath" : "/Applications/Max6/patches/OI_LIB/API_LIB/Utilities(objects)/System/data flow",
 								"type" : "JSON",
 								"implicit" : 1
 							}
 , 							{
 								"name" : "oi.modulecom.maxpat",
-								"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Utilities (objects)/Communication ",
+								"bootpath" : "/Applications/Max6/patches/OI_LIB/API_LIB/Utilities(objects)/Communication /pattr objects",
 								"type" : "JSON",
 								"implicit" : 1
 							}
 , 							{
 								"name" : "oi.modulegate.maxpat",
-								"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Utilities (objects)/System/data flow",
+								"bootpath" : "/Applications/Max6/patches/OI_LIB/API_LIB/Utilities(objects)/System/data flow",
 								"type" : "JSON",
 								"implicit" : 1
 							}
 , 							{
 								"name" : "o.fold.maxpat",
-								"bootpath" : "/Applications/Max6/patches/OI lib /Utilities (objects)/Streams",
+								"bootpath" : "/Applications/Max6/patches/OI_LIB/Utilities(objects)/Streams",
 								"type" : "JSON",
 								"implicit" : 1
 							}
 , 							{
 								"name" : "o.wrap.maxpat",
-								"bootpath" : "/Applications/Max6/patches/OI lib /Utilities (objects)/Streams",
+								"bootpath" : "/Applications/Max6/patches/OI_LIB/Utilities(objects)/Streams",
 								"type" : "JSON",
 								"implicit" : 1
 							}
 , 							{
 								"name" : "o.ramp.maxpat",
-								"bootpath" : "/Applications/Max6/patches/OI lib /Utilities (objects)/Streams",
+								"bootpath" : "/Applications/Max6/patches/OI_LIB/Utilities(objects)/Streams",
 								"type" : "JSON",
 								"implicit" : 1
 							}
 , 							{
 								"name" : "oi.gate.maxpat",
-								"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Utilities (objects)/System/data flow",
+								"bootpath" : "/Applications/Max6/patches/OI_LIB/API_LIB/Utilities(objects)/System/data flow",
+								"type" : "JSON",
+								"implicit" : 1
+							}
+, 							{
+								"name" : "o.f2i.maxpat",
+								"bootpath" : "/Applications/Max6/patches/OI_LIB/Utilities(objects)/Conversions",
 								"type" : "JSON",
 								"implicit" : 1
 							}
@@ -650,16 +670,16 @@
 ,
 					"patching_rect" : [ 10.0, 85.0, 50.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 13.0,
-						"description" : "",
-						"fontname" : "Arial",
-						"tags" : "",
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 13.0,
 						"default_fontface" : 0,
 						"digest" : "",
-						"default_fontname" : "Arial"
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"tags" : "",
+						"default_fontsize" : 13.0,
+						"globalpatchername" : "",
+						"description" : "",
+						"fontface" : 0,
+						"fontsize" : 13.0
 					}
 ,
 					"text" : "p basic",
@@ -725,16 +745,16 @@
 ,
 					"patching_rect" : [ 20.0, 140.0, 50.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 10.0,
-						"description" : "",
-						"fontname" : "Arial",
-						"tags" : "",
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 10.0,
 						"default_fontface" : 0,
 						"digest" : "",
-						"default_fontname" : "Arial"
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"tags" : "",
+						"default_fontsize" : 10.0,
+						"globalpatchername" : "",
+						"description" : "",
+						"fontface" : 0,
+						"fontsize" : 10.0
 					}
 ,
 					"text" : "p ?",
@@ -760,71 +780,78 @@
 			}
 , 			{
 				"name" : "oi.mod.range.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Modules (bpatchers)/Modifiers",
+				"bootpath" : "/Applications/Max6/patches/OI_LIB/API_LIB/Modules(bpatchers)/Modifiers",
 				"patcherrelativepath" : "../Modifiers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oi.print.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Utilities (objects)/System/other",
-				"patcherrelativepath" : "../../Utilities (objects)/System/other",
+				"bootpath" : "/Applications/Max6/patches/OI_LIB/API_LIB/Utilities(objects)/System/other",
+				"patcherrelativepath" : "../../Utilities(objects)/System/other",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oi.autovarname.js",
-				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Utilities (objects)/Communication ",
-				"patcherrelativepath" : "../../Utilities (objects)/Communication ",
+				"bootpath" : "/Applications/Max6/patches/OI_LIB/API_LIB/Utilities(objects)/Communication /pattr objects",
+				"patcherrelativepath" : "../../Utilities(objects)/Communication /pattr objects",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oi.speedlim.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Utilities (objects)/System/data flow",
-				"patcherrelativepath" : "../../Utilities (objects)/System/data flow",
+				"bootpath" : "/Applications/Max6/patches/OI_LIB/API_LIB/Utilities(objects)/System/data flow",
+				"patcherrelativepath" : "../../Utilities(objects)/System/data flow",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oi.modulecom.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Utilities (objects)/Communication ",
-				"patcherrelativepath" : "../../Utilities (objects)/Communication ",
+				"bootpath" : "/Applications/Max6/patches/OI_LIB/API_LIB/Utilities(objects)/Communication /pattr objects",
+				"patcherrelativepath" : "../../Utilities(objects)/Communication /pattr objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oi.modulegate.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Utilities (objects)/System/data flow",
-				"patcherrelativepath" : "../../Utilities (objects)/System/data flow",
+				"bootpath" : "/Applications/Max6/patches/OI_LIB/API_LIB/Utilities(objects)/System/data flow",
+				"patcherrelativepath" : "../../Utilities(objects)/System/data flow",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "o.fold.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OI lib /Utilities (objects)/Streams",
-				"patcherrelativepath" : "../../../Utilities (objects)/Streams",
+				"bootpath" : "/Applications/Max6/patches/OI_LIB/Utilities(objects)/Streams",
+				"patcherrelativepath" : "../../../Utilities(objects)/Streams",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "o.wrap.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OI lib /Utilities (objects)/Streams",
-				"patcherrelativepath" : "../../../Utilities (objects)/Streams",
+				"bootpath" : "/Applications/Max6/patches/OI_LIB/Utilities(objects)/Streams",
+				"patcherrelativepath" : "../../../Utilities(objects)/Streams",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "o.ramp.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OI lib /Utilities (objects)/Streams",
-				"patcherrelativepath" : "../../../Utilities (objects)/Streams",
+				"bootpath" : "/Applications/Max6/patches/OI_LIB/Utilities(objects)/Streams",
+				"patcherrelativepath" : "../../../Utilities(objects)/Streams",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oi.gate.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Utilities (objects)/System/data flow",
-				"patcherrelativepath" : "../../Utilities (objects)/System/data flow",
+				"bootpath" : "/Applications/Max6/patches/OI_LIB/API_LIB/Utilities(objects)/System/data flow",
+				"patcherrelativepath" : "../../Utilities(objects)/System/data flow",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "o.f2i.maxpat",
+				"bootpath" : "/Applications/Max6/patches/OI_LIB/Utilities(objects)/Conversions",
+				"patcherrelativepath" : "../../../Utilities(objects)/Conversions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -833,13 +860,6 @@
 				"bootpath" : "/Applications/Max6/Cycling '74/help-resources",
 				"patcherrelativepath" : "../../../../../Cycling '74/help-resources",
 				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "oi.mod.range.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OI lib /API lib/Modules (bpatchers)/Modifiers",
-				"patcherrelativepath" : "../Modifiers",
-				"type" : "JSON",
 				"implicit" : 1
 			}
  ]

@@ -7,7 +7,7 @@
 			"revision" : 5
 		}
 ,
-		"rect" : [ 1501.0, -244.0, 435.0, 348.0 ],
+		"rect" : [ 249.0, 204.0, 435.0, 348.0 ],
 		"bgcolor" : [ 1.0, 0.998303, 0.995149, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -29,11 +29,13 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"annotation" : "Multi-purpose oscillator (carrier/LFO), enabling to mix between 9 different waveforms",
 					"bgcolor" : [ 0.990284, 0.983414, 0.979946, 1.0 ],
 					"bgcolor2" : [ 0.635294, 0.964706, 0.482353, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"gradient" : 1,
+					"hint" : "signal oscillator ",
 					"id" : "obj-20",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -49,31 +51,13 @@
 			}
 , 			{
 				"box" : 				{
-					"fontface" : 1,
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"frgb" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"id" : "obj-22",
-					"linecount" : 9,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 75.0, 295.0, 57.0, 131.0 ],
-					"presentation" : 1,
-					"presentation_linecount" : 3,
-					"presentation_rect" : [ 5.0, 230.0, 134.0, 48.0 ],
-					"text" : "test oi.parameterhub\nwatch out: pattr OUTPUT",
-					"textcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
+					"annotation" : "Normalize an input stream (int, float, list)",
 					"bgcolor" : [ 0.990284, 0.983414, 0.979946, 1.0 ],
 					"bgcolor2" : [ 0.4, 0.411765, 0.654902, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"gradient" : 1,
+					"hint" : "normalize input values",
 					"id" : "obj-1",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -169,68 +153,13 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.990284, 0.983414, 0.979946, 1.0 ],
-					"bgcolor2" : [ 0.843137, 0.321569, 0.180392, 1.0 ],
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"gradient" : 1,
-					"hidden" : 1,
-					"id" : "obj-46",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 850.0, 170.0, 125.0, 18.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 275.0, 215.0, 125.0, 18.0 ],
-					"text" : "oi.mem.fullsequencer",
-					"textcolor" : [ 0.079882, 0.076941, 0.075878, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
+					"annotation" : "Filters variations bigger than a given threshold. Useful for noisy input sensors.",
 					"bgcolor" : [ 0.990284, 0.983414, 0.979946, 1.0 ],
 					"bgcolor2" : [ 0.4, 0.411765, 0.654902, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"gradient" : 1,
-					"hidden" : 1,
-					"id" : "obj-44",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 233.5, 235.0, 85.0, 18.0 ],
-					"text" : "oi.mod.diffilter",
-					"textcolor" : [ 0.079882, 0.076941, 0.075878, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 1,
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"frgb" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"hidden" : 1,
-					"id" : "obj-45",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 158.5, 235.0, 75.0, 20.0 ],
-					"text" : "change to: ",
-					"textcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 0.990284, 0.983414, 0.979946, 1.0 ],
-					"bgcolor2" : [ 0.4, 0.411765, 0.654902, 1.0 ],
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"gradient" : 1,
+					"hint" : "Variation filter",
 					"id" : "obj-43",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -246,28 +175,13 @@
 			}
 , 			{
 				"box" : 				{
-					"fontface" : 1,
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"frgb" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"hidden" : 1,
-					"id" : "obj-41",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 176.0, 375.0, 71.0, 20.0 ],
-					"text" : "note map: ",
-					"textcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
+					"annotation" : "Filter input notes according to a given scale (or notemap)",
 					"bgcolor" : [ 0.990284, 0.983414, 0.979946, 1.0 ],
 					"bgcolor2" : [ 0.4, 0.411765, 0.654902, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"gradient" : 1,
+					"hint" : "map input notes",
 					"id" : "obj-40",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -283,11 +197,13 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "Scale, clip, fold, wrap,slope, ramp input values.",
 					"bgcolor" : [ 0.990284, 0.983414, 0.979946, 1.0 ],
 					"bgcolor2" : [ 0.4, 0.411765, 0.654902, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"gradient" : 1,
+					"hint" : "range input values",
 					"id" : "obj-39",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -336,11 +252,13 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "Enables independent mathematical operations on every list element.",
 					"bgcolor" : [ 0.990284, 0.983414, 0.979946, 1.0 ],
 					"bgcolor2" : [ 0.4, 0.411765, 0.654902, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"gradient" : 1,
+					"hint" : "mathematical operations ",
 					"id" : "obj-34",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -356,56 +274,22 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "Compare two numbers with conditional statements",
 					"bgcolor" : [ 0.990284, 0.983414, 0.979946, 1.0 ],
 					"bgcolor2" : [ 0.4, 0.411765, 0.654902, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"gradient" : 1,
-					"hidden" : 1,
-					"id" : "obj-33",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 233.5, 270.0, 107.0, 18.0 ],
-					"text" : "oi.mod.conditional",
-					"textcolor" : [ 0.079882, 0.076941, 0.075878, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 1,
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"frgb" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"hidden" : 1,
-					"id" : "obj-32",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 158.5, 270.0, 75.0, 20.0 ],
-					"text" : "change to: ",
-					"textcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 0.990284, 0.983414, 0.979946, 1.0 ],
-					"bgcolor2" : [ 0.4, 0.411765, 0.654902, 1.0 ],
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"gradient" : 1,
+					"hint" : "Conditionals",
 					"id" : "obj-29",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 74.5, 270.0, 84.0, 18.0 ],
+					"patching_rect" : [ 74.5, 270.0, 75.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 101.5, 103.0, 147.0, 18.0 ],
-					"text" : "oi.mod.logical",
+					"text" : "oi.mod.logic",
 					"textcolor" : [ 0.079882, 0.076941, 0.075878, 1.0 ]
 				}
 
@@ -491,11 +375,13 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "Uses 'mtr' object with 4 available tracks to record and replay input values",
 					"bgcolor" : [ 0.990284, 0.983414, 0.979946, 1.0 ],
 					"bgcolor2" : [ 0.843137, 0.321569, 0.180392, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"gradient" : 1,
+					"hint" : "record & replay input values",
 					"id" : "obj-23",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -506,23 +392,6 @@
 					"presentation_rect" : [ 275.0, 186.0, 125.0, 18.0 ],
 					"text" : "oi.mem.mime",
 					"textcolor" : [ 0.079882, 0.076941, 0.075878, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 1,
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"frgb" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"hidden" : 1,
-					"id" : "obj-21",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 783.0, 170.0, 75.0, 20.0 ],
-					"text" : "change to: ",
-					"textcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -614,11 +483,13 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "Generate time (control clock) or synchronize with another clock ",
 					"bgcolor" : [ 0.990284, 0.983414, 0.979946, 1.0 ],
 					"bgcolor2" : [ 0.635294, 0.964706, 0.482353, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"gradient" : 1,
+					"hint" : "bpatcher for transport object",
 					"id" : "obj-14",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -634,11 +505,13 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "Connect serial devices, like Arduino (for example)",
 					"bgcolor" : [ 0.990284, 0.983414, 0.979946, 1.0 ],
 					"bgcolor2" : [ 0.466667, 0.752941, 0.894118, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"gradient" : 1,
+					"hint" : "Serial devices input",
 					"id" : "obj-13",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -654,11 +527,13 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "Receive network messages, via UDP",
 					"bgcolor" : [ 0.990284, 0.983414, 0.979946, 1.0 ],
 					"bgcolor2" : [ 0.466667, 0.752941, 0.894118, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"gradient" : 1,
+					"hint" : "Network messages input",
 					"id" : "obj-12",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -674,11 +549,13 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "Receive network messages, via TCP",
 					"bgcolor" : [ 0.990284, 0.983414, 0.979946, 1.0 ],
 					"bgcolor2" : [ 0.466667, 0.752941, 0.894118, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"gradient" : 1,
+					"hint" : "Network messages input",
 					"id" : "obj-11",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -694,11 +571,13 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "Parsed MIDI input",
 					"bgcolor" : [ 0.990284, 0.983414, 0.979946, 1.0 ],
 					"bgcolor2" : [ 0.466667, 0.752941, 0.894118, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"gradient" : 1,
+					"hint" : "MIDI input",
 					"id" : "obj-10",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -714,11 +593,13 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "Useful for keyboard shortcuts or to use the keyboard as midi input",
 					"bgcolor" : [ 0.990284, 0.983414, 0.979946, 1.0 ],
 					"bgcolor2" : [ 0.466667, 0.752941, 0.894118, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"gradient" : 1,
+					"hint" : "Computer keyboard input",
 					"id" : "obj-9",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -734,11 +615,13 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "Connect hi devices (gamepads, joysticks, etc…)",
 					"bgcolor" : [ 0.990284, 0.983414, 0.979946, 1.0 ],
 					"bgcolor2" : [ 0.466667, 0.752941, 0.894118, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"gradient" : 1,
+					"hint" : "Human interface devices input",
 					"id" : "obj-8",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -754,83 +637,13 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "Wrapper for mnm.matmap, which allows mapping an input list of size N to an output list of size M (aka mapping many-to-many)",
 					"bgcolor" : [ 0.990284, 0.983414, 0.979946, 1.0 ],
 					"bgcolor2" : [ 0.937255, 0.611765, 0.258824, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"gradient" : 1,
-					"hidden" : 1,
-					"id" : "obj-6",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 70.0, 125.0, 87.0, 18.0 ],
-					"text" : "oi.anl.svmmap",
-					"textcolor" : [ 0.079882, 0.076941, 0.075878, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 1,
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"frgb" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"hidden" : 1,
-					"id" : "obj-7",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 51.0, 125.0, 20.0, 20.0 ],
-					"text" : "+",
-					"textcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 0.990284, 0.983414, 0.979946, 1.0 ],
-					"bgcolor2" : [ 0.937255, 0.611765, 0.258824, 1.0 ],
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"gradient" : 1,
-					"hidden" : 1,
-					"id" : "obj-5",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 195.0, 95.0, 37.0, 18.0 ],
-					"text" : "????",
-					"textcolor" : [ 0.079882, 0.076941, 0.075878, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 1,
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"frgb" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"hidden" : 1,
-					"id" : "obj-99",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 128.0, 95.0, 75.0, 20.0 ],
-					"text" : "change to: ",
-					"textcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 0.990284, 0.983414, 0.979946, 1.0 ],
-					"bgcolor2" : [ 0.937255, 0.611765, 0.258824, 1.0 ],
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"gradient" : 1,
+					"hint" : "many-to-many mappings",
 					"id" : "obj-4",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -984,16 +797,16 @@
 ,
 					"patching_rect" : [ 475.0, 260.0, 62.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontsize" : 10.0,
 						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"tags" : "",
 						"default_fontsize" : 10.0,
-						"description" : "",
 						"globalpatchername" : "",
-						"fontface" : 0
+						"description" : "",
+						"fontface" : 0,
+						"fontsize" : 10.0
 					}
 ,
 					"text" : "p load_help"
@@ -1002,11 +815,13 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "Wrapper for FTM-MNM gesture follower, which allows the recognition of moving gestures (!= postures)",
 					"bgcolor" : [ 0.990284, 0.983414, 0.979946, 1.0 ],
 					"bgcolor2" : [ 0.937255, 0.611765, 0.258824, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"gradient" : 1,
+					"hint" : "gesture follower",
 					"id" : "obj-30",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -1214,15 +1029,6 @@
 					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-43", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-135", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-46", 0 ]
 				}
 
 			}
