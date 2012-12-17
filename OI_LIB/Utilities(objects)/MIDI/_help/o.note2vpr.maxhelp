@@ -7,7 +7,7 @@
 			"revision" : 5
 		}
 ,
-		"rect" : [ 864.0, 205.0, 511.0, 488.0 ],
+		"rect" : [ 100.0, 100.0, 511.0, 488.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -44,7 +44,7 @@
 							"revision" : 5
 						}
 ,
-						"rect" : [ 864.0, 231.0, 511.0, 462.0 ],
+						"rect" : [ 100.0, 126.0, 511.0, 462.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -91,8 +91,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "float" ],
-									"patching_rect" : [ 113.0, 381.0, 137.0, 18.0 ],
-									"text" : "oi.vpr2note @center c3"
+									"patching_rect" : [ 113.0, 381.0, 118.0, 18.0 ],
+									"text" : "o.vpr2note @center c3"
 								}
 
 							}
@@ -104,7 +104,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 283.5, 345.0, 75.0, 21.0 ],
+									"patching_rect" : [ 264.5, 345.0, 75.0, 21.0 ],
 									"text" : "register"
 								}
 
@@ -114,10 +114,11 @@
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
 									"id" : "obj-37",
+									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 163.0, 320.0, 75.0, 21.0 ],
+									"patching_rect" : [ 163.0, 320.0, 43.0, 36.0 ],
 									"text" : "virtual pitch"
 								}
 
@@ -260,7 +261,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "int", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 231.0, 345.0, 50.0, 21.0 ]
+									"patching_rect" : [ 212.0, 345.0, 50.0, 21.0 ]
 								}
 
 							}
@@ -333,8 +334,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "int", "int" ],
-									"patching_rect" : [ 113.0, 245.0, 137.0, 18.0 ],
-									"text" : "oi.note2vpr @center c3"
+									"patching_rect" : [ 113.0, 245.0, 118.0, 18.0 ],
+									"text" : "o.note2vpr @center c3"
 								}
 
 							}
@@ -412,7 +413,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 10.0, 11.0, 305.0, 55.0 ]
+									"patching_rect" : [ 10.0, 10.0, 305.0, 55.0 ]
 								}
 
 							}
@@ -622,14 +623,14 @@
 								"implicit" : 1
 							}
 , 							{
-								"name" : "oi.note2vpr.maxpat",
-								"bootpath" : "/Applications/Max6/patches/OpenInstruments_v0.4.1/API/data/midi",
+								"name" : "o.note2vpr.maxpat",
+								"bootpath" : "/Applications/Max6/patches/OI_LIB/Utilities(objects)/MIDI",
 								"type" : "JSON",
 								"implicit" : 1
 							}
 , 							{
-								"name" : "oi.vpr2note.maxpat",
-								"bootpath" : "/Applications/Max6/patches/OpenInstruments_v0.4.1/API/data/midi",
+								"name" : "o.vpr2note.maxpat",
+								"bootpath" : "/Applications/Max6/patches/OI_LIB/Utilities(objects)/MIDI",
 								"type" : "JSON",
 								"implicit" : 1
 							}
@@ -638,16 +639,16 @@
 ,
 					"patching_rect" : [ 8.0, 9.0, 50.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontsize" : 13.0,
-						"tags" : "",
-						"default_fontface" : 0,
-						"digest" : "",
 						"globalpatchername" : "",
+						"digest" : "",
 						"default_fontname" : "Arial",
-						"fontname" : "Arial",
+						"fontface" : 0,
+						"fontsize" : 13.0,
 						"default_fontsize" : 13.0,
 						"description" : "",
-						"fontface" : 0
+						"tags" : "",
+						"fontname" : "Arial",
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p basic",
@@ -698,16 +699,16 @@
 ,
 					"patching_rect" : [ 8.0, 39.0, 50.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontsize" : 10.0,
-						"tags" : "",
-						"default_fontface" : 0,
-						"digest" : "",
 						"globalpatchername" : "",
+						"digest" : "",
 						"default_fontname" : "Arial",
-						"fontname" : "Arial",
+						"fontface" : 0,
+						"fontsize" : 10.0,
 						"default_fontsize" : 10.0,
 						"description" : "",
-						"fontface" : 0
+						"tags" : "",
+						"fontname" : "Arial",
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p ?",
@@ -720,28 +721,28 @@
 		"dependency_cache" : [ 			{
 				"name" : "helpname.js",
 				"bootpath" : "/Applications/Max6/Cycling '74/help-resources",
-				"patcherrelativepath" : "../../../../Cycling '74/help-resources",
+				"patcherrelativepath" : "../../../../../Cycling '74/help-resources",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "helpargs.js",
 				"bootpath" : "/Applications/Max6/Cycling '74/help-resources",
-				"patcherrelativepath" : "../../../../Cycling '74/help-resources",
+				"patcherrelativepath" : "../../../../../Cycling '74/help-resources",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "oi.note2vpr.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OpenInstruments_v0.4.1/API/data/midi",
-				"patcherrelativepath" : "../data/midi",
+				"name" : "o.note2vpr.maxpat",
+				"bootpath" : "/Applications/Max6/patches/OI_LIB/Utilities(objects)/MIDI",
+				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "oi.vpr2note.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OpenInstruments_v0.4.1/API/data/midi",
-				"patcherrelativepath" : "../data/midi",
+				"name" : "o.vpr2note.maxpat",
+				"bootpath" : "/Applications/Max6/patches/OI_LIB/Utilities(objects)/MIDI",
+				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}

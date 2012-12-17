@@ -37,7 +37,10 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "open" ],
 					"patching_rect" : [ 120.0, 75.0, 38.0, 18.0 ],
+<<<<<<< HEAD
 					"presentation_rect" : [ 385.5, 367.0, 0.0, 0.0 ],
+=======
+>>>>>>> release/a_0.5.0.1
 					"text" : "t open"
 				}
 
@@ -52,7 +55,10 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 120.0, 95.0, 46.0, 18.0 ],
+<<<<<<< HEAD
 					"presentation_rect" : [ 385.5, 387.0, 0.0, 0.0 ],
+=======
+>>>>>>> release/a_0.5.0.1
 					"text" : "pcontrol"
 				}
 
@@ -101,7 +107,11 @@
 							"revision" : 5
 						}
 ,
+<<<<<<< HEAD
 						"rect" : [ 523.0, 179.0, 640.0, 381.0 ],
+=======
+						"rect" : [ 523.0, 179.0, 640.0, 430.0 ],
+>>>>>>> release/a_0.5.0.1
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 10.0,
@@ -122,6 +132,45 @@
 						"tags" : "",
 						"boxes" : [ 							{
 								"box" : 								{
+<<<<<<< HEAD
+=======
+									"bgcolor" : [ 0.843137, 0.321569, 0.180392, 1.0 ],
+									"fontname" : "Arial Bold Italic",
+									"fontsize" : 12.0,
+									"id" : "obj-9",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 142.0, 149.0, 78.0, 18.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 346.0, 275.0, 125.0, 18.0 ],
+									"text" : "o.heldnotes",
+									"textcolor" : [ 0.901961, 0.901961, 0.901961, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bgcolor" : [ 0.937255, 0.611765, 0.258824, 1.0 ],
+									"fontname" : "Arial Bold Italic",
+									"fontsize" : 12.0,
+									"id" : "obj-7",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 115.0, 195.0, 105.0, 18.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 346.0, 250.0, 125.0, 18.0 ],
+									"text" : "o.chordidentifier",
+									"textcolor" : [ 0.901961, 0.901961, 0.901961, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+>>>>>>> release/a_0.5.0.1
 									"bgcolor" : [ 0.635294, 0.964706, 0.482353, 1.0 ],
 									"fontname" : "Arial Bold Italic",
 									"fontsize" : 12.0,
@@ -291,7 +340,11 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 529.0, 542.0, 67.0, 18.0 ],
 									"presentation" : 1,
+<<<<<<< HEAD
 									"presentation_rect" : [ 346.0, 350.0, 125.0, 18.0 ],
+=======
+									"presentation_rect" : [ 346.0, 400.0, 125.0, 18.0 ],
+>>>>>>> release/a_0.5.0.1
 									"text" : "o.activity",
 									"textcolor" : [ 0.901961, 0.901961, 0.901961, 1.0 ]
 								}
@@ -309,7 +362,11 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 526.0, 495.0, 72.0, 18.0 ],
 									"presentation" : 1,
+<<<<<<< HEAD
 									"presentation_rect" : [ 346.0, 325.0, 124.0, 18.0 ],
+=======
+									"presentation_rect" : [ 346.0, 375.0, 124.0, 18.0 ],
+>>>>>>> release/a_0.5.0.1
 									"text" : "o.bpm-ms",
 									"textcolor" : [ 0.901961, 0.901961, 0.901961, 1.0 ]
 								}
@@ -326,7 +383,11 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 374.0, 629.0, 53.0, 18.0 ],
 									"presentation" : 1,
+<<<<<<< HEAD
 									"presentation_rect" : [ 346.0, 250.0, 53.0, 18.0 ],
+=======
+									"presentation_rect" : [ 346.0, 300.0, 53.0, 18.0 ],
+>>>>>>> release/a_0.5.0.1
 									"text" : "Timing"
 								}
 
@@ -343,7 +404,11 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 374.0, 654.0, 128.0, 18.0 ],
 									"presentation" : 1,
+<<<<<<< HEAD
 									"presentation_rect" : [ 346.0, 275.0, 124.0, 18.0 ],
+=======
+									"presentation_rect" : [ 346.0, 325.0, 124.0, 18.0 ],
+>>>>>>> release/a_0.5.0.1
 									"text" : "o.clocker",
 									"textcolor" : [ 0.2, 0.2, 0.2, 1.0 ]
 								}
@@ -397,7 +462,11 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 563.0, 634.0, 43.0, 18.0 ],
 									"presentation" : 1,
+<<<<<<< HEAD
 									"presentation_rect" : [ 346.0, 300.0, 124.0, 18.0 ],
+=======
+									"presentation_rect" : [ 346.0, 350.0, 124.0, 18.0 ],
+>>>>>>> release/a_0.5.0.1
 									"text" : "o.tap",
 									"textcolor" : [ 0.901961, 0.901961, 0.901961, 1.0 ]
 								}
@@ -543,16 +612,26 @@
 ,
 									"patching_rect" : [ 220.0, 284.0, 62.0, 18.0 ],
 									"saved_object_attributes" : 									{
+<<<<<<< HEAD
+=======
+										"globalpatchername" : "",
+										"fontface" : 0,
+										"fontsize" : 10.0,
+>>>>>>> release/a_0.5.0.1
 										"default_fontface" : 0,
 										"digest" : "",
 										"default_fontname" : "Arial",
 										"fontname" : "Arial",
 										"tags" : "",
 										"default_fontsize" : 10.0,
+<<<<<<< HEAD
 										"globalpatchername" : "",
 										"description" : "",
 										"fontface" : 0,
 										"fontsize" : 10.0
+=======
+										"description" : ""
+>>>>>>> release/a_0.5.0.1
 									}
 ,
 									"text" : "p load_help"
@@ -1391,7 +1470,11 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 0.0, 0.0, 1440.0, 35.0 ],
 									"presentation" : 1,
+<<<<<<< HEAD
 									"presentation_rect" : [ 0.0, 0.0, 640.0, 380.0 ],
+=======
+									"presentation_rect" : [ 0.0, 0.0, 640.0, 430.0 ],
+>>>>>>> release/a_0.5.0.1
 									"rounded" : 0
 								}
 
@@ -1747,6 +1830,18 @@
 									"destination" : [ "obj-135", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
+<<<<<<< HEAD
+=======
+									"source" : [ "obj-7", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-135", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+>>>>>>> release/a_0.5.0.1
 									"source" : [ "obj-77", 0 ]
 								}
 
@@ -1801,6 +1896,18 @@
 									"destination" : [ "obj-135", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
+<<<<<<< HEAD
+=======
+									"source" : [ "obj-9", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-135", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+>>>>>>> release/a_0.5.0.1
 									"source" : [ "obj-91", 0 ]
 								}
 
@@ -1828,18 +1935,29 @@
 					}
 ,
 					"patching_rect" : [ 120.0, 120.0, 93.0, 18.0 ],
+<<<<<<< HEAD
 					"presentation_rect" : [ 305.5, 438.0, 0.0, 0.0 ],
 					"saved_object_attributes" : 					{
+=======
+					"saved_object_attributes" : 					{
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 10.0,
+>>>>>>> release/a_0.5.0.1
 						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"tags" : "",
 						"default_fontsize" : 10.0,
+<<<<<<< HEAD
 						"globalpatchername" : "",
 						"description" : "",
 						"fontface" : 0,
 						"fontsize" : 10.0
+=======
+						"description" : ""
+>>>>>>> release/a_0.5.0.1
 					}
 ,
 					"text" : "p \"general utilities\""
@@ -1881,6 +1999,10 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+<<<<<<< HEAD
+=======
+						"visible" : 1,
+>>>>>>> release/a_0.5.0.1
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial Italic",
@@ -2136,16 +2258,26 @@
 ,
 									"patching_rect" : [ 334.0, 421.0, 62.0, 18.0 ],
 									"saved_object_attributes" : 									{
+<<<<<<< HEAD
+=======
+										"globalpatchername" : "",
+										"fontface" : 0,
+										"fontsize" : 10.0,
+>>>>>>> release/a_0.5.0.1
 										"default_fontface" : 0,
 										"digest" : "",
 										"default_fontname" : "Arial",
 										"fontname" : "Arial",
 										"tags" : "",
 										"default_fontsize" : 10.0,
+<<<<<<< HEAD
 										"globalpatchername" : "",
 										"description" : "",
 										"fontface" : 0,
 										"fontsize" : 10.0
+=======
+										"description" : ""
+>>>>>>> release/a_0.5.0.1
 									}
 ,
 									"text" : "p load_help"
@@ -2705,16 +2837,26 @@
 ,
 					"patching_rect" : [ 7.5, 120.0, 75.0, 18.0 ],
 					"saved_object_attributes" : 					{
+<<<<<<< HEAD
+=======
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 10.0,
+>>>>>>> release/a_0.5.0.1
 						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"tags" : "",
 						"default_fontsize" : 10.0,
+<<<<<<< HEAD
 						"globalpatchername" : "",
 						"description" : "",
 						"fontface" : 0,
 						"fontsize" : 10.0
+=======
+						"description" : ""
+>>>>>>> release/a_0.5.0.1
 					}
 ,
 					"text" : "p \"API utilities\""
