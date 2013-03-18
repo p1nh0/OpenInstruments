@@ -1,0 +1,4 @@
+Most patches do not need any externals :) , but..
+
+'oi.stereotrack~', 'oi.cppan~' and 'oi.mixer4-2~' need Max 6 Gen~.
+'oi.anl.matmap' and 'oi.anl.follower' use MnM objects. You'll need to install IRCAM's FTM-MnM library, to run these.
