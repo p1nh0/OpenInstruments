@@ -1,3 +1,6 @@
+Gboids
+======
+
 OPEN INSTRUMENTS (alpha 0.5_201012 "hello world") 
 
 Introduction: 
@@ -8,7 +11,7 @@ I'm currently fixing some bugs, improving documentation (for the plane user firs
 Installing OI framework:
 
 1 - MOVE "_OI-CLIPPINGS" to "../Applications/Max/patches/clippings/"
-	To access clippings restart Max (if it was open when you moved this folder) and click with the right button on an empty area of your patch, then, in the menu, go to "paste from"â you should see "_OI clippings".  
+	To access clippings restart Max (if it was open when you moved this folder) and click with the right button on an empty area of your patch, then, in the menu, go to "paste from"â€š you should see "_OI clippings".  
  
 2 - MOVE "_OI-EXTRAS" to "../Applications/Max/patches/extras/"
 	To launch oi.api, open Max, go to the 'extras' menu and to "_OI extras", where oi.api is located.
@@ -25,7 +28,7 @@ Installing OI framework:
 
 6 - MOVE "_OI-EXAMPLES" to: 
 	option a) "../Applications/Max/examples/"
-	option b) you can leave "OI examples" outside max's search pathâif you wish to...
+	option b) you can leave "OI examples" outside max's search pathâ€šif you wish to...
 
 7 - Read 'dependencies.txt' to know what externals you'll need to install.
 
@@ -43,7 +46,15 @@ VERSION NOTES:
 
 The current version of OI is still in its alpha release, meaning that it hasn't been heavily tested. Even though many bug fixes are currently being released, and it shouldn't get long before we see a beta version. Also, most modules assure they're basic functions, although it is possible that some of them contain minor bugs. If you're kind enough to email them to me I can review/correct them. 
 
-Thanks
-Enjoy  
+
 
 	
+
+
+LICENSE : 
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/80x15.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Open Instruments</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://tiago-angelo.tumblr.com/" property="cc:attributionName" rel="cc:attributionURL">Tiago Alexandre da Silva Ã‚ngelo</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.
+
+
+PS: you're not allowed to sell copies of this software, nor modified versions of it. 
+Although you are completly free to use this software in a musical performance context. 
+(for more information visit http://creativecommons.org/licenses/by-nc-sa/3.0/)
