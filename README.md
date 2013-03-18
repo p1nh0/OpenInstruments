@@ -1,5 +1,5 @@
-Gboids
-======
+Open Instruments
+================
 
 OPEN INSTRUMENTS (alpha 0.5_201012 "hello world") 
 
