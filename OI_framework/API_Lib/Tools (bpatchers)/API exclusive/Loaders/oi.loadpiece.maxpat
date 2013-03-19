@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 5
+			"revision" : 8
 		}
 ,
 		"rect" : [ 787.0, 195.0, 556.0, 408.0 ],
@@ -80,7 +80,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 103.0, 301.5, 88.0, 39.0 ],
+					"patching_rect" : [ 103.0, 301.5, 88.0, 38.0 ],
 					"text" : "set script sendbox $1 replace $2, bang"
 				}
 
@@ -90,12 +90,13 @@
 					"fontface" : 2,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
+					"frgb" : 0.0,
 					"id" : "obj-13",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 269.0, 329.0, 231.0, 30.0 ],
+					"patching_rect" : [ 269.0, 329.0, 231.0, 29.0 ],
 					"text" : "#1 set the container name to match the file name\n#2 insert file"
 				}
 
@@ -198,6 +199,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 361.0, 230.0, 95.0, 18.0 ],
 					"saved_object_attributes" : 					{
+						"filename" : "oi.autovarname",
 						"parameter_enable" : 0
 					}
 ,
@@ -237,7 +239,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u373002111"
+					"varname" : "u344002397"
 				}
 
 			}
@@ -260,13 +262,14 @@
 					"fontface" : 2,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
+					"frgb" : 0.0,
 					"id" : "obj-12",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 170.0, 60.0, 197.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 2.0, 225.0, 18.0 ],
+					"presentation_rect" : [ 26.5, 1.75, 197.0, 18.0 ],
 					"text" : "select a Piece file to insert in this bpatcher"
 				}
 
@@ -343,7 +346,7 @@
 					"patching_rect" : [ 57.75, 139.0, 151.5, 18.0 ],
 					"prefix" : "0Pieces/",
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 20.0, 215.0, 18.0 ],
+					"presentation_rect" : [ 5.0, 20.0, 240.0, 18.0 ],
 					"rounded" : 6,
 					"varname" : "pieceList"
 				}
@@ -367,7 +370,7 @@
 					}
 ,
 					"text" : "pattr @bindto ::oi.api::project::path @autorestore 0 @invisible 1 @initial @thru 0",
-					"varname" : "u544002103"
+					"varname" : "u660002391"
 				}
 
 			}
@@ -377,13 +380,12 @@
 					"border" : 4,
 					"bordercolor" : [ 0.65098, 0.65098, 0.65098, 1.0 ],
 					"id" : "obj-10",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 4.0, 5.0, 331.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.75, 225.0, 42.5 ],
+					"presentation_rect" : [ 0.0, 0.75, 250.0, 42.5 ],
 					"rounded" : 6
 				}
 
@@ -594,8 +596,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "oi.autovarname.js",
-				"bootpath" : "/Applications/Max6/patches/OpenInstruments_v0.4.1/API/patcher",
-				"patcherrelativepath" : "../patcher",
+				"bootpath" : "/Applications/Max6/patches/OI_framework/API_Lib/Utilities (objects)/Communication/Pattr objects",
+				"patcherrelativepath" : "../../../Utilities (objects)/Communication/Pattr objects",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
