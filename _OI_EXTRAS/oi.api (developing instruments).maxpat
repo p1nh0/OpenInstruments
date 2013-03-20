@@ -4,10 +4,10 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 5
+			"revision" : 8
 		}
 ,
-		"rect" : [ 877.0, 38.0, 560.0, 55.0 ],
+		"rect" : [ 467.0, 38.0, 560.0, 55.0 ],
 		"bgcolor" : [ 0.937255, 0.611765, 0.258824, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -34,7 +34,6 @@
 					"border" : 3,
 					"bordercolor" : [ 0.65098, 0.65098, 0.65098, 1.0 ],
 					"id" : "obj-4",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -137,6 +136,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
+					"frgb" : 0.0,
 					"id" : "obj-27",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -152,6 +152,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
+					"frgb" : 0.0,
 					"id" : "obj-26",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -165,6 +166,7 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.913725, 0.913725, 0.913725, 0.0 ],
 					"id" : "obj-19",
 					"maxclass" : "button",
 					"numinlets" : 1,
@@ -269,6 +271,7 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.913725, 0.913725, 0.913725, 0.0 ],
 					"id" : "obj-11",
 					"maxclass" : "button",
 					"numinlets" : 1,
@@ -298,6 +301,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
+					"frgb" : 0.0,
 					"id" : "obj-2",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -383,7 +387,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 0.0, 95.0, 59.0, 18.0 ],
-					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "grow", "close", "nozoom", "float", "nomenu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 877, 38, 1437, 93, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "grow", "close", "nozoom", "float", "nomenu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 467, 38, 1027, 93, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
 				}
 
@@ -405,6 +409,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
+					"frgb" : 0.0,
 					"id" : "obj-76",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -482,6 +487,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
+					"frgb" : 0.0,
 					"id" : "obj-65",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -551,6 +557,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
+					"frgb" : 0.0,
 					"id" : "obj-55",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -825,36 +832,43 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "oi.stereotrack~.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OI_LIB/API_LIB/Tools(bpatchers)/signals",
-				"patcherrelativepath" : "../../OI_LIB/API_LIB/Tools(bpatchers)/signals",
+				"bootpath" : "/Applications/Max6/patches/OI_framework/API_Lib/Tools (bpatchers)/Signals",
+				"patcherrelativepath" : "../../OI_framework/API_Lib/Tools (bpatchers)/Signals",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oi.autovarname.js",
-				"bootpath" : "/Applications/Max6/patches/OI_LIB/API_LIB/Utilities(objects)/Communication /pattr objects",
-				"patcherrelativepath" : "../../OI_LIB/API_LIB/Utilities(objects)/Communication /pattr objects",
+				"bootpath" : "/Applications/Max6/patches/OI_framework/API_Lib/Utilities (objects)/Communication/Pattr objects",
+				"patcherrelativepath" : "../../OI_framework/API_Lib/Utilities (objects)/Communication/Pattr objects",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oi.modulecom.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OI_LIB/API_LIB/Utilities(objects)/Communication /pattr objects",
-				"patcherrelativepath" : "../../OI_LIB/API_LIB/Utilities(objects)/Communication /pattr objects",
+				"bootpath" : "/Applications/Max6/patches/OI_framework/API_Lib/Utilities (objects)/Communication/Pattr objects",
+				"patcherrelativepath" : "../../OI_framework/API_Lib/Utilities (objects)/Communication/Pattr objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oi.cppan~.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OI_LIB/API_LIB/Tools(bpatchers)/signals",
-				"patcherrelativepath" : "../../OI_LIB/API_LIB/Tools(bpatchers)/signals",
+				"bootpath" : "/Applications/Max6/patches/OI_framework/API_Lib/Tools (bpatchers)/Signals",
+				"patcherrelativepath" : "../../OI_framework/API_Lib/Tools (bpatchers)/Signals",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
+				"name" : "o.cppan.gendsp",
+				"bootpath" : "/Applications/Max6/patches/OI_framework/Libs/Olib/MSP/GEN",
+				"patcherrelativepath" : "../../OI_framework/Libs/Olib/MSP/GEN",
+				"type" : "gDSP",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "o.bypass~.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OI_LIB/Utilities(objects)/MSP",
-				"patcherrelativepath" : "../../OI_LIB/Utilities(objects)/MSP",
+				"bootpath" : "/Applications/Max6/patches/OI_framework/Libs/Olib/MSP",
+				"patcherrelativepath" : "../../OI_framework/Libs/Olib/MSP",
 				"type" : "JSON",
 				"implicit" : 1
 			}
