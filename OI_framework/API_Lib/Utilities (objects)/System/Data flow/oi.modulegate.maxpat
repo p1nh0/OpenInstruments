@@ -4,10 +4,10 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 7
+			"revision" : 8
 		}
 ,
-		"rect" : [ 50.0, 94.0, 424.0, 310.0 ],
+		"rect" : [ 115.0, 377.0, 454.0, 306.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -28,8 +28,9 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"bgcolor" : [ 0.65098, 0.65098, 0.65098, 0.15 ],
+					"bgcolor" : [ 0.927858, 0.904379, 0.56191, 1.0 ],
 					"color" : [ 0.65098, 0.65098, 0.65098, 1.0 ],
+					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-29",
@@ -37,21 +38,22 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 50.25, 5.0, 268.0, 18.0 ],
+					"patching_rect" : [ 50.25, 5.0, 287.0, 18.0 ],
 					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
 ,
 					"text" : "pattr @bindto parent::bypass @invisible 1 @autorestore 0",
-					"varname" : "u349000894"
+					"varname" : "u460012621"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.65098, 0.65098, 0.65098, 0.15 ],
+					"bgcolor" : [ 0.927858, 0.904379, 0.56191, 1.0 ],
 					"color" : [ 0.65098, 0.65098, 0.65098, 1.0 ],
+					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-28",
@@ -59,14 +61,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 160.25, 35.0, 258.0, 18.0 ],
+					"patching_rect" : [ 160.25, 35.0, 276.0, 18.0 ],
 					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
 ,
 					"text" : "pattr @bindto parent::state @invisible 1 @autorestore 0",
-					"varname" : "u307000896"
+					"varname" : "u842012612"
 				}
 
 			}
