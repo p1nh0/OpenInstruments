@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 5
+			"revision" : 8
 		}
 ,
 		"rect" : [ 972.0, 508.0, 265.0, 36.0 ],
@@ -50,7 +50,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 135.0, 49.0, 79.0, 50.0 ],
+					"patching_rect" : [ 135.0, 49.0, 79.0, 49.0 ],
 					"text" : "window flags float, savewindow 1, window exec"
 				}
 
@@ -126,6 +126,7 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.913725, 0.913725, 0.913725, 0.0 ],
 					"id" : "obj-3",
 					"maxclass" : "button",
 					"numinlets" : 1,
@@ -142,6 +143,7 @@
 					"bangmode" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-1",
 					"keymode" : 1,
 					"maxclass" : "textedit",
