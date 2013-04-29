@@ -1,0 +1,20 @@
+{
+	"boxes" : [ 		{
+			"box" : 			{
+				"maxclass" : "comment",
+				"text" : "warning",
+				"id" : "obj-11",
+				"fontname" : "Arial",
+				"numinlets" : 1,
+				"patching_rect" : [ 420.0, 179.0, 57.0, 20.0 ],
+				"numoutlets" : 0,
+				"textcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+				"frgb" : [ 1.0, 0.0, 0.0, 1.0 ],
+				"fontface" : 1,
+				"fontsize" : 12.0
+			}
+
+		}
+ ],
+	"preview_image" : [ 1443, "png", "IBkSG0fBZn....PCIgDQRA....E....THX....fiQHeq....DLmPIQEBHf.B7g.YHB..EnURDEDU3wY6aFCSbbDEF9aAjNzIghHvkFZbCtASUb5PgFprDJczDWfTJP1oldReJnCQSphIkHjiTJRSNIKmFqHJvxRwIYOGyEoXewHhTbHIG7RwcKbbrya28d6.wJyuznSb29l2ru8ad6a1YIBPDQHJJhx7ygGdX1YmcX80WmZ0pQ61swm53iOlomdZ1d6sYu81iJUpTpmON+TDQJ6NsZ0prxJqv96uuWCZtzgGdHas0VTqVMuGDi3LBLpLF7yO+7iNwDS7ngFZnYJi9aPkHxdsZ058pWu9Q9zOCkDIKKM4jSdmq5fG.QQQ2XxIm7N91OCkfikntcY1YF0G5aGT5DHvUN80itgucfOHv+WIePfOtL6LiZOe6.ePfedY1YF087sCJcBrUqVaHh38q7Yotkwrgu8SoSf0qW+n1saeqSN4jqroxhH60tc6a46Z.ANakH.kZhv4me9Q6VG1sAlIJJpRY1+8KQj+hN47tWqVs13xH30iuC2FdfU2fWH.ZPABzhBDncEHPKJPf1Uf.sn.AZWABzhBDncEHPKJPf1Uf.sn.AZWABzhBDncEHPKJPf1j42MFAlE3sR4mNJBdTF1dcf2wwO+vH3DEaGG2ah+2EAu1gcU.9.fOtM79ijt8M.9VfOC3ah.2uZYVIvFfHtap6CRF1NmlsOG1Rw1Euv4ITUf6qXiVqt.Nh0FyA1.VcPBBMgp+i9fdSM+9BcaO2Iq.We.CbYCDVIveApo3vsbYWKXgrFvCnO2s2i8AvXYbgpHsCRa7X9tvMFffPFSASZUc3OMpew9N13RJ3kzl8BQOLPf.7Svmp3vZoYSy7MXSMEPS8fxoSy9CXpb3isDX4ts7jibs9GOlIvX3ZJN7t8e7eILdNuZmVdvJJSIi68.epNkGKobiAAF4k5WfhOuAkTcfJI0i6+X+MXo7NkoeayH24R8ELVUbGLRM8.TrbrPIPf.rOrYdlVAPbmxBxaNmych9L8oYNCJRmxXlUf6JvBYc97pKaB7IcFbtbZu4xhTFbo0VHm1l5cHKnhjNoizfgKLiprVKr1I2oky3Hw9AJC3SsMtf4ZyRBToa.aYI+yJ7CAB5SuRNl3NSgRMP86YX6yf0TNwFOGArQjN4PGzUj3UBjlvbJNdJ.9YXWG+dsev8uMF.O2MopN8U5bWeKAsKGBDXj+LioXZT1icWf7BzY5lq9dUWCn+FtYIE37OABPS24R1UbmCqNnliaSQu7kTKVOixQbMFWVzugnWIP9dXQEm6J3lT+lqaDcfnTbqqwxOpeyoj9cIIkxexcYLTxDH5qTHYP2+2c5M.THXwQ+tVZChbrZmkRyttRqhB+Rf.7zBt.9dssHqRoaapzFCYrhk6mwoPEkb4mK.5k+SkFA9jBb3eQu+waCecQ7UDzLsuW57ztcouRqOigOZz7N.7AA9.XrBPPWXYU47I0HhxCcM1c8lp4MAppPeh3q0B2uxQB7j1ERfmymUnHv0b4eQeUKoNMVf4xwCe870b5qck6kYP.ZjPddZ0caN2HrBTBylBrYFTW+sg50Wdg.k78L+bMELq8KQDksKHQwE6o9Tj1YKazm6KbirGH2zksJKaKoMqKaSTN13pAsctGbg2dyD9U8E+Khx1dlw1DnN8sWIvTEb5oHcVLfV8rmkGzmDXF6IQrlsuPeqHyb5aeJRx9Bhz8XN8hZC85YGGJg2Lg2jjzI4+L.ua2u50.uB3ItpmL6NM7twXVg2NKKJPf1Uf.sn.AZWABzhBDncEHPKJPf1Uf.sn.AZWABzhBDncEHPKJPf1Uf.sn.AZWABzhBDncEHPKJPf1UBAF9bP97+DCh2f+7eAXyGFhrEoipT.....jTQNQjqBAlf" ]
+}

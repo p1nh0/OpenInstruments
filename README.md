@@ -1,14 +1,12 @@
-Open Instruments
+Open Instruments 
 ================
 
-OPEN INSTRUMENTS (alpha 0.6 "user friendship") 
+OPEN INSTRUMENTS (alpha 0.6.1 "Hello Max package") 
 
-- Testing and development phase: at this point I'm using the framework to create musical pieces, which will lead me (hopefully) to a meaningful revision of OpenInstruments, towards a more user-friendly version. 
+Updating to Max 6.1.2 "package" style. 
 
-- After this phase I'll also try to write some tutorials on the Wiki page
+See the wiki page for more information. 
 
-
-	
 
 
 LICENSE : 
@@ -18,3 +16,10 @@ LICENSE :
 PS: you're not allowed to sell copies of this software, nor modified versions of it. 
 Although you are completly free to use this software in a musical performance context. 
 (for more information visit http://creativecommons.org/licenses/by-nc-sa/3.0/)
+
+
+
+Dependencies: 
+Most patches do not need any externals :) , but..
+'oi.stereotrack~', 'oi.cppan~' and 'oi.mixer4-2~' need Max 6 Gen~.
+'oi.anl.matmap' and 'oi.anl.follower' use MnM objects. You'll need to install IRCAM's FTM-MnM library, to run these.
