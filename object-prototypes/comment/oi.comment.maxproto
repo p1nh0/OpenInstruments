@@ -1,0 +1,18 @@
+{
+	"boxes" : [ 		{
+			"box" : 			{
+				"maxclass" : "comment",
+				"text" : "comment…",
+				"fontface" : 2,
+				"fontsize" : 10.0,
+				"numinlets" : 1,
+				"patching_rect" : [ 127.0, 205.0, 62.0, 18.0 ],
+				"id" : "obj-16",
+				"fontname" : "Arial",
+				"numoutlets" : 0
+			}
+
+		}
+ ],
+	"preview_image" : [ 1197, "png", "IBkSG0fBZn....PCIgDQRA...fD....RHX....PUsO6Q....DLmPIQEBHf.B7g.YHB..DPVRDEDU3wY6a96ZTDDEG+6tI3ENHBgbagjlqIowXmBVHdMVIIf8lhzEL8o2+.RQJDBGXodsgPrxtsVKhvYkEQgfExBgzEkMYrX20ayKuYlcy9VRPdefiKb6Le22L624M+X0..XLFCBBBfjeO0TSg82eeryN6fnnHjllh1jyO+br3hKh81aOLd7XzoSGYZOFiwHcmS2tcwFarAN93ia0NEab5omhQiFgnnnF2dBvDGTfDA2fAClY94m+yggg2WB8ttXLlwIIIOJNN9rlnSXQOkTzqWuWcS24..DDDrbud8dUS0IrvNIHqIoXMjW1TAD2AAfab2SIVtoBzFNn+qnMbPeURwZHiap.sgC5cRJVC48MU.wcPIII6ZLlF+jqojOM+tMUGwcPwwwmkll97Kt3hargZFiYbZZ5ya5Zf.vjURC.QSDMXvfYxWGxZ.39AAAcjTeJFi42HKmy6SRR1UhNmRZqSiYk7NGsCxApCxEpCxOpCxEpCxOpCxEpCxOpCxEpCxOpCxEpCxOpCxEpCxMh+dwrPW.rB.dA.lE.2M+2+..dK.Nol5EAf0AvSKoE.vm.va.v2qnNc.PO.7G.bG.7SLwrjcOZYGzb.HNWeWeN..gUPuH.bTEz6j7x5iCI0qOxLMki4VKGzVveCg9w0gps90PuU8Dizx+jq7asjCxVmyI.XHxbLbW+PK5MzR4iQVG2pNzbIKZ1kDWViGocP8sby5SJWH3aTKPJ2lLk4HjkKixBVt2b7.XuCZHJbysfChdyNplkeqRWaVb0FqMWlq57DlxQc4EwwCnETRGzyXBttdpCcbe4NHNGVUXaGZV.MAsIO9uLB6fntgsqPchxqWLx5PJdZWNGgsge1fNTi55BXz9.ahIkChyZykmnpPy83anZYlyScoW2j+aWEAcPq5InpKzg.9lxtLT2GMVnCqcFqR4fnKHjabeUgaHvz0n9zgXzNfpjiJCAcPzm31V+QUfK+Scn7T3Fj8vqLGQtdeWhIkChlftIup49Ds7M0NE5BK2rz03bm12liPNnvZcSuLbaRlKIZUgqCnraNhbMm4ej5ecGWWAND.WfIKTqXZb5Zm9RMzbEle6ak96GSt1GcpVKlCx2BD41VPQc3VxPUfy8LhTF5vuqt3PBRkChl3y2zxzxSaHzF5CqPLLhodz0hQyU59XQDzAsNSvY6P3nSyx0P3ZrtlpmSS5z2SWiX7eHkChKQ8I3xM74.+dfdMidbIp4V9vBf+Pz3NkReqOhRGo2K15LAZQfX6LWbEj1zy.9NZetMpdu1S6YI.4bPETmSRbnv5UjKy1vF5oC3Ku1Vs0IJ1G1cLEO8q5NyAxRjZ6DCK2wvugyIP2NjuMSOrseqFygK+eMgeAfe.feeM0KD.2K+yL.3rb8Rf7OjyPeuX9QeyptPcP9QcPtPcP9QcPtPcP9QcPtPcP9QcPtPcP9QcPtPcP9QcPtPcP9QcPtPcP9QcPtPcP9QcPtPcP9ovAoey88shf3V72+EPpyRUN6zw+t.....jTQNQjqBAlf" ]
+}
