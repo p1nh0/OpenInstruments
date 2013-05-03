@@ -1037,7 +1037,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 50.0, 127.5, 37.0, 18.0 ],
-									"text" : "zl.sort"
+									"text" : "zl sort"
 								}
 
 							}

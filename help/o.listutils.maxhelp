@@ -225,7 +225,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 100.0, 196.0, 312.0, 29.0 ],
-									"text" : "similar to 'zl.slice' but it can handle max's reserved words, like \"list\", \"symbol\" or \"float\", by changing them to upper case"
+									"text" : "similar to 'zl slice' but it can handle max's reserved words, like \"list\", \"symbol\" or \"float\", by changing them to upper case"
 								}
 
 							}

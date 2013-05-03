@@ -1000,7 +1000,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 528.0, 235.0, 162.0, 29.0 ],
-									"text" : "if you just want to match lists use zl.compare"
+									"text" : "if you just want to match lists use zl compare"
 								}
 
 							}
@@ -1014,7 +1014,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 454.0, 235.0, 74.0, 21.0 ],
-									"text" : "zl.compare"
+									"text" : "zl compare"
 								}
 
 							}

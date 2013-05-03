@@ -39386,7 +39386,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
 													"patching_rect" : [ 75.0, 80.0, 403.0, 29.0 ],
-													"text" : "zl.lookup freq pos dur pan amp pan_mod pan_freq pos_mod pos_freq dur_mod dur_freq @zlmaxsize 11"
+													"text" : "zl lookup freq pos dur pan amp pan_mod pan_freq pos_mod pos_freq dur_mod dur_freq @zlmaxsize 11"
 												}
 
 											}

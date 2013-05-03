@@ -64,7 +64,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 79.0, 370.0, 35.0, 18.0 ],
-					"text" : "zl.reg"
+					"text" : "zl reg"
 				}
 
 			}
@@ -240,7 +240,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 95.0, 290.0, 59.0, 18.0 ],
-					"text" : "zl.group"
+					"text" : "zl group"
 				}
 
 			}
@@ -254,7 +254,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 122.0, 162.0, 34.0, 18.0 ],
-					"text" : "zl.len"
+					"text" : "zl len"
 				}
 
 			}

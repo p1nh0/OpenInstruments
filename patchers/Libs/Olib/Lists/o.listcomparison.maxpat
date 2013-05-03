@@ -140,7 +140,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 91.0, 490.0, 69.5, 18.0 ],
-					"text" : "zl.lookup"
+					"text" : "zl lookup"
 				}
 
 			}
@@ -374,7 +374,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 389.5, 155.0, 34.0, 18.0 ],
-					"text" : "zl.len"
+					"text" : "zl len"
 				}
 
 			}

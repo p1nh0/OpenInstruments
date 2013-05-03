@@ -187,7 +187,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 95.0, 593.0, 147.0, 18.0 ],
-					"text" : "zl.join"
+					"text" : "zl join"
 				}
 
 			}

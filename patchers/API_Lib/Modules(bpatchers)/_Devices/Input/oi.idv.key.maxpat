@@ -285,7 +285,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 738.0, 335.5, 125.0, 18.0 ],
-					"text" : "zl.compare @zlmaxsize 2"
+					"text" : "zl compare @zlmaxsize 2"
 				}
 
 			}
@@ -2055,7 +2055,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 249.5, 585.0, 82.5, 18.0 ],
-					"text" : "zl.compare"
+					"text" : "zl compare"
 				}
 
 			}

@@ -653,7 +653,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 285.0, 230.0, 35.0, 18.0 ],
-									"text" : "zl.reg"
+									"text" : "zl reg"
 								}
 
 							}

@@ -232,7 +232,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 15.0, 89.5, 255.0, 21.0 ],
 									"prototypename" : "oi.help_digest",
-									"text" : "Similar to zl.reg but has no maximum size.",
+									"text" : "Similar to zl reg but has no maximum size.",
 									"textcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
 								}
 

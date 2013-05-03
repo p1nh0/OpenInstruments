@@ -136,7 +136,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 85.0, 269.0, 40.0, 17.0 ],
-									"text" : "zl.iter 2"
+									"text" : "zl iter 2"
 								}
 
 							}

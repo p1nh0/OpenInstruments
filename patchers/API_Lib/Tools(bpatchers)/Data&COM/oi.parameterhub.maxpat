@@ -3917,7 +3917,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 285.0, 525.0, 49.0, 18.0 ],
-									"text" : "zl.slice 1"
+									"text" : "zl slice 1"
 								}
 
 							}

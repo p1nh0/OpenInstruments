@@ -64,7 +64,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 300.0, 365.0, 125.0, 18.0 ],
-					"text" : "zl.slice 14 @zlmaxsize 28"
+					"text" : "zl slice 14 @zlmaxsize 28"
 				}
 
 			}
@@ -78,7 +78,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 641.0, 116.0, 189.0, 18.0 ],
-					"text" : "zl.slice 14 @zlmaxsize 42"
+					"text" : "zl slice 14 @zlmaxsize 42"
 				}
 
 			}
@@ -92,7 +92,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 416.0, 65.0, 244.0, 18.0 ],
-					"text" : "zl.slice 14 @zlmaxsize 56"
+					"text" : "zl slice 14 @zlmaxsize 56"
 				}
 
 			}
@@ -106,7 +106,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 190.0, 21.5, 245.0, 18.0 ],
-					"text" : "zl.slice 14 @zlmaxsize 70"
+					"text" : "zl slice 14 @zlmaxsize 70"
 				}
 
 			}
@@ -161,7 +161,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 300.0, 588.5, 121.0, 18.0 ],
-					"text" : "zl.slice 9 @zlmaxsize 14"
+					"text" : "zl slice 9 @zlmaxsize 14"
 				}
 
 			}
@@ -258,7 +258,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 466.0, 400.0, 121.0, 18.0 ],
-					"text" : "zl.slice 9 @zlmaxsize 14"
+					"text" : "zl slice 9 @zlmaxsize 14"
 				}
 
 			}
@@ -355,7 +355,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 641.0, 215.0, 121.0, 18.0 ],
-					"text" : "zl.slice 9 @zlmaxsize 14"
+					"text" : "zl slice 9 @zlmaxsize 14"
 				}
 
 			}
@@ -426,7 +426,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 416.0, 145.0, 121.0, 18.0 ],
-					"text" : "zl.slice 9 @zlmaxsize 14"
+					"text" : "zl slice 9 @zlmaxsize 14"
 				}
 
 			}
@@ -646,7 +646,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 190.0, 65.0, 121.0, 18.0 ],
-					"text" : "zl.slice 9 @zlmaxsize 14"
+					"text" : "zl slice 9 @zlmaxsize 14"
 				}
 
 			}

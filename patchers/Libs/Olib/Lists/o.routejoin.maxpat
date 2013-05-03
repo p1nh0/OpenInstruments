@@ -293,7 +293,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 525.0, 130.0, 105.0, 18.0 ],
-					"text" : "zl.len @zlmaxsize 32"
+					"text" : "zl len @zlmaxsize 32"
 				}
 
 			}

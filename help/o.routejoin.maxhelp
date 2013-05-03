@@ -306,7 +306,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 25.0, 284.0, 41.0, 21.0 ],
-									"text" : "zl.len"
+									"text" : "zl len"
 								}
 
 							}

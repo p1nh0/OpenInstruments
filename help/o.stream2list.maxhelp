@@ -252,7 +252,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 15.0, 79.0, 530.0, 21.0 ],
 									"prototypename" : "oi.help_digest",
-									"text" : "Similar to 'zl.stream' except it outputs a list of size N whenever an input number is received",
+									"text" : "Similar to 'zl stream' except it outputs a list of size N whenever an input number is received",
 									"textcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
 								}
 

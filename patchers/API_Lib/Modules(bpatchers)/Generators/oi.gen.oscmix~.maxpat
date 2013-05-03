@@ -2983,7 +2983,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
 													"patching_rect" : [ 158.0, 203.0, 110.0, 18.0 ],
-													"text" : "zl.sum @zlmaxsize 10"
+													"text" : "zl sum @zlmaxsize 10"
 												}
 
 											}
@@ -4627,7 +4627,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 178.5, 268.0, 115.0, 18.0 ],
-									"text" : "zl.lookup @zlmaxsize 9"
+									"text" : "zl lookup @zlmaxsize 9"
 								}
 
 							}
@@ -4655,7 +4655,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 59.0, 151.0, 125.0, 18.0 ],
-									"text" : "zl.compare @zlmaxsize 9"
+									"text" : "zl compare @zlmaxsize 9"
 								}
 
 							}
@@ -4669,7 +4669,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 50.0, 228.0, 442.0, 18.0 ],
-									"text" : "zl.lookup sine ramp pulse saw triangle square \"bw noise\" \"white noise\" \"pink noise\" @zlmaxsize 9"
+									"text" : "zl lookup sine ramp pulse saw triangle square \"bw noise\" \"white noise\" \"pink noise\" @zlmaxsize 9"
 								}
 
 							}

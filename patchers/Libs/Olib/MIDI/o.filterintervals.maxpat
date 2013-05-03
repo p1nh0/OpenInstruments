@@ -648,7 +648,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 382.0, 105.0, 111.0, 18.0 ],
-					"text" : "zl.reg @zlmaxsize 256"
+					"text" : "zl reg @zlmaxsize 256"
 				}
 
 			}
@@ -749,7 +749,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 446.0, 215.0, 110.0, 18.0 ],
-					"text" : "zl.len @zlmaxsize 256"
+					"text" : "zl len @zlmaxsize 256"
 				}
 
 			}
@@ -763,7 +763,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 333.0, 215.0, 113.0, 18.0 ],
-					"text" : "zl.sort @zlmaxsize 128"
+					"text" : "zl sort @zlmaxsize 128"
 				}
 
 			}
@@ -791,7 +791,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 234.0, 320.0, 117.5, 18.0 ],
-					"text" : "zl.sect @zlmaxsize 128"
+					"text" : "zl sect @zlmaxsize 128"
 				}
 
 			}
@@ -833,7 +833,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 333.0, 275.0, 113.0, 18.0 ],
-					"text" : "zl.thin @zlmaxsize 128"
+					"text" : "zl thin @zlmaxsize 128"
 				}
 
 			}

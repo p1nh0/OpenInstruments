@@ -337,7 +337,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 449.5, 250.0, 113.0, 18.0 ],
-									"text" : "zl.queue @zlmaxsize 5"
+									"text" : "zl queue @zlmaxsize 5"
 								}
 
 							}
@@ -366,7 +366,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 250.5, 250.0, 113.0, 18.0 ],
-									"text" : "zl.queue @zlmaxsize 5"
+									"text" : "zl queue @zlmaxsize 5"
 								}
 
 							}
@@ -977,7 +977,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 77.0, 380.0, 83.0, 62.0 ],
-									"text" : "zl.lookup _dependencies _presets Instruments IO Pieces"
+									"text" : "zl lookup _dependencies _presets Instruments IO Pieces"
 								}
 
 							}

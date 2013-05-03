@@ -405,7 +405,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 49.25, 110.0, 119.75, 18.0 ],
-									"text" : "zl.reg @zlmaxsize 1"
+									"text" : "zl reg @zlmaxsize 1"
 								}
 
 							}
@@ -3193,7 +3193,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 45.0, 90.0, 119.75, 18.0 ],
-									"text" : "zl.reg @zlmaxsize 1"
+									"text" : "zl reg @zlmaxsize 1"
 								}
 
 							}
@@ -4002,7 +4002,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 115.0, 545.0, 166.0, 18.0 ],
-									"text" : "zl.reg @zlmaxsize 1"
+									"text" : "zl reg @zlmaxsize 1"
 								}
 
 							}
@@ -4045,7 +4045,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 115.75, 380.0, 119.75, 18.0 ],
-									"text" : "zl.reg @zlmaxsize 1"
+									"text" : "zl reg @zlmaxsize 1"
 								}
 
 							}
