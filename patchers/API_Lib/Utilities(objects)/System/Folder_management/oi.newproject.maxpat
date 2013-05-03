@@ -24,9 +24,9 @@
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
 		"devicewidth" : 0.0,
-		"description" : "",
-		"digest" : "",
-		"tags" : "",
+		"description" : "Creates a new OI project folder at a user specified directory, along with necessary template files.",
+		"digest" : "Make a new OI project.",
+		"tags" : "OI API_Lib Folder Files ",
 		"boxes" : [ 			{
 				"box" : 				{
 					"comment" : "(symbol) concert file path",
@@ -34,8 +34,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 38.75, 430.0, 25.0, 25.0 ],
-					"presentation_rect" : [ 39.0, 429.0, 0.0, 0.0 ]
+					"patching_rect" : [ 38.75, 430.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -77,7 +76,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 38.75, 368.0, 112.5, 40.0 ],
+					"patching_rect" : [ 38.75, 368.0, 115.0, 40.0 ],
 					"text" : "combine projectpath concert_project.maxpat @triggers 1"
 				}
 
@@ -1474,7 +1473,7 @@
 					"destination" : [ "obj-1", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 194.5, 361.0, 141.75, 361.0 ],
+					"midpoints" : [ 194.5, 361.0, 144.25, 361.0 ],
 					"source" : [ "obj-6", 0 ]
 				}
 
