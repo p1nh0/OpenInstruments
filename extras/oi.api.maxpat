@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x64"
 		}
 ,
-		"rect" : [ 0.0, 44.0, 1440.0, 74.0 ],
+		"rect" : [ 4.0, 44.0, 1440.0, 74.0 ],
 		"bgcolor" : [ 0.65098, 0.65098, 0.65098, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -34,7 +35,7 @@
 					"fontsize" : 10.0,
 					"id" : "obj-62",
 					"maxclass" : "newobj",
-					"numinlets" : 0,
+					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 1353.0, 57.5, 56.0, 18.0 ],
@@ -557,8 +558,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 250.0, 77.0, 737.0, 781.0 ],
@@ -642,7 +644,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::speedlim @invisible 1 @autorestore 0",
-									"varname" : "u178000129"
+									"varname" : "u979003564"
 								}
 
 							}
@@ -664,7 +666,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::vfrate @invisible 1 @autorestore 0",
-									"varname" : "u585000131"
+									"varname" : "u213003566"
 								}
 
 							}
@@ -807,7 +809,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::mode @invisible 1 @autorestore 0",
-									"varname" : "u522000135"
+									"varname" : "u553003570"
 								}
 
 							}
@@ -1021,8 +1023,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 2,
+											"architecture" : "x64"
 										}
 ,
 										"rect" : [ 2076.0, 33.0, 402.0, 451.0 ],
@@ -1144,7 +1147,7 @@
 													}
 ,
 													"text" : "pattr @bindto parent::parent::add_space @invisible 1 @autorestore 0",
-													"varname" : "u917000217"
+													"varname" : "u061003652"
 												}
 
 											}
@@ -1495,8 +1498,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 150.0, 110.0, 678.0, 672.0 ],
@@ -1550,7 +1554,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::dataset @invisible 1 @autorestore 0",
-									"varname" : "u662000222"
+									"varname" : "u631003657"
 								}
 
 							}
@@ -1628,7 +1632,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::outputs @invisible 1 @autorestore 0",
-									"varname" : "u255000224"
+									"varname" : "u499003659"
 								}
 
 							}
@@ -1777,7 +1781,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::inputs @invisible 1 @autorestore 0",
-									"varname" : "u530000226"
+									"varname" : "u496003661"
 								}
 
 							}
@@ -1813,7 +1817,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::view @invisible 1 @autorestore 0",
-									"varname" : "u451000228"
+									"varname" : "u641003663"
 								}
 
 							}
@@ -2069,7 +2073,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 143.75, 187.5, 83.5, 38.0 ],
+					"patching_rect" : [ 143.75, 195.5, 83.5, 38.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -2101,8 +2105,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 630.0, 221.0, 640.0, 480.0 ],
@@ -2156,7 +2161,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::print @invisible 1 @autorestore 0",
-									"varname" : "u846000231"
+									"varname" : "u824003666"
 								}
 
 							}
@@ -2376,11 +2381,12 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x64"
 						}
 ,
-						"rect" : [ 0.0, 44.0, 948.0, 597.0 ],
+						"rect" : [ 138.0, 143.0, 1436.0, 810.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 10.0,
@@ -2401,6 +2407,93 @@
 						"tags" : "",
 						"boxes" : [ 							{
 								"box" : 								{
+									"bgcolor" : [ 0.65098, 0.65098, 0.65098, 1.0 ],
+									"fontname" : "Arial Bold",
+									"fontsize" : 10.0,
+									"frgb" : 0.0,
+									"hint" : "function",
+									"id" : "obj-14",
+									"linecount" : 13,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 611.0, 15.0, 39.0, 152.0 ],
+									"presentation_rect" : [ 612.0, 26.0, 0.0, 0.0 ],
+									"prototypename" : "midp.function",
+									"text" : "new\n\n\n\n\n\n\n\n\n\n\n\n."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 10.0,
+									"id" : "obj-13",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 655.0, 115.0, 48.0, 18.0 ],
+									"text" : "deferlow"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 10.0,
+									"id" : "obj-10",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "bang", "" ],
+									"patching_rect" : [ 655.0, 60.0, 35.0, 18.0 ],
+									"text" : "sel -1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bgcolor" : [ 0.65098, 0.65098, 0.65098, 0.15 ],
+									"color" : [ 0.65098, 0.65098, 0.65098, 1.0 ],
+									"fontname" : "Arial",
+									"fontsize" : 10.0,
+									"id" : "obj-7",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "" ],
+									"patching_rect" : [ 655.0, 30.0, 254.0, 18.0 ],
+									"restore" : [ -1 ],
+									"saved_object_attributes" : 									{
+										"parameter_enable" : 0
+									}
+,
+									"text" : "pattr @bindto parent::new @invisible 1 @autorestore 0",
+									"varname" : "u016003871"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bgcolor" : [ 0.792196, 0.977408, 0.678129, 1.0 ],
+									"color" : [ 0.466667, 0.752941, 0.894118, 1.0 ],
+									"fontface" : 3,
+									"fontname" : "Arial",
+									"fontsize" : 10.0,
+									"id" : "obj-5",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 655.0, 90.0, 75.0, 18.0 ],
+									"text" : "oi.newproject",
+									"varname" : "tempsearch[1]"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"bgcolor" : [ 0.65098, 0.65098, 0.65098, 0.15 ],
 									"color" : [ 0.65098, 0.65098, 0.65098, 1.0 ],
 									"fontname" : "Arial",
@@ -2418,7 +2511,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::reset @invisible 1 @autorestore 0",
-									"varname" : "u211000252"
+									"varname" : "u451003687"
 								}
 
 							}
@@ -2530,7 +2623,7 @@
 									"fontsize" : 10.0,
 									"id" : "obj-38",
 									"maxclass" : "newobj",
-									"numinlets" : 0,
+									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
 									"patching_rect" : [ 30.0, 203.0, 50.0, 18.0 ],
@@ -2658,7 +2751,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::open @invisible 1 @autorestore 0",
-									"varname" : "u180000254"
+									"varname" : "u206003689"
 								}
 
 							}
@@ -2910,6 +3003,22 @@
 								}
 
 							}
+, 							{
+								"box" : 								{
+									"bgcolor" : [ 0.666667, 0.666667, 0.666667, 0.0 ],
+									"border" : 1,
+									"bordercolor" : [ 0.65098, 0.65098, 0.65098, 1.0 ],
+									"id" : "obj-15",
+									"maxclass" : "panel",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 648.0, 15.0, 280.5, 152.0 ],
+									"presentation_rect" : [ 649.0, 26.0, 0.0, 0.0 ],
+									"prototypename" : "midp.comment",
+									"rounded" : 0
+								}
+
+							}
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
@@ -2917,6 +3026,25 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-5", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-10", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-21", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"midpoints" : [ 664.5, 146.0, 219.5, 146.0 ],
+									"source" : [ "obj-13", 0 ]
 								}
 
 							}
@@ -3092,6 +3220,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-13", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-5", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-60", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -3182,6 +3319,15 @@
 								}
 
 							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-10", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-7", 0 ]
+								}
+
+							}
  ]
 					}
 ,
@@ -3216,8 +3362,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 482.0, 122.0, 465.0, 724.0 ],
@@ -3299,7 +3446,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::reset @invisible 1 @autorestore 0",
-									"varname" : "u096000261"
+									"varname" : "u833003696"
 								}
 
 							}
@@ -3348,7 +3495,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::info @invisible 1 @autorestore 0",
-									"varname" : "u714000263"
+									"varname" : "u226003698"
 								}
 
 							}
@@ -3414,7 +3561,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::print @invisible 1 @autorestore 0",
-									"varname" : "u082000265"
+									"varname" : "u705003700"
 								}
 
 							}
@@ -3801,8 +3948,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -3995,7 +4143,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 546.0, 513.0, 86.0, 22.0 ],
-					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "grow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 0, 44, 1440, 118, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "grow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 4, 44, 1444, 118, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
 				}
 
@@ -4505,16 +4653,16 @@
 					"borderoncolor" : [ 0.65098, 0.65098, 0.65098, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"hidden" : 1,
-					"hint" : "start a new project (coming soon…)",
+					"hint" : "start a new project ",
 					"id" : "obj-35",
-					"ignoreclick" : 1,
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 15.5, 96.0, 20.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, 28.0, 20.0, 44.0 ],
 					"prototypename" : "oi.panic",
 					"rounded" : 0.0,
 					"text" : "n",
@@ -4540,7 +4688,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 15.5, 69.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 1.0, 20.0, 71.0 ],
+					"presentation_rect" : [ 0.0, 1.0, 20.0, 29.0 ],
 					"prototypename" : "oi.panic",
 					"rounded" : 0.0,
 					"text" : "o",
@@ -4861,78 +5009,99 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "oi.empty_block.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OI_framework/API_Lib/Utilities (objects)/System/Loaders",
-				"patcherrelativepath" : "../../OI_framework/API_Lib/Utilities (objects)/System/Loaders",
+				"bootpath" : "/Applications/Max 6.1/packages/OpenInstruments/patchers/API_Lib/Tools(bpatchers)/API_exclusive/Loaders",
+				"patcherrelativepath" : "../patchers/API_Lib/Tools(bpatchers)/API_exclusive/Loaders",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oi.tempsearch.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OI_framework/API_Lib/Utilities (objects)/System/Folder management",
-				"patcherrelativepath" : "../../OI_framework/API_Lib/Utilities (objects)/System/Folder management",
+				"bootpath" : "/Applications/Max 6.1/packages/OpenInstruments/patchers/API_Lib/Utilities(objects)/System/Folder_management",
+				"patcherrelativepath" : "../patchers/API_Lib/Utilities(objects)/System/Folder_management",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
+				"name" : "oi.newproject.maxpat",
+				"bootpath" : "/Applications/Max 6.1/packages/OpenInstruments/patchers/API_Lib/Utilities(objects)/System/Folder_management",
+				"patcherrelativepath" : "../patchers/API_Lib/Utilities(objects)/System/Folder_management",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "o.makefolder.maxpat",
+				"bootpath" : "/Applications/Max 6.1/packages/OpenInstruments/patchers/Libs/Olib/File&Folder",
+				"patcherrelativepath" : "../patchers/Libs/Olib/File&Folder",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "o.copyfile.js",
+				"bootpath" : "/Applications/Max 6.1/packages/OpenInstruments/javascript",
+				"patcherrelativepath" : "../javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "oi.print.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OI_framework/API_Lib/Utilities (objects)/Communication/other",
-				"patcherrelativepath" : "../../OI_framework/API_Lib/Utilities (objects)/Communication/other",
+				"bootpath" : "/Applications/Max 6.1/packages/OpenInstruments/patchers/API_Lib/Utilities(objects)/Communication/other",
+				"patcherrelativepath" : "../patchers/API_Lib/Utilities(objects)/Communication/other",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oi.idv.key.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OI_framework/API_Lib/Modules (bpatchers)/Devices/Input",
-				"patcherrelativepath" : "../../OI_framework/API_Lib/Modules (bpatchers)/Devices/Input",
+				"bootpath" : "/Applications/Max 6.1/packages/OpenInstruments/patchers/API_Lib/Modules(bpatchers)/_Devices/Input",
+				"patcherrelativepath" : "../patchers/API_Lib/Modules(bpatchers)/_Devices/Input",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oi.autovarname.js",
-				"bootpath" : "/Applications/Max6/patches/OI_framework/API_Lib/Utilities (objects)/Communication/Pattr objects",
-				"patcherrelativepath" : "../../OI_framework/API_Lib/Utilities (objects)/Communication/Pattr objects",
+				"bootpath" : "/Applications/Max 6.1/packages/OpenInstruments/javascript",
+				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oi.modulecom.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OI_framework/API_Lib/Utilities (objects)/Communication/Pattr objects",
-				"patcherrelativepath" : "../../OI_framework/API_Lib/Utilities (objects)/Communication/Pattr objects",
+				"bootpath" : "/Applications/Max 6.1/packages/OpenInstruments/patchers/API_Lib/Utilities(objects)/Communication/Pattr_objects",
+				"patcherrelativepath" : "../patchers/API_Lib/Utilities(objects)/Communication/Pattr_objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oi.modulegate.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OI_framework/API_Lib/Utilities (objects)/System/Data flow",
-				"patcherrelativepath" : "../../OI_framework/API_Lib/Utilities (objects)/System/Data flow",
+				"bootpath" : "/Applications/Max 6.1/packages/OpenInstruments/patchers/API_Lib/Utilities(objects)/System/Data_flow",
+				"patcherrelativepath" : "../patchers/API_Lib/Utilities(objects)/System/Data_flow",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oi.api.transport.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OI_framework/API_Lib/Tools (bpatchers)/API exclusive",
-				"patcherrelativepath" : "../../OI_framework/API_Lib/Tools (bpatchers)/API exclusive",
+				"bootpath" : "/Applications/Max 6.1/packages/OpenInstruments/patchers/API_Lib/Tools(bpatchers)/API_exclusive/Time",
+				"patcherrelativepath" : "../patchers/API_Lib/Tools(bpatchers)/API_exclusive/Time",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oi.timeformat.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OI_framework/API_Lib/Tools (bpatchers)/Timing",
-				"patcherrelativepath" : "../../OI_framework/API_Lib/Tools (bpatchers)/Timing",
+				"bootpath" : "/Applications/Max 6.1/packages/OpenInstruments/patchers/API_Lib/Tools(bpatchers)/Timing",
+				"patcherrelativepath" : "../patchers/API_Lib/Tools(bpatchers)/Timing",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oi.timeformat_interface.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OI_framework/API_Lib/Tools (bpatchers)/Timing",
-				"patcherrelativepath" : "../../OI_framework/API_Lib/Tools (bpatchers)/Timing",
+				"bootpath" : "/Applications/Max 6.1/packages/OpenInstruments/patchers/API_Lib/Tools(bpatchers)/Timing",
+				"patcherrelativepath" : "../patchers/API_Lib/Tools(bpatchers)/Timing",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "o.holdmessage.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OI_framework/Libs/Olib/Lists",
-				"patcherrelativepath" : "../../OI_framework/Libs/Olib/Lists",
+				"bootpath" : "/Applications/Max 6.1/packages/OpenInstruments/patchers/Libs/Olib/Lists",
+				"patcherrelativepath" : "../patchers/Libs/Olib/Lists",
 				"type" : "JSON",
 				"implicit" : 1
 			}
