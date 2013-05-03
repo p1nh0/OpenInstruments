@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x64"
 		}
 ,
-		"rect" : [ 289.0, 408.0, 125.0, 126.0 ],
+		"rect" : [ 289.0, 408.0, 125.0, 125.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -24,9 +25,9 @@
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
 		"devicewidth" : 0.0,
-		"description" : "",
-		"digest" : "",
-		"tags" : "",
+		"description" : "Module for quick use of oscillators, allow a mix of 9 different types, frequency, phase, width, gain and offset controls.",
+		"digest" : "Signal Oscillators.",
+		"tags" : "OI Modules Generators Oscillators.",
 		"boxes" : [ 			{
 				"box" : 				{
 					"bgcolor" : [ 0.901961, 0.901961, 0.901961, 0.0 ],
@@ -110,8 +111,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 29.0, 69.0, 640.0, 480.0 ],
@@ -504,8 +506,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 85.0, 147.0, 1252.0, 652.0 ],
@@ -617,7 +620,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::mix @invisible 1 @autorestore 0",
-									"varname" : "u739003946"
+									"varname" : "u267005325"
 								}
 
 							}
@@ -655,7 +658,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::state @invisible 1 @autorestore 0",
-									"varname" : "u580003948"
+									"varname" : "u056005327"
 								}
 
 							}
@@ -693,7 +696,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::+::amp_ramp @invisible 1 @autorestore 1",
-									"varname" : "u567003950"
+									"varname" : "u119005329"
 								}
 
 							}
@@ -732,7 +735,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::+::antialiasing @invisible 1 @autorestore 0",
-									"varname" : "u866003952"
+									"varname" : "u902005331"
 								}
 
 							}
@@ -756,7 +759,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::+::mix_ramp @invisible 1 @autorestore 1",
-									"varname" : "u896003954"
+									"varname" : "u935005333"
 								}
 
 							}
@@ -787,8 +790,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 2,
+											"architecture" : "x64"
 										}
 ,
 										"rect" : [ 545.0, 194.0, 640.0, 480.0 ],
@@ -871,7 +875,7 @@
 													}
 ,
 													"text" : "pattr @bindto parent::parent::freq::format @invisible 1 @autorestore 0 @thru 0",
-													"varname" : "u707003962"
+													"varname" : "u632005341"
 												}
 
 											}
@@ -922,7 +926,7 @@
 													}
 ,
 													"text" : "pattr @bindto parent::parent::+::transport_name @invisible 1 @autorestore 0",
-													"varname" : "u531003964"
+													"varname" : "u820005343"
 												}
 
 											}
@@ -1125,7 +1129,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::offset @invisible 1 @autorestore 0",
-									"varname" : "u898003970"
+									"varname" : "u886005349"
 								}
 
 							}
@@ -1163,7 +1167,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::phase @invisible 1 @autorestore 0",
-									"varname" : "u119003972"
+									"varname" : "u561005351"
 								}
 
 							}
@@ -1201,7 +1205,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::width @invisible 1 @autorestore 0",
-									"varname" : "u857003974"
+									"varname" : "u064005353"
 								}
 
 							}
@@ -1239,7 +1243,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::freq::value @invisible 1 @autorestore 0",
-									"varname" : "u084003976"
+									"varname" : "u728005355"
 								}
 
 							}
@@ -1256,8 +1260,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 2,
+											"architecture" : "x64"
 										}
 ,
 										"rect" : [ 578.0, 406.0, 640.0, 480.0 ],
@@ -1292,8 +1297,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 8
+															"minor" : 1,
+															"revision" : 2,
+															"architecture" : "x64"
 														}
 ,
 														"rect" : [ 158.0, 201.0, 273.0, 259.0 ],
@@ -1571,8 +1577,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 2,
+											"architecture" : "x64"
 										}
 ,
 										"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
@@ -1607,8 +1614,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 8
+															"minor" : 1,
+															"revision" : 2,
+															"architecture" : "x64"
 														}
 ,
 														"rect" : [ 75.0, 119.0, 640.0, 480.0 ],
@@ -2022,8 +2030,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 2,
+											"architecture" : "x64"
 										}
 ,
 										"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
@@ -2058,8 +2067,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 8
+															"minor" : 1,
+															"revision" : 2,
+															"architecture" : "x64"
 														}
 ,
 														"rect" : [ 757.0, 182.0, 290.0, 387.0 ],
@@ -2703,8 +2713,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 2,
+											"architecture" : "x64"
 										}
 ,
 										"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
@@ -2894,8 +2905,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 2,
+											"architecture" : "x64"
 										}
 ,
 										"rect" : [ 640.0, 237.0, 458.0, 403.0 ],
@@ -3312,8 +3324,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 2,
+											"architecture" : "x64"
 										}
 ,
 										"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
@@ -3348,8 +3361,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 8
+															"minor" : 1,
+															"revision" : 2,
+															"architecture" : "x64"
 														}
 ,
 														"rect" : [ 75.0, 119.0, 278.0, 322.0 ],
@@ -4552,8 +4566,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 29.0, 69.0, 640.0, 480.0 ],
@@ -4851,8 +4866,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
@@ -5124,7 +5140,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 770.0, 148.000031, 46.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.5, 63.664738, 30.0, 15.0 ],
+					"presentation_rect" : [ 6.5, 47.664734, 30.0, 15.0 ],
 					"triangle" : 0,
 					"varname" : "flonum[1]"
 				}
@@ -5169,7 +5185,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 771.5, 98.0, 46.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.5, 47.664738, 30.0, 15.0 ],
+					"presentation_rect" : [ 6.5, 63.664734, 30.0, 15.0 ],
 					"triangle" : 0,
 					"varname" : "flonum"
 				}
@@ -5298,8 +5314,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
@@ -5576,8 +5593,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 50.0, 94.0, 426.0, 332.0 ],
@@ -5627,8 +5645,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 2,
+											"architecture" : "x64"
 										}
 ,
 										"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -6012,6 +6031,7 @@
 				"box" : 				{
 					"bgcolor" : [ 0.792196, 0.977408, 0.678129, 1.0 ],
 					"color" : [ 0.466667, 0.752941, 0.894118, 1.0 ],
+					"embedstate" : [ [ "defer", 0 ] ],
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
@@ -6154,8 +6174,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 530.0, 342.0, 127.0, 126.0 ],
@@ -6197,7 +6218,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::mix @invisible 1 @autorestore 0",
-									"varname" : "u767004148"
+									"varname" : "u705005525"
 								}
 
 							}
@@ -6476,8 +6497,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 2,
+											"architecture" : "x64"
 										}
 ,
 										"rect" : [ 50.0, 94.0, 426.0, 332.0 ],
@@ -6527,8 +6549,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 8
+															"minor" : 1,
+															"revision" : 2,
+															"architecture" : "x64"
 														}
 ,
 														"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -7659,57 +7682,57 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "oi.autovarname.js",
-				"bootpath" : "/Applications/Max6/patches/OI_framework/API_Lib/Utilities (objects)/Communication/Pattr objects",
-				"patcherrelativepath" : "../../Utilities (objects)/Communication/Pattr objects",
+				"bootpath" : "/Applications/Max 6.1/packages/OpenInstruments/javascript",
+				"patcherrelativepath" : "../../../../javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oi.modulecom.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OI_framework/API_Lib/Utilities (objects)/Communication/Pattr objects",
-				"patcherrelativepath" : "../../Utilities (objects)/Communication/Pattr objects",
+				"bootpath" : "/Applications/Max 6.1/packages/OpenInstruments/patchers/API_Lib/Utilities(objects)/Communication/Pattr_objects",
+				"patcherrelativepath" : "../../Utilities(objects)/Communication/Pattr_objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oi.timeformat.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OI_framework/API_Lib/Tools (bpatchers)/Timing",
-				"patcherrelativepath" : "../../Tools (bpatchers)/Timing",
+				"bootpath" : "/Applications/Max 6.1/packages/OpenInstruments/patchers/API_Lib/Tools(bpatchers)/Timing",
+				"patcherrelativepath" : "../../Tools(bpatchers)/Timing",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oi.timeformat_interface.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OI_framework/API_Lib/Tools (bpatchers)/Timing",
-				"patcherrelativepath" : "../../Tools (bpatchers)/Timing",
+				"bootpath" : "/Applications/Max 6.1/packages/OpenInstruments/patchers/API_Lib/Tools(bpatchers)/Timing",
+				"patcherrelativepath" : "../../Tools(bpatchers)/Timing",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "o.holdmessage.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OI_framework/Libs/Olib/Lists",
+				"bootpath" : "/Applications/Max 6.1/packages/OpenInstruments/patchers/Libs/Olib/Lists",
 				"patcherrelativepath" : "../../../Libs/Olib/Lists",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oi.modulegate~.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OI_framework/API_Lib/Utilities (objects)/Communication/Signals ",
-				"patcherrelativepath" : "../../Utilities (objects)/Communication/Signals ",
+				"bootpath" : "/Applications/Max 6.1/packages/OpenInstruments/patchers/API_Lib/Utilities(objects)/Communication/Signals ",
+				"patcherrelativepath" : "../../Utilities(objects)/Communication/Signals ",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "o.symbolchange.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OI_framework/Libs/Olib/Symbols",
+				"bootpath" : "/Applications/Max 6.1/packages/OpenInstruments/patchers/Libs/Olib/Symbols",
 				"patcherrelativepath" : "../../../Libs/Olib/Symbols",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oi.gate~.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OI_framework/API_Lib/Utilities (objects)/System/Data flow",
-				"patcherrelativepath" : "../../Utilities (objects)/System/Data flow",
+				"bootpath" : "/Applications/Max 6.1/packages/OpenInstruments/patchers/API_Lib/Utilities(objects)/System/Data_flow",
+				"patcherrelativepath" : "../../Utilities(objects)/System/Data_flow",
 				"type" : "JSON",
 				"implicit" : 1
 			}

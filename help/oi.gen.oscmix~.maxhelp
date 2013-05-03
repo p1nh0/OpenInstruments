@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x64"
 		}
 ,
-		"rect" : [ 29.0, 69.0, 701.0, 613.0 ],
+		"rect" : [ 164.0, 134.0, 701.0, 613.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -40,8 +41,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 0.0, 26.0, 701.0, 587.0 ],
@@ -381,9 +383,8 @@
 									"id" : "obj-8",
 									"maxclass" : "bpatcher",
 									"name" : "oi.gen.oscillator~.maxpat",
-									"numinlets" : 6,
-									"numoutlets" : 1,
-									"outlettype" : [ "signal" ],
+									"numinlets" : 0,
+									"numoutlets" : 0,
 									"patching_rect" : [ 29.0, 389.5, 125.0, 120.0 ],
 									"varname" : "oi.gen.oscillator~"
 								}
@@ -470,6 +471,7 @@
 									"border" : 0,
 									"filename" : "helpdetails.js",
 									"id" : "obj-2",
+									"ignoreclick" : 1,
 									"jsarguments" : [ "oi.gen.oscmix~" ],
 									"maxclass" : "jsui",
 									"numinlets" : 1,
@@ -538,15 +540,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-8", 5 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-4", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-12", 0 ],
 									"disabled" : 0,
 									"hidden" : 1,
@@ -581,38 +574,10 @@
 								}
 
 							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-11", 1 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-8", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-11", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-8", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-8", 5 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-9", 0 ]
-								}
-
-							}
  ]
 					}
 ,
 					"patching_rect" : [ 16.0, 114.0, 62.0, 18.0 ],
-					"presentation_rect" : [ 16.0, 114.0, 0.0, 0.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -662,11 +627,12 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x64"
 						}
 ,
-						"rect" : [ 54.0, 94.0, 640.0, 480.0 ],
+						"rect" : [ 164.0, 160.0, 701.0, 587.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -777,9 +743,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 89.0, 152.0, 21.0 ],
+									"patching_rect" : [ 15.0, 89.0, 677.0, 21.0 ],
 									"prototypename" : "oi.help_digest",
-									"text" : "Bpatcher for 'o.oscillator'",
+									"text" : "Module for quick use of oscillators, allow a mix of 9 different types, frequency, phase, width, gain and offset controls.",
 									"textcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
 								}
 
@@ -805,6 +771,7 @@
 									"border" : 0,
 									"filename" : "helpdetails.js",
 									"id" : "obj-2",
+									"ignoreclick" : 1,
 									"jsarguments" : [ "oi.gen.oscmix~" ],
 									"maxclass" : "jsui",
 									"numinlets" : 1,
@@ -879,6 +846,7 @@
 					"border" : 0,
 					"filename" : "helpname.js",
 					"id" : "obj-4",
+					"ignoreclick" : 1,
 					"jsarguments" : [ "oi.gen.oscmix~" ],
 					"maxclass" : "jsui",
 					"numinlets" : 1,
@@ -901,11 +869,12 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x64"
 						}
 ,
-						"rect" : [ 54.0, 94.0, 640.0, 480.0 ],
+						"rect" : [ 0.0, 26.0, 701.0, 587.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 10.0,
@@ -952,100 +921,86 @@
 		"lines" : [  ],
 		"dependency_cache" : [ 			{
 				"name" : "helpname.js",
-				"bootpath" : "/Applications/Max6/Cycling '74/help-resources",
-				"patcherrelativepath" : "../../../../../Cycling '74/help-resources",
+				"bootpath" : "/Applications/Max 6.1/Cycling '74/help-resources",
+				"patcherrelativepath" : "../../../Cycling '74/help-resources",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "helpdetails.js",
-				"bootpath" : "/Applications/Max6/Cycling '74/help-resources",
-				"patcherrelativepath" : "../../../../../Cycling '74/help-resources",
+				"bootpath" : "/Applications/Max 6.1/Cycling '74/help-resources",
+				"patcherrelativepath" : "../../../Cycling '74/help-resources",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oi.gen.oscmix~.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OI_framework/API_Lib/Modules (bpatchers)/Generators",
-				"patcherrelativepath" : "../Generators",
+				"bootpath" : "/Applications/Max 6.1/packages/OpenInstruments/patchers/API_Lib/Modules(bpatchers)/Generators",
+				"patcherrelativepath" : "../patchers/API_Lib/Modules(bpatchers)/Generators",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oi.autovarname.js",
-				"bootpath" : "/Applications/Max6/patches/OI_framework/API_Lib/Utilities (objects)/Communication/Pattr objects",
-				"patcherrelativepath" : "../../Utilities (objects)/Communication/Pattr objects",
+				"bootpath" : "/Applications/Max 6.1/packages/OpenInstruments/javascript",
+				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oi.modulecom.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OI_framework/API_Lib/Utilities (objects)/Communication/Pattr objects",
-				"patcherrelativepath" : "../../Utilities (objects)/Communication/Pattr objects",
+				"bootpath" : "/Applications/Max 6.1/packages/OpenInstruments/patchers/API_Lib/Utilities(objects)/Communication/Pattr_objects",
+				"patcherrelativepath" : "../patchers/API_Lib/Utilities(objects)/Communication/Pattr_objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oi.timeformat.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OI_framework/API_Lib/Tools (bpatchers)/Timing",
-				"patcherrelativepath" : "../../Tools (bpatchers)/Timing",
+				"bootpath" : "/Applications/Max 6.1/packages/OpenInstruments/patchers/API_Lib/Tools(bpatchers)/Timing",
+				"patcherrelativepath" : "../patchers/API_Lib/Tools(bpatchers)/Timing",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oi.timeformat_interface.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OI_framework/API_Lib/Tools (bpatchers)/Timing",
-				"patcherrelativepath" : "../../Tools (bpatchers)/Timing",
+				"bootpath" : "/Applications/Max 6.1/packages/OpenInstruments/patchers/API_Lib/Tools(bpatchers)/Timing",
+				"patcherrelativepath" : "../patchers/API_Lib/Tools(bpatchers)/Timing",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "o.holdmessage.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OI_framework/Libs/Olib/Lists",
-				"patcherrelativepath" : "../../../Libs/Olib/Lists",
+				"bootpath" : "/Applications/Max 6.1/packages/OpenInstruments/patchers/Libs/Olib/Lists",
+				"patcherrelativepath" : "../patchers/Libs/Olib/Lists",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oi.modulegate~.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OI_framework/API_Lib/Utilities (objects)/Communication/Signals ",
-				"patcherrelativepath" : "../../Utilities (objects)/Communication/Signals ",
+				"bootpath" : "/Applications/Max 6.1/packages/OpenInstruments/patchers/API_Lib/Utilities(objects)/Communication/Signals ",
+				"patcherrelativepath" : "../patchers/API_Lib/Utilities(objects)/Communication/Signals ",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "o.symbolchange.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OI_framework/Libs/Olib/Symbols",
-				"patcherrelativepath" : "../../../Libs/Olib/Symbols",
+				"bootpath" : "/Applications/Max 6.1/packages/OpenInstruments/patchers/Libs/Olib/Symbols",
+				"patcherrelativepath" : "../patchers/Libs/Olib/Symbols",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oi.gate~.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OI_framework/API_Lib/Utilities (objects)/System/Data flow",
-				"patcherrelativepath" : "../../Utilities (objects)/System/Data flow",
+				"bootpath" : "/Applications/Max 6.1/packages/OpenInstruments/patchers/API_Lib/Utilities(objects)/System/Data_flow",
+				"patcherrelativepath" : "../patchers/API_Lib/Utilities(objects)/System/Data_flow",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "helpstarter.js",
-				"bootpath" : "/Applications/Max6/Cycling '74/help-resources",
-				"patcherrelativepath" : "../../../../../Cycling '74/help-resources",
+				"bootpath" : "/Applications/Max 6.1/Cycling '74/help-resources",
+				"patcherrelativepath" : "../../../Cycling '74/help-resources",
 				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "oi.gen.oscillator~.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OI_framework/API_Lib/Modules (bpatchers)/Generators",
-				"patcherrelativepath" : "../Generators",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "o.oscillator~.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OI_framework/Libs/Olib/MSP",
-				"patcherrelativepath" : "../../../Libs/Olib/MSP",
-				"type" : "JSON",
 				"implicit" : 1
 			}
  ]
