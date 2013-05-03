@@ -8,7 +8,7 @@
 			"architecture" : "x64"
 		}
 ,
-		"rect" : [ 164.0, 134.0, 701.0, 613.0 ],
+		"rect" : [ 302.0, 127.0, 701.0, 613.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -30,6 +30,551 @@
 		"showrootpatcherontab" : 0,
 		"showontab" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-3",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 6,
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x64"
+						}
+,
+						"rect" : [ 302.0, 153.0, 701.0, 587.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 0,
+						"default_fontsize" : 13.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 0,
+						"gridsize" : [ 5.0, 5.0 ],
+						"gridsnaponopen" : 0,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 1,
+						"boxanimatetime" : 200,
+						"imprint" : 0,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"showontab" : 1,
+						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 13.0,
+									"frgb" : 0.0,
+									"id" : "obj-37",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 176.0, 392.0, 91.0, 21.0 ],
+									"text" : "<—simple FM"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-35",
+									"maxclass" : "ezdac~",
+									"numinlets" : 2,
+									"numoutlets" : 0,
+									"patching_rect" : [ 168.5, 545.0, 35.0, 35.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-34",
+									"maxclass" : "bpatcher",
+									"name" : "oi.gen.oscmix~.maxpat",
+									"numinlets" : 6,
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 35.5, 410.0, 125.0, 125.0 ],
+									"varname" : "modulator"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-33",
+									"maxclass" : "bpatcher",
+									"name" : "oi.gen.oscmix~.maxpat",
+									"numinlets" : 6,
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 168.5, 410.0, 125.0, 125.0 ],
+									"varname" : "carrier"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 13.0,
+									"id" : "obj-32",
+									"maxclass" : "number~",
+									"maximum" : 1.0,
+									"minimum" : 0.0,
+									"mode" : 1,
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "signal", "float" ],
+									"patching_rect" : [ 67.399994, 151.0, 56.0, 21.0 ],
+									"sig" : 0.0
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 13.0,
+									"frgb" : 0.0,
+									"id" : "obj-31",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 123.399994, 151.0, 19.0, 21.0 ],
+									"text" : "="
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 13.0,
+									"frgb" : 0.0,
+									"id" : "obj-30",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 192.399994, 151.0, 19.0, 21.0 ],
+									"text" : "="
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 13.0,
+									"id" : "obj-28",
+									"maxclass" : "flonum",
+									"maximum" : 1.0,
+									"minimum" : 0.0,
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "float", "bang" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 142.399994, 151.0, 50.0, 21.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontface" : 2,
+									"fontname" : "Arial",
+									"fontsize" : 10.0,
+									"frgb" : 0.0,
+									"id" : "obj-27",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 127.0, 364.5, 244.0, 18.0 ],
+									"text" : "these are very useful for modulations, try them out... "
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 13.0,
+									"frgb" : 0.0,
+									"id" : "obj-26",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 36.5, 362.0, 92.0, 21.0 ],
+									"prototypename" : "oi.help_digest",
+									"text" : "Offset & Gain ",
+									"textcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 13.0,
+									"frgb" : 0.0,
+									"id" : "obj-25",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 56.0, 96.5, 44.0, 21.0 ],
+									"prototypename" : "oi.help_digest",
+									"text" : "Width",
+									"textcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 13.0,
+									"id" : "obj-22",
+									"maxclass" : "flonum",
+									"maximum" : 1.0,
+									"minimum" : 0.0,
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "float", "bang" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 206.0, 151.0, 50.0, 21.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 13.0,
+									"id" : "obj-20",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 206.0, 181.0, 59.0, 19.0 ],
+									"text" : "width $1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 9.0,
+									"hidden" : 1,
+									"id" : "obj-19",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 22.0, 130.0, 173.0, 17.0 ],
+									"text" : "loadmess mix 0 0 1 1 1 1 0 0 0 @defer 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontface" : 2,
+									"fontname" : "Arial",
+									"fontsize" : 10.0,
+									"frgb" : 0.0,
+									"id" : "obj-47",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 100.0, 98.0, 223.0, 18.0 ],
+									"text" : "...only for pulse, saw, triangle and square waves"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-18",
+									"maxclass" : "bpatcher",
+									"name" : "oi.gen.oscmix~.maxpat",
+									"numinlets" : 6,
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 100.0, 210.0, 125.0, 125.0 ],
+									"varname" : "osc_mix[1]"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 9.0,
+									"hidden" : 1,
+									"id" : "obj-17",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 385.0, 150.0, 173.0, 17.0 ],
+									"text" : "loadmess mix 0 0 0 1 1 1 0 0 0 @defer 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-10",
+									"maxclass" : "toggle",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 491.0, 170.0, 20.0, 20.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 13.0,
+									"id" : "obj-7",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 491.0, 200.0, 108.0, 19.0 ],
+									"text" : "+::antialiasing $1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontface" : 2,
+									"fontname" : "Arial",
+									"fontsize" : 10.0,
+									"frgb" : 0.0,
+									"id" : "obj-13",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 466.0, 93.0, 205.0, 18.0 ],
+									"text" : "…only for saw, square and triangular waves"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-1",
+									"maxclass" : "spectroscope~",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 385.0, 370.0, 245.0, 75.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-8",
+									"maxclass" : "bpatcher",
+									"name" : "oi.gen.oscmix~.maxpat",
+									"numinlets" : 6,
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 385.0, 230.0, 125.0, 125.0 ],
+									"varname" : "osc_mix"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 13.0,
+									"frgb" : 0.0,
+									"id" : "obj-3",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 15.0, 68.0, 68.0, 21.0 ],
+									"prototypename" : "oi.help_digest",
+									"text" : "Advanced"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 13.0,
+									"frgb" : 0.0,
+									"id" : "obj-5",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 385.0, 90.0, 81.0, 21.0 ],
+									"prototypename" : "oi.help_digest",
+									"text" : "Anti-aliasing",
+									"textcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"angle" : 90.0,
+									"bgcolor" : [ 0.65098, 0.65098, 0.65098, 1.0 ],
+									"grad1" : [ 0.65098, 0.65098, 0.65098, 0.0 ],
+									"grad2" : [ 0.635294, 0.964706, 0.482353, 1.0 ],
+									"id" : "obj-6",
+									"maxclass" : "panel",
+									"mode" : 1,
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 0.0, 0.0, 700.0, 80.0 ],
+									"rounded" : 0
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"border" : 0,
+									"filename" : "helpdetails.js",
+									"id" : "obj-2",
+									"ignoreclick" : 1,
+									"jsarguments" : [ "oi.gen.oscmix~" ],
+									"maxclass" : "jsui",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 10.0, 10.0, 335.0, 50.0 ]
+								}
+
+							}
+ ],
+						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-7", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-10", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-8", 5 ],
+									"disabled" : 0,
+									"hidden" : 1,
+									"source" : [ "obj-17", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-18", 5 ],
+									"disabled" : 0,
+									"hidden" : 1,
+									"midpoints" : [ 31.5, 204.0, 215.5, 204.0 ],
+									"source" : [ "obj-19", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-18", 5 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-20", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-20", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-22", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-18", 2 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-28", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-18", 2 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"midpoints" : [ 76.899994, 190.5, 151.9, 190.5 ],
+									"source" : [ "obj-32", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-35", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-33", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-35", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-33", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-33", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"midpoints" : [ 45.0, 544.0, 165.5, 544.0, 165.5, 400.0, 178.0, 400.0 ],
+									"source" : [ "obj-34", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-8", 5 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-7", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-1", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-8", 0 ]
+								}
+
+							}
+ ]
+					}
+,
+					"patching_rect" : [ 14.0, 111.0, 62.0, 18.0 ],
+					"saved_object_attributes" : 					{
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"default_fontsize" : 13.0,
+						"description" : "",
+						"digest" : "",
+						"fontface" : 0,
+						"fontname" : "Arial",
+						"fontsize" : 13.0,
+						"globalpatchername" : "",
+						"tags" : ""
+					}
+,
+					"text" : "p advanced",
+					"varname" : "advanced_tab"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
@@ -69,36 +614,6 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
-									"fontsize" : 7.122967,
-									"hidden" : 1,
-									"id" : "obj-51",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 434.0, 120.5, 44.108109, 14.0 ],
-									"text" : "loadbang"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 7.122967,
-									"hidden" : 1,
-									"id" : "obj-50",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "int", "int" ],
-									"patching_rect" : [ 434.0, 145.5, 51.0, 14.0 ],
-									"text" : "unpack 4 4"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
 									"fontsize" : 8.461102,
 									"hidden" : 1,
 									"id" : "obj-47",
@@ -106,7 +621,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 135.0, 285.5, 77.0, 16.0 ],
+									"patching_rect" : [ 138.0, 285.5, 77.0, 16.0 ],
 									"text" : "loadmess 1000"
 								}
 
@@ -121,7 +636,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 165.0, 412.5, 247.0, 25.0 ],
+									"patching_rect" : [ 165.0, 412.5, 225.0, 25.0 ],
 									"text" : "try other(transport related) formats"
 								}
 
@@ -159,7 +674,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 360.0, 358.0, 250.0, 25.0 ],
+									"patching_rect" : [ 365.0, 358.0, 250.0, 25.0 ],
 									"text" : "bind module frequency to myTransport"
 								}
 
@@ -179,7 +694,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 340.0, 360.5, 20.0, 20.0 ],
+									"patching_rect" : [ 345.0, 360.5, 20.0, 20.0 ],
 									"rounded" : 60.0,
 									"text" : "2",
 									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -264,7 +779,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 434.0, 200.5, 69.0, 21.0 ],
-									"text" : "pak"
+									"text" : "pak 4 4"
 								}
 
 							}
@@ -307,7 +822,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 175.0, 305.5, 328.0, 22.0 ],
+									"patching_rect" : [ 178.0, 305.5, 328.0, 22.0 ],
 									"text" : "you can use this to control fade time when turning the module on/off"
 								}
 
@@ -322,7 +837,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "float", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 135.0, 305.5, 47.0, 18.0 ]
+									"patching_rect" : [ 138.0, 305.5, 47.0, 18.0 ]
 								}
 
 							}
@@ -335,7 +850,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 135.0, 335.5, 84.0, 16.0 ],
+									"patching_rect" : [ 138.0, 335.5, 84.0, 16.0 ],
 									"text" : "+::amp_ramp $1"
 								}
 
@@ -363,7 +878,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 150.0, 360.5, 193.0, 19.0 ],
+									"patching_rect" : [ 155.0, 360.5, 193.0, 19.0 ],
 									"text" : "+::transport_name myTransport"
 								}
 
@@ -374,7 +889,7 @@
 									"maxclass" : "ezdac~",
 									"numinlets" : 2,
 									"numoutlets" : 0,
-									"patching_rect" : [ 29.0, 520.5, 45.0, 45.0 ]
+									"patching_rect" : [ 29.0, 530.0, 45.0, 45.0 ]
 								}
 
 							}
@@ -382,11 +897,12 @@
 								"box" : 								{
 									"id" : "obj-8",
 									"maxclass" : "bpatcher",
-									"name" : "oi.gen.oscillator~.maxpat",
-									"numinlets" : 0,
-									"numoutlets" : 0,
-									"patching_rect" : [ 29.0, 389.5, 125.0, 120.0 ],
-									"varname" : "oi.gen.oscillator~"
+									"name" : "oi.gen.oscmix~.maxpat",
+									"numinlets" : 6,
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 29.0, 389.5, 128.0, 125.5 ],
+									"varname" : "oi.gen.oscmix~"
 								}
 
 							}
@@ -506,7 +1022,7 @@
 									"destination" : [ "obj-7", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 443.5, 246.5, 371.5, 246.5, 371.5, 208.5, 184.5, 208.5 ],
+									"midpoints" : [ 443.5, 259.5, 371.5, 259.5, 371.5, 208.5, 184.5, 208.5 ],
 									"source" : [ "obj-25", 0 ]
 								}
 
@@ -540,6 +1056,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-8", 5 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-4", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-12", 0 ],
 									"disabled" : 0,
 									"hidden" : 1,
@@ -549,35 +1074,17 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-27", 0 ],
+									"destination" : [ "obj-8", 5 ],
 									"disabled" : 0,
-									"hidden" : 1,
-									"source" : [ "obj-50", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-28", 0 ],
-									"disabled" : 0,
-									"hidden" : 1,
-									"source" : [ "obj-50", 1 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-50", 0 ],
-									"disabled" : 0,
-									"hidden" : 1,
-									"source" : [ "obj-51", 0 ]
+									"hidden" : 0,
+									"source" : [ "obj-9", 0 ]
 								}
 
 							}
  ]
 					}
 ,
-					"patching_rect" : [ 16.0, 114.0, 62.0, 18.0 ],
+					"patching_rect" : [ 20.0, 135.0, 58.0, 18.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -591,8 +1098,8 @@
 						"tags" : ""
 					}
 ,
-					"text" : "p advanced",
-					"varname" : "basic_tab[1]"
+					"text" : "p transport",
+					"varname" : "transport_tab"
 				}
 
 			}
@@ -632,7 +1139,7 @@
 							"architecture" : "x64"
 						}
 ,
-						"rect" : [ 164.0, 160.0, 701.0, 587.0 ],
+						"rect" : [ 0.0, 26.0, 701.0, 587.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -654,45 +1161,114 @@
 						"showontab" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
+									"bubble" : 1,
 									"fontname" : "Arial",
-									"fontsize" : 13.0,
-									"id" : "obj-34",
-									"maxclass" : "flonum",
+									"fontsize" : 11.0,
+									"frgb" : 0.0,
+									"id" : "obj-13",
+									"maxclass" : "comment",
 									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "float", "bang" ],
-									"parameter_enable" : 0,
-									"patching_rect" : [ 28.5, 133.5, 50.0, 21.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 13.0,
-									"id" : "obj-32",
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 28.5, 158.5, 48.0, 21.0 ],
-									"text" : "cycle~"
+									"numoutlets" : 0,
+									"patching_rect" : [ 215.0, 282.0, 45.0, 23.0 ],
+									"text" : "mix"
 								}
 
 							}
 , 							{
 								"box" : 								{
 									"bubble" : 1,
+									"bubbleside" : 3,
+									"fontname" : "Arial",
+									"fontsize" : 11.0,
+									"frgb" : 0.0,
+									"id" : "obj-12",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 40.0, 282.0, 76.0, 23.0 ],
+									"text" : "gain (*~)"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bubble" : 1,
+									"bubbleside" : 3,
+									"fontname" : "Arial",
+									"fontsize" : 11.0,
+									"frgb" : 0.0,
+									"id" : "obj-10",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 40.0, 266.0, 76.0, 23.0 ],
+									"text" : "offset"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bubble" : 1,
+									"bubbleside" : 3,
+									"fontname" : "Arial",
+									"fontsize" : 11.0,
+									"frgb" : 0.0,
+									"id" : "obj-7",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 40.0, 250.0, 76.0, 23.0 ],
+									"text" : "width"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bubble" : 1,
+									"bubbleside" : 3,
+									"fontname" : "Arial",
+									"fontsize" : 11.0,
+									"frgb" : 0.0,
+									"id" : "obj-9",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 40.0, 234.0, 76.0, 23.0 ],
+									"text" : "phase"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bubble" : 1,
+									"bubbleside" : 3,
+									"fontname" : "Arial",
+									"fontsize" : 11.0,
+									"frgb" : 0.0,
+									"id" : "obj-4",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 40.0, 215.0, 76.0, 23.0 ],
+									"text" : "frequency"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bubble" : 1,
+									"fontface" : 2,
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
 									"frgb" : 0.0,
 									"id" : "obj-31",
-									"linecount" : 2,
+									"linecount" : 5,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 153.5, 208.5, 500.0, 40.0 ],
-									"text" : "if you use an external signal to control the oscillator's frequency be sure to set the module's frequency to 0."
+									"patching_rect" : [ 230.0, 190.0, 169.0, 83.0 ],
+									"text" : "if you use an external signal to control the oscillator's frequency be sure to set the module's frequency to 0.",
+									"textcolor" : [ 0.843137, 0.321569, 0.180392, 1.0 ]
 								}
 
 							}
@@ -702,7 +1278,7 @@
 									"maxclass" : "ezdac~",
 									"numinlets" : 2,
 									"numoutlets" : 0,
-									"patching_rect" : [ 28.5, 374.5, 45.0, 45.0 ]
+									"patching_rect" : [ 105.0, 356.0, 45.0, 45.0 ]
 								}
 
 							}
@@ -714,8 +1290,8 @@
 									"numinlets" : 6,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 28.5, 208.5, 125.0, 125.0 ],
-									"varname" : "oi.gen.oscmix~"
+									"patching_rect" : [ 105.0, 190.0, 125.0, 125.0 ],
+									"varname" : "osc_mix"
 								}
 
 							}
@@ -784,24 +1360,6 @@
 							}
  ],
 						"lines" : [ 							{
-								"patchline" : 								{
-									"destination" : [ "obj-8", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-32", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-32", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-34", 0 ]
-								}
-
-							}
-, 							{
 								"patchline" : 								{
 									"destination" : [ "obj-11", 1 ],
 									"disabled" : 0,
