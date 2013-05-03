@@ -108,6 +108,7 @@ function isinsidemidp() {
 			}
 }
 
+
 // outputs patcher filepath
 function getfilepath(){
 	outlet(0, this.patcher.filepath);
