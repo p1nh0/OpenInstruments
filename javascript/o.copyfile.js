@@ -2,8 +2,8 @@
 // 28-04-2013 Tiago Ângelo 
 
 var destdir, desttype, dst, src, pointer;
-var kilobyte = 1024;
-var inc = kilobyte * 16;   
+var chunk = 16384; //16KB chunks
+
 outlets = 1; // disable outlets
 setoutletassist(0, "(symbol) status");
 
@@ -11,7 +11,7 @@ function from(dir, t) {
 	type = ".maxpat"; 
 	type = t; 
 	//source file constructor
-	src = new File(dir, "readwrite", type); 
+	src = new File(dir, "readwrite", type);
 	if (!src.isopen){
 		outlet(0, "no source found\n");
 	} 
@@ -31,24 +31,28 @@ function bang() {
 	} 
 	else{ //prepare for copy  
 		src.open();
-		dst.eof = src.eof;
 		pointer = 0; 
  		src.position = pointer; 
 		dst.position = pointer; 
 	}
-	
-	// copy
+	// copy a chunk at a time
  	outlet(0, "copying\n");
-	while(pointer<(src.eof-inc)){
-		dst.writebytes(src.readbytes(pointer+inc)); 
-		pointer += inc;
- 		src.position = pointer; 
-		dst.position = pointer; 
+	while(pointer<(src.eof-chunk)){
+		dst.writebytes(src.readbytes(chunk)); 
+		pointer = dst.position; 
+		src.position = pointer;
 	}
-	dst.writebytes(src.readbytes(src.eof)); // copy the last part 
-	outlet(0, "done\n");
+	//ensure that the remaining bytes are copied
+	if (dst.position < src.eof){ 
+		post("from last: "+dst.position+"\n");
+		dst.writebytes(src.readbytes(src.eof)); // copy remaining bytes
+		post("to last: "+dst.position+"\n");
+	}
 	
+	dst.eof = src.eof;
 	// close files after copying
 	src.close();
 	dst.close(); 
+	
+	outlet(0, "done\n");
 }
