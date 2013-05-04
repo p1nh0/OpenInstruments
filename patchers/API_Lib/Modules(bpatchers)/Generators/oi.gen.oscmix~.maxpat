@@ -8,7 +8,7 @@
 			"architecture" : "x64"
 		}
 ,
-		"rect" : [ 289.0, 408.0, 125.0, 125.0 ],
+		"rect" : [ 360.0, 257.0, 125.0, 124.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -36,13 +36,13 @@
 					"border_right" : 0,
 					"border_top" : 0,
 					"bordercolor" : [ 0.4, 0.4, 0.4, 1.0 ],
-					"candicane2" : [ 0.258824, 0.517647, 0.709804, 0.66 ],
-					"candicane3" : [ 0.635294, 0.964706, 0.482353, 0.66 ],
-					"candicane4" : [ 0.937255, 0.611765, 0.258824, 0.66 ],
-					"candicane5" : [ 0.843137, 0.321569, 0.180392, 0.66 ],
-					"candicane6" : [ 0.4, 0.411765, 0.654902, 0.66 ],
-					"candicane7" : [ 0.4, 0.4, 0.4, 0.66 ],
-					"candicane8" : [ 0.901961, 0.901961, 0.901961, 0.66 ],
+					"candicane2" : [ 0.258824, 0.517647, 0.709804, 0.5 ],
+					"candicane3" : [ 0.635294, 0.964706, 0.482353, 0.5 ],
+					"candicane4" : [ 0.937255, 0.611765, 0.258824, 0.5 ],
+					"candicane5" : [ 0.843137, 0.321569, 0.180392, 0.5 ],
+					"candicane6" : [ 0.4, 0.411765, 0.654902, 0.5 ],
+					"candicane7" : [ 0.4, 0.4, 0.4, 0.5 ],
+					"candicane8" : [ 0.6, 0.6, 0.6, 0.5 ],
 					"candycane" : 9,
 					"contdata" : 1,
 					"id" : "obj-30",
@@ -58,7 +58,7 @@
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
 					"size" : 9,
-					"slidercolor" : [ 0.466667, 0.752941, 0.894118, 0.66 ],
+					"slidercolor" : [ 0.466667, 0.752941, 0.894118, 0.5 ],
 					"spacing" : 2,
 					"varname" : "multislider"
 				}
@@ -620,7 +620,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::mix @invisible 1 @autorestore 0",
-									"varname" : "u267005325"
+									"varname" : "u813004287"
 								}
 
 							}
@@ -658,7 +658,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::state @invisible 1 @autorestore 0",
-									"varname" : "u056005327"
+									"varname" : "u051004285"
 								}
 
 							}
@@ -696,7 +696,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::+::amp_ramp @invisible 1 @autorestore 1",
-									"varname" : "u119005329"
+									"varname" : "u883004649"
 								}
 
 							}
@@ -735,7 +735,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::+::antialiasing @invisible 1 @autorestore 0",
-									"varname" : "u902005331"
+									"varname" : "u648004277"
 								}
 
 							}
@@ -759,7 +759,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::+::mix_ramp @invisible 1 @autorestore 1",
-									"varname" : "u935005333"
+									"varname" : "u813004280"
 								}
 
 							}
@@ -875,7 +875,7 @@
 													}
 ,
 													"text" : "pattr @bindto parent::parent::freq::format @invisible 1 @autorestore 0 @thru 0",
-													"varname" : "u632005341"
+													"varname" : "u176004271"
 												}
 
 											}
@@ -926,7 +926,7 @@
 													}
 ,
 													"text" : "pattr @bindto parent::parent::+::transport_name @invisible 1 @autorestore 0",
-													"varname" : "u820005343"
+													"varname" : "u656004269"
 												}
 
 											}
@@ -1129,7 +1129,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::offset @invisible 1 @autorestore 0",
-									"varname" : "u886005349"
+									"varname" : "u378004243"
 								}
 
 							}
@@ -1167,7 +1167,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::phase @invisible 1 @autorestore 0",
-									"varname" : "u561005351"
+									"varname" : "u943004261"
 								}
 
 							}
@@ -1205,7 +1205,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::width @invisible 1 @autorestore 0",
-									"varname" : "u064005353"
+									"varname" : "u769004259"
 								}
 
 							}
@@ -1243,7 +1243,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::freq::value @invisible 1 @autorestore 0",
-									"varname" : "u728005355"
+									"varname" : "u783004258"
 								}
 
 							}
@@ -3697,7 +3697,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 223.5, 18.5, 25.0, 25.0 ]
 								}
 
@@ -4545,10 +4545,10 @@
 					"id" : "obj-13",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
-					"numoutlets" : 3,
-					"outlettype" : [ "signal", "signal", "" ],
-					"patching_rect" : [ 26.5, 325.0, 84.0, 18.0 ],
-					"text" : "oi.modulegate~",
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "signal" ],
+					"patching_rect" : [ 26.5, 325.0, 88.0, 18.0 ],
+					"text" : "oi.module.gate~",
 					"varname" : "inputrate[1]"
 				}
 
@@ -4843,10 +4843,11 @@
 					"fontsize" : 8.0,
 					"frgb" : 0.0,
 					"id" : "obj-266",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 940.0, 235.0, 47.0, 15.0 ],
+					"patching_rect" : [ 940.0, 235.0, 39.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 57.0, 110.0, 68.0, 15.0 ],
 					"text" : "sine 0.00"
@@ -6218,7 +6219,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::mix @invisible 1 @autorestore 0",
-									"varname" : "u705005525"
+									"varname" : "u674004106"
 								}
 
 							}
@@ -7217,20 +7218,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"id" : "obj-143",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 144.0, 375.0, 39.0, 18.0 ],
-					"text" : "mute~"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"border" : 4,
 					"bordercolor" : [ 0.2, 0.8, 0.6, 1.0 ],
@@ -7295,15 +7282,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-12", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-143", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-13", 2 ]
 				}
 
 			}
@@ -7404,15 +7382,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-14", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-69", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-143", 0 ]
 				}
 
 			}
@@ -7689,8 +7658,8 @@
 			}
 , 			{
 				"name" : "oi.modulecom.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/OpenInstruments/patchers/API_Lib/Utilities(objects)/Communication/Pattr_objects",
-				"patcherrelativepath" : "../../Utilities(objects)/Communication/Pattr_objects",
+				"bootpath" : "/Applications/Max 6.1/packages/OpenInstruments/patchers/API_Lib/Utilities(objects)/Communication/Parameter_data",
+				"patcherrelativepath" : "../../Utilities(objects)/Communication/Parameter_data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -7716,7 +7685,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "oi.modulegate~.maxpat",
+				"name" : "oi.module.gate~.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/OpenInstruments/patchers/API_Lib/Utilities(objects)/Communication/Signals ",
 				"patcherrelativepath" : "../../Utilities(objects)/Communication/Signals ",
 				"type" : "JSON",
