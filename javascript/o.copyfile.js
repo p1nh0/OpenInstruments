@@ -44,9 +44,9 @@ function bang() {
 	}
 	//ensure that the remaining bytes are copied
 	if (dst.position < src.eof){ 
-		post("from last: "+dst.position+"\n");
+		//post("from last: "+dst.position+"\n");
 		dst.writebytes(src.readbytes(src.eof)); // copy remaining bytes
-		post("to last: "+dst.position+"\n");
+		//post("to last: "+dst.position+"\n");
 	}
 	
 	dst.eof = src.eof;
