@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 7
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x64"
 		}
 ,
 		"rect" : [ 25.0, 69.0, 170.0, 100.0 ],
@@ -30,6 +31,20 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
+					"id" : "obj-50",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 9.0, 575.0, 32.5, 18.0 ],
+					"text" : "!- 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
 					"id" : "obj-65",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -38,8 +53,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 7
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
@@ -207,6 +223,7 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.913725, 0.913725, 0.913725, 0.0 ],
 					"fgcolor" : [ 0.937255, 0.611765, 0.258824, 0.33 ],
 					"hint" : "open dialog",
 					"id" : "obj-54",
@@ -419,8 +436,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 9.0, 630.0, 43.0, 16.0 ],
-					"text" : "hide $1"
+					"patching_rect" : [ 9.0, 630.0, 54.0, 16.0 ],
+					"text" : "hidden $1"
 				}
 
 			}
@@ -433,8 +450,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 98.917625, 485.0, 43.0, 16.0 ],
-					"text" : "hide $1"
+					"patching_rect" : [ 98.917625, 485.0, 54.0, 16.0 ],
+					"text" : "hidden $1"
 				}
 
 			}
@@ -546,8 +563,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 7
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 25.0, 69.0, 315.0, 155.0 ],
@@ -627,7 +645,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::out @invisible 1 @autorestore 0",
-									"varname" : "u339001760"
+									"varname" : "u137003047"
 								}
 
 							}
@@ -695,8 +713,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 7
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 25.0, 69.0, 215.0, 187.0 ],
@@ -776,7 +795,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::in @invisible 1 @autorestore 0",
-									"varname" : "u351001764"
+									"varname" : "u691003051"
 								}
 
 							}
@@ -1081,8 +1100,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 7
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 572.0, 379.0, 327.0, 228.0 ],
@@ -1168,7 +1188,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::module_name @invisible 1 @autorestore 0",
-									"varname" : "u293001786"
+									"varname" : "u864003073"
 								}
 
 							}
@@ -1220,7 +1240,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::window @invisible 1 @autorestore 0",
-									"varname" : "u846001788"
+									"varname" : "u001003075"
 								}
 
 							}
@@ -1244,7 +1264,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::plugin @invisible 1 @autorestore 0",
-									"varname" : "u597001790"
+									"varname" : "u491003077"
 								}
 
 							}
@@ -1387,7 +1407,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 410.5, 130.0, 120.0, 63.0 ],
+					"patching_rect" : [ 410.5, 130.0, 120.0, 62.0 ],
 					"text" : "—> thanks to: \nAndrew Pask\nandrew@cycling74.com\nTim Place\ntim@cycling74.com"
 				}
 
@@ -1406,8 +1426,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 7
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 385.0, 325.0, 215.0, 187.0 ],
@@ -1463,7 +1484,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::bypass @invisible 1 @autorestore 0",
-									"varname" : "u189001794"
+									"varname" : "u788003081"
 								}
 
 							}
@@ -1487,7 +1508,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::state @invisible 1 @autorestore 0",
-									"varname" : "u502001796"
+									"varname" : "u444003083"
 								}
 
 							}
@@ -1639,8 +1660,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 7
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -2043,8 +2065,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 7
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 654.0, 137.0, 640.0, 480.0 ],
@@ -2511,7 +2534,7 @@
 					"fontsize" : 12.0,
 					"hint" : "select plugin",
 					"id" : "obj-25",
-					"items" : [ "no plug-in", ",", "+binaural.vst", ",", "+bubbler.vst", ",", "+chebyshev.vst", ",", "+compand.vst", ",", "+decimate.vst", ",", "+delay.vst", ",", "+matrix.vst", ",", "+morphfilter.vst", ",", "+phasescope.vst", ",", "+pitchdelay.vst", ",", "+spectralcompand.vst", ",", "+spectralgate.vst", ",", "20 Bands Eq.vst", ",", "5 Band Eq.vst", ",", "Alchemy.vst", ",", "Bassdrum.vst", ",", "Buff rice.vst", ",", "CircleVST.vst", ",", "Compressor.vst", ",", "Convolution reverb mono.vst", ",", "Convolution reverb stereo.vst", ",", "DC Blocker.vst", ",", "DCAMBusComp.vst", ",", "DCAMChanComp.vst", ",", "DCAMCrossComp.vst", ",", "DCAMEnvShaper.vst", ",", "Drumazon.vst", ",", "Etch.vst", ",", "Flying monkey synth.vst", ",", "Funky repeater.vst", ",", "Gate.vst", ",", "Graphic Equalizer.vst", ",", "Hum remover.vst", ",", "iZotope Alloy (Mono).vst", ",", "iZotope Alloy.vst", ",", "iZotope Nectar (Mono).vst", ",", "iZotope Nectar.vst", ",", "iZotope Ozone 4.vst", ",", "iZotope RX 2 Declicker.vst", ",", "iZotope RX 2 Declipper.vst", ",", "iZotope RX 2 Decrackler.vst", ",", "iZotope RX 2 Denoiser.vst", ",", "iZotope RX 2 Hum Removal.vst", ",", "iZotope RX 2 Spectral Repair.vst", ",", "iZotope Stutter Edit.vst", ",", "Limiter.vst", ",", "LiveCut.vst", ",", "MIDI Filter.vst", ",", "Multiband freeverb.vst", ",", "Multiband scraper.vst", ",", "Nepheton.vst", ",", "Nithonat.vst", ",", "pHATmatik PRO.vst", ",", "Phoscyon.vst", ",", "Rainy synth.vst", ",", "Simple reverb.vst", ",", "Swamp buffer.vst", ",", "Trash.vst", ",", "Tremor.vst", ",", "Valve warmer.vst", ",", "Vinyl.vst", ",", "WaveShell-VST 8.0.vst", ",", "Width Enhancer.vst", ",", "Zebra2.vst", ",", "Zebralette.vst", ",", "ZRev.vst", ",", "bx_cleansweep V2.vst", ",", "bx_solo.vst", ",", "LexChamber.vst", ",", "LexConcertHall.vst", ",", "LexHall.vst", ",", "LexPlate.vst", ",", "LexRandomHall.vst", ",", "LexRoom.vst", ",", "LexVintagePlate.vst", ",", "mda Ambience.vst", ",", "mda Bandisto.vst", ",", "mda BeatBox.vst", ",", "mda Combo.vst", ",", "mda De-ess.vst", ",", "mda Degrade.vst", ",", "mda Delay.vst", ",", "mda Detune.vst", ",", "mda Dither.vst", ",", "mda DubDelay.vst", ",", "mda DX10.vst", ",", "mda Dynamics.vst", ",", "mda ePiano.vst", ",", "mda Image.vst", ",", "mda JX10.vst", ",", "mda Leslie.vst", ",", "mda Limiter.vst", ",", "mda Looplex.vst", ",", "mda Loudness.vst", ",", "mda MultiBand.vst", ",", "mda Overdrive.vst", ",", "mda Piano.vst", ",", "mda RePsycho!.vst", ",", "mda RezFilter.vst", ",", "mda RingMod.vst", ",", "mda RoundPan.vst", ",", "mda Shepard.vst", ",", "mda Splitter.vst", ",", "mda Stereo.vst", ",", "mda SubBass.vst", ",", "mda Talkbox.vst", ",", "mda TestTone.vst", ",", "mda ThruZero.vst", ",", "mda Tracker.vst", ",", "mda VocInput.vst", ",", "mda Vocoder.vst", ",", "MLimiter.vst", ",", "MWaveShaper.vst", ",", "MCompressor.vst", ",", "MEqualizer.vst", ",", "MBandPass.vst", ",", "MAutopan.vst", ",", "MFlanger.vst", ",", "MFreqShifter.vst", ",", "MPhaser.vst", ",", "MRingModulator.vst", ",", "MTremolo.vst", ",", "MVibrato.vst", ",", "MAutoPitch.vst", ",", "MStereoExpander.vst", ",", "MAnalyzer.vst", ",", "MLoudnessAnalyzer.vst", ",", "MNoiseGenerator.vst", ",", "MNotepad.vst", ",", "MOscillator.vst", ",", "MTuner.vst", ",", "MUtility.vst", ",", "Albino 3.vst", ",", "Permut8.vst", ",", "+binaural.auinfo", ",", "+bubbler.auinfo", ",", "+chebyshev.auinfo", ",", "+compand.auinfo", ",", "+decimate.auinfo", ",", "+delay.auinfo", ",", "+matrix.auinfo", ",", "+morphfilter.auinfo", ",", "+phasescope.auinfo", ",", "+pitchdelay.auinfo", ",", "+spectralcompand.auinfo", ",", "+spectralgate.auinfo", ",", "20 Bands Eq.auinfo", ",", "5 Band Eq.auinfo", ",", "Albino 3.auinfo", ",", "Alchemy.auinfo", ",", "Alloy.auinfo", ",", "API-2500 (m).auinfo", ",", "API-2500 (s).auinfo", ",", "API-550A (m).auinfo", ",", "API-550A (s).auinfo", ",", "API-550B (m).auinfo", ",", "API-550B (s).auinfo", ",", "API-560 (m).auinfo", ",", "API-560 (s).auinfo", ",", "AUAudioFilePlayer.auinfo", ",", "AUBandpass.auinfo", ",", "AUDelay.auinfo", ",", "AudioTrack (m).auinfo", ",", "AudioTrack (s).auinfo", ",", "AUDistortion.auinfo", ",", "AUDynamicsProcessor.auinfo", ",", "AUFilter.auinfo", ",", "AUGraphicEQ.auinfo", ",", "AUHighShelfFilter.auinfo", ",", "AUHipass.auinfo", ",", "AULowpass.auinfo", ",", "AULowShelfFilter.auinfo", ",", "AUMatrixMixer.auinfo", ",", "AUMatrixReverb.auinfo", ",", "AUMixer.auinfo", ",", "AUMixer3D.auinfo", ",", "AUMultibandCompressor.auinfo", ",", "AUMultiChannelMixer.auinfo", ",", "AUNetReceive.auinfo", ",", "AUNetSend.auinfo", ",", "AUParametricEQ.auinfo", ",", "AUPeakLimiter.auinfo", ",", "AUPitch.auinfo", ",", "AURogerBeep.auinfo", ",", "AUSampleDelay.auinfo", ",", "AUScheduledSoundPlayer.auinfo", ",", "AUSoundFieldPanner.auinfo", ",", "AUSpeechSynthesis.auinfo", ",", "AUSphericalHeadPanner.auinfo", ",", "Automat1.auinfo", ",", "AUVectorPanner.auinfo", ",", "Bassdrum.auinfo", ",", "BC Chorus 4 (Mono).auinfo", ",", "BC Chorus 4 (Stereo).auinfo", ",", "BC Flanger 3 (Mono).auinfo", ",", "BC Flanger 3 (Stereo).auinfo", ",", "BC FreqAnalyst 2 (Mono).auinfo", ",", "BC FreqAnalyst 2 (Stereo).auinfo", ",", "BC Gain 3 (Dual).auinfo", ",", "BC Gain 3 (Mono).auinfo", ",", "BC Gain 3 (Stereo).auinfo", ",", "BC Phaser 3 (Mono).auinfo", ",", "BC Phaser 3 (Stereo).auinfo", ",", "BC Triple EQ 4 (Dual).auinfo", ",", "BC Triple EQ 4 (Mono).auinfo", ",", "BC Triple EQ 4 (Stereo).auinfo", ",", "Buff rice.auinfo", ",", "bx_cleansweep V2.auinfo", ",", "bx_solo.auinfo", ",", "C1 comp (m).auinfo", ",", "C1 comp (s).auinfo", ",", "C1 comp-gate (m).auinfo", ",", "C1 comp-gate (s).auinfo", ",", "C1 comp-sc (m).auinfo", ",", "C1 comp-sc (s).auinfo", ",", "C1 gate (m).auinfo", ",", "C1 gate (s).auinfo", ",", "C360 (5->5).auinfo", ",", "C360 (6->6).auinfo", ",", "C4 (m).auinfo", ",", "C4 (s).auinfo", ",", "C6 (m).auinfo", ",", "C6 (s).auinfo", ",", "C6-SideChain (m).auinfo", ",", "C6-SideChain (s).auinfo", ",", "Center (s).auinfo", ",", "Chorus-60-AU-Effect.auinfo", ",", "Chorus.auinfo", ",", "Circle.auinfo", ",", "CLA Bass (m->s).auinfo", ",", "CLA Bass (s).auinfo", ",", "CLA Drums (m->s).auinfo", ",", "CLA Drums (s).auinfo", ",", "CLA Effects (m->s).auinfo", ",", "CLA Effects (s).auinfo", ",", "CLA Guitars (m->s).auinfo", ",", "CLA Guitars (s).auinfo", ",", "CLA Unplugged (m->s).auinfo", ",", "CLA Unplugged (s).auinfo", ",", "CLA Vocals (m->s).auinfo", ",", "CLA Vocals (s).auinfo", ",", "CLA-2A (m).auinfo", ",", "CLA-2A (s).auinfo", ",", "CLA-3A (m).auinfo", ",", "CLA-3A (s).auinfo", ",", "CLA-76 (m).auinfo", ",", "CLA-76 (s).auinfo", ",", "Comb Filter Bank.auinfo", ",", "Compressor.auinfo", ",", "Convolution reverb mono.auinfo", ",", "Convolution reverb stereo.auinfo", ",", "DC Blocker.auinfo", ",", "DCAM Bus Comp.auinfo", ",", "DCAM Chan Comp.auinfo", ",", "DCAM Cross Comp.auinfo", ",", "DCAM Envelope Shaper.auinfo", ",", "DeBreath (m).auinfo", ",", "DeEsser (m).auinfo", ",", "DeEsser (s).auinfo", ",", "DLSMusicDevice.auinfo", ",", "Doppler (m->s).auinfo", ",", "Doppler (s).auinfo", ",", "Dorrough (m).auinfo", ",", "Dorrough (s).auinfo", ",", "Dorrough360 (5->5).auinfo", ",", "Dorrough360 (6->6).auinfo", ",", "Doubler2 (m).auinfo", ",", "Doubler2 (m->s).auinfo", ",", "Doubler2 (s).auinfo", ",", "Doubler4 (m).auinfo", ",", "Doubler4 (m->s).auinfo", ",", "Doubler4 (s).auinfo", ",", "Drumazon.auinfo", ",", "Effect design.auinfo", ",", "EKramer BA (m).auinfo", ",", "EKramer BA (s).auinfo", ",", "EKramer DR (m).auinfo", ",", "EKramer DR (s).auinfo", ",", "EKramer FX (m->s).auinfo", ",", "EKramer FX (s).auinfo", ",", "EKramer GT (m->s).auinfo", ",", "EKramer GT (s).auinfo", ",", "EKramer VC (m->s).auinfo", ",", "EKramer VC (s).auinfo", ",", "Enigma (m->s).auinfo", ",", "Enigma (s).auinfo", ",", "Etch.auinfo", ",", "Eurydice.auinfo", ",", "EVE.auinfo", ",", "Flying monkey synth.auinfo", ",", "Funky repeater.auinfo", ",", "Gate.auinfo", ",", "Grain Streamer.auinfo", ",", "Graphic Equalizer.auinfo", ",", "GTR Amp (m).auinfo", ",", "GTR Amp (m->s).auinfo", ",", "GTR Amp (s).auinfo", ",", "GTR Amp 2Cab (m).auinfo", ",", "GTR Solo Tool Rack (m->s).auinfo", ",", "GTR Solo Tool Rack (s).auinfo", ",", "GTR Stomp 2 (m).auinfo", ",", "GTR Stomp 2 (m->s).auinfo", ",", "GTR Stomp 2 (s).auinfo", ",", "GTR Stomp 4 (m).auinfo", ",", "GTR Stomp 4 (m->s).auinfo", ",", "GTR Stomp 4 (s).auinfo", ",", "GTR Stomp 6 (m).auinfo", ",", "GTR Stomp 6 (m->s).auinfo", ",", "GTR Stomp 6 (s).auinfo", ",", "GTR Tool Rack (m->s).auinfo", ",", "GTR Tool Rack (s).auinfo", ",", "GTR Tuner (m).auinfo", ",", "H-Comp (m).auinfo", ",", "H-Comp (s).auinfo", ",", "H-Delay (m).auinfo", ",", "H-Delay (m->s).auinfo", ",", "H-Delay (s).auinfo", ",", "HRTFPanner.auinfo", ",", "Hum remover.auinfo", ",", "Idee Fixer.auinfo", ",", "IDR (m).auinfo", ",", "IDR (s).auinfo", ",", "IDR360 (5->5).auinfo", ",", "IDR360 (6->6).auinfo", ",", "IR-L (m).auinfo", ",", "IR-L (m->s).auinfo", ",", "IR-L efficient (s).auinfo", ",", "IR-L full (s).auinfo", ",", "IR1 (m).auinfo", ",", "IR1 (m->s).auinfo", ",", "IR1 efficient (s).auinfo", ",", "IR1 full (s).auinfo", ",", "IR360 discrete (1->5).auinfo", ",", "IR360 eff discrete (2->5).auinfo", ",", "IR360 eff discrete (5->5).auinfo", ",", "IR360 eff discrete (6->6).auinfo", ",", "IR360 eff s.field (2->5).auinfo", ",", "IR360 sound field (1->5).auinfo", ",", "IR360 sound field (2->5).auinfo", ",", "IR360 sound field (5->5).auinfo", ",", "IR360 sound field (6->6).auinfo", ",", "JJP-Bass (m).auinfo", ",", "JJP-Bass (m->s).auinfo", ",", "JJP-Bass (s).auinfo", ",", "JJP-Cymb-Perc (m->s).auinfo", ",", "JJP-Cymb-Perc (s).auinfo", ",", "JJP-Drums (m).auinfo", ",", "JJP-Drums (m->s).auinfo", ",", "JJP-Drums (s).auinfo", ",", "JJP-Guitars (m->s).auinfo", ",", "JJP-Guitars (s).auinfo", ",", "JJP-Strings-Keys (m->s).auinfo", ",", "JJP-Strings-Keys (s).auinfo", ",", "JJP-Vocals (m->s).auinfo", ",", "JJP-Vocals (s).auinfo", ",", "KickMaker.auinfo", ",", "Kramer HLS (m).auinfo", ",", "Kramer HLS (s).auinfo", ",", "Kramer PIE (m).auinfo", ",", "Kramer PIE (s).auinfo", ",", "KTGranulator.auinfo", ",", "L1 limiter (m).auinfo", ",", "L1 limiter (s).auinfo", ",", "L1+ Ultramaximizer (s).auinfo", ",", "L2 (m).auinfo", ",", "L2 (s).auinfo", ",", "L3 MultiMaximizer (m).auinfo", ",", "L3 MultiMaximizer (s).auinfo", ",", "L3 UltraMaximizer (m).auinfo", ",", "L3 UltraMaximizer (s).auinfo", ",", "L3-LL Multi (m).auinfo", ",", "L3-LL Multi (s).auinfo", ",", "L3-LL Ultra (m).auinfo", ",", "L3-LL Ultra (s).auinfo", ",", "L316 (m).auinfo", ",", "L316 (s).auinfo", ",", "L360 (5->5).auinfo", ",", "L360 (6->6).auinfo", ",", "LAConvolver.auinfo", ",", "LCGlitch.auinfo", ",", "LexChamber.auinfo", ",", "LexConcertHall.auinfo", ",", "LexHall.auinfo", ",", "LexPlate.auinfo", ",", "LexRandomHall.auinfo", ",", "LexRoom.auinfo", ",", "LexVintagePlate.auinfo", ",", "LFE360 (6->6).auinfo", ",", "LFE360 (m).auinfo", ",", "Limiter.auinfo", ",", "LinEQ Broadband (m).auinfo", ",", "LinEQ Broadband (s).auinfo", ",", "LinEQ Lowband (m).auinfo", ",", "LinEQ Lowband (s).auinfo", ",", "LinMB (m).auinfo", ",", "LinMB (s).auinfo", ",", "LiveCut.auinfo", ",", "LoAir (5->6).auinfo", ",", "LoAir (6->6).auinfo", ",", "LoAir (m).auinfo", ",", "LoAir (s).auinfo", ",", "M360 Manager (5->5).auinfo", ",", "M360 Manager (5->6).auinfo", ",", "M360 Manager (6->6).auinfo", ",", "M360 Mixdown (5->5).auinfo", ",", "M360 Mixdown (6->6).auinfo", ",", "MAnalyzer.auinfo", ",", "Maserati ACG (m->s).auinfo", ",", "Maserati ACG (s).auinfo", ",", "Maserati B72 (m).auinfo", ",", "Maserati B72 (m->s).auinfo", ",", "Maserati B72 (s).auinfo", ",", "Maserati DRM (m).auinfo", ",", "Maserati DRM (s).auinfo", ",", "Maserati GRP (m).auinfo", ",", "Maserati GRP (s).auinfo", ",", "Maserati GTi (m->s).auinfo", ",", "Maserati GTi (s).auinfo", ",", "Maserati HMX (m->s).auinfo", ",", "Maserati HMX (s).auinfo", ",", "Maserati VX1 (m->s).auinfo", ",", "Maserati VX1 (s).auinfo", ",", "MAutopan.auinfo", ",", "MAutoPitch.auinfo", ",", "MaxxBass (m).auinfo", ",", "MaxxBass (s).auinfo", ",", "MaxxVolume (m).auinfo", ",", "MaxxVolume (s).auinfo", ",", "MBandPass.auinfo", ",", "MCompressor.auinfo", ",", "MEqualizer.auinfo", ",", "MetaFlanger (m).auinfo", ",", "MetaFlanger (m->s).auinfo", ",", "MetaFlanger (s).auinfo", ",", "MFlanger.auinfo", ",", "MFreqShifter.auinfo", ",", "MIDI Filter.auinfo", ",", "MiniSpillage.auinfo", ",", "MLimiter.auinfo", ",", "MLoudnessAnalyzer.auinfo", ",", "MNoiseGenerator.auinfo", ",", "MNotepad.auinfo", ",", "Molar_40h.auinfo", ",", "MondoMod (m).auinfo", ",", "MondoMod (m->s).auinfo", ",", "MondoMod (s).auinfo", ",", "Morphoder (m).auinfo", ",", "Morphoder (m->s).auinfo", ",", "Morphoder (s).auinfo", ",", "MorphoX.auinfo", ",", "MOscillator.auinfo", ",", "MPhaser.auinfo", ",", "Mr Filterbank.auinfo", ",", "MRingModulator.auinfo", ",", "MStereoExpander.auinfo", ",", "MTremolo.auinfo", ",", "MTuner.auinfo", ",", "Multiband freeverb.auinfo", ",", "Multiband scraper.auinfo", ",", "Music device design.auinfo", ",", "Music effect design.auinfo", ",", "MUtility.auinfo", ",", "MV2 (m).auinfo", ",", "MV2 (s).auinfo", ",", "MV360 (5->5).auinfo", ",", "MV360 (6->6).auinfo", ",", "MVibrato.auinfo", ",", "MWaveShaper.auinfo", ",", "Nectar.auinfo", ",", "Nepheton.auinfo", ",", "Nithonat.auinfo", ",", "Oscillator.auinfo", ",", "Ozone 4.auinfo", ",", "PAZ- Analyzer (s).auinfo", ",", "PAZ- Frequency (m).auinfo", ",", "PAZ- Frequency (s).auinfo", ",", "PAZ- Meters (m).auinfo", ",", "PAZ- Meters (s).auinfo", ",", "PAZ- Position (s).auinfo", ",", "Permut8.auinfo", ",", "pHATmatik PRO.auinfo", ",", "Phoscyon.auinfo", ",", "PuigChild 660 (m).auinfo", ",", "PuigChild 670 (s).auinfo", ",", "PuigTec EQP1A (m).auinfo", ",", "PuigTec EQP1A (s).auinfo", ",", "PuigTec MEQ5 (m).auinfo", ",", "PuigTec MEQ5 (s).auinfo", ",", "Q-Capture (m).auinfo", ",", "Q-Clone (m).auinfo", ",", "Q-Clone (s).auinfo", ",", "Q1 (m).auinfo", ",", "Q1 (s).auinfo", ",", "Q10 (m).auinfo", ",", "Q10 (s).auinfo", ",", "Q2 (m).auinfo", ",", "Q2 (s).auinfo", ",", "Q3 (m).auinfo", ",", "Q3 (s).auinfo", ",", "Q4 (m).auinfo", ",", "Q4 (s).auinfo", ",", "Q6 (m).auinfo", ",", "Q6 (s).auinfo", ",", "Q8 (m).auinfo", ",", "Q8 (s).auinfo", ",", "R360 (1->5).auinfo", ",", "R360 (1->6).auinfo", ",", "R360 (2->5).auinfo", ",", "R360 (2->6).auinfo", ",", "R360 (5->5).auinfo", ",", "R360 (6->6).auinfo", ",", "Rainy synth.auinfo", ",", "RBass (m).auinfo", ",", "RBass (s).auinfo", ",", "RChannel (m).auinfo", ",", "RChannel (m->s).auinfo", ",", "RChannel (s).auinfo", ",", "RCompressor (m).auinfo", ",", "RCompressor (s).auinfo", ",", "RDeEsser (m).auinfo", ",", "RDeEsser (s).auinfo", ",", "relectro.auinfo", ",", "Renaissance Axx (m).auinfo", ",", "Renaissance Axx (s).auinfo", ",", "REQ 2 (m).auinfo", ",", "REQ 2 (s).auinfo", ",", "REQ 4 (m).auinfo", ",", "REQ 4 (s).auinfo", ",", "REQ 6 (m).auinfo", ",", "REQ 6 (s).auinfo", ",", "RVerb (m->s).auinfo", ",", "RVerb (s).auinfo", ",", "RVox (m).auinfo", ",", "RVox (s).auinfo", ",", "RX 2 Declicker.auinfo", ",", "RX 2 Declipper.auinfo", ",", "RX 2 Decrackler.auinfo", ",", "RX 2 Denoiser.auinfo", ",", "RX 2 Hum Removal.auinfo", ",", "RX 2 Spectral Repair.auinfo", ",", "S1 Imager (s).auinfo", ",", "S1 MS Matrix (s).auinfo", ",", "S1 Shuffler (s).auinfo", ",", "S360 Imager (1->5).auinfo", ",", "S360 Imager (1->6).auinfo", ",", "S360 Imager (2->5).auinfo", ",", "S360 Imager (2->6).auinfo", ",", "S360 Imager (5->5).auinfo", ",", "S360 Imager (6->6).auinfo", ",", "S360 Panner (1->5).auinfo", ",", "S360 Panner (1->6).auinfo", ",", "S360 Panner (2->5).auinfo", ",", "S360 Panner (2->6).auinfo", ",", "SicknDstroy.auinfo", ",", "Simple reverb.auinfo", ",", "SoundShifter Pitch (m).auinfo", ",", "SoundShifter Pitch (s).auinfo", ",", "Spectral Averaging.auinfo", ",", "Spectral Bin Shift.auinfo", ",", "Spectral Blurring.auinfo", ",", "Spectral DroneMaker.auinfo", ",", "Spectral Emergence.auinfo", ",", "Spectral Filterbank.auinfo", ",", "Spectral Freezing.auinfo", ",", "Spectral Gate & Hold.auinfo", ",", "Spectral Gliding Filters.auinfo", ",", "Spectral Granulation.auinfo", ",", "Spectral Harmonizer.auinfo", ",", "Spectral Partial Glide.auinfo", ",", "Spectral Pitch Shift.auinfo", ",", "Spectral Pulsing.auinfo", ",", "Spectral Shimmer.auinfo", ",", "Spectral Shuffle.auinfo", ",", "Spectral Stretch.auinfo", ",", "Spectral Tracing.auinfo", ",", "Spectral Weave.auinfo", ",", "SSLChannel (m).auinfo", ",", "SSLChannel (s).auinfo", ",", "SSLComp (m).auinfo", ",", "SSLComp (s).auinfo", ",", "SSLEQ (m).auinfo", ",", "SSLEQ (s).auinfo", ",", "SSLGChannel (m).auinfo", ",", "SSLGChannel (s).auinfo", ",", "Stutter Edit.auinfo", ",", "SuperTap 2-Taps (m).auinfo", ",", "SuperTap 2-Taps (m->s).auinfo", ",", "SuperTap 2-Taps (s).auinfo", ",", "SuperTap 6-Taps (m).auinfo", ",", "SuperTap 6-Taps (m->s).auinfo", ",", "SuperTap 6-Taps (s).auinfo", ",", "Swamp buffer.auinfo", ",", "TAL Filter 2 Plugin.auinfo", ",", "TAL NoiseMaker Plugin.auinfo", ",", "TAL Reverb II Plugin.auinfo", ",", "TAL Reverb III Plugin.auinfo", ",", "TAL Vocoder II Plugin.auinfo", ",", "Tal-BassLine-AU.auinfo", ",", "Tal-Bitcrusher-AU-Effect.auinfo", ",", "Tal-Dub-AU-MusicEffect.auinfo", ",", "Tal-Elek7ro-II-AU.auinfo", ",", "Tal-Flanger-AU-Effect.auinfo", ",", "Tal-Tube-AU-Effect.auinfo", ",", "TAL-U-No-62-AU.auinfo", ",", "Tal-USE-AU-Effect.auinfo", ",", "TransX Multi (m).auinfo", ",", "TransX Multi (s).auinfo", ",", "TransX Wide (m).auinfo", ",", "TransX Wide (s).auinfo", ",", "Trash.auinfo", ",", "Tremor.auinfo", ",", "TrueVerb (m).auinfo", ",", "TrueVerb (m->s).auinfo", ",", "TrueVerb (s).auinfo", ",", "TuneIt.auinfo", ",", "UltraPitch 3 Voices (m).auinfo", ",", "UltraPitch 3 Voices (m->s).auinfo", ",", "UltraPitch 6 Voices (m).auinfo", ",", "UltraPitch 6 Voices (m->s).auinfo", ",", "UltraPitch Shift (m).auinfo", ",", "UltraPitch Shift (m->s).auinfo", ",", "UM225 (2->5).auinfo", ",", "UM226 (2->6).auinfo", ",", "Valve warmer.auinfo", ",", "VComp (m).auinfo", ",", "VComp (s).auinfo", ",", "VEQ3 (m).auinfo", ",", "VEQ3 (s).auinfo", ",", "VEQ4 (m).auinfo", ",", "VEQ4 (s).auinfo", ",", "Vinyl.auinfo", ",", "Vocal Rider (m).auinfo", ",", "Vocal Rider (s).auinfo", ",", "Vocal Rider Live (m).auinfo", ",", "Vocal Rider Live (s).auinfo", ",", "W43 (m).auinfo", ",", "W43 (s).auinfo", ",", "WavesTune (m).auinfo", ",", "WavesTune (s).auinfo", ",", "WavesTune Lite (m).auinfo", ",", "WavesTune Lite (s).auinfo", ",", "Width Enhancer.auinfo", ",", "WNS (m).auinfo", ",", "WNS (s).auinfo", ",", "X-Click (m).auinfo", ",", "X-Click (s).auinfo", ",", "X-Crackle (m).auinfo", ",", "X-Crackle (s).auinfo", ",", "X-Hum (m).auinfo", ",", "X-Hum (s).auinfo", ",", "X-Noise (m).auinfo", ",", "X-Noise (s).auinfo", ",", "Z-Noise (m).auinfo", ",", "Z-Noise (s).auinfo", ",", "Zebra2.auinfo", ",", "Zebralette.auinfo", ",", "ZRev.auinfo" ],
+					"items" : [ "no plug-in", ",", "Alchemy.vst", ",", "CircleVST.vst", ",", "iZotope Alloy (Mono).vst", ",", "iZotope Alloy.vst", ",", "iZotope Nectar (Mono).vst", ",", "iZotope Nectar.vst", ",", "iZotope Ozone 4.vst", ",", "iZotope RX 2 Declicker.vst", ",", "iZotope RX 2 Declipper.vst", ",", "iZotope RX 2 Decrackler.vst", ",", "iZotope RX 2 Denoiser.vst", ",", "iZotope RX 2 Hum Removal.vst", ",", "iZotope RX 2 Spectral Repair.vst", ",", "iZotope Stutter Edit.vst", ",", "pHATmatik PRO.vst", ",", "relectro.vst", ",", "Sonalksis CQ1 Mono.vst", ",", "Sonalksis CQ1 Stereo.vst", ",", "Sonalksis DQ1 Mono.vst", ",", "Sonalksis DQ1 Stereo.vst", ",", "Sonalksis FreeG Mono.vst", ",", "Sonalksis FreeG Stereo.vst", ",", "Sonalksis MaxLimit Mono.vst", ",", "Sonalksis MaxLimit.vst", ",", "Sonalksis MultiLimit.vst", ",", "Sonalksis StereoTools.vst", ",", "Sonalksis SV-315Mk2 Mono Cmp SC.vst", ",", "Sonalksis SV-315Mk2 Mono Cmp.vst", ",", "Sonalksis SV-315Mk2 Stereo Cmp SC.vst", ",", "Sonalksis SV-315Mk2 Stereo Cmp.vst", ",", "Sonalksis SV-517Mk2 Mono EQ.vst", ",", "Sonalksis SV-517Mk2 Stereo EQ.vst", ",", "Sonalksis SV-719 Mono Gate SC.vst", ",", "Sonalksis SV-719 Mono Gate.vst", ",", "Sonalksis SV-719 Stereo Gate SC.vst", ",", "Sonalksis SV-719 Stereo Gate.vst", ",", "Sonalksis TBK Mono.vst", ",", "Sonalksis TBK Stereo.vst", ",", "Sonalksis TBK2 Mono.vst", ",", "Sonalksis TBK2 Stereo.vst", ",", "Sonalksis TBK3 Mono.vst", ",", "Sonalksis TBK3 Stereo.vst", ",", "Sonalksis Ultimate-D.vst", ",", "Spektral Delay.vst", ",", "Trash.vst", ",", "Tremor.vst", ",", "WaveShell-VST 8.0.vst", ",", "Zebra2.vst", ",", "Zebralette.vst", ",", "ZRev.vst", ",", "Auto-Tune EFX.vst", ",", "Auto-Tune_Evo_VST.vst", ",", "AVOX ARTICULATOR.vst", ",", "AVOX ASPIRE.vst", ",", "AVOX CHOIR.vst", ",", "AVOX DUO.vst", ",", "AVOX MUTATOR.vst", ",", "AVOX PUNCH.vst", ",", "AVOX SYBIL.vst", ",", "AVOX THROAT.vst", ",", "AVOX WARM.vst", ",", "Harmony EFX.vst", ",", "Harmony Engine.vst", ",", "DCAMBusComp.vst", ",", "DCAMChanComp.vst", ",", "DCAMCrossComp.vst", ",", "DCAMEnvShaper.vst", ",", "LexChamber.vst", ",", "LexConcertHall.vst", ",", "LexHall.vst", ",", "LexPlate.vst", ",", "LexRandomHall.vst", ",", "LexRoom.vst", ",", "LexVintagePlate.vst", ",", "MorphoX.vst", ",", "Octopus.vst", ",", "Albino 3.vst", ",", "Permut8.vst", ",", "Albino 3.auinfo", ",", "AUAudioFilePlayer.auinfo", ",", "AUBandpass.auinfo", ",", "AUDelay.auinfo", ",", "AUDistortion.auinfo", ",", "AUDynamicsProcessor.auinfo", ",", "AUFilter.auinfo", ",", "AUGraphicEQ.auinfo", ",", "AUHighShelfFilter.auinfo", ",", "AUHipass.auinfo", ",", "AULowpass.auinfo", ",", "AULowShelfFilter.auinfo", ",", "AUMatrixMixer.auinfo", ",", "AUMatrixReverb.auinfo", ",", "AUMixer.auinfo", ",", "AUMixer3D.auinfo", ",", "AUMultibandCompressor.auinfo", ",", "AUMultiChannelMixer.auinfo", ",", "AUNetReceive.auinfo", ",", "AUNetSend.auinfo", ",", "AUParametricEQ.auinfo", ",", "AUPeakLimiter.auinfo", ",", "AUPitch.auinfo", ",", "AURogerBeep.auinfo", ",", "AUSampleDelay.auinfo", ",", "AUSampler.auinfo", ",", "AUScheduledSoundPlayer.auinfo", ",", "AUSoundFieldPanner.auinfo", ",", "AUSphericalHeadPanner.auinfo", ",", "AUVectorPanner.auinfo", ",", "Chorus.auinfo", ",", "Comb Filter Bank.auinfo", ",", "DCAM Bus Comp.auinfo", ",", "DCAM Chan Comp.auinfo", ",", "DCAM Cross Comp.auinfo", ",", "DCAM Envelope Shaper.auinfo", ",", "DLSMusicDevice.auinfo", ",", "Grain Streamer.auinfo", ",", "HRTFPanner.auinfo", ",", "MorphoX.auinfo", ",", "Mr Filterbank.auinfo", ",", "Nectar.auinfo", ",", "Permut8.auinfo", ",", "relectro.auinfo", ",", "RoundTripAAC.auinfo", ",", "RX 2 Declicker.auinfo", ",", "RX 2 Declipper.auinfo", ",", "RX 2 Decrackler.auinfo", ",", "RX 2 Denoiser.auinfo", ",", "RX 2 Hum Removal.auinfo", ",", "RX 2 Spectral Repair.auinfo", ",", "Spectral Averaging.auinfo", ",", "Spectral Bin Shift.auinfo", ",", "Spectral Blurring.auinfo", ",", "Spectral DroneMaker.auinfo", ",", "Spectral Emergence.auinfo", ",", "Spectral Filterbank.auinfo", ",", "Spectral Freezing.auinfo", ",", "Spectral Gate & Hold.auinfo", ",", "Spectral Gliding Filters.auinfo", ",", "Spectral Granulation.auinfo", ",", "Spectral Harmonizer.auinfo", ",", "Spectral Partial Glide.auinfo", ",", "Spectral Pitch Shift.auinfo", ",", "Spectral Pulsing.auinfo", ",", "Spectral Shimmer.auinfo", ",", "Spectral Shuffle.auinfo", ",", "Spectral Stretch.auinfo", ",", "Spectral Tracing.auinfo", ",", "Spectral Weave.auinfo", ",", "Tremor.auinfo" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2644,8 +2667,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 7
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
@@ -2912,8 +2936,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 7
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 50.0, 94.0, 426.0, 332.0 ],
@@ -2963,8 +2988,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 7
+											"minor" : 1,
+											"revision" : 2,
+											"architecture" : "x64"
 										}
 ,
 										"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -3347,6 +3373,7 @@
 				"box" : 				{
 					"bgcolor" : [ 0.792196, 0.977408, 0.678129, 1.0 ],
 					"color" : [ 0.466667, 0.752941, 0.894118, 1.0 ],
+					"embedstate" : [ [ "defer", 0 ] ],
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
@@ -3565,8 +3592,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 7
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 261.0, 371.0, 95.0, 41.0 ],
@@ -3928,7 +3956,7 @@
 					"destination" : [ "obj-92", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 115.917625, 399.5, 76.332367, 399.5 ],
+					"midpoints" : [ 115.917625, 399.5, 76.332371, 399.5 ],
 					"source" : [ "obj-102", 0 ]
 				}
 
@@ -4012,19 +4040,19 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-109", 0 ],
+					"destination" : [ "obj-50", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-107", 0 ]
+					"source" : [ "obj-106", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-111", 0 ],
+					"destination" : [ "obj-109", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-107", 1 ]
+					"source" : [ "obj-107", 0 ]
 				}
 
 			}
@@ -4551,6 +4579,24 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-111", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-50", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-112", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-50", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-49", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -4781,15 +4827,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-112", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-99", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-60", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -4800,36 +4837,36 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "oi.print.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OI_LIB/API_LIB/Utilities(objects)/System/other",
-				"patcherrelativepath" : "../../Utilities(objects)/System/other",
+				"bootpath" : "/Applications/Max 6.1/packages/OpenInstruments/patchers/API_Lib/Utilities(objects)/Communication/other",
+				"patcherrelativepath" : "../../Utilities(objects)/Communication/other",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oi.autovarname.js",
-				"bootpath" : "/Applications/Max6/patches/OI_LIB/API_LIB/Utilities(objects)/Communication /pattr objects",
-				"patcherrelativepath" : "../../Utilities(objects)/Communication /pattr objects",
+				"bootpath" : "/Applications/Max 6.1/packages/OpenInstruments/javascript",
+				"patcherrelativepath" : "../../../../javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oi.modulecom.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OI_LIB/API_LIB/Utilities(objects)/Communication /pattr objects",
-				"patcherrelativepath" : "../../Utilities(objects)/Communication /pattr objects",
+				"bootpath" : "/Applications/Max 6.1/packages/OpenInstruments/patchers/API_Lib/Utilities(objects)/Communication/Pattr_objects",
+				"patcherrelativepath" : "../../Utilities(objects)/Communication/Pattr_objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "get_plugs.js",
-				"bootpath" : "/Applications/Max6/Cycling '74/msp-help",
-				"patcherrelativepath" : "../../../../../Cycling '74/msp-help",
+				"bootpath" : "/Applications/Max 6.1/Cycling '74/msp-help",
+				"patcherrelativepath" : "../../../../../../Cycling '74/msp-help",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oi.gate~.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OI_LIB/API_LIB/Utilities(objects)/System/data flow",
-				"patcherrelativepath" : "../../Utilities(objects)/System/data flow",
+				"bootpath" : "/Applications/Max 6.1/packages/OpenInstruments/patchers/API_Lib/Utilities(objects)/System/Data_flow",
+				"patcherrelativepath" : "../../Utilities(objects)/System/Data_flow",
 				"type" : "JSON",
 				"implicit" : 1
 			}

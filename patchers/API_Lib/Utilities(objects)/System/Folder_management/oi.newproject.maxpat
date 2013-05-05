@@ -456,13 +456,12 @@
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
 									"id" : "obj-38",
-									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 3,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 449.5, 330.0, 211.0, 29.0 ],
-									"text" : "combine oi-path templates/user/ template-file @triggers 2"
+									"patching_rect" : [ 449.5, 330.0, 275.0, 18.0 ],
+									"text" : "combine oi-path templates/oi.user/ template-file @triggers 2"
 								}
 
 							}
@@ -568,7 +567,7 @@
 									"destination" : [ "obj-38", 2 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 459.0, 281.0, 651.0, 281.0 ],
+									"midpoints" : [ 459.0, 281.0, 715.0, 281.0 ],
 									"source" : [ "obj-36", 0 ]
 								}
 

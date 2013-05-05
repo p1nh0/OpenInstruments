@@ -8,7 +8,7 @@
 			"architecture" : "x64"
 		}
 ,
-		"rect" : [ 302.0, 127.0, 701.0, 613.0 ],
+		"rect" : [ 100.0, 100.0, 701.0, 613.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -46,7 +46,7 @@
 							"architecture" : "x64"
 						}
 ,
-						"rect" : [ 302.0, 153.0, 701.0, 587.0 ],
+						"rect" : [ 0.0, 26.0, 701.0, 587.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -1139,7 +1139,7 @@
 							"architecture" : "x64"
 						}
 ,
-						"rect" : [ 0.0, 26.0, 701.0, 587.0 ],
+						"rect" : [ 100.0, 126.0, 701.0, 587.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -1507,8 +1507,8 @@
 			}
 , 			{
 				"name" : "oi.modulecom.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/OpenInstruments/patchers/API_Lib/Utilities(objects)/Communication/Pattr_objects",
-				"patcherrelativepath" : "../patchers/API_Lib/Utilities(objects)/Communication/Pattr_objects",
+				"bootpath" : "/Applications/Max 6.1/packages/OpenInstruments/patchers/API_Lib/Utilities(objects)/Communication/Parameter_data",
+				"patcherrelativepath" : "../patchers/API_Lib/Utilities(objects)/Communication/Parameter_data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1534,7 +1534,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "oi.modulegate~.maxpat",
+				"name" : "oi.module.gate~.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/OpenInstruments/patchers/API_Lib/Utilities(objects)/Communication/Signals ",
 				"patcherrelativepath" : "../patchers/API_Lib/Utilities(objects)/Communication/Signals ",
 				"type" : "JSON",

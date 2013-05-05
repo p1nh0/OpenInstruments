@@ -8,7 +8,7 @@
 			"architecture" : "x64"
 		}
 ,
-		"rect" : [ 4.0, 44.0, 1440.0, 74.0 ],
+		"rect" : [ 0.0, 44.0, 1440.0, 74.0 ],
 		"bgcolor" : [ 0.65098, 0.65098, 0.65098, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -18,7 +18,7 @@
 		"gridonopen" : 0,
 		"gridsize" : [ 5.0, 5.0 ],
 		"gridsnaponopen" : 0,
-		"statusbarvisible" : 2,
+		"statusbarvisible" : 0,
 		"toolbarvisible" : 0,
 		"boxanimatetime" : 200,
 		"imprint" : 0,
@@ -644,7 +644,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::speedlim @invisible 1 @autorestore 0",
-									"varname" : "u979003564"
+									"varname" : "u426006713"
 								}
 
 							}
@@ -666,7 +666,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::vfrate @invisible 1 @autorestore 0",
-									"varname" : "u213003566"
+									"varname" : "u157006715"
 								}
 
 							}
@@ -809,7 +809,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::mode @invisible 1 @autorestore 0",
-									"varname" : "u553003570"
+									"varname" : "u013006719"
 								}
 
 							}
@@ -1147,7 +1147,7 @@
 													}
 ,
 													"text" : "pattr @bindto parent::parent::add_space @invisible 1 @autorestore 0",
-													"varname" : "u061003652"
+													"varname" : "u278006801"
 												}
 
 											}
@@ -1554,7 +1554,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::dataset @invisible 1 @autorestore 0",
-									"varname" : "u631003657"
+									"varname" : "u122006806"
 								}
 
 							}
@@ -1632,7 +1632,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::outputs @invisible 1 @autorestore 0",
-									"varname" : "u499003659"
+									"varname" : "u496006808"
 								}
 
 							}
@@ -1781,7 +1781,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::inputs @invisible 1 @autorestore 0",
-									"varname" : "u496003661"
+									"varname" : "u475006810"
 								}
 
 							}
@@ -1817,7 +1817,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::view @invisible 1 @autorestore 0",
-									"varname" : "u641003663"
+									"varname" : "u712006812"
 								}
 
 							}
@@ -2161,7 +2161,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::print @invisible 1 @autorestore 0",
-									"varname" : "u824003666"
+									"varname" : "u391006815"
 								}
 
 							}
@@ -2418,7 +2418,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 611.0, 15.0, 39.0, 152.0 ],
-									"presentation_rect" : [ 612.0, 26.0, 0.0, 0.0 ],
 									"prototypename" : "midp.function",
 									"text" : "new\n\n\n\n\n\n\n\n\n\n\n\n."
 								}
@@ -2470,7 +2469,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::new @invisible 1 @autorestore 0",
-									"varname" : "u016003871"
+									"varname" : "u472006836"
 								}
 
 							}
@@ -2511,7 +2510,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::reset @invisible 1 @autorestore 0",
-									"varname" : "u451003687"
+									"varname" : "u680006858"
 								}
 
 							}
@@ -2751,7 +2750,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::open @invisible 1 @autorestore 0",
-									"varname" : "u206003689"
+									"varname" : "u773006860"
 								}
 
 							}
@@ -3013,7 +3012,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 648.0, 15.0, 280.5, 152.0 ],
-									"presentation_rect" : [ 649.0, 26.0, 0.0, 0.0 ],
 									"prototypename" : "midp.comment",
 									"rounded" : 0
 								}
@@ -3446,7 +3444,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::reset @invisible 1 @autorestore 0",
-									"varname" : "u833003696"
+									"varname" : "u475006868"
 								}
 
 							}
@@ -3495,7 +3493,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::info @invisible 1 @autorestore 0",
-									"varname" : "u226003698"
+									"varname" : "u541006870"
 								}
 
 							}
@@ -3561,7 +3559,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::print @invisible 1 @autorestore 0",
-									"varname" : "u705003700"
+									"varname" : "u088006872"
 								}
 
 							}
@@ -4143,7 +4141,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 546.0, 513.0, 86.0, 22.0 ],
-					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "grow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 4, 44, 1444, 118, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "grow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 0, 44, 1440, 118, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
 				}
 
@@ -5044,8 +5042,8 @@
 			}
 , 			{
 				"name" : "oi.print.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/OpenInstruments/patchers/API_Lib/Utilities(objects)/Communication/other",
-				"patcherrelativepath" : "../patchers/API_Lib/Utilities(objects)/Communication/other",
+				"bootpath" : "/Applications/Max 6.1/packages/OpenInstruments/patchers/API_Lib/Utilities(objects)/System/Debug",
+				"patcherrelativepath" : "../patchers/API_Lib/Utilities(objects)/System/Debug",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -5065,8 +5063,8 @@
 			}
 , 			{
 				"name" : "oi.modulecom.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/OpenInstruments/patchers/API_Lib/Utilities(objects)/Communication/Pattr_objects",
-				"patcherrelativepath" : "../patchers/API_Lib/Utilities(objects)/Communication/Pattr_objects",
+				"bootpath" : "/Applications/Max 6.1/packages/OpenInstruments/patchers/API_Lib/Utilities(objects)/Communication/Parameter_data",
+				"patcherrelativepath" : "../patchers/API_Lib/Utilities(objects)/Communication/Parameter_data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
