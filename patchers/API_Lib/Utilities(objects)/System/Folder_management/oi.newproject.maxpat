@@ -158,7 +158,7 @@
 							"architecture" : "x64"
 						}
 ,
-						"rect" : [ 4.0, 44.0, 769.0, 764.0 ],
+						"rect" : [ 4.0, 44.0, 784.0, 764.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 10.0,
@@ -460,8 +460,8 @@
 									"numinlets" : 3,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 449.5, 330.0, 275.0, 18.0 ],
-									"text" : "combine oi-path templates/oi.user/ template-file @triggers 2"
+									"patching_rect" : [ 449.5, 330.0, 321.0, 18.0 ],
+									"text" : "combine oi-path templates/oi.user.templates/ template-file @triggers 2"
 								}
 
 							}
@@ -567,7 +567,7 @@
 									"destination" : [ "obj-38", 2 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 459.0, 281.0, 715.0, 281.0 ],
+									"midpoints" : [ 459.0, 281.0, 761.0, 281.0 ],
 									"source" : [ "obj-36", 0 ]
 								}
 
