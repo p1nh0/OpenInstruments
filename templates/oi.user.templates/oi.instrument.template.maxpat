@@ -5,7 +5,7 @@
 			"major" : 6,
 			"minor" : 1,
 			"revision" : 2,
-			"architecture" : "x86"
+			"architecture" : "x64"
 		}
 ,
 		"rect" : [ 157.0, 263.0, 260.0, 455.0 ],
@@ -32,13 +32,73 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
+					"id" : "obj-62",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ -595.0, 30.0, 139.0, 18.0 ],
+					"presentation_rect" : [ -386.0, 51.5, 0.0, 0.0 ],
+					"text" : "loadmess getname @defer 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-40",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ -579.0, 152.0, 63.0, 18.0 ],
+					"text" : "t getname s"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-26",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ -579.0, 177.0, 48.0, 18.0 ],
+					"text" : "deferlow"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.792196, 0.977408, 0.678129, 1.0 ],
+					"color" : [ 0.466667, 0.752941, 0.894118, 1.0 ],
+					"fontface" : 3,
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-32",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"patching_rect" : [ -579.0, 130.5, 89.0, 18.0 ],
+					"text" : "o.symbolchange"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
 					"id" : "obj-7",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ -595.0, 110.0, 35.0, 18.0 ],
-					"text" : "sel -1"
+					"patching_rect" : [ -595.0, 110.0, 65.0, 18.0 ],
+					"text" : "sel <empty>"
 				}
 
 			}
@@ -111,7 +171,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 2,
-							"architecture" : "x86"
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
@@ -231,12 +291,13 @@
 					}
 ,
 					"text" : "pattr @bindto ::oi.api::print @invisible 1 @autorestore 0",
-					"varname" : "u447005798"
+					"varname" : "u429010197"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-42",
@@ -249,7 +310,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 2,
-							"architecture" : "x86"
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 77.0, 91.0, 640.0, 480.0 ],
@@ -345,7 +406,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::instrument_state @invisible 1 @autorestore 0 @thru 0",
-									"varname" : "u649005814"
+									"varname" : "u448010200"
 								}
 
 							}
@@ -381,7 +442,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::instrument_state @invisible 1 @autorestore 0",
-									"varname" : "u963005817"
+									"varname" : "u302010202"
 								}
 
 							}
@@ -403,7 +464,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::parent::piece_state @invisible 1 @autorestore 0",
-									"varname" : "u735005808"
+									"varname" : "u500010204"
 								}
 
 							}
@@ -501,7 +562,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ -586.0, 185.0, 206.0, 18.0 ],
+					"patching_rect" : [ -596.75, 210.0, 209.0, 18.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -566,7 +627,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 2,
-							"architecture" : "x86"
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 125.0, 169.0, 640.0, 480.0 ],
@@ -852,7 +913,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 2,
-							"architecture" : "x86"
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 125.0, 169.0, 640.0, 480.0 ],
@@ -1071,7 +1132,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 2,
-							"architecture" : "x86"
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 495.0, 197.0, 640.0, 480.0 ],
@@ -1125,7 +1186,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::MasterTransport::mode @invisible 1 @autorestore 0",
-									"varname" : "u830005793"
+									"varname" : "u240010219"
 								}
 
 							}
@@ -1156,13 +1217,13 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 50.0, 145.0, 385.0, 18.0 ],
-									"restore" : [ "oi.instrument.template" ],
+									"restore" : [ "<empty>" ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0
 									}
 ,
 									"text" : "pattr @bindto parent::MasterTransport::transport_name @invisible 1 @autorestore 0",
-									"varname" : "u148005794"
+									"varname" : "u458010221"
 								}
 
 							}
@@ -1179,13 +1240,13 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 50.0, 110.0, 313.0, 18.0 ],
-									"restore" : [ "oi.instrument.template" ],
+									"restore" : [ "<empty>" ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0
 									}
 ,
 									"text" : "pattr @bindto parent::instrument_name @invisible 1 @autorestore 0",
-									"varname" : "u441005774"
+									"varname" : "u807010223"
 								}
 
 							}
@@ -1254,7 +1315,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 2,
-							"architecture" : "x86"
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 1021.0, 427.0, 318.0, 331.0 ],
@@ -1651,7 +1712,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 2,
-							"architecture" : "x86"
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 262.0, 159.0, 627.0, 506.0 ],
@@ -1673,7 +1734,7 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"globalpatchername" : "oi.dataset[1][1][1][2][1][2][1][2][3]",
+						"globalpatchername" : "oi.dataset[1][1][1][2][1][2][1][2][3][2][1][3][3]",
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -1717,7 +1778,7 @@
 						"fontface" : 0,
 						"fontname" : "Arial",
 						"fontsize" : 10.0,
-						"globalpatchername" : "oi.dataset[1][1][1][2][1][2][1][2][3]",
+						"globalpatchername" : "oi.dataset[1][1][1][2][1][2][1][2][3][2][1][3][3]",
 						"tags" : ""
 					}
 ,
@@ -1773,7 +1834,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 2,
-							"architecture" : "x86"
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 1661.0, 52.0, 640.0, 454.0 ],
@@ -1954,7 +2015,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 2,
-							"architecture" : "x86"
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
@@ -2197,7 +2258,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 2,
-							"architecture" : "x86"
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 605.0, 167.0, 640.0, 454.0 ],
@@ -2477,20 +2538,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"id" : "obj-22",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ -595.0, 31.0, 139.0, 18.0 ],
-					"text" : "loadmess getname @defer 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"bgcolor" : [ 0.792196, 0.977408, 0.678129, 1.0 ],
 					"color" : [ 0.466667, 0.752941, 0.894118, 1.0 ],
 					"embedstate" : [ [ "defer", 0 ] ],
@@ -2519,17 +2566,18 @@
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-16",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ -595.0, 85.0, 600.0, 18.0 ],
+					"patching_rect" : [ -595.0, 80.0, 548.0, 29.0 ],
 					"saved_object_attributes" : 					{
-						"initial" : [ -1 ],
+						"initial" : [ "<empty>" ],
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "pattr instrument_name @default_interp off @autorestore 1 @initial -1 @default_priority -10 @type symbol @default_active 0",
+					"text" : "pattr instrument_name @default_interp off @autorestore 0 @initial <empty> @default_priority -10 @type symbol @default_active 0",
 					"varname" : "instrument_name"
 				}
 
@@ -2543,17 +2591,14 @@
 					"fontsize" : 14.0,
 					"frgb" : 0.0,
 					"id" : "obj-21",
-					"ignoreclick" : 1,
-					"linecount" : 2,
 					"maxclass" : "textedit",
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ -595.0, 138.5, 108.0, 20.0 ],
+					"patching_rect" : [ -485.0, 140.0, 108.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 37.5, 2.0, 211.0, 35.5 ],
-					"text" : "oi.instrument.template",
 					"textcolor" : [ 0.901961, 0.901961, 0.901961, 1.0 ],
 					"varname" : "textedit"
 				}
@@ -2632,7 +2677,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 2,
-							"architecture" : "x86"
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -3206,20 +3251,23 @@
 					"patching_rect" : [ -355.0, 290.0, 59.5, 18.0 ],
 					"restore" : 					{
 						"active" : [ 0 ],
-						"spaces" : [ 0 ]
+						"print" : [ 0 ],
+						"spaces" : [ 0 ],
+						"textedit" : [ "<empty>" ]
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u806007347"
+					"varname" : "u831011005"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"active" : 					{
-						"instrument_name" : 0,
 						"instrument_state" : 0,
-						"MasterTransport::state" : 0
+						"instrument_name" : 0,
+						"MasterTransport::state" : 0,
+						"PRESETS::current" : 0
 					}
 ,
 					"annotation" : "if the pattrstorage state changes (storing slots) a prompt window will appear to save the file",
@@ -3232,10 +3280,10 @@
 						"instrument_name" : [ 0, 0.0 ],
 						"MasterTransport::module_name" : [ 0, 0.0 ],
 						"MasterTransport::transport_name" : [ 0, 0.0 ],
-						"MasterTransport::mode" : [ 0, 0.0 ],
-						"MasterTransport::slave_mode" : [ 0, 0.0 ],
-						"MasterTransport::dur_mode" : [ 0, 0.0 ],
 						"MasterTransport::state" : [ 0, 0.0 ],
+						"MasterTransport::mode" : [ 0, 0.0 ],
+						"MasterTransport::dur_mode" : [ 0, 0.0 ],
+						"MasterTransport::slave_mode" : [ 0, 0.0 ],
 						"MasterTransport::offset::format" : [ 0, 0.0 ],
 						"MasterTransport::offset::value" : [ 0, 0.0 ],
 						"MasterTransport::duration::format" : [ 0, 0.0 ],
@@ -3245,11 +3293,12 @@
 						"MasterTransport::position::format" : [ 0, 0.0 ],
 						"MasterTransport::position::value" : [ 0, 0.0 ],
 						"PRESETS::current" : [ 0, 0.0 ],
+						"PRESETS::backup_mode" : [ 0, 0.0 ],
 						"MasterVolume::module_name" : [ 0, 0.0 ],
-						"MasterVolume::bypass" : [ 0, 0.0 ],
-						"MasterVolume::ramp" : [ 0, 0.0 ],
 						"MasterVolume::state" : [ 0, 0.0 ],
+						"MasterVolume::bypass" : [ 0, 0.0 ],
 						"MasterVolume::gain" : [ 0, 0.0 ],
+						"MasterVolume::ramp" : [ 0, 0.0 ],
 						"MasterVolume::pan::ramp" : [ 0, 0.0 ],
 						"MasterVolume::pan::pan" : [ 0, 0.0 ]
 					}
@@ -3265,11 +3314,11 @@
 						"MasterTransport::module_name" : -10,
 						"MasterTransport::transport_name" : -9,
 						"MasterTransport::mode" : -8,
-						"MasterTransport::slave_mode" : -7,
-						"MasterTransport::bpm" : -6,
 						"MasterTransport::dur_mode" : -5,
+						"MasterTransport::bpm" : -6,
 						"MasterTransport::beats" : -5,
 						"MasterTransport::units" : -5,
+						"MasterTransport::slave_mode" : -7,
 						"MasterTransport::offset::format" : -7,
 						"MasterTransport::offset::value" : -6,
 						"MasterTransport::duration::format" : -7,
@@ -3279,10 +3328,10 @@
 						"MasterTransport::position::format" : -7,
 						"MasterTransport::position::value" : -6,
 						"MasterVolume::module_name" : -10,
-						"MasterVolume::bypass" : -6,
-						"MasterVolume::ramp" : -6,
 						"MasterVolume::state" : -5,
+						"MasterVolume::bypass" : -6,
 						"MasterVolume::gain" : -5,
+						"MasterVolume::ramp" : -6,
 						"MasterVolume::pan::ramp" : -6,
 						"MasterVolume::pan::pan" : -5
 					}
@@ -3431,7 +3480,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 2,
-							"architecture" : "x86"
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 228.0, 126.0, 1098.0, 504.0 ],
@@ -3486,7 +3535,7 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 40.0, 10.0, 208.0, 18.0 ],
 									"text" : "autopattr @autoname 1 @dirty 1 @greedy 1",
-									"varname" : "u239007371"
+									"varname" : "u921011012"
 								}
 
 							}
@@ -3559,7 +3608,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 2,
-							"architecture" : "x86"
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 217.0, 71.0, 640.0, 480.0 ],
@@ -3650,7 +3699,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 2,
-							"architecture" : "x86"
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 95.0, 90.0, 1215.0, 698.0 ],
@@ -3875,7 +3924,7 @@
 									}
 ,
 									"text" : "autopattr @autoname 1",
-									"varname" : "u435007351"
+									"varname" : "u266011014"
 								}
 
 							}
@@ -4406,7 +4455,7 @@
 					"destination" : [ "obj-44", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ -436.5, 422.0, -340.25, 422.0, -340.25, 675.0, -272.666656, 675.0 ],
+					"midpoints" : [ -436.5, 422.0, -340.25, 422.0, -340.25, 675.0, -272.666667, 675.0 ],
 					"source" : [ "obj-186", 1 ]
 				}
 
@@ -4469,15 +4518,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-22", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-47", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -4491,6 +4531,16 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-25", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ -569.5, 203.0, -602.5, 203.0, -602.5, 51.0, -585.5, 51.0 ],
+					"source" : [ "obj-26", 0 ]
 				}
 
 			}
@@ -4517,7 +4567,7 @@
 					"destination" : [ "obj-44", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ -265.5, 498.5, -208.583328, 498.5 ],
+					"midpoints" : [ -265.5, 498.5, -208.583333, 498.5 ],
 					"source" : [ "obj-271", 0 ]
 				}
 
@@ -4553,6 +4603,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-40", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-32", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-155", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -4576,7 +4635,7 @@
 					"destination" : [ "obj-44", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ -204.5, 614.5, -208.583328, 614.5 ],
+					"midpoints" : [ -204.5, 614.5, -208.583333, 614.5 ],
 					"source" : [ "obj-34", 0 ]
 				}
 
@@ -4615,6 +4674,25 @@
 					"hidden" : 0,
 					"midpoints" : [ -475.5, 777.0, -584.0, 777.0, -584.0, 324.0, -475.5, 324.0 ],
 					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-26", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-40", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ -525.5, 207.0, -607.0, 207.0, -607.0, 52.0, -585.5, 52.0 ],
+					"source" : [ "obj-40", 1 ]
 				}
 
 			}
@@ -4752,7 +4830,7 @@
 					"destination" : [ "obj-35", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ -92.833336, 508.5, -65.5, 508.5 ],
+					"midpoints" : [ -92.833339, 508.5, -65.5, 508.5 ],
 					"source" : [ "obj-58", 1 ]
 				}
 
@@ -4815,6 +4893,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-62", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -4824,11 +4911,10 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
+					"destination" : [ "obj-32", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ -585.5, 132.0, -607.0, 132.0, -607.0, 52.0, -585.5, 52.0 ],
-					"source" : [ "obj-7", 0 ]
+					"source" : [ "obj-7", 1 ]
 				}
 
 			}
@@ -5070,6 +5156,13 @@
 				"name" : "o.bypass~.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/OpenInstruments/patchers/Libs/Olib/MSP",
 				"patcherrelativepath" : "../../patchers/Libs/Olib/MSP",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "o.symbolchange.maxpat",
+				"bootpath" : "/Applications/Max 6.1/packages/OpenInstruments/patchers/Libs/Olib/Symbols",
+				"patcherrelativepath" : "../../patchers/Libs/Olib/Symbols",
 				"type" : "JSON",
 				"implicit" : 1
 			}
