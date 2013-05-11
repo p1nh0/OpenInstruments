@@ -5,7 +5,7 @@
 			"major" : 6,
 			"minor" : 1,
 			"revision" : 2,
-			"architecture" : "x86"
+			"architecture" : "x64"
 		}
 ,
 		"rect" : [ 1246.0, 49.0, 194.0, 205.0 ],
@@ -212,7 +212,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 731.0, 161.5, 84.0, 28.0 ],
+					"patching_rect" : [ 731.0, 161.5, 84.0, 27.0 ],
 					"text" : ";\rmax maxwindow"
 				}
 
@@ -422,7 +422,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 2,
-							"architecture" : "x86"
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
@@ -670,7 +670,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 2,
-							"architecture" : "x86"
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -981,13 +981,13 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 654.677124, 441.0, 140.0, 52.0 ],
+					"patching_rect" : [ 654.677124, 441.0, 140.0, 51.0 ],
 					"saved_object_attributes" : 					{
 						"initial" : [ 0 ],
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "pattr @name slave_mode @default_interp off @default_priority -7 @initial 0",
+					"text" : "pattr @name slave_mode @default_interp off @default_priority -8 @initial 0",
 					"varname" : "slave_mode"
 				}
 
@@ -1113,7 +1113,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 2,
-							"architecture" : "x86"
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 118.0, 107.0, 1222.0, 743.0 ],
@@ -1327,7 +1327,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::slave_mode @invisible 1 @autorestore 0",
-									"varname" : "u632009957"
+									"varname" : "u639009056"
 								}
 
 							}
@@ -1377,7 +1377,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::dur_mode @invisible 1 @autorestore 0 @thru 0",
-									"varname" : "u487009956"
+									"varname" : "u332009058"
 								}
 
 							}
@@ -1586,7 +1586,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::module_name @invisible 1 @autorestore 0",
-									"varname" : "u185009958"
+									"varname" : "u887009060"
 								}
 
 							}
@@ -1608,7 +1608,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::transport_name @invisible 1 @autorestore 0 @thru 0",
-									"varname" : "u015009959"
+									"varname" : "u696009062"
 								}
 
 							}
@@ -1630,7 +1630,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::mode @invisible 1 @autorestore 0",
-									"varname" : "u994010426"
+									"varname" : "u348009064"
 								}
 
 							}
@@ -2092,7 +2092,7 @@
 					}
 ,
 					"text" : "pattr @bindto transport_name @invisible 1 @autorestore 0",
-					"varname" : "u066010424"
+					"varname" : "u535009066"
 				}
 
 			}
@@ -2315,7 +2315,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 2,
-							"architecture" : "x86"
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -2367,7 +2367,7 @@
 											"major" : 6,
 											"minor" : 1,
 											"revision" : 2,
-											"architecture" : "x86"
+											"architecture" : "x64"
 										}
 ,
 										"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -2763,7 +2763,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 2,
-							"architecture" : "x86"
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 1411.0, 155.0, 1440.0, 806.0 ],
@@ -2800,7 +2800,7 @@
 											"major" : 6,
 											"minor" : 1,
 											"revision" : 2,
-											"architecture" : "x86"
+											"architecture" : "x64"
 										}
 ,
 										"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -2882,7 +2882,7 @@
 													}
 ,
 													"text" : "pattr @bindto parent::parent::transport_name @invisible 1 @autorestore 0 @thru 0",
-													"varname" : "u712010360"
+													"varname" : "u842009134"
 												}
 
 											}
@@ -2918,7 +2918,7 @@
 													}
 ,
 													"text" : "pattr @bindto parent::parent::offset::format @invisible 1 @autorestore 0 @thru 0",
-													"varname" : "u261010368"
+													"varname" : "u901009136"
 												}
 
 											}
@@ -2940,7 +2940,7 @@
 													}
 ,
 													"text" : "pattr @bindto parent::parent::offset::value @invisible 1 @autorestore 0 @thru 0",
-													"varname" : "u821010369"
+													"varname" : "u737009138"
 												}
 
 											}
@@ -3193,7 +3193,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::slave_mode @invisible 1 @autorestore 0",
-									"varname" : "u728010356"
+									"varname" : "u363009143"
 								}
 
 							}
@@ -3256,7 +3256,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::slave_mode @invisible 1 @autorestore 0",
-									"varname" : "u233010361"
+									"varname" : "u765009145"
 								}
 
 							}
@@ -3276,7 +3276,7 @@
 											"major" : 6,
 											"minor" : 1,
 											"revision" : 2,
-											"architecture" : "x86"
+											"architecture" : "x64"
 										}
 ,
 										"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
@@ -3482,7 +3482,7 @@
 											"major" : 6,
 											"minor" : 1,
 											"revision" : 2,
-											"architecture" : "x86"
+											"architecture" : "x64"
 										}
 ,
 										"rect" : [ 25.0, 69.0, 553.0, 287.0 ],
@@ -3570,7 +3570,7 @@
 													}
 ,
 													"text" : "pattr @bindto parent::parent::transport_name @invisible 1 @autorestore 0",
-													"varname" : "u165010353"
+													"varname" : "u236009152"
 												}
 
 											}
@@ -3685,7 +3685,7 @@
 											"major" : 6,
 											"minor" : 1,
 											"revision" : 2,
-											"architecture" : "x86"
+											"architecture" : "x64"
 										}
 ,
 										"rect" : [ 301.0, 256.0, 819.0, 603.0 ],
@@ -3779,7 +3779,7 @@
 													}
 ,
 													"text" : "pattr @bindto parent::parent::duration::format @invisible 1 @autorestore 0",
-													"varname" : "u829010343"
+													"varname" : "u420009159"
 												}
 
 											}
@@ -3906,7 +3906,7 @@
 													}
 ,
 													"text" : "pattr @bindto parent::parent::dur_mode @invisible 1 @autorestore 0",
-													"varname" : "u450010348"
+													"varname" : "u470009161"
 												}
 
 											}
@@ -3942,7 +3942,7 @@
 													}
 ,
 													"text" : "pattr @bindto parent::parent::duration::value @invisible 1 @autorestore 0",
-													"varname" : "u211010351"
+													"varname" : "u978009163"
 												}
 
 											}
@@ -3977,7 +3977,7 @@
 													}
 ,
 													"text" : "pattr @bindto parent::parent::state @invisible 1 @autorestore 0",
-													"varname" : "u045010337"
+													"varname" : "u153009165"
 												}
 
 											}
@@ -4221,7 +4221,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::slave_mode @invisible 1 @autorestore 0",
-									"varname" : "u070010339"
+									"varname" : "u342009170"
 								}
 
 							}
@@ -4257,7 +4257,7 @@
 											"major" : 6,
 											"minor" : 1,
 											"revision" : 2,
-											"architecture" : "x86"
+											"architecture" : "x64"
 										}
 ,
 										"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
@@ -4403,7 +4403,7 @@
 											"major" : 6,
 											"minor" : 1,
 											"revision" : 2,
-											"architecture" : "x86"
+											"architecture" : "x64"
 										}
 ,
 										"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -4662,7 +4662,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::mode @invisible 1 @autorestore 0",
-									"varname" : "u545010315"
+									"varname" : "u026009180"
 								}
 
 							}
@@ -4711,7 +4711,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::bpm @invisible 1 @autorestore 0",
-									"varname" : "u003010312"
+									"varname" : "u003009182"
 								}
 
 							}
@@ -4760,7 +4760,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::units @invisible 1 @autorestore 0",
-									"varname" : "u201010313"
+									"varname" : "u717009184"
 								}
 
 							}
@@ -4781,7 +4781,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::beats @invisible 1 @autorestore 0",
-									"varname" : "u804010309"
+									"varname" : "u570009186"
 								}
 
 							}
@@ -4957,13 +4957,13 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 227.75, 285.0, 122.25, 52.0 ],
-									"restore" : [ 5.0 ],
+									"restore" : [ 4.8 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0
 									}
 ,
 									"text" : "pattr @bindto parent::resolution::value @invisible 1 @autorestore 0",
-									"varname" : "u908010304"
+									"varname" : "u718009198"
 								}
 
 							}
@@ -5093,7 +5093,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::state @invisible 1 @autorestore 0",
-									"varname" : "u589010302"
+									"varname" : "u074009200"
 								}
 
 							}
@@ -5212,7 +5212,7 @@
 									"destination" : [ "obj-6", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 453.166656, 431.0, 159.5, 431.0 ],
+									"midpoints" : [ 453.166667, 431.0, 159.5, 431.0 ],
 									"source" : [ "obj-12", 1 ]
 								}
 
@@ -5700,7 +5700,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 235.0, 610.0, 340.927094, 23.0 ],
+					"patching_rect" : [ 235.0, 610.0, 340.927094, 22.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -5924,7 +5924,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 1086.708374, 113.0, 108.0, 41.0 ],
+					"patching_rect" : [ 1086.708374, 113.0, 108.0, 40.0 ],
 					"restore" : [ "definite" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
@@ -5998,7 +5998,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 2,
-							"architecture" : "x86"
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 406.0, 125.0, 640.0, 480.0 ],
@@ -6165,13 +6165,13 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 235.0, 456.0, 108.0, 52.0 ],
+					"patching_rect" : [ 235.0, 456.0, 108.0, 51.0 ],
 					"saved_object_attributes" : 					{
 						"initial" : [ "master" ],
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "pattr @name mode @default_interp off @default_priority -8 @initial master",
+					"text" : "pattr @name mode @default_interp off @default_priority -9 @initial master",
 					"varname" : "mode"
 				}
 
@@ -6189,7 +6189,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 32.990845, 452.0, 104.708344, 52.0 ],
+					"patching_rect" : [ 32.990845, 452.0, 104.708344, 51.0 ],
 					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
@@ -6213,13 +6213,13 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 494.677124, 441.0, 151.0, 52.0 ],
+					"patching_rect" : [ 494.677124, 441.0, 151.0, 51.0 ],
 					"saved_object_attributes" : 					{
 						"initial" : [ "internal" ],
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "pattr @name transport_name @default_interp off @default_priority -9 @initial internal",
+					"text" : "pattr @name transport_name @default_interp off @default_priority -7 @initial internal",
 					"varname" : "transport_name"
 				}
 
@@ -6326,7 +6326,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 2,
-							"architecture" : "x86"
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 50.0, 94.0, 426.0, 332.0 ],
@@ -6378,7 +6378,7 @@
 											"major" : 6,
 											"minor" : 1,
 											"revision" : 2,
-											"architecture" : "x86"
+											"architecture" : "x64"
 										}
 ,
 										"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -6793,7 +6793,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 25.5, 105.0, 209.5, 41.0 ],
+					"patching_rect" : [ 25.5, 105.0, 209.5, 40.0 ],
 					"restore" : [ "oi.gen.transport" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
