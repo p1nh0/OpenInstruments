@@ -38,7 +38,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ -595.0, 30.0, 139.0, 18.0 ],
-					"presentation_rect" : [ -386.0, 51.5, 0.0, 0.0 ],
 					"text" : "loadmess getname @defer 1"
 				}
 
@@ -291,7 +290,7 @@
 					}
 ,
 					"text" : "pattr @bindto ::oi.api::print @invisible 1 @autorestore 0",
-					"varname" : "u429010197"
+					"varname" : "u548011433"
 				}
 
 			}
@@ -406,7 +405,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::instrument_state @invisible 1 @autorestore 0 @thru 0",
-									"varname" : "u448010200"
+									"varname" : "u824009064"
 								}
 
 							}
@@ -442,7 +441,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::instrument_state @invisible 1 @autorestore 0",
-									"varname" : "u302010202"
+									"varname" : "u672009117"
 								}
 
 							}
@@ -464,7 +463,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::parent::piece_state @invisible 1 @autorestore 0",
-									"varname" : "u500010204"
+									"varname" : "u937009121"
 								}
 
 							}
@@ -1186,7 +1185,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::MasterTransport::mode @invisible 1 @autorestore 0",
-									"varname" : "u240010219"
+									"varname" : "u947009135"
 								}
 
 							}
@@ -1217,13 +1216,13 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 50.0, 145.0, 385.0, 18.0 ],
-									"restore" : [ "<empty>" ],
+									"restore" : [ "oi.instrument.template" ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0
 									}
 ,
 									"text" : "pattr @bindto parent::MasterTransport::transport_name @invisible 1 @autorestore 0",
-									"varname" : "u458010221"
+									"varname" : "u826009178"
 								}
 
 							}
@@ -1240,13 +1239,13 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 50.0, 110.0, 313.0, 18.0 ],
-									"restore" : [ "<empty>" ],
+									"restore" : [ "oi.instrument.template" ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0
 									}
 ,
 									"text" : "pattr @bindto parent::instrument_name @invisible 1 @autorestore 0",
-									"varname" : "u807010223"
+									"varname" : "u812009128"
 								}
 
 							}
@@ -1734,7 +1733,7 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"globalpatchername" : "oi.dataset[1][1][1][2][1][2][1][2][3][2][1][3][3]",
+						"globalpatchername" : "oi.dataset[1][1][1][2][1][2][1][2][3][2][1][3][3][1]",
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -1778,7 +1777,7 @@
 						"fontface" : 0,
 						"fontname" : "Arial",
 						"fontsize" : 10.0,
-						"globalpatchername" : "oi.dataset[1][1][1][2][1][2][1][2][3][2][1][3][3]",
+						"globalpatchername" : "oi.dataset[1][1][1][2][1][2][1][2][3][2][1][3][3][1]",
 						"tags" : ""
 					}
 ,
@@ -2591,6 +2590,7 @@
 					"fontsize" : 14.0,
 					"frgb" : 0.0,
 					"id" : "obj-21",
+					"linecount" : 2,
 					"maxclass" : "textedit",
 					"numinlets" : 1,
 					"numoutlets" : 4,
@@ -2599,6 +2599,7 @@
 					"patching_rect" : [ -485.0, 140.0, 108.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 37.5, 2.0, 211.0, 35.5 ],
+					"text" : "oi.instrument.template",
 					"textcolor" : [ 0.901961, 0.901961, 0.901961, 1.0 ],
 					"varname" : "textedit"
 				}
@@ -3253,11 +3254,11 @@
 						"active" : [ 0 ],
 						"print" : [ 0 ],
 						"spaces" : [ 0 ],
-						"textedit" : [ "<empty>" ]
+						"textedit" : [ "oi.instrument.template" ]
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u831011005"
+					"varname" : "u048018130"
 				}
 
 			}
@@ -3303,22 +3304,22 @@
 						"MasterVolume::pan::pan" : [ 0, 0.0 ]
 					}
 ,
-					"linecount" : 6,
+					"linecount" : 7,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ -485.0, 480.0, 120.0, 100.0 ],
+					"patching_rect" : [ -485.0, 480.0, 120.0, 116.0 ],
 					"priority" : 					{
 						"instrument_name" : -10,
 						"MasterTransport::module_name" : -10,
-						"MasterTransport::transport_name" : -9,
-						"MasterTransport::mode" : -8,
+						"MasterTransport::transport_name" : -7,
+						"MasterTransport::mode" : -9,
 						"MasterTransport::dur_mode" : -5,
 						"MasterTransport::bpm" : -6,
 						"MasterTransport::beats" : -5,
 						"MasterTransport::units" : -5,
-						"MasterTransport::slave_mode" : -7,
+						"MasterTransport::slave_mode" : -8,
 						"MasterTransport::offset::format" : -7,
 						"MasterTransport::offset::value" : -6,
 						"MasterTransport::duration::format" : -7,
@@ -3342,7 +3343,7 @@
 						"storage_rect" : [ 373, 115, 824, 243 ]
 					}
 ,
-					"text" : "pattrstorage instrument_data @greedy 1 @changemode 1 @backupmode 0 @dirty 1",
+					"text" : "pattrstorage instrument_data @greedy 1 @changemode 1 @backupmode 0 @dirty 1 @autorestore 0",
 					"varname" : "instrument_data"
 				}
 
@@ -3535,7 +3536,7 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 40.0, 10.0, 208.0, 18.0 ],
 									"text" : "autopattr @autoname 1 @dirty 1 @greedy 1",
-									"varname" : "u921011012"
+									"varname" : "u320018136"
 								}
 
 							}
@@ -3924,7 +3925,7 @@
 									}
 ,
 									"text" : "autopattr @autoname 1",
-									"varname" : "u266011014"
+									"varname" : "u475018138"
 								}
 
 							}
