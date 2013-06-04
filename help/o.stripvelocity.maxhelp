@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 100.0, 100.0, 701.0, 454.0 ],
@@ -32,25 +33,6 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"id" : "obj-1",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 137.0, 133.0, 18.0 ],
-					"saved_object_attributes" : 					{
-						"filename" : "helpstarter",
-						"parameter_enable" : 0
-					}
-,
-					"text" : "js helpstarter oi.stripvelocity"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
 					"id" : "obj-2",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -59,8 +41,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 100.0, 126.0, 701.0, 428.0 ],
@@ -93,8 +76,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 79.0, 390.0, 139.0, 19.0 ],
-									"presentation_rect" : [ 88.0, 391.0, 0.0, 0.0 ],
-									"text" : "-1"
+									"text" : "19 19 21 21 21"
 								}
 
 							}
@@ -108,7 +90,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 222.0, 390.0, 140.0, 21.0 ],
-									"presentation_rect" : [ 231.0, 391.0, 0.0, 0.0 ],
 									"text" : "only velocity values"
 								}
 
@@ -123,7 +104,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 10.0, 355.0, 139.0, 19.0 ],
-									"text" : "-1"
+									"text" : "36 38 40 41 43"
 								}
 
 							}
@@ -160,12 +141,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
 									"id" : "obj-13",
+									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 222.0, 321.0, 139.0, 19.0 ],
-									"text" : "-1"
+									"patching_rect" : [ 222.0, 321.0, 139.0, 34.0 ],
+									"text" : "36 19 38 19 40 21 41 21 43 21"
 								}
 
 							}
@@ -219,7 +201,7 @@
 									"angle" : 90.0,
 									"bgcolor" : [ 0.65098, 0.65098, 0.65098, 1.0 ],
 									"grad1" : [ 0.65098, 0.65098, 0.65098, 0.0 ],
-									"grad2" : [ 0.65098, 0.65098, 0.65098, 1.0 ],
+									"grad2" : [ 0.4, 0.411765, 0.654902, 1.0 ],
 									"id" : "obj-6",
 									"maxclass" : "panel",
 									"mode" : 1,
@@ -242,13 +224,13 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 130.0, 290.0, 231.0, 18.0 ],
-									"restore" : [ -1 ],
+									"restore" : [ 36, 19, 38, 19, 40, 21, 41, 21, 43, 21 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0
 									}
 ,
 									"text" : "pattr @bindto kslider @invisible 1 @autorestore 0",
-									"varname" : "u491004288"
+									"varname" : "u721003816"
 								}
 
 							}
@@ -282,7 +264,7 @@
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 130.0, 321.0, 89.0, 18.0 ],
 									"saved_object_attributes" : 									{
-										"filename" : "o.stripvelocity.js",
+										"filename" : "o.stripvelocity",
 										"parameter_enable" : 0
 									}
 ,
@@ -295,7 +277,8 @@
 									"border" : 0,
 									"filename" : "helpdetails.js",
 									"id" : "obj-2",
-									"jsarguments" : [ "oi.stripvelocity" ],
+									"ignoreclick" : 1,
+									"jsarguments" : [ "o.stripvelocity" ],
 									"maxclass" : "jsui",
 									"numinlets" : 1,
 									"numoutlets" : 1,
@@ -367,21 +350,6 @@
 			}
 , 			{
 				"box" : 				{
-					"border" : 0,
-					"filename" : "helpname.js",
-					"id" : "obj-4",
-					"jsarguments" : [ "oi.stripvelocity" ],
-					"maxclass" : "jsui",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 10.0, 10.0, 310.0, 55.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-5",
@@ -392,8 +360,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 0.0, 26.0, 701.0, 428.0 ],
@@ -442,30 +411,16 @@
  ],
 		"lines" : [  ],
 		"dependency_cache" : [ 			{
-				"name" : "helpname.js",
-				"bootpath" : "/Applications/Max6/Cycling '74/help-resources",
-				"patcherrelativepath" : "../../../../../../Cycling '74/help-resources",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "helpdetails.js",
-				"bootpath" : "/Applications/Max6/Cycling '74/help-resources",
-				"patcherrelativepath" : "../../../../../../Cycling '74/help-resources",
+				"bootpath" : "/Applications/Max 6.1/Cycling '74/help-resources",
+				"patcherrelativepath" : "../../../Cycling '74/help-resources",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "o.stripvelocity.js",
-				"bootpath" : "/Applications/Max6/patches/OI_framework/Libs/Olib/MIDI",
-				"patcherrelativepath" : "",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "helpstarter.js",
-				"bootpath" : "/Applications/Max6/Cycling '74/help-resources",
-				"patcherrelativepath" : "../../../../../../Cycling '74/help-resources",
+				"bootpath" : "/Applications/Max 6.1/packages/OpenInstruments/javascript",
+				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}

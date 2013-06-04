@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 5
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 25.0, 69.0, 700.0, 454.0 ],
+		"rect" : [ 100.0, 100.0, 700.0, 454.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -40,8 +41,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 5
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 0.0, 26.0, 700.0, 428.0 ],
@@ -68,12 +70,12 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
+									"frgb" : 0.0,
 									"id" : "obj-28",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 594.0, 155.0, 62.0, 21.0 ],
-									"presentation_rect" : [ 594.5, 155.0, 0.0, 0.0 ],
 									"text" : "max size"
 								}
 
@@ -96,12 +98,12 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
+									"frgb" : 0.0,
 									"id" : "obj-25",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 544.0, 270.0, 86.0, 21.0 ],
-									"presentation_rect" : [ 540.25, 271.0, 0.0, 0.0 ],
 									"text" : "default = 128"
 								}
 
@@ -110,6 +112,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
+									"frgb" : 0.0,
 									"id" : "obj-24",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -138,12 +141,12 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
+									"frgb" : 0.0,
 									"id" : "obj-20",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 192.5, 206.0, 77.0, 21.0 ],
-									"presentation_rect" : [ 227.5, 204.0, 0.0, 0.0 ],
 									"text" : "descending"
 								}
 
@@ -152,12 +155,12 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
+									"frgb" : 0.0,
 									"id" : "obj-19",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 192.5, 180.0, 198.0, 21.0 ],
-									"presentation_rect" : [ 227.5, 179.0, 0.0, 0.0 ],
 									"text" : "don't sort (maintain arrival order)"
 								}
 
@@ -166,6 +169,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
+									"frgb" : 0.0,
 									"id" : "obj-18",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -185,7 +189,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 160.0, 155.0, 32.5, 19.0 ],
-									"presentation_rect" : [ 195.0, 160.0, 0.0, 0.0 ],
 									"text" : "1"
 								}
 
@@ -200,7 +203,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 160.0, 180.0, 32.5, 19.0 ],
-									"presentation_rect" : [ 194.0, 183.0, 0.0, 0.0 ],
 									"text" : "0"
 								}
 
@@ -215,7 +217,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 160.0, 206.0, 32.5, 19.0 ],
-									"presentation_rect" : [ 196.0, 201.0, 0.0, 0.0 ],
 									"text" : "-1"
 								}
 
@@ -268,14 +269,13 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
-									"frgb" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+									"frgb" : 0.0,
 									"id" : "obj-8",
 									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 405.0, 132.5, 126.0, 36.0 ],
-									"presentation_rect" : [ 269.0, 176.0, 0.0, 0.0 ],
 									"prototypename" : "oi.help_digest",
 									"text" : "Constrain output list size after sorting",
 									"textcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
@@ -291,7 +291,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 405.0, 315.0, 128.0, 18.0 ],
-									"presentation_rect" : [ 265.0, 315.0, 0.0, 0.0 ],
 									"text" : "print held notes @popup 1"
 								}
 
@@ -347,6 +346,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
+									"frgb" : 0.0,
 									"id" : "obj-3",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -361,7 +361,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
-									"frgb" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+									"frgb" : 0.0,
 									"id" : "obj-5",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -380,7 +380,6 @@
 									"grad1" : [ 0.65098, 0.65098, 0.65098, 0.0 ],
 									"grad2" : [ 0.843137, 0.321569, 0.180392, 1.0 ],
 									"id" : "obj-6",
-									"ignoreclick" : 1,
 									"maxclass" : "panel",
 									"mode" : 1,
 									"numinlets" : 1,
@@ -395,6 +394,7 @@
 									"border" : 0,
 									"filename" : "helpdetails.js",
 									"id" : "obj-2",
+									"ignoreclick" : 1,
 									"jsarguments" : [ "o.heldnotes" ],
 									"maxclass" : "jsui",
 									"numinlets" : 1,
@@ -517,57 +517,25 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [ 							{
-								"name" : "helpdetails.js",
-								"bootpath" : "/Applications/Max6/Cycling '74/help-resources",
-								"type" : "TEXT",
-								"implicit" : 1
-							}
-, 							{
-								"name" : "o.heldnotes.maxpat",
-								"bootpath" : "/Applications/Max6/patches/OI_LIB/Utilities(objects)/MIDI",
-								"type" : "JSON",
-								"implicit" : 1
-							}
  ]
 					}
 ,
 					"patching_rect" : [ 10.0, 118.0, 62.0, 18.0 ],
-					"presentation_rect" : [ 10.0, 118.0, 0.0, 0.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 13.0,
 						"default_fontface" : 0,
-						"digest" : "",
 						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"tags" : "",
 						"default_fontsize" : 13.0,
-						"description" : ""
+						"description" : "",
+						"digest" : "",
+						"fontface" : 0,
+						"fontname" : "Arial",
+						"fontsize" : 13.0,
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p advanced",
 					"varname" : "basic_tab[1]"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"id" : "obj-1",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 40.0, 210.0, 122.0, 18.0 ],
-					"saved_object_attributes" : 					{
-						"parameter_enable" : 0
-					}
-,
-					"text" : "js helpstarter o.heldnotes"
 				}
 
 			}
@@ -583,11 +551,12 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 5
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
+						"rect" : [ 100.0, 126.0, 700.0, 428.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -656,7 +625,8 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "int", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 185.0, 170.0, 336.0, 54.0 ]
+									"patching_rect" : [ 185.0, 170.0, 336.0, 53.0 ],
+									"presentation_rect" : [ 0.0, 0.0, 336.0, 53.0 ]
 								}
 
 							}
@@ -681,6 +651,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
+									"frgb" : 0.0,
 									"id" : "obj-3",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -695,7 +666,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
-									"frgb" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+									"frgb" : 0.0,
 									"id" : "obj-5",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -714,7 +685,6 @@
 									"grad1" : [ 0.65098, 0.65098, 0.65098, 0.0 ],
 									"grad2" : [ 0.843137, 0.321569, 0.180392, 1.0 ],
 									"id" : "obj-6",
-									"ignoreclick" : 1,
 									"maxclass" : "panel",
 									"mode" : 1,
 									"numinlets" : 1,
@@ -729,6 +699,7 @@
 									"border" : 0,
 									"filename" : "helpdetails.js",
 									"id" : "obj-2",
+									"ignoreclick" : 1,
 									"jsarguments" : [ "o.heldnotes" ],
 									"maxclass" : "jsui",
 									"numinlets" : 1,
@@ -788,34 +759,21 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [ 							{
-								"name" : "helpdetails.js",
-								"bootpath" : "/Applications/Max6/Cycling '74/help-resources",
-								"type" : "TEXT",
-								"implicit" : 1
-							}
-, 							{
-								"name" : "o.heldnotes.maxpat",
-								"bootpath" : "/Applications/Max6/patches/OI_LIB/Utilities(objects)/MIDI",
-								"type" : "JSON",
-								"implicit" : 1
-							}
  ]
 					}
 ,
 					"patching_rect" : [ 10.0, 85.0, 50.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 13.0,
 						"default_fontface" : 0,
-						"digest" : "",
 						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"tags" : "",
 						"default_fontsize" : 13.0,
-						"description" : ""
+						"description" : "",
+						"digest" : "",
+						"fontface" : 0,
+						"fontname" : "Arial",
+						"fontsize" : 13.0,
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p basic",
@@ -828,13 +786,14 @@
 					"border" : 0,
 					"filename" : "helpname.js",
 					"id" : "obj-4",
+					"ignoreclick" : 1,
 					"jsarguments" : [ "o.heldnotes" ],
 					"maxclass" : "jsui",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 10.0, 10.0, 305.0, 55.0 ]
+					"patching_rect" : [ 10.0, 10.0, 253.20314, 53.625 ]
 				}
 
 			}
@@ -850,11 +809,12 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 5
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
+						"rect" : [ 0.0, 26.0, 700.0, 428.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 10.0,
@@ -875,22 +835,21 @@
 						"tags" : "",
 						"showontab" : 1,
 						"boxes" : [  ],
-						"lines" : [  ],
-						"dependency_cache" : [  ]
+						"lines" : [  ]
 					}
 ,
 					"patching_rect" : [ 25.0, 160.0, 50.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 10.0,
 						"default_fontface" : 0,
-						"digest" : "",
 						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"tags" : "",
 						"default_fontsize" : 10.0,
-						"description" : ""
+						"description" : "",
+						"digest" : "",
+						"fontface" : 0,
+						"fontname" : "Arial",
+						"fontsize" : 10.0,
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p ?",
@@ -902,30 +861,23 @@
 		"lines" : [  ],
 		"dependency_cache" : [ 			{
 				"name" : "helpname.js",
-				"bootpath" : "/Applications/Max6/Cycling '74/help-resources",
-				"patcherrelativepath" : "../../../../../Cycling '74/help-resources",
+				"bootpath" : "/Applications/Max 6.1/Cycling '74/help-resources",
+				"patcherrelativepath" : "../../../Cycling '74/help-resources",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "helpdetails.js",
-				"bootpath" : "/Applications/Max6/Cycling '74/help-resources",
-				"patcherrelativepath" : "../../../../../Cycling '74/help-resources",
+				"bootpath" : "/Applications/Max 6.1/Cycling '74/help-resources",
+				"patcherrelativepath" : "../../../Cycling '74/help-resources",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "o.heldnotes.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OI_LIB/Utilities(objects)/MIDI",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Applications/Max 6.1/packages/OpenInstruments/patchers/Libs/Olib/MIDI",
+				"patcherrelativepath" : "../patchers/Libs/Olib/MIDI",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "helpstarter.js",
-				"bootpath" : "/Applications/Max6/Cycling '74/help-resources",
-				"patcherrelativepath" : "../../../../../Cycling '74/help-resources",
-				"type" : "TEXT",
 				"implicit" : 1
 			}
  ]

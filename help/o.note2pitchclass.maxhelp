@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 5
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 25.0, 69.0, 700.0, 454.0 ],
+		"rect" : [ 100.0, 100.0, 700.0, 454.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -32,24 +33,6 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"id" : "obj-1",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 0.0, 0.0, 150.0, 18.0 ],
-					"saved_object_attributes" : 					{
-						"parameter_enable" : 0
-					}
-,
-					"text" : "js helpstarter oi.note2pitchclass"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
 					"id" : "obj-2",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -58,11 +41,12 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 5
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
+						"rect" : [ 100.0, 126.0, 700.0, 428.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -86,12 +70,12 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
+									"frgb" : 0.0,
 									"id" : "obj-38",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 315.0, 351.0, 72.0, 21.0 ],
-									"presentation_rect" : [ 311.0, 347.0, 0.0, 0.0 ],
 									"text" : "pitch-class"
 								}
 
@@ -100,6 +84,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
+									"frgb" : 0.0,
 									"id" : "obj-37",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -113,12 +98,12 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
+									"frgb" : 0.0,
 									"id" : "obj-33",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 275.0, 169.0, 35.0, 21.0 ],
-									"presentation_rect" : [ 276.0, 167.0, 0.0, 0.0 ],
 									"text" : "list"
 								}
 
@@ -127,12 +112,12 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
+									"frgb" : 0.0,
 									"id" : "obj-32",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 225.0, 169.0, 35.0, 21.0 ],
-									"presentation_rect" : [ 220.0, 170.0, 0.0, 0.0 ],
 									"text" : "float"
 								}
 
@@ -141,6 +126,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
+									"frgb" : 0.0,
 									"id" : "obj-31",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -160,7 +146,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 225.0, 193.0, 35.0, 15.0 ],
+									"patching_rect" : [ 225.0, 193.0, 35.0, 14.0 ],
 									"text" : "set $1"
 								}
 
@@ -186,14 +172,15 @@
 									"id" : "obj-23",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 275.0, 280.0, 83.0, 18.0 ],
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 275.0, 280.0, 81.0, 18.0 ],
 									"saved_object_attributes" : 									{
+										"filename" : "o.stripvelocity",
 										"parameter_enable" : 0
 									}
 ,
-									"text" : "js oi.stripvelocity"
+									"text" : "js o.stripvelocity"
 								}
 
 							}
@@ -209,13 +196,13 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 275.0, 256.0, 231.0, 18.0 ],
-									"restore" : [ 36, 11, 40, 23, 43, 26 ],
+									"restore" : [ 40, 62, 41, 35, 50, 31, 55, 33 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0
 									}
 ,
 									"text" : "pattr @bindto kslider @invisible 1 @autorestore 0",
-									"varname" : "u821003474"
+									"varname" : "u971003745"
 								}
 
 							}
@@ -245,7 +232,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 175.0, 351.0, 140.0, 19.0 ],
-									"text" : "1 0 0 0 1 0 0 1 0 0 0 0"
+									"text" : "1 0 0 0 0 0 0 0 0 0 0 0"
 								}
 
 							}
@@ -278,10 +265,11 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 175.0, 311.0, 140.0, 18.0 ],
 									"saved_object_attributes" : 									{
+										"filename" : "o.note2pitchclass",
 										"parameter_enable" : 0
 									}
 ,
-									"text" : "js oi.note2pitchclass"
+									"text" : "js o.note2pitchclass"
 								}
 
 							}
@@ -289,6 +277,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
+									"frgb" : 0.0,
 									"id" : "obj-3",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -303,7 +292,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
-									"frgb" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+									"frgb" : 0.0,
 									"id" : "obj-5",
 									"linecount" : 2,
 									"maxclass" : "comment",
@@ -321,9 +310,8 @@
 									"angle" : 90.0,
 									"bgcolor" : [ 0.65098, 0.65098, 0.65098, 1.0 ],
 									"grad1" : [ 0.65098, 0.65098, 0.65098, 0.0 ],
-									"grad2" : [ 0.65098, 0.65098, 0.65098, 1.0 ],
+									"grad2" : [ 0.4, 0.411765, 0.654902, 1.0 ],
 									"id" : "obj-6",
-									"ignoreclick" : 1,
 									"maxclass" : "panel",
 									"mode" : 1,
 									"numinlets" : 1,
@@ -338,7 +326,8 @@
 									"border" : 0,
 									"filename" : "helpdetails.js",
 									"id" : "obj-2",
-									"jsarguments" : [ "oi.note2pitchclass" ],
+									"ignoreclick" : 1,
+									"jsarguments" : [ "o.note2pitchclass" ],
 									"maxclass" : "jsui",
 									"numinlets" : 1,
 									"numoutlets" : 1,
@@ -414,59 +403,25 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [ 							{
-								"name" : "helpdetails.js",
-								"bootpath" : "/Applications/Max6/Cycling '74/help-resources",
-								"type" : "TEXT",
-								"implicit" : 1
-							}
-, 							{
-								"name" : "oi.note2pitchclass.js",
-								"bootpath" : "/Applications/Max6/patches/OpenInstruments_v0.4.1/API/data/midi",
-								"type" : "TEXT",
-								"implicit" : 1
-							}
-, 							{
-								"name" : "oi.stripvelocity.js",
-								"bootpath" : "/Applications/Max6/patches/OpenInstruments_v0.4.1/API/data/midi",
-								"type" : "TEXT",
-								"implicit" : 1
-							}
  ]
 					}
 ,
 					"patching_rect" : [ 10.0, 85.0, 50.0, 18.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"globalpatchername" : "",
-						"digest" : "",
-						"fontface" : 0,
 						"default_fontname" : "Arial",
-						"fontsize" : 13.0,
 						"default_fontsize" : 13.0,
 						"description" : "",
+						"digest" : "",
+						"fontface" : 0,
 						"fontname" : "Arial",
+						"fontsize" : 13.0,
+						"globalpatchername" : "",
 						"tags" : ""
 					}
 ,
 					"text" : "p basic",
 					"varname" : "basic_tab"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"border" : 0,
-					"filename" : "helpname.js",
-					"id" : "obj-4",
-					"jsarguments" : [ "oi.note2pitchclass" ],
-					"maxclass" : "jsui",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 10.0, 10.0, 390.0, 55.0 ]
 				}
 
 			}
@@ -482,11 +437,12 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 5
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
+						"rect" : [ 0.0, 26.0, 700.0, 428.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 10.0,
@@ -507,21 +463,20 @@
 						"tags" : "",
 						"showontab" : 1,
 						"boxes" : [  ],
-						"lines" : [  ],
-						"dependency_cache" : [  ]
+						"lines" : [  ]
 					}
 ,
 					"patching_rect" : [ 10.0, 110.0, 50.0, 18.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"globalpatchername" : "",
-						"digest" : "",
-						"fontface" : 0,
 						"default_fontname" : "Arial",
-						"fontsize" : 10.0,
 						"default_fontsize" : 10.0,
 						"description" : "",
+						"digest" : "",
+						"fontface" : 0,
 						"fontname" : "Arial",
+						"fontsize" : 10.0,
+						"globalpatchername" : "",
 						"tags" : ""
 					}
 ,
@@ -533,37 +488,23 @@
  ],
 		"lines" : [  ],
 		"dependency_cache" : [ 			{
-				"name" : "helpname.js",
-				"bootpath" : "/Applications/Max6/Cycling '74/help-resources",
-				"patcherrelativepath" : "../../../../Cycling '74/help-resources",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "helpdetails.js",
-				"bootpath" : "/Applications/Max6/Cycling '74/help-resources",
-				"patcherrelativepath" : "../../../../Cycling '74/help-resources",
+				"bootpath" : "/Applications/Max 6.1/Cycling '74/help-resources",
+				"patcherrelativepath" : "../../../Cycling '74/help-resources",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "oi.note2pitchclass.js",
-				"bootpath" : "/Applications/Max6/patches/OpenInstruments_v0.4.1/API/data/midi",
-				"patcherrelativepath" : "../data/midi",
+				"name" : "o.note2pitchclass.js",
+				"bootpath" : "/Applications/Max 6.1/packages/OpenInstruments/javascript",
+				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "oi.stripvelocity.js",
-				"bootpath" : "/Applications/Max6/patches/OpenInstruments_v0.4.1/API/data/midi",
-				"patcherrelativepath" : "../data/midi",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "helpstarter.js",
-				"bootpath" : "/Applications/Max6/Cycling '74/help-resources",
-				"patcherrelativepath" : "../../../../Cycling '74/help-resources",
+				"name" : "o.stripvelocity.js",
+				"bootpath" : "/Applications/Max 6.1/packages/OpenInstruments/javascript",
+				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
