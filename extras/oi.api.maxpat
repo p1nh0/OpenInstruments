@@ -5,11 +5,11 @@
 			"major" : 6,
 			"minor" : 1,
 			"revision" : 2,
-			"architecture" : "x64"
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 40.0, 177.0, 259.0, 460.0 ],
-		"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
+		"rect" : [ 4.0, 44.0, 265.0, 438.0 ],
+		"bgcolor" : [ 0.901961, 0.901961, 0.901961, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -31,6 +31,78 @@
 		"globalpatchername" : "oi.api",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 18.0,
+					"frgb" : 0.0,
+					"id" : "obj-52",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 315.0, 290.0, 257.0, 47.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 215.0, 152.0, 51.0, 47.0 ],
+					"text" : "GO \nTO ",
+					"textcolor" : [ 0.298039, 0.298039, 0.298039, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"autofit" : 1,
+					"data" : [ 1636, "png", "IBkSG0fBZn....PCIgDQRA..A....D..HX.....WxgpY....DLmPIQEBHf.B7g.YHB..FrQRDEDU3wY6b+7pmUWGGG+8my24dIIggJvDgVDDH3hvUAAAlzBQLPbQCMZyseB0hnb4rnzZkdWItxnbgiyLgTHXvrnEFMhBUKhAoHLPngAhPDBKbfo67864zp1Ht4Fmqe9dOud73OfO7Z0SNefCepB....HAsdOf2qKdwK9Yl1r4t58NfiBiU8J6s2d+sdui+mSz6A7dMsYyCOLL7868NfiBswwSWUs0D.F58..5GA.HXB.PvD.ffI..AS..Bl..DLA.HXB.PvD.ffI..AS..Bl..DLA.HXB.PvD.ffI..AS..B1V2SB1baZb7uVs1az6cvwVe1Vqca8dDGUV7Afp0dgG4Lm4G06YvwSW37m+W2p5958NNp3J.PvD.ffI..AS..Bl..DLA.HXB.PvD.ffI..AS..Bl..DLA.HXB.PvD.ffI..AS..Bl..DLA.HXB.PvD.ffI..Aa4+p.+Ajy9au1mZp0d1duiDzpU+7m7yeG+zduik.AfYxPMbqiU6d58NhvlweeumvRgq..AS..Bl..DLA.HXB.PvD.ffI..AS..BleDnYxN0Nu4MlN3d68NRPa2ctVu2vRg.vL4Geue72sp5x8dGvggq..AS..Bl..DLA.HXB.PvD.ffI..AS..Bl..DLA.HXB.PvD.ffI..AS..Bl..DLA.HXB.PvD.ffI..AS..BlGEzYxCdom5tGVs5J8dGIXpp8eo6+6c1duik.eA.DLA.HXB.PvD.ffI..AS..Bl..DLA.HXB.Pv7m.NS9UOvi95e0K+b2Ru2QBtZc008dCKEB.ykVa5bUcidOC3vvU.ffI..AS..Bl..DLA.HXB.PvD.ffI..Aaa7GA5eONM8Vy1oMM8ty1YAKLacAfuxd68XUUOVu2Aj.WA.Bl..DLA.HXB.PvD.ffI..AS..Bl..DLA.HXB.Pv159UfOt5ectuvGa8Mm9R8dGI3Dswqbxu4k+C8dGKAB.yjww0ehUsUOSu2QB1Ts8qpD.lAtB.DLA.HXB.PvD.ffI..AS..Bl..DLA.HX9QflISGry+rchMmq26HACSs+Xu2vRg.vL4i9se4qUU8058NfCCWA.Bl..Drstq.bgKbg6dNOuc2c2+zoN0o1LmmIrTr0E.Fp5Jy44c8qe8ORU06LmmIrT3J.PvD.ffI..AS..Bl..DLA.HXB.PvD.ffI..AS..Bl..DLA.HXB.PvD.ffI..Aaq68.33p27g9z21AswuQu2QDFqe2c8R+4Wo2yXIP.Xlbiw02wpUqdhduiHLT6WUI.LCbE.HXB.PvD.ffI..AS..Bl..DLA.HXB.Pv7i.MS1Y2cd6atdyS26cjfgooWq2aXoP.Xlbm+xW+uWU8n8dGvggq..AS..Bl..DLA.HXB.PvD.ffI..AS..Bl..DLA.HXB.PvD.ffI..AS..Bl..DLA.HXB.PvD.ffI..AS..BlGEzYx2569K9jSGr9o58NRvvP6E+Y+jSe9duik.Af4x3Amb0pUOXumQBlpo2n2aXovU.ffI..AS..Bl..DLA.HXB.PvD.ffI..AyOBzL4l6byqt6+4Dmt26HAiso+Ru2vRg.vL4bO8W+cppdgduC3vvU.ffI..AS..Bl..DLA.HXB.PvD.ffI..AS..Bl..DLA.HXB.PvD.ffI..AS..Bl..DLA.HXB.PvD.ffI..AyiB5L4dd7Kc6CCSemduiDLLzdseyO7K9x8dGKAB.ykcpauUCOdumQBFmp8qpD.lAtB.DLA.HXB.PvD.ffI..AS..Bl..DLA.HXac+HPSSS6OyG4Ml4y680Xs5sFlFm6sy6igZ5x8dCKEacAfG4Lm4r8dC++3U+A2++np5X41IWtB.DLA.HXB.PvD.ffI..AS..Bl..DLA.HXB.PvD.ffI..AS..Bl..DLA.HXB.PvD.ffs08ffTUUW74e9KUs1mq26.pp9v8d.Gk1JC.Ss1sNzZmr26.V5bE.HXB.PvD.ffI..AS..Bl..DLA.HXB.PvD.ffI..AS..Bl..DLA.HXB.PvD.ffI..AS..Bl..DrsxmDrcWu9KuopOTu2AL2VuZ0a26M.PUUU+WPXPjqoDrhkYA....PRE4DQtJDXBB" ],
+					"embed" : 1,
+					"id" : "obj-16",
+					"maxclass" : "fpic",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 68.637238, 545.0, 100.0, 50.0 ],
+					"pic" : "Macintosh HD:/Users/tiago/Pictures/OI_icons/_marciofilipe.design/OIWhite.png",
+					"presentation" : 1,
+					"presentation_rect" : [ 5.0, 375.0, 50.403595, 51.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"annotation" : "Turn audio on/off",
+					"bgcolor" : [ 0.501961, 0.501961, 0.501961, 0.0 ],
+					"bordercolor" : [ 0.298039, 0.298039, 0.298039, 1.0 ],
+					"hint" : "audio on/off",
+					"id" : "obj-51",
+					"maxclass" : "ezdac~",
+					"numinlets" : 2,
+					"numoutlets" : 0,
+					"offgradcolor1" : [ 0.901961, 0.901961, 0.901961, 1.0 ],
+					"offgradcolor2" : [ 0.65098, 0.65098, 0.65098, 1.0 ],
+					"ongradcolor1" : [ 0.466667, 0.752941, 0.894118, 1.0 ],
+					"ongradcolor2" : [ 0.258824, 0.517647, 0.709804, 1.0 ],
+					"patching_rect" : [ 707.0, 44.0, 45.0, 45.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 203.0, 304.5, 45.0, 45.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"frgb" : 0.0,
+					"id" : "obj-43",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 499.81543, 57.5, 68.0, 18.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 58.903595, 393.0, 68.0, 18.0 ],
+					"text" : "performance",
+					"textcolor" : [ 0.298039, 0.298039, 0.298039, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bgcolor" : [ 0.901961, 0.901961, 0.901961, 1.0 ],
 					"color" : [ 0.65098, 0.65098, 0.65098, 1.0 ],
 					"fontface" : 3,
@@ -46,10 +118,10 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 2,
-							"architecture" : "x64"
+							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 29.0, 69.0, 640.0, 480.0 ],
+						"rect" : [ 29.0, 95.0, 640.0, 454.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 10.0,
@@ -390,8 +462,12 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
+					"bgcolor2" : [ 0.901961, 0.901961, 0.901961, 1.0 ],
+					"fontface" : 1,
 					"fontname" : "Arial",
-					"fontsize" : 10.0,
+					"fontsize" : 11.0,
+					"framecolor" : [ 0.4, 0.4, 0.4, 1.0 ],
 					"id" : "obj-63",
 					"items" : [ "save", "all", "preset", "files", ",", "store", "all", "to", "init", "slot", "and", "save", "all", "preset", "files", ",", "store", "all", "to", "current", "slot", "and", "save", "all", "preset", "files" ],
 					"maxclass" : "umenu",
@@ -399,9 +475,11 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 805.0, 466.0, 173.0, 18.0 ],
+					"patching_rect" : [ 805.0, 466.0, 173.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 137.0, 250.0, 18.0 ]
+					"presentation_rect" : [ 100.305862, 5.0, 157.605026, 19.0 ],
+					"rounded" : 0,
+					"textcolor" : [ 0.4, 0.4, 0.4, 1.0 ]
 				}
 
 			}
@@ -575,7 +653,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 500.31543, 102.0, 15.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 161.0, 385.0, 15.0, 15.0 ]
+					"presentation_rect" : [ 240.903595, 412.0, 15.0, 15.0 ]
 				}
 
 			}
@@ -649,7 +727,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 837.68457, 94.0, 205.0, 73.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 160.0, 207.0, 71.0 ],
+					"presentation_rect" : [ 5.0, 140.0, 201.0, 71.0 ],
 					"varname" : "oi.api.transport"
 				}
 
@@ -788,7 +866,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 2,
-							"architecture" : "x64"
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 250.0, 77.0, 737.0, 781.0 ],
@@ -872,7 +950,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::speedlim @invisible 1 @autorestore 0",
-									"varname" : "u322000133"
+									"varname" : "u295000970"
 								}
 
 							}
@@ -894,7 +972,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::vfrate @invisible 1 @autorestore 0",
-									"varname" : "u479000135"
+									"varname" : "u404000967"
 								}
 
 							}
@@ -1031,13 +1109,13 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 51.5, 195.0, 261.0, 18.0 ],
-									"restore" : [ 0 ],
+									"restore" : [ 1 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0
 									}
 ,
 									"text" : "pattr @bindto parent::mode @invisible 1 @autorestore 0",
-									"varname" : "u582000139"
+									"varname" : "u044000941"
 								}
 
 							}
@@ -1253,7 +1331,7 @@
 											"major" : 6,
 											"minor" : 1,
 											"revision" : 2,
-											"architecture" : "x64"
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 2076.0, 33.0, 402.0, 451.0 ],
@@ -1375,7 +1453,7 @@
 													}
 ,
 													"text" : "pattr @bindto parent::parent::add_space @invisible 1 @autorestore 0",
-													"varname" : "u756000221"
+													"varname" : "u484001066"
 												}
 
 											}
@@ -1728,7 +1806,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 2,
-							"architecture" : "x64"
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 150.0, 110.0, 678.0, 672.0 ],
@@ -1782,7 +1860,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::dataset @invisible 1 @autorestore 0",
-									"varname" : "u417000226"
+									"varname" : "u407001039"
 								}
 
 							}
@@ -1860,7 +1938,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::outputs @invisible 1 @autorestore 0",
-									"varname" : "u793000228"
+									"varname" : "u495001048"
 								}
 
 							}
@@ -2009,7 +2087,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::inputs @invisible 1 @autorestore 0",
-									"varname" : "u648000230"
+									"varname" : "u029001046"
 								}
 
 							}
@@ -2045,7 +2123,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::view @invisible 1 @autorestore 0",
-									"varname" : "u994000232"
+									"varname" : "u249001044"
 								}
 
 							}
@@ -2335,7 +2413,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 2,
-							"architecture" : "x64"
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 630.0, 221.0, 640.0, 480.0 ],
@@ -2389,7 +2467,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::print @invisible 1 @autorestore 0",
-									"varname" : "u481000235"
+									"varname" : "u306001041"
 								}
 
 							}
@@ -2447,7 +2525,7 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "Macintosh HD:/Users/tiago/Desktop/Storage_beahavior/storage_behavior.maxpat",
+					"annotation" : "Macintosh HD:/Users/tiago/Music/OI_p1nh0/2013_t-t-t-t-tick copy/t-t-t-t-tick.maxpat",
 					"bgcolor" : [ 0.4, 0.4, 0.4, 1.0 ],
 					"hint" : "concert preview",
 					"id" : "obj-4",
@@ -2456,9 +2534,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 82.75, 82.5, 144.5, 63.25 ],
+					"patching_rect" : [ 82.75, 82.5, 142.0, 63.25 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 65.0, 251.0, 72.0 ],
+					"presentation_rect" : [ 11.0, 64.0, 245.0, 72.0 ],
 					"varname" : "concert_container"
 				}
 
@@ -2475,7 +2553,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1175.0, 94.0, 93.0, 88.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 310.0, 194.522614, 69.5 ],
+					"presentation_rect" : [ 5.0, 291.5, 201.0, 69.5 ],
 					"varname" : "outputdv_container"
 				}
 
@@ -2495,7 +2573,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1175.0, 94.0, 93.0, 88.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 310.0, 194.522614, 71.0 ],
+					"presentation_rect" : [ 5.0, 291.5, 253.910889, 71.0 ],
 					"rounded" : 0
 				}
 
@@ -2575,6 +2653,7 @@
 				"box" : 				{
 					"arrow" : 0,
 					"arrowframe" : 0,
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -2590,7 +2669,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 82.75, 56.125, 144.5, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 32.0, 252.910889, 20.0 ],
+					"presentation_rect" : [ 5.0, 30.0, 252.910889, 20.0 ],
 					"rounded" : 0,
 					"varname" : "concert_name"
 				}
@@ -2611,7 +2690,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 2,
-							"architecture" : "x64"
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 138.0, 143.0, 1436.0, 810.0 ],
@@ -2697,7 +2776,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::new @invisible 1 @autorestore 0",
-									"varname" : "u570000256"
+									"varname" : "u099001093"
 								}
 
 							}
@@ -2738,7 +2817,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::reset @invisible 1 @autorestore 0",
-									"varname" : "u408000280"
+									"varname" : "u986001124"
 								}
 
 							}
@@ -2978,7 +3057,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::open @invisible 1 @autorestore 0",
-									"varname" : "u049000282"
+									"varname" : "u317001129"
 								}
 
 							}
@@ -3590,7 +3669,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 2,
-							"architecture" : "x64"
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 482.0, 122.0, 465.0, 724.0 ],
@@ -3672,7 +3751,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::reset @invisible 1 @autorestore 0",
-									"varname" : "u313000290"
+									"varname" : "u325001103"
 								}
 
 							}
@@ -3721,7 +3800,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::info @invisible 1 @autorestore 0",
-									"varname" : "u322000292"
+									"varname" : "u072001112"
 								}
 
 							}
@@ -3787,7 +3866,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::print @invisible 1 @autorestore 0",
-									"varname" : "u806000294"
+									"varname" : "u795001110"
 								}
 
 							}
@@ -4090,7 +4169,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1071.5, 94.0, 93.0, 86.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 235.0, 194.522614, 69.5 ],
+					"presentation_rect" : [ 5.0, 215.0, 253.910889, 69.5 ],
 					"varname" : "inputdv_container"
 				}
 
@@ -4110,7 +4189,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 2,
-							"architecture" : "x64"
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -4303,7 +4382,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 546.0, 513.0, 86.0, 22.0 ],
-					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "grow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 40, 177, 299, 637, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "grow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 4, 44, 269, 482, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
 				}
 
@@ -4311,7 +4390,6 @@
 , 			{
 				"box" : 				{
 					"bordercolor" : [ 0.8, 0.8, 0.8, 0.0 ],
-					"hidden" : 1,
 					"id" : "obj-74",
 					"ignoreclick" : 1,
 					"maxclass" : "multislider",
@@ -4322,7 +4400,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 740.0, 225.0, 67.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 18.5, 386.0, 141.5, 13.0 ],
+					"presentation_rect" : [ 71.403595, 413.0, 166.5, 13.0 ],
 					"setminmax" : [ 0.0, 100.0 ],
 					"setstyle" : 1,
 					"settype" : 0,
@@ -4369,7 +4447,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 583.5, 57.5, 67.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 106.0, 437.0, 67.0, 18.0 ],
+					"presentation_rect" : [ 183.903595, 393.0, 67.0, 18.0 ],
 					"text" : "development",
 					"textcolor" : [ 0.298039, 0.298039, 0.298039, 1.0 ]
 				}
@@ -4377,27 +4455,10 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"frgb" : 0.0,
-					"id" : "obj-43",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 499.81543, 57.5, 68.0, 18.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 347.0, 68.0, 18.0 ],
-					"text" : "performance",
-					"textcolor" : [ 0.298039, 0.298039, 0.298039, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"annotation" : "",
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"bgovercolor" : [ 0.65098, 0.65098, 0.65098, 0.5 ],
-					"bordercolor" : [ 0.65098, 0.65098, 0.65098, 1.0 ],
+					"bordercolor" : [ 0.4, 0.4, 0.4, 1.0 ],
 					"borderoncolor" : [ 0.65098, 0.65098, 0.65098, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
@@ -4410,10 +4471,11 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1320.0, 163.5, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 178.522614, 438.0, 20.0, 16.0 ],
+					"presentation_rect" : [ 206.153595, 375.0, 50.0, 16.0 ],
 					"prototypename" : "oi.panic",
 					"rounded" : 0.0,
 					"text" : "?",
+					"textcolor" : [ 0.4, 0.4, 0.4, 1.0 ],
 					"varname" : "info"
 				}
 
@@ -4436,8 +4498,6 @@
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1320.0, 136.5, 20.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 178.522614, 424.0, 20.0, 16.0 ],
 					"prototypename" : "oi.panic",
 					"rounded" : 0.0,
 					"text" : "!",
@@ -4448,9 +4508,9 @@
 , 			{
 				"box" : 				{
 					"annotation" : "API preferences. Still under construction. This will ultimatelly allow you to store oi.api and max preferences along with you concert folder. So that you have all these preferences stored and recalled when you open your concert file.",
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"bgovercolor" : [ 0.65098, 0.65098, 0.65098, 0.5 ],
-					"bordercolor" : [ 0.65098, 0.65098, 0.65098, 1.0 ],
+					"bordercolor" : [ 0.4, 0.4, 0.4, 1.0 ],
 					"borderoncolor" : [ 0.65098, 0.65098, 0.65098, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
@@ -4464,11 +4524,12 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1320.0, 109.5, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 178.522614, 410.0, 20.0, 16.0 ],
+					"presentation_rect" : [ 155.903595, 375.0, 50.0, 16.0 ],
 					"prototypename" : "oi.panic",
 					"rounded" : 0.0,
-					"text" : "+",
-					"texton" : "+",
+					"text" : "options",
+					"textcolor" : [ 0.4, 0.4, 0.4, 1.0 ],
+					"texton" : "options",
 					"varname" : "preferences"
 				}
 
@@ -4476,10 +4537,11 @@
 , 			{
 				"box" : 				{
 					"annotation" : "Clear API's loaded files and start from the beginning.",
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"bgovercolor" : [ 0.65098, 0.65098, 0.65098, 0.5 ],
-					"bordercolor" : [ 0.65098, 0.65098, 0.65098, 1.0 ],
+					"bordercolor" : [ 0.4, 0.4, 0.4, 1.0 ],
 					"borderoncolor" : [ 0.65098, 0.65098, 0.65098, 1.0 ],
+					"fontface" : 2,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"hint" : "reset",
@@ -4491,10 +4553,12 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1320.0, 82.5, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 178.522614, 396.0, 20.0, 16.0 ],
+					"presentation_rect" : [ 105.903595, 375.0, 50.0, 16.0 ],
 					"prototypename" : "oi.panic",
 					"rounded" : 0.0,
-					"text" : "r",
+					"text" : "reset",
+					"textcolor" : [ 0.4, 0.4, 0.4, 1.0 ],
+					"textovercolor" : [ 0.843137, 0.321569, 0.180392, 1.0 ],
 					"varname" : "reset"
 				}
 
@@ -4502,12 +4566,13 @@
 , 			{
 				"box" : 				{
 					"annotation" : "Print all. This can be used for debugging. Notice that all module's print button are synched to this one.",
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"bgoncolor" : [ 0.843137, 0.321569, 0.180392, 1.0 ],
 					"bgovercolor" : [ 0.65098, 0.65098, 0.65098, 0.5 ],
 					"bgoveroncolor" : [ 0.937255, 0.611765, 0.258824, 1.0 ],
-					"bordercolor" : [ 0.65098, 0.65098, 0.65098, 1.0 ],
+					"bordercolor" : [ 0.4, 0.4, 0.4, 1.0 ],
 					"borderoncolor" : [ 0.65098, 0.65098, 0.65098, 1.0 ],
+					"fontface" : 2,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"hint" : "turn debug on...aka print",
@@ -4520,11 +4585,12 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1320.0, 52.5, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 178.522614, 382.0, 20.0, 16.0 ],
+					"presentation_rect" : [ 55.903595, 375.0, 50.0, 16.0 ],
 					"prototypename" : "oi.panic",
 					"rounded" : 0.0,
-					"text" : "p",
-					"texton" : "p",
+					"text" : "print",
+					"textcolor" : [ 0.4, 0.4, 0.4, 1.0 ],
+					"texton" : "print",
 					"varname" : "print"
 				}
 
@@ -4543,7 +4609,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 740.5, 102.0, 15.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.5, 385.0, 15.0, 15.0 ]
+					"presentation_rect" : [ 55.403595, 411.0, 15.0, 15.0 ]
 				}
 
 			}
@@ -4578,7 +4644,7 @@
 , 			{
 				"box" : 				{
 					"annotation" : "Open/close your concert project Data Set",
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"bgovercolor" : [ 0.65098, 0.65098, 0.65098, 0.5 ],
 					"bordercolor" : [ 0.298039, 0.298039, 0.298039, 1.0 ],
 					"borderoncolor" : [ 0.298039, 0.298039, 0.298039, 1.0 ],
@@ -4594,7 +4660,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 186.0, 154.5, 34.5, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 189.854126, 50.0, 65.056755, 15.0 ],
+					"presentation_rect" : [ 192.854126, 48.0, 65.056755, 15.0 ],
 					"prototypename" : "oi.panic",
 					"rounded" : 0.0,
 					"text" : "data set",
@@ -4606,7 +4672,7 @@
 , 			{
 				"box" : 				{
 					"annotation" : "Open/close your concert 'Output Devices'",
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"bgovercolor" : [ 0.65098, 0.65098, 0.65098, 0.5 ],
 					"bordercolor" : [ 0.298039, 0.298039, 0.298039, 1.0 ],
 					"borderoncolor" : [ 0.298039, 0.298039, 0.298039, 1.0 ],
@@ -4622,7 +4688,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 151.5, 154.5, 34.5, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 126.311829, 50.0, 65.056755, 15.0 ],
+					"presentation_rect" : [ 129.311829, 48.0, 65.056755, 15.0 ],
 					"prototypename" : "oi.panic",
 					"rounded" : 0.0,
 					"text" : "outputs",
@@ -4634,7 +4700,7 @@
 , 			{
 				"box" : 				{
 					"annotation" : "Open/close your concert 'Input Devices'",
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"bgovercolor" : [ 0.65098, 0.65098, 0.65098, 0.5 ],
 					"bordercolor" : [ 0.298039, 0.298039, 0.298039, 1.0 ],
 					"borderoncolor" : [ 0.298039, 0.298039, 0.298039, 1.0 ],
@@ -4650,7 +4716,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 117.0, 154.5, 34.5, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 64.155914, 50.0, 65.056755, 15.0 ],
+					"presentation_rect" : [ 67.155914, 48.0, 65.056755, 15.0 ],
 					"prototypename" : "oi.panic",
 					"rounded" : 0.0,
 					"text" : "inputs",
@@ -4662,7 +4728,7 @@
 , 			{
 				"box" : 				{
 					"annotation" : "Open/close you concert's patching window",
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"bgovercolor" : [ 0.65098, 0.65098, 0.65098, 0.5 ],
 					"bordercolor" : [ 0.298039, 0.298039, 0.298039, 1.0 ],
 					"borderoncolor" : [ 0.298039, 0.298039, 0.298039, 1.0 ],
@@ -4678,7 +4744,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 82.5, 154.5, 34.5, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 50.0, 65.056755, 15.0 ],
+					"presentation_rect" : [ 5.0, 48.0, 65.056755, 15.0 ],
 					"prototypename" : "oi.panic",
 					"rounded" : 0.0,
 					"text" : "view",
@@ -4700,33 +4766,13 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 499.81543, 57.5, 147.25, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.0, 438.0, 168.0, 15.0 ],
+					"presentation_rect" : [ 54.903595, 394.0, 201.25, 15.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"settype" : 0,
 					"slidercolor" : [ 0.937255, 0.611765, 0.258824, 1.0 ],
 					"spacing" : 1,
 					"thickness" : 80,
 					"varname" : "mode"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"annotation" : "Turn audio on/off",
-					"bgcolor" : [ 0.8, 0.8, 0.8, 1.0 ],
-					"bordercolor" : [ 0.298039, 0.298039, 0.298039, 1.0 ],
-					"hint" : "audio on/off",
-					"id" : "obj-51",
-					"maxclass" : "ezdac~",
-					"numinlets" : 2,
-					"numoutlets" : 0,
-					"offgradcolor1" : [ 0.901961, 0.901961, 0.901961, 1.0 ],
-					"offgradcolor2" : [ 0.65098, 0.65098, 0.65098, 1.0 ],
-					"ongradcolor1" : [ 0.792196, 0.977408, 0.678129, 1.0 ],
-					"ongradcolor2" : [ 0.635294, 0.964706, 0.482353, 1.0 ],
-					"patching_rect" : [ 707.0, 44.0, 45.0, 45.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 66.0, 396.0, 45.0, 45.0 ]
 				}
 
 			}
@@ -4785,12 +4831,13 @@
 , 			{
 				"box" : 				{
 					"annotation" : "",
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"bgovercolor" : [ 0.65098, 0.65098, 0.65098, 0.5 ],
-					"bordercolor" : [ 0.65098, 0.65098, 0.65098, 1.0 ],
+					"bordercolor" : [ 0.4, 0.4, 0.4, 1.0 ],
 					"borderoncolor" : [ 0.65098, 0.65098, 0.65098, 1.0 ],
+					"fontface" : 1,
 					"fontname" : "Arial",
-					"fontsize" : 10.0,
+					"fontsize" : 11.0,
 					"hint" : "start a new project ",
 					"id" : "obj-35",
 					"maxclass" : "textbutton",
@@ -4800,10 +4847,11 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 15.5, 96.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 25.5, 1.0, 20.0, 29.0 ],
+					"presentation_rect" : [ 53.0, 5.0, 50.0, 19.0 ],
 					"prototypename" : "oi.panic",
 					"rounded" : 0.0,
-					"text" : "n",
+					"text" : "new",
+					"textcolor" : [ 0.4, 0.4, 0.4, 1.0 ],
 					"varname" : "new"
 				}
 
@@ -4811,12 +4859,13 @@
 , 			{
 				"box" : 				{
 					"annotation" : "Open/import your concert project file",
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"bgovercolor" : [ 0.65098, 0.65098, 0.65098, 0.5 ],
-					"bordercolor" : [ 0.65098, 0.65098, 0.65098, 1.0 ],
+					"bordercolor" : [ 0.4, 0.4, 0.4, 1.0 ],
 					"borderoncolor" : [ 0.65098, 0.65098, 0.65098, 1.0 ],
+					"fontface" : 1,
 					"fontname" : "Arial",
-					"fontsize" : 10.0,
+					"fontsize" : 11.0,
 					"hint" : "open project",
 					"id" : "obj-34",
 					"maxclass" : "textbutton",
@@ -4826,10 +4875,11 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 15.5, 69.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 1.0, 20.0, 29.0 ],
+					"presentation_rect" : [ 5.0, 5.0, 50.0, 19.0 ],
 					"prototypename" : "oi.panic",
 					"rounded" : 0.0,
-					"text" : "o",
+					"text" : "open",
+					"textcolor" : [ 0.4, 0.4, 0.4, 1.0 ],
 					"varname" : "open"
 				}
 
@@ -4862,7 +4912,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.8, 0.8, 0.8, 1.0 ],
+					"bgcolor" : [ 0.8, 0.8, 0.8, 0.0 ],
 					"border" : 2,
 					"bordercolor" : [ 0.298039, 0.298039, 0.298039, 1.0 ],
 					"id" : "obj-73",
@@ -4871,7 +4921,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 225.0, 380.0, 275.0, 159.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 385.0, 173.0, 71.0 ],
+					"presentation_rect" : [ 5.903595, 371.0, 253.910889, 60.0 ],
 					"rounded" : 0
 				}
 
@@ -4891,7 +4941,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1071.5, 94.0, 93.0, 86.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 235.0, 194.522614, 69.5 ],
+					"presentation_rect" : [ 5.0, 215.0, 253.910889, 69.5 ],
 					"rounded" : 0
 				}
 
@@ -4910,7 +4960,26 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 31.608652, 379.0, 23.391348, 160.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 50.0, 253.0, 87.0 ],
+					"presentation_rect" : [ 5.0, 61.0, 253.0, 75.0 ],
+					"rounded" : 0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.701961, 0.701961, 0.701961, 1.0 ],
+					"border" : 2,
+					"bordercolor" : [ 0.298039, 0.298039, 0.298039, 1.0 ],
+					"grad1" : [ 0.8, 0.8, 0.8, 1.0 ],
+					"grad2" : [ 0.701961, 0.701961, 0.701961, 1.0 ],
+					"id" : "obj-49",
+					"maxclass" : "panel",
+					"mode" : 1,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 7.903595, 218.0, 275.0, 159.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 5.0, 140.0, 253.910889, 71.0 ],
 					"rounded" : 0
 				}
 
@@ -5143,6 +5212,10 @@
 
 			}
  ],
+		"parameters" : 		{
+
+		}
+,
 		"dependency_cache" : [ 			{
 				"name" : "oi.empty_block.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/OpenInstruments/patchers/API_Lib/Tools(bpatchers)/API_exclusive/Loaders",
@@ -5246,6 +5319,13 @@
 				"bootpath" : "/Applications/Max 6.1/packages/OpenInstruments/patchers/API_Lib/Utilities(objects)/System/Folder_management",
 				"patcherrelativepath" : "../patchers/API_Lib/Utilities(objects)/System/Folder_management",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "OIWhite.png",
+				"bootpath" : "/Users/tiago/Pictures/OI_icons/_marciofilipe.design",
+				"patcherrelativepath" : "../../../../../Users/tiago/Pictures/OI_icons/_marciofilipe.design",
+				"type" : "PNG ",
 				"implicit" : 1
 			}
  ]
