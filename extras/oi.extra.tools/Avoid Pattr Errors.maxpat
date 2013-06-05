@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 29.0, 69.0, 130.0, 142.0 ],
+		"rect" : [ 15.0, 44.0, 126.0, 187.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -30,6 +30,28 @@
 		"globalpatchername" : "oi.api",
 		"boxes" : [ 			{
 				"box" : 				{
+					"annotation" : "deprecated ? ",
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-1",
+					"linecount" : 2,
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 19.0, 145.0, 80.0, 29.0 ],
+					"restore" : [ 0 ],
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 0
+					}
+,
+					"text" : "pattr speedlim @autorestore 0",
+					"varname" : "speedlim"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-14",
 					"maxclass" : "toggle",
 					"numinlets" : 1,
@@ -37,7 +59,6 @@
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 80.0, 55.0, 20.0, 20.0 ],
-					"presentation_rect" : [ 215.5, 349.0, 0.0, 0.0 ],
 					"varname" : "toggle[1]"
 				}
 
