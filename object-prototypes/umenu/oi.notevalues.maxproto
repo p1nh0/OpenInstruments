@@ -1,0 +1,24 @@
+{
+	"boxes" : [ 		{
+			"box" : 			{
+				"maxclass" : "umenu",
+				"hint" : "",
+				"annotation" : "note value",
+				"prototypename" : "midp.notevalues",
+				"fontsize" : 10.0,
+				"items" : [ "1nd", "-", "Dotted", "whole", "note", ",", "1n", "-", "Whole", "note", ",", "1nt", "-", "Whole", "note", "triplet", ",", "2nd", "-", "Dotted", "half", "note", ",", "2n", "-", "Half", "note", ",", "2nt", "-", "Half", "note", "triplet", ",", "4nd", "-", "Dotted", "quarter", "note", ",", "4n", "-", "Quarter", "note", ",", "4nt", "-", "Quarter", "note", "triplet", ",", "8nd", "-", "Dotted", "eighth", "note", ",", "8n", "-", "Eighth", "note", ",", "8nt", "-", "Eighth", "note", "triplet", ",", "16nd", "-", "Dotted", "sixteenth", "note", ",", "16n", "-", "Sixteenth", "note", ",", "16nt", "-", "Sixteenth", "note", "triplet", ",", "32nd", "-", "Dotted", "thirty-second", "note", ",", "32n", "-", "thirty-second", "note", ",", "32nt", "-", "thirty-second-note", "triplet", ",", "64nd", "-", "Dotted", "sixty-fourth", "note", ",", "64n", "-", "Sixty-fourth", "note", ",", "128n", "-", "One-hundred-twenty-eighth", "note" ],
+				"arrowframe" : 0,
+				"numinlets" : 1,
+				"outlettype" : [ "int", "", "" ],
+				"patching_rect" : [ 330.0, 281.0, 150.0, 18.0 ],
+				"arrow" : 0,
+				"id" : "obj-79",
+				"numoutlets" : 3,
+				"fontname" : "Arial",
+				"parameter_enable" : 0
+			}
+
+		}
+ ],
+	"preview_image" : [ 2220, "png", "IBkSG0fBZn....PCIgDQRA...fD....RHX....PUsO6Q....DLmPIQEBHf.B7g.YHB..HLVRDEDU3wY6b1GSTjdGG+6yv9FrrcEJKUTfBcot0xRLa4pUQTW5AatbgTa68GRasWtbGEiXzDtFZTZxNd1lfUi8OPsMX7LXahkqIFNSSIlsTBqv0hR3PEoVZVBTWsjHJ6KfJ6xxL8OPn6ay91LrtKa+7W6Lyu427a9tOu+LOODDCPSSSwvv7sHDx2F.uAgPz.fMQHDE.fB.fggAyN6rvtc6vkKWfkkMVdTQLDBARkJEaXCa.Ymc1fhhRX7azXLMMcg.nQ.7tDBIOtrawEWDSM0TvkKW7M9hIjJUJJpnhfXwh4suhHA53G+3pjHQxu..uOgPB4SkggASLwDu1DmUPpToPsZ07NkTZgy.iFM9iDIRT2DBoRBgDV6e1ydFb3vAuBJgfkVZIjVZogLxHCd4GQbcgFZnAw4kWdWfPH+jnwg1samWAjPhc61QN4jCu7QPEnlZpozUnPwmRHDCQqCecm0xaDhXIfLnMzPChUnPwmRQQE0hy5QBPf13F23ugOhiToR4WDIfHDwhOYwnooO.gPpORuYkJUBsZ0hhKtXjat4B4xkit6tabkqbEdGXBA6e+6G0Vas7xGqJPzzz4Bf1hjaRoRkn5pqFkVZofP7skBFLX.81auvpUq7Jv3KETPAvfA9WJg2YwNIgPxJb2PYkUFZrwFgVsZCPb..jHQBZokVP94mOuCtXkBJn.zRKs.IRjvaeQ.VsExVBWi.qnhJPM0TSD4X2tcCSlLgadyaBqVsBOd7v6fMTHRjHTXgEhcu6cCCFLHHhCvqxhwxxdXJJpPJNkUVYQr3.rbJoZqsVdWFvqaDQSSSAfebnLRoRkI8unwJqzqbN63I.P0UWsfkjMYCpWMjEbhRkJQokVZ7JdR3fhPHeyPY.W0Vkp.EKKqlPYPwEWb7JVRHgJbk+jat4FuhkDRnd0vjxIxkKOdEKIjHBAoCqdiPM1tqfsGNNd7KA.RGknoPHSP8tvCmCX1ZB19LbfZdeXA..pvue3Av1yLtFAQMBaxiPhMboCsh3..jO3+Ppu1SbRf7f9Z8.3LiDedZBIwAAxF5hde3fcXI7ll.xZaYP1tOZ8.uCRR0F.rlkBxCF2zEPk6H4Vb.VCRAMy3lv4oOB5LIr7lfg.KPyi+3GbDz4LAdk5N4Ygxt9on8nT3Vv1CgkG+Rr7rHmN9xqz1IOyiwuUenmaMD9mSNKdwK.xHizwl9ZZwNqXWXG5TGcswZ9ows+a2DC7YCiIm8kK6uu3lD9TPJxG.dKPpLfy8wmDFzjN9ccE896AW8Pnt1VIeZI3Zi8mwWXfKgCcvyffl60z0QGsA.nCm5ZmCeOspBySvFLcoVwQNy0C5UEbAx8bq7qRvQO6uDePs5d0+jyGS9SrzMBrpTn.lZ+mg1aK3uL9xH3XuSk3YcNHpWGGC0tmIPq5eazQPRwuBBr.IBE9l6CG8P+.7CeKcHKA06p.vHn81FApf2IRUAcUlOla7Qfkf7hdl5ZEUM1og5.hkEPWMEbwojJ2GprzrfswFPnEHYvvGdZr1Lkry36uTY.m8bMi2RWgq9RLyD8gyezChN8Iu20wM97iiCuceSEY61eLNlI+dDp1Gt7UMhcU3+q+OwwtZHfT4OGCNv4PsdIN..pTqGezmzIpzOy6eno76Lyfq9Q9MEfk7d3uz2o8Qb.RJEHUn8S8tfyIvKScnol8Sh7aFn87vAPa9UB+o9sMiBCR9ojNARUcFg9vTwTQ6Xm9b7H8LpOUQ7uG9u66MnqYTSvTGjDJP4WP3p1NHLmauNXAbud8sVPC6uJv0ntjzIPx48fj3AOyuZt11W8Kwo0IcBzNKuHd6C+mgOWKtHm1lzIPt.2uLwJe9iWfyqkzIPqEryh3ddKRAEnE8p6PKiqWrNJKF+IKr0JKwmy7G9q+CNsNETf.9564M843Y5nSLNGe9RojBTVaqJnymyXBm+ZiGTaSIEHjoN7gGz2rYlL9cvu1zCCvzTSAB.auweU.i5P6GoFTWqcgIlY4Nl3YAaotBDjoEs1YyAb5Q53X3sqrbnQiFT511Q7Ufb62wBeS93lf8rxTW8nuKGnH4MwUARgOenHQVupDKw2UqizHXMfIRreM76qn.oygs4sq5w3C2MN46E7g4ibhSbhPtT.oooCa.stgErgIrLEr9zYfa2.Rjug37W2QhNxxBp0lET60on..SntGFlPd408PwxxNWnL34O+4wqXIgDJ.7eBkAO4IOINEJIlPAf+UnLXxImLNEJIlPwxxNTnL392+9q4q48DYnXYY6MTF3vgCL1XiEuhmDNnnnntEKK6zgxnd5oG31s+sCN0fzLa1L6d26dykPH6hKib4xEb3vA15V2Z7L1RHPD..gPt.KKaSgZA0M5niBEJTjxsf5RC.vrYyNzqW+lIDxaDJisZ0Jlc1YgZ0pQZow8lvvSe5SgQiFQ+82Ora2dbowlLLLvlMa3t28tXngFBkWd47dWW.vqslB850ea.TOgP3pec.X41EM5nihLyLSnRkp.VIPtc6FFMZDO5QOh2AWrhSmNw8t28PUUUUH+iLRX061rYyOWud8OlPHe+vcStb4BO3AO.24N2AyO+7fkkEhEKFhEKF23F2.82e+7JnDBb5zITnPA1xV1Bu7S.KDLZZ5KFs6WGdiEKVvBKv8DwEOQlLYnjRJI7FFBBX7fld5oOLCCi+eZQQLq626Nt3Eu3hyM2beW9HRqmHnkfM3fC5QiFMehb4xyiPHeinwgNc5bMuJ8HEYxjgryNad4CNKhe3gGlwrYy+o8rm8XA.UEtZ2VAFFFL+7w1WzpPSN4jCuqpOr0AZ1r4QqnhJtLEEkB.rsvsKTISlL3zoSrzRKwq.iuHUpTr4MuYdufj++axaggXRdSk1l.+ur4AiRnV.SBB.....jTQNQjqBAlf" ]
+}
