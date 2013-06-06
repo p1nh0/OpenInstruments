@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 177.0, 123.0, 125.0, 60.0 ],
@@ -28,6 +29,21 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-50",
+					"ignoreclick" : 1,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 50.0, 810.0, 32.5, 16.0 ],
+					"text" : "-1"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
@@ -129,7 +145,7 @@
 					}
 ,
 					"text" : "pattr @bindto velocity @invisible 1 @autorestore 0 @thru 0",
-					"varname" : "u817007022"
+					"varname" : "u265009971"
 				}
 
 			}
@@ -193,7 +209,7 @@
 					}
 ,
 					"text" : "pattr @bindto register @invisible 1 @autorestore 0 @thru 0",
-					"varname" : "u108007024"
+					"varname" : "u489009973"
 				}
 
 			}
@@ -321,7 +337,7 @@
 					}
 ,
 					"text" : "pattr @bindto state @invisible 1 @autorestore 0",
-					"varname" : "u477007028"
+					"varname" : "u581009977"
 				}
 
 			}
@@ -343,7 +359,7 @@
 					}
 ,
 					"text" : "pattr @bindto bypass @invisible 1 @autorestore 0",
-					"varname" : "u778007030"
+					"varname" : "u462009979"
 				}
 
 			}
@@ -552,7 +568,7 @@
 					}
 ,
 					"text" : "pattr @bindto velocity @invisible 1 @autorestore 0",
-					"varname" : "u495007032"
+					"varname" : "u876009981"
 				}
 
 			}
@@ -861,7 +877,7 @@
 					}
 ,
 					"text" : "pattr @bindto keymode @invisible 1 @autorestore 0",
-					"varname" : "u427007037"
+					"varname" : "u270009986"
 				}
 
 			}
@@ -898,7 +914,7 @@
 					}
 ,
 					"text" : "pattr @bindto state @invisible 1 @autorestore 0",
-					"varname" : "u972007039"
+					"varname" : "u910009988"
 				}
 
 			}
@@ -996,8 +1012,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 25.0, 69.0, 485.0, 382.0 ],
@@ -1046,8 +1063,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 2,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -1829,7 +1847,7 @@
 					}
 ,
 					"text" : "pattr @bindto keymode @invisible 1 @autorestore 0",
-					"varname" : "u733007050"
+					"varname" : "u802009999"
 				}
 
 			}
@@ -1894,7 +1912,7 @@
 					}
 ,
 					"text" : "pattr @bindto keymode @invisible 1 @autorestore 0",
-					"varname" : "u481007052"
+					"varname" : "u095010001"
 				}
 
 			}
@@ -2184,7 +2202,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 645.0, 40.0, 151.0, 18.0 ],
+					"patching_rect" : [ 645.0, 40.0, 155.0, 18.0 ],
 					"text" : "oi.modulecom #0 oi.idv.key "
 				}
 
@@ -2293,8 +2311,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 50.0, 94.0, 426.0, 332.0 ],
@@ -2344,8 +2363,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 2,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -2728,6 +2748,7 @@
 				"box" : 				{
 					"bgcolor" : [ 0.792196, 0.977408, 0.678129, 1.0 ],
 					"color" : [ 0.466667, 0.752941, 0.894118, 1.0 ],
+					"embedstate" : [ [ "defer", 0 ] ],
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
@@ -2983,7 +3004,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-18", 0 ],
+					"destination" : [ "obj-29", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-119", 0 ]
@@ -2992,7 +3013,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-29", 0 ],
+					"destination" : [ "obj-50", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-119", 0 ]
@@ -3563,6 +3584,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-18", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-50", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-47", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -3964,22 +3994,22 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "oi.autovarname.js",
-				"bootpath" : "/Applications/Max6/patches/OI_framework/API_LIB/Utilities (objects)/Communication/Pattr objects",
-				"patcherrelativepath" : "../../../Utilities (objects)/Communication/Pattr objects",
+				"bootpath" : "/Applications/Max 6.1/packages/OpenInstruments/javascript",
+				"patcherrelativepath" : "../../../../../javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oi.modulecom.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OI_framework/API_LIB/Utilities (objects)/Communication/Pattr objects",
-				"patcherrelativepath" : "../../../Utilities (objects)/Communication/Pattr objects",
+				"bootpath" : "/Applications/Max 6.1/packages/OpenInstruments/patchers/API_Lib/Utilities(objects)/Communication/Parameter_data",
+				"patcherrelativepath" : "../../../Utilities(objects)/Communication/Parameter_data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oi.modulegate.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OI_framework/API_LIB/Utilities (objects)/System/Data flow",
-				"patcherrelativepath" : "../../../Utilities (objects)/System/Data flow",
+				"bootpath" : "/Applications/Max 6.1/packages/OpenInstruments/patchers/API_Lib/Utilities(objects)/System/Data_flow",
+				"patcherrelativepath" : "../../../Utilities(objects)/System/Data_flow",
 				"type" : "JSON",
 				"implicit" : 1
 			}
