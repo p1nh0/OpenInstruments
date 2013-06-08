@@ -32,6 +32,20 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-14",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 499.81543, 29.0, 62.0, 18.0 ],
+					"text" : "loadmess 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
 					"fontsize" : 18.0,
 					"frgb" : 0.0,
 					"id" : "obj-52",
@@ -57,7 +71,7 @@
 					"maxclass" : "fpic",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 68.637238, 545.0, 100.0, 50.0 ],
+					"patching_rect" : [ 68.637238, 545.0, 61.0, 50.0 ],
 					"pic" : "Macintosh HD:/Users/tiago/Pictures/OI_icons/_marciofilipe.design/OIWhite.png",
 					"presentation" : 1,
 					"presentation_rect" : [ 5.0, 375.0, 50.403595, 51.0 ]
@@ -950,7 +964,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::speedlim @invisible 1 @autorestore 0",
-									"varname" : "u617006675"
+									"varname" : "u054000140"
 								}
 
 							}
@@ -972,7 +986,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::vfrate @invisible 1 @autorestore 0",
-									"varname" : "u917006677"
+									"varname" : "u759000142"
 								}
 
 							}
@@ -1115,7 +1129,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::mode @invisible 1 @autorestore 0",
-									"varname" : "u928006681"
+									"varname" : "u030000146"
 								}
 
 							}
@@ -1453,7 +1467,7 @@
 													}
 ,
 													"text" : "pattr @bindto parent::parent::add_space @invisible 1 @autorestore 0",
-													"varname" : "u230006763"
+													"varname" : "u024000228"
 												}
 
 											}
@@ -1860,7 +1874,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::dataset @invisible 1 @autorestore 0",
-									"varname" : "u633006768"
+									"varname" : "u301000233"
 								}
 
 							}
@@ -1938,7 +1952,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::outputs @invisible 1 @autorestore 0",
-									"varname" : "u593006770"
+									"varname" : "u054000235"
 								}
 
 							}
@@ -2087,7 +2101,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::inputs @invisible 1 @autorestore 0",
-									"varname" : "u522006772"
+									"varname" : "u532000237"
 								}
 
 							}
@@ -2123,7 +2137,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::view @invisible 1 @autorestore 0",
-									"varname" : "u045006774"
+									"varname" : "u522000239"
 								}
 
 							}
@@ -2467,7 +2481,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::print @invisible 1 @autorestore 0",
-									"varname" : "u843006777"
+									"varname" : "u413000242"
 								}
 
 							}
@@ -2776,7 +2790,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::new @invisible 1 @autorestore 0",
-									"varname" : "u094006798"
+									"varname" : "u402000263"
 								}
 
 							}
@@ -2817,7 +2831,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::reset @invisible 1 @autorestore 0",
-									"varname" : "u674006820"
+									"varname" : "u247000287"
 								}
 
 							}
@@ -3057,7 +3071,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::open @invisible 1 @autorestore 0",
-									"varname" : "u764006822"
+									"varname" : "u809000289"
 								}
 
 							}
@@ -3751,7 +3765,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::reset @invisible 1 @autorestore 0",
-									"varname" : "u830006830"
+									"varname" : "u351000297"
 								}
 
 							}
@@ -3800,7 +3814,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::info @invisible 1 @autorestore 0",
-									"varname" : "u306006832"
+									"varname" : "u968000299"
 								}
 
 							}
@@ -3866,7 +3880,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::print @invisible 1 @autorestore 0",
-									"varname" : "u907006834"
+									"varname" : "u686000301"
 								}
 
 							}
@@ -4382,7 +4396,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 22.0, 333.0, 86.0, 22.0 ],
-					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "close", "zoom", "nofloat", "nomenu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 4, 44, 268, 482, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "close", "zoom", "float", "nomenu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 4, 44, 268, 482, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
 				}
 
@@ -4390,6 +4404,7 @@
 , 			{
 				"box" : 				{
 					"bordercolor" : [ 0.8, 0.8, 0.8, 0.0 ],
+					"hidden" : 1,
 					"id" : "obj-74",
 					"ignoreclick" : 1,
 					"maxclass" : "multislider",
@@ -4398,7 +4413,7 @@
 					"orientation" : 0,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 740.0, 225.0, 67.0, 15.0 ],
+					"patching_rect" : [ 740.0, 225.5, 67.0, 15.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 71.403595, 413.0, 166.5, 13.0 ],
 					"setminmax" : [ 0.0, 100.0 ],
@@ -4431,7 +4446,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 686.0, 181.0, 54.0, 16.0 ],
+					"patching_rect" : [ 686.0, 180.0, 54.0, 16.0 ],
 					"text" : "hidden $1"
 				}
 
@@ -5018,6 +5033,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-43", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-14", 0 ]
 				}
 
 			}
