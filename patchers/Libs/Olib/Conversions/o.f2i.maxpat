@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 5
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 228.0, 134.0, 346.0, 254.0 ],
@@ -49,8 +50,8 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 102.0, 20.0, 25.0, 25.0 ]
+					"outlettype" : [ "float" ],
+					"patching_rect" : [ 190.0, 20.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -74,7 +75,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 102.0, 60.0, 80.0, 18.0 ],
+					"patching_rect" : [ 102.0, 23.5, 80.0, 18.0 ],
 					"text" : "patcherargs 0.5"
 				}
 
@@ -124,7 +125,7 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-10", 0 ],
+					"destination" : [ "obj-15", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-1", 0 ]
@@ -176,8 +177,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [  ]
+ ]
 	}
 
 }
