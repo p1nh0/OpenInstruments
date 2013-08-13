@@ -197,8 +197,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 15.0, 90.0, 193.0, 18.0 ],
-					"text" : "jit.window output @fsaa 1 @fsmenubar 0"
+					"patching_rect" : [ 15.0, 90.0, 239.0, 18.0 ],
+					"text" : "jit.window output @fsaa 1 @fsmenubar 0 @interp 1"
 				}
 
 			}
@@ -213,8 +213,7 @@
 					"numoutlets" : 1,
 					"orientation" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 106.0, 30.0, 102.0, 36.0 ],
-					"presentation_rect" : [ 0.0, 0.0, 0.0, 36.0 ]
+					"patching_rect" : [ 106.0, 30.0, 102.0, 36.0 ]
 				}
 
 			}
