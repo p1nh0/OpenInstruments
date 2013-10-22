@@ -1,7 +1,7 @@
 Open Instruments 
 ================
 
-OPEN INSTRUMENTS (alpha 0.6.1 "Hello Max package") 
+OPEN INSTRUMENTS (alpha 0.7 "goodbye alpha") 
 
 
 See the wiki page for more information. 
@@ -15,5 +15,5 @@ LICENSE :
 
 Dependencies: 
 Most abstractions won't need any externals, except for: 
-'oi.stereotrack~', 'oi.cppan~' and 'oi.mixer4-2~' need Max 6 Gen~.
+'oi.stereotrack~', 'oi.cppan~' and 'oi.mixer4-2~' will need Max 6 Gen~ if you want to edit them.
 'oi.anl.matmap' and 'oi.anl.follower' use MnM objects. You'll need to install IRCAM's FTM-MnM library, to run these.
