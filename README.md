@@ -1,7 +1,7 @@
 Open Instruments 
 ================
 
-OPEN INSTRUMENTS (alpha 0.6.1 "Hello Max package") 
+OPEN INSTRUMENTS (beta 0.1 "Hello beta") 
 
 INSTALLATION: 
 After version alpha 0.6.1 the installation procedure got simpler for MaxMSP after version 6.1, where you only need to drag the downloaded Open Instruments package and drag it to "packages"  subfolder of MaxMSP.
