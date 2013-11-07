@@ -357,8 +357,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 706.0, 560.0, 91.0, 18.0 ],
-									"text" : "poly~ o.polypattr",
+									"patching_rect" : [ 706.0, 560.0, 181.0, 18.0 ],
+									"text" : "poly~ o.polypattr @args #0-mix_out",
 									"varname" : "poly~[2]"
 								}
 
@@ -483,7 +483,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::recvall_toggle @invisible 1 @autorestore 0",
-									"varname" : "u882009605"
+									"varname" : "u057005831"
 								}
 
 							}
@@ -505,7 +505,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::recvall_slider @invisible 1 @autorestore 0",
-									"varname" : "u858016835"
+									"varname" : "u166005825"
 								}
 
 							}
@@ -648,8 +648,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 218.5, 560.0, 91.0, 18.0 ],
-									"text" : "poly~ o.polypattr",
+									"patching_rect" : [ 218.5, 560.0, 174.0, 18.0 ],
+									"text" : "poly~ o.polypattr @args #0-mix_in",
 									"varname" : "poly~"
 								}
 
@@ -816,7 +816,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::sendall_toggle @invisible 1 @autorestore 0",
-									"varname" : "u663008010"
+									"varname" : "u142005805"
 								}
 
 							}
@@ -838,7 +838,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::sendall_slider @invisible 1 @autorestore 0",
-									"varname" : "u556001813"
+									"varname" : "u659008084"
 								}
 
 							}
@@ -1071,7 +1071,7 @@
 									"destination" : [ "obj-20", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 300.0, 590.0, 457.0, 590.0, 457.0, 335.0, 157.0, 335.0 ],
+									"midpoints" : [ 383.0, 590.0, 457.0, 590.0, 457.0, 335.0, 157.0, 335.0 ],
 									"source" : [ "obj-37", 1 ]
 								}
 
@@ -1303,7 +1303,7 @@
 									"destination" : [ "obj-101", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 787.5, 590.0, 944.5, 590.0, 944.5, 335.0, 644.5, 335.0 ],
+									"midpoints" : [ 877.5, 590.0, 944.5, 590.0, 944.5, 335.0, 644.5, 335.0 ],
 									"source" : [ "obj-95", 1 ]
 								}
 
@@ -1553,7 +1553,7 @@
 					}
 ,
 					"text" : "pattr @invisible @autorestore 0 @thru 0",
-					"varname" : "u099010066"
+					"varname" : "u187007675"
 				}
 
 			}
@@ -6585,7 +6585,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 0.0, 645.0, 59.0, 18.0 ],
-									"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "close", "zoom", "float", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 400, 250, 935, 662, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+									"save" : [ "#N", "thispatcher", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
 									"text" : "thispatcher"
 								}
 
@@ -10603,7 +10603,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::param @invisible 1 @autorestore 0 @thru 0",
-									"varname" : "u858010634"
+									"varname" : "u557008385"
 								}
 
 							}
@@ -10643,7 +10643,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::module @invisible 1 @autorestore 0 @thru 0",
-									"varname" : "u775014204"
+									"varname" : "u326008384"
 								}
 
 							}
@@ -12561,7 +12561,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::param @invisible 1 @autorestore 0 @thru 0",
-									"varname" : "u330022205"
+									"varname" : "u236008461"
 								}
 
 							}
@@ -12583,7 +12583,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::module @invisible 1 @autorestore 0 @thru 0",
-									"varname" : "u655022148"
+									"varname" : "u463008457"
 								}
 
 							}
@@ -12636,7 +12636,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::source @invisible 1 @autorestore 0 @thru 0",
-									"varname" : "u927022202"
+									"varname" : "u188008458"
 								}
 
 							}
@@ -13755,7 +13755,7 @@
 					}
 ,
 					"text" : "pattr @bindto state @invisible 1 @autorestore 0",
-					"varname" : "u497022186"
+					"varname" : "u629008521"
 				}
 
 			}
@@ -17100,99 +17100,99 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "oi.autovarname.js",
-				"bootpath" : "/Applications/Max 6.1/packages/Open Instruments_0.6.1a_dev/javascript",
+				"bootpath" : "/Applications/Max 6.1/packages/OpenInstruments/javascript",
 				"patcherrelativepath" : "../../../../javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oi.modulecom.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/Open Instruments_0.6.1a_dev/patchers/API_Lib/Utilities(objects)/Communication/Pattr_objects",
-				"patcherrelativepath" : "../../Utilities(objects)/Communication/Pattr_objects",
+				"bootpath" : "/Applications/Max 6.1/packages/OpenInstruments/patchers/oi.lib/oi.utils/Communication/Parameter_data",
+				"patcherrelativepath" : "../../oi.utils/Communication/Parameter_data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "o.symbolchange.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/Open Instruments_0.6.1a_dev/patchers/Libs/Olib/Symbols",
-				"patcherrelativepath" : "../../../Libs/Olib/Symbols",
+				"bootpath" : "/Applications/Max 6.1/packages/OpenInstruments/patchers/o.lib/Symbols",
+				"patcherrelativepath" : "../../../o.lib/Symbols",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oi.pattrstorageupwards.js",
-				"bootpath" : "/Applications/Max 6.1/packages/Open Instruments_0.6.1a_dev/javascript",
+				"bootpath" : "/Applications/Max 6.1/packages/OpenInstruments/javascript",
 				"patcherrelativepath" : "../../../../javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oi.hub.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/Open Instruments_0.6.1a_dev/patchers/API_Lib/Utilities(objects)/Communication/Pattr_objects",
-				"patcherrelativepath" : "../../Utilities(objects)/Communication/Pattr_objects",
+				"bootpath" : "/Applications/Max 6.1/packages/OpenInstruments/patchers/oi.lib/oi.utils/Communication/Parameter_data",
+				"patcherrelativepath" : "../../oi.utils/Communication/Parameter_data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "o.holdmessage.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/Open Instruments_0.6.1a_dev/patchers/Libs/Olib/Lists",
-				"patcherrelativepath" : "../../../Libs/Olib/Lists",
+				"bootpath" : "/Applications/Max 6.1/packages/OpenInstruments/patchers/o.lib/Lists",
+				"patcherrelativepath" : "../../../o.lib/Lists",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oi.timeformat.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/Open Instruments_0.6.1a_dev/patchers/API_Lib/Tools(bpatchers)/Timing",
+				"bootpath" : "/Applications/Max 6.1/packages/OpenInstruments/patchers/oi.lib/oi.tools/Timing",
 				"patcherrelativepath" : "../Timing",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oi.timeformat_interface.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/Open Instruments_0.6.1a_dev/patchers/API_Lib/Tools(bpatchers)/Timing",
+				"bootpath" : "/Applications/Max 6.1/packages/OpenInstruments/patchers/oi.lib/oi.tools/Timing",
 				"patcherrelativepath" : "../Timing",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oi.minigain~.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/Open Instruments_0.6.1a_dev/patchers/API_Lib/Tools(bpatchers)/Signals",
+				"bootpath" : "/Applications/Max 6.1/packages/OpenInstruments/patchers/oi.lib/oi.tools/Signals",
 				"patcherrelativepath" : "../Signals",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "o.pattr~.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/Open Instruments_0.6.1a_dev/patchers/Libs/Olib/Pattr_extensions",
-				"patcherrelativepath" : "../../../Libs/Olib/Pattr_extensions",
+				"bootpath" : "/Applications/Max 6.1/packages/OpenInstruments/patchers/o.lib/Pattr_extensions",
+				"patcherrelativepath" : "../../../o.lib/Pattr_extensions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "o.multireceive~.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/Open Instruments_0.6.1a_dev/patchers/Libs/Olib/MSP",
-				"patcherrelativepath" : "../../../Libs/Olib/MSP",
+				"bootpath" : "/Applications/Max 6.1/packages/OpenInstruments/patchers/o.lib/MSP",
+				"patcherrelativepath" : "../../../o.lib/MSP",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "o.listaccum.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/Open Instruments_0.6.1a_dev/patchers/Libs/Olib/Lists",
-				"patcherrelativepath" : "../../../Libs/Olib/Lists",
+				"bootpath" : "/Applications/Max 6.1/packages/OpenInstruments/patchers/o.lib/Lists",
+				"patcherrelativepath" : "../../../o.lib/Lists",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "o.printerror.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/Open Instruments_0.6.1a_dev/patchers/Libs/Olib/other",
-				"patcherrelativepath" : "../../../Libs/Olib/other",
+				"bootpath" : "/Applications/Max 6.1/packages/OpenInstruments/patchers/o.lib/other",
+				"patcherrelativepath" : "../../../o.lib/other",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "o.multisend~.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/Open Instruments_0.6.1a_dev/patchers/Libs/Olib/MSP",
-				"patcherrelativepath" : "../../../Libs/Olib/MSP",
+				"bootpath" : "/Applications/Max 6.1/packages/OpenInstruments/patchers/o.lib/MSP",
+				"patcherrelativepath" : "../../../o.lib/MSP",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -17205,22 +17205,22 @@
 			}
 , 			{
 				"name" : "o.pattrutils.js",
-				"bootpath" : "/Applications/Max 6.1/packages/Open Instruments_0.6.1a_dev/javascript",
+				"bootpath" : "/Applications/Max 6.1/packages/OpenInstruments/javascript",
 				"patcherrelativepath" : "../../../../javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "o.num2list.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/Open Instruments_0.6.1a_dev/patchers/Libs/Olib/Conversions",
-				"patcherrelativepath" : "../../../Libs/Olib/Conversions",
+				"bootpath" : "/Applications/Max 6.1/packages/OpenInstruments/patchers/o.lib/Conversions",
+				"patcherrelativepath" : "../../../o.lib/Conversions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "o.polypattr.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/Open Instruments_0.6.1a_dev/patchers/Libs/Olib/Pattr_extensions",
-				"patcherrelativepath" : "../../../Libs/Olib/Pattr_extensions",
+				"bootpath" : "/Applications/Max 6.1/packages/OpenInstruments/patchers/o.lib/Pattr_extensions",
+				"patcherrelativepath" : "../../../o.lib/Pattr_extensions",
 				"type" : "JSON",
 				"implicit" : 1
 			}

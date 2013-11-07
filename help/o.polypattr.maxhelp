@@ -65,7 +65,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 54.0, 94.0, 640.0, 480.0 ],
+						"rect" : [ 29.0, 95.0, 700.0, 428.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -86,6 +86,22 @@
 						"tags" : "",
 						"showontab" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontface" : 2,
+									"fontname" : "Arial",
+									"fontsize" : 11.0,
+									"frgb" : 0.0,
+									"id" : "obj-8",
+									"linecount" : 5,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 429.0, 300.0, 224.0, 68.0 ],
+									"text" : "Note that objects with the same argument will share values (even if they're bound to different pattr objects). Open another window of o.polypattr~ and tweak the numboxes to see why."
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
@@ -164,7 +180,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 112.0, 355.0, 311.0, 19.0 ],
-									"text" : "9 16 5 15 -14 4 23 1"
+									"text" : "14 0 0 0 0 0 0 0"
 								}
 
 							}
@@ -178,7 +194,7 @@
 									"numinlets" : 3,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 117.0, 199.0, 79.0, 40.0 ],
+									"patching_rect" : [ 117.0, 199.0, 81.0, 40.0 ],
 									"text" : "combine parent::num[ 1 ] @triggers 1"
 								}
 
@@ -196,7 +212,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 76.0, 315.0, 347.0, 18.0 ],
-									"text" : "poly~ o.polypattr 8",
+									"text" : "poly~ o.polypattr 8 @args A",
 									"varname" : "o.pattr~"
 								}
 
@@ -210,9 +226,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 10.0, 70.0, 130.0, 21.0 ],
+									"patching_rect" : [ 10.0, 70.0, 253.0, 21.0 ],
 									"prototypename" : "oi.help_digest",
-									"text" : "Pattr for poly~. "
+									"text" : "Bind to multiple 'pattr' objects using 'poly~'"
 								}
 
 							}
@@ -225,9 +241,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 10.0, 89.0, 388.0, 21.0 ],
+									"patching_rect" : [ 10.0, 89.0, 450.0, 21.0 ],
 									"prototypename" : "oi.help_digest",
-									"text" : "Useful to get values from multiple pattr objects into one single list.",
+									"text" : "Get multilpe pattr values into one single list or read them in a 'listfunnel' style",
 									"textcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
 								}
 
@@ -511,7 +527,7 @@
 									"destination" : [ "obj-17", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 85.5, 191.0, 156.5, 191.0 ],
+									"midpoints" : [ 85.5, 191.0, 157.5, 191.0 ],
 									"source" : [ "obj-24", 2 ]
 								}
 
@@ -625,7 +641,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 54.0, 94.0, 640.0, 480.0 ],
+						"rect" : [ 0.0, 26.0, 700.0, 428.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 10.0,
@@ -673,35 +689,35 @@
 		"dependency_cache" : [ 			{
 				"name" : "helpname.js",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/help-resources",
-				"patcherrelativepath" : "../../../Cycling '74/help-resources",
+				"patcherrelativepath" : "../../../../../Applications/Max 6.1/Cycling '74/help-resources",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "helpdetails.js",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/help-resources",
-				"patcherrelativepath" : "../../../Cycling '74/help-resources",
+				"patcherrelativepath" : "../../../../../Applications/Max 6.1/Cycling '74/help-resources",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "o.polypattr.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/Open Instruments_0.6.1a_dev/patchers/Libs/Olib/Pattr_extensions",
-				"patcherrelativepath" : "../patchers/Libs/Olib/Pattr_extensions",
+				"bootpath" : "/Applications/Max 6.1/packages/OpenInstruments/patchers/o.lib/Pattr_extensions",
+				"patcherrelativepath" : "../../../../../Applications/Max 6.1/packages/OpenInstruments/patchers/o.lib/Pattr_extensions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "o.num2list.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/Open Instruments_0.6.1a_dev/patchers/Libs/Olib/Conversions",
-				"patcherrelativepath" : "../patchers/Libs/Olib/Conversions",
+				"bootpath" : "/Applications/Max 6.1/packages/OpenInstruments/patchers/o.lib/Conversions",
+				"patcherrelativepath" : "../../../../../Applications/Max 6.1/packages/OpenInstruments/patchers/o.lib/Conversions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "helpstarter.js",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/help-resources",
-				"patcherrelativepath" : "../../../Cycling '74/help-resources",
+				"patcherrelativepath" : "../../../../../Applications/Max 6.1/Cycling '74/help-resources",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
