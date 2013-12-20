@@ -6161,13 +6161,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "o.printerror.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/OpenInstruments/patchers/o.lib/other",
-				"patcherrelativepath" : "../../patchers/o.lib/other",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "o.multisend~.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/OpenInstruments/patchers/o.lib/MSP",
 				"patcherrelativepath" : "../../patchers/o.lib/MSP",
