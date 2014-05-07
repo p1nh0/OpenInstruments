@@ -314,7 +314,7 @@
 										"parameter_enable" : 0
 									}
 ,
-									"text" : "js o.listlearn"
+									"text" : "js ta.listlearn"
 								}
 
 							}
@@ -366,7 +366,7 @@
 							}
  ],
 						"dependency_cache" : [ 							{
-								"name" : "o.listlearn.js",
+								"name" : "ta.listlearn.js",
 								"bootpath" : "/Applications/Max6/patches/OI lib /Utilities (objects)/Lists",
 								"type" : "TEXT",
 								"implicit" : 1
@@ -659,7 +659,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
 					"patching_rect" : [ 199.75, 725.0, 66.0, 18.0 ],
-					"text" : "o.listaccum"
+					"text" : "ta.listaccum"
 				}
 
 			}
@@ -3114,7 +3114,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "o.listaccum.maxpat",
+				"name" : "ta.listaccum.maxpat",
 				"bootpath" : "/Applications/Max6/patches/OI lib /Utilities (objects)/Lists",
 				"patcherrelativepath" : "../../../Utilities (objects)/Lists",
 				"type" : "JSON",
@@ -3128,7 +3128,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "o.listlearn.js",
+				"name" : "ta.listlearn.js",
 				"bootpath" : "/Applications/Max6/patches/OI lib /Utilities (objects)/Lists",
 				"patcherrelativepath" : "../../../Utilities (objects)/Lists",
 				"type" : "TEXT",
